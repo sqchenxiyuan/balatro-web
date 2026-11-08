@@ -1,0 +1,3385 @@
+{
+  "version": 3,
+  "description": "65 code-drawn studies and 150 separately sourced Balatro Joker references; see THIRD-PARTY.md",
+  "atlases": [
+    "sprite-atlas.png",
+    "joker-atlas.png"
+  ],
+  "assets": [
+    {
+      "id": "card-S-A",
+      "group": "playing-card",
+      "file": "card-S-A.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-2",
+      "group": "playing-card",
+      "file": "card-S-2.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 71,
+        "y": 0,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-3",
+      "group": "playing-card",
+      "file": "card-S-3.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 142,
+        "y": 0,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-4",
+      "group": "playing-card",
+      "file": "card-S-4.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 213,
+        "y": 0,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-5",
+      "group": "playing-card",
+      "file": "card-S-5.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 284,
+        "y": 0,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-6",
+      "group": "playing-card",
+      "file": "card-S-6.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 355,
+        "y": 0,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-7",
+      "group": "playing-card",
+      "file": "card-S-7.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 426,
+        "y": 0,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-8",
+      "group": "playing-card",
+      "file": "card-S-8.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 497,
+        "y": 0,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-9",
+      "group": "playing-card",
+      "file": "card-S-9.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 0,
+        "y": 95,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-10",
+      "group": "playing-card",
+      "file": "card-S-10.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 71,
+        "y": 95,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-J",
+      "group": "playing-card",
+      "file": "card-S-J.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 142,
+        "y": 95,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-Q",
+      "group": "playing-card",
+      "file": "card-S-Q.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 213,
+        "y": 95,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-S-K",
+      "group": "playing-card",
+      "file": "card-S-K.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 284,
+        "y": 95,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-A",
+      "group": "playing-card",
+      "file": "card-H-A.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 355,
+        "y": 95,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-2",
+      "group": "playing-card",
+      "file": "card-H-2.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 426,
+        "y": 95,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-3",
+      "group": "playing-card",
+      "file": "card-H-3.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 497,
+        "y": 95,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-4",
+      "group": "playing-card",
+      "file": "card-H-4.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 0,
+        "y": 190,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-5",
+      "group": "playing-card",
+      "file": "card-H-5.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 71,
+        "y": 190,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-6",
+      "group": "playing-card",
+      "file": "card-H-6.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 142,
+        "y": 190,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-7",
+      "group": "playing-card",
+      "file": "card-H-7.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 213,
+        "y": 190,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-8",
+      "group": "playing-card",
+      "file": "card-H-8.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 284,
+        "y": 190,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-9",
+      "group": "playing-card",
+      "file": "card-H-9.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 355,
+        "y": 190,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-10",
+      "group": "playing-card",
+      "file": "card-H-10.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 426,
+        "y": 190,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-J",
+      "group": "playing-card",
+      "file": "card-H-J.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 497,
+        "y": 190,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-Q",
+      "group": "playing-card",
+      "file": "card-H-Q.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 0,
+        "y": 285,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-H-K",
+      "group": "playing-card",
+      "file": "card-H-K.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 71,
+        "y": 285,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-A",
+      "group": "playing-card",
+      "file": "card-C-A.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 142,
+        "y": 285,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-2",
+      "group": "playing-card",
+      "file": "card-C-2.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 213,
+        "y": 285,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-3",
+      "group": "playing-card",
+      "file": "card-C-3.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 284,
+        "y": 285,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-4",
+      "group": "playing-card",
+      "file": "card-C-4.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 355,
+        "y": 285,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-5",
+      "group": "playing-card",
+      "file": "card-C-5.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 426,
+        "y": 285,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-6",
+      "group": "playing-card",
+      "file": "card-C-6.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 497,
+        "y": 285,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-7",
+      "group": "playing-card",
+      "file": "card-C-7.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 0,
+        "y": 380,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-8",
+      "group": "playing-card",
+      "file": "card-C-8.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 71,
+        "y": 380,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-9",
+      "group": "playing-card",
+      "file": "card-C-9.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 142,
+        "y": 380,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-10",
+      "group": "playing-card",
+      "file": "card-C-10.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 213,
+        "y": 380,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-J",
+      "group": "playing-card",
+      "file": "card-C-J.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 284,
+        "y": 380,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-Q",
+      "group": "playing-card",
+      "file": "card-C-Q.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 355,
+        "y": 380,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-C-K",
+      "group": "playing-card",
+      "file": "card-C-K.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 426,
+        "y": 380,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-A",
+      "group": "playing-card",
+      "file": "card-D-A.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 497,
+        "y": 380,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-2",
+      "group": "playing-card",
+      "file": "card-D-2.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 0,
+        "y": 475,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-3",
+      "group": "playing-card",
+      "file": "card-D-3.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 71,
+        "y": 475,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-4",
+      "group": "playing-card",
+      "file": "card-D-4.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 142,
+        "y": 475,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-5",
+      "group": "playing-card",
+      "file": "card-D-5.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 213,
+        "y": 475,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-6",
+      "group": "playing-card",
+      "file": "card-D-6.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 284,
+        "y": 475,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-7",
+      "group": "playing-card",
+      "file": "card-D-7.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 355,
+        "y": 475,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-8",
+      "group": "playing-card",
+      "file": "card-D-8.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 426,
+        "y": 475,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-9",
+      "group": "playing-card",
+      "file": "card-D-9.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 497,
+        "y": 475,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-10",
+      "group": "playing-card",
+      "file": "card-D-10.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 0,
+        "y": 570,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-J",
+      "group": "playing-card",
+      "file": "card-D-J.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 71,
+        "y": 570,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-Q",
+      "group": "playing-card",
+      "file": "card-D-Q.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 142,
+        "y": 570,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "card-D-K",
+      "group": "playing-card",
+      "file": "card-D-K.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 213,
+        "y": 570,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "back-red",
+      "group": "back",
+      "file": "back-red.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 284,
+        "y": 570,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "back-blue",
+      "group": "back",
+      "file": "back-blue.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 355,
+        "y": 570,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "consumable-planet",
+      "group": "consumable",
+      "file": "consumable-planet.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 426,
+        "y": 570,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "consumable-tarot",
+      "group": "consumable",
+      "file": "consumable-tarot.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 497,
+        "y": 570,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "pack-arcana",
+      "group": "pack",
+      "file": "pack-arcana.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 0,
+        "y": 665,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "pack-celestial",
+      "group": "pack",
+      "file": "pack-celestial.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 71,
+        "y": 665,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "pack-standard",
+      "group": "pack",
+      "file": "pack-standard.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 142,
+        "y": 665,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "pack-buffoon",
+      "group": "pack",
+      "file": "pack-buffoon.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 213,
+        "y": 665,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "pack-spectral",
+      "group": "pack",
+      "file": "pack-spectral.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 284,
+        "y": 665,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "seal-red",
+      "group": "seal",
+      "file": "seal-red.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 355,
+        "y": 665,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "seal-blue",
+      "group": "seal",
+      "file": "seal-blue.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 426,
+        "y": 665,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "seal-gold",
+      "group": "seal",
+      "file": "seal-gold.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 497,
+        "y": 665,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "seal-purple",
+      "group": "seal",
+      "file": "seal-purple.png",
+      "width": 71,
+      "height": 95,
+      "frame": {
+        "x": 0,
+        "y": 760,
+        "w": 71,
+        "h": 95
+      },
+      "atlas": "sprite-atlas.png",
+      "provenance": "code-drawn study"
+    },
+    {
+      "id": "joker",
+      "group": "joker",
+      "file": "jokers/joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Joker.png"
+    },
+    {
+      "id": "greedy_joker",
+      "group": "joker",
+      "file": "jokers/greedy_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 142,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Greedy_Joker.png"
+    },
+    {
+      "id": "lusty_joker",
+      "group": "joker",
+      "file": "jokers/lusty_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 284,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Lusty_Joker.png"
+    },
+    {
+      "id": "wrathful_joker",
+      "group": "joker",
+      "file": "jokers/wrathful_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 426,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Wrathful_Joker.png"
+    },
+    {
+      "id": "gluttonous_joker",
+      "group": "joker",
+      "file": "jokers/gluttonous_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 568,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Gluttonous_Joker.png"
+    },
+    {
+      "id": "jolly_joker",
+      "group": "joker",
+      "file": "jokers/jolly_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 710,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Jolly_Joker.png"
+    },
+    {
+      "id": "zany_joker",
+      "group": "joker",
+      "file": "jokers/zany_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 852,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Zany_Joker.png"
+    },
+    {
+      "id": "mad_joker",
+      "group": "joker",
+      "file": "jokers/mad_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 994,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Mad_Joker.png"
+    },
+    {
+      "id": "crazy_joker",
+      "group": "joker",
+      "file": "jokers/crazy_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1136,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Crazy_Joker.png"
+    },
+    {
+      "id": "droll_joker",
+      "group": "joker",
+      "file": "jokers/droll_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1278,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Droll_Joker.png"
+    },
+    {
+      "id": "sly_joker",
+      "group": "joker",
+      "file": "jokers/sly_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1420,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Sly_Joker.png"
+    },
+    {
+      "id": "wily_joker",
+      "group": "joker",
+      "file": "jokers/wily_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1562,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Wily_Joker.png"
+    },
+    {
+      "id": "clever_joker",
+      "group": "joker",
+      "file": "jokers/clever_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1704,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Clever_Joker.png"
+    },
+    {
+      "id": "devious_joker",
+      "group": "joker",
+      "file": "jokers/devious_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1846,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Devious_Joker.png"
+    },
+    {
+      "id": "crafty_joker",
+      "group": "joker",
+      "file": "jokers/crafty_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1988,
+        "y": 0,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Crafty_Joker.png"
+    },
+    {
+      "id": "half_joker",
+      "group": "joker",
+      "file": "jokers/half_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 0,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Half_Joker.png"
+    },
+    {
+      "id": "joker_stencil",
+      "group": "joker",
+      "file": "jokers/joker_stencil.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 142,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Joker_Stencil.png"
+    },
+    {
+      "id": "four_fingers",
+      "group": "joker",
+      "file": "jokers/four_fingers.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 284,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Four_Fingers.png"
+    },
+    {
+      "id": "mime",
+      "group": "joker",
+      "file": "jokers/mime.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 426,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Mime.png"
+    },
+    {
+      "id": "credit_card",
+      "group": "joker",
+      "file": "jokers/credit_card.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 568,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Credit_Card.png"
+    },
+    {
+      "id": "ceremonial_dagger",
+      "group": "joker",
+      "file": "jokers/ceremonial_dagger.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 710,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Ceremonial_Dagger.png"
+    },
+    {
+      "id": "banner",
+      "group": "joker",
+      "file": "jokers/banner.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 852,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Banner.png"
+    },
+    {
+      "id": "mystic_summit",
+      "group": "joker",
+      "file": "jokers/mystic_summit.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 994,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Mystic_Summit.png"
+    },
+    {
+      "id": "marble_joker",
+      "group": "joker",
+      "file": "jokers/marble_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1136,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Marble_Joker.png"
+    },
+    {
+      "id": "loyalty_card",
+      "group": "joker",
+      "file": "jokers/loyalty_card.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1278,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Loyalty_Card.png"
+    },
+    {
+      "id": "8_ball",
+      "group": "joker",
+      "file": "jokers/8_ball.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1420,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/8_Ball.png"
+    },
+    {
+      "id": "misprint",
+      "group": "joker",
+      "file": "jokers/misprint.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1562,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Misprint.png"
+    },
+    {
+      "id": "dusk",
+      "group": "joker",
+      "file": "jokers/dusk.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1704,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Dusk.png"
+    },
+    {
+      "id": "raised_fist",
+      "group": "joker",
+      "file": "jokers/raised_fist.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1846,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Raised_Fist.png"
+    },
+    {
+      "id": "chaos_the_clown",
+      "group": "joker",
+      "file": "jokers/chaos_the_clown.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1988,
+        "y": 190,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Chaos_the_Clown.png"
+    },
+    {
+      "id": "fibonacci",
+      "group": "joker",
+      "file": "jokers/fibonacci.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 0,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Fibonacci.png"
+    },
+    {
+      "id": "steel_joker",
+      "group": "joker",
+      "file": "jokers/steel_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 142,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Steel_Joker.png"
+    },
+    {
+      "id": "scary_face",
+      "group": "joker",
+      "file": "jokers/scary_face.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 284,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Scary_Face.png"
+    },
+    {
+      "id": "abstract_joker",
+      "group": "joker",
+      "file": "jokers/abstract_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 426,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Abstract_Joker.png"
+    },
+    {
+      "id": "delayed_gratification",
+      "group": "joker",
+      "file": "jokers/delayed_gratification.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 568,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Delayed_Gratification.png"
+    },
+    {
+      "id": "hack",
+      "group": "joker",
+      "file": "jokers/hack.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 710,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Hack.png"
+    },
+    {
+      "id": "pareidolia",
+      "group": "joker",
+      "file": "jokers/pareidolia.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 852,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Pareidolia.png"
+    },
+    {
+      "id": "gros_michel",
+      "group": "joker",
+      "file": "jokers/gros_michel.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 994,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Gros_Michel.png"
+    },
+    {
+      "id": "even_steven",
+      "group": "joker",
+      "file": "jokers/even_steven.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1136,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Even_Steven.png"
+    },
+    {
+      "id": "odd_todd",
+      "group": "joker",
+      "file": "jokers/odd_todd.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1278,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Odd_Todd.png"
+    },
+    {
+      "id": "scholar",
+      "group": "joker",
+      "file": "jokers/scholar.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1420,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Scholar.png"
+    },
+    {
+      "id": "business_card",
+      "group": "joker",
+      "file": "jokers/business_card.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1562,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Business_Card.png"
+    },
+    {
+      "id": "supernova",
+      "group": "joker",
+      "file": "jokers/supernova.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1704,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Supernova.png"
+    },
+    {
+      "id": "ride_the_bus",
+      "group": "joker",
+      "file": "jokers/ride_the_bus.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1846,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Ride_the_Bus.png"
+    },
+    {
+      "id": "space_joker",
+      "group": "joker",
+      "file": "jokers/space_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1988,
+        "y": 380,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Space_Joker.png"
+    },
+    {
+      "id": "egg",
+      "group": "joker",
+      "file": "jokers/egg.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 0,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Egg.png"
+    },
+    {
+      "id": "burglar",
+      "group": "joker",
+      "file": "jokers/burglar.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 142,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Burglar.png"
+    },
+    {
+      "id": "blackboard",
+      "group": "joker",
+      "file": "jokers/blackboard.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 284,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Blackboard.png"
+    },
+    {
+      "id": "runner",
+      "group": "joker",
+      "file": "jokers/runner.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 426,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Runner.png"
+    },
+    {
+      "id": "ice_cream",
+      "group": "joker",
+      "file": "jokers/ice_cream.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 568,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Ice_Cream.png"
+    },
+    {
+      "id": "dna",
+      "group": "joker",
+      "file": "jokers/dna.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 710,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/DNA.png"
+    },
+    {
+      "id": "splash",
+      "group": "joker",
+      "file": "jokers/splash.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 852,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Splash.png"
+    },
+    {
+      "id": "blue_joker",
+      "group": "joker",
+      "file": "jokers/blue_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 994,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Blue_Joker.png"
+    },
+    {
+      "id": "sixth_sense",
+      "group": "joker",
+      "file": "jokers/sixth_sense.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1136,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Sixth_Sense.png"
+    },
+    {
+      "id": "constellation",
+      "group": "joker",
+      "file": "jokers/constellation.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1278,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Constellation.png"
+    },
+    {
+      "id": "hiker",
+      "group": "joker",
+      "file": "jokers/hiker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1420,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Hiker.png"
+    },
+    {
+      "id": "faceless_joker",
+      "group": "joker",
+      "file": "jokers/faceless_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1562,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Faceless_Joker.png"
+    },
+    {
+      "id": "green_joker",
+      "group": "joker",
+      "file": "jokers/green_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1704,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Green_Joker.png"
+    },
+    {
+      "id": "superposition",
+      "group": "joker",
+      "file": "jokers/superposition.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1846,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Superposition.png"
+    },
+    {
+      "id": "to_do_list",
+      "group": "joker",
+      "file": "jokers/to_do_list.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1988,
+        "y": 570,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/To_Do_List.png"
+    },
+    {
+      "id": "cavendish",
+      "group": "joker",
+      "file": "jokers/cavendish.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 0,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Cavendish.png"
+    },
+    {
+      "id": "card_sharp",
+      "group": "joker",
+      "file": "jokers/card_sharp.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 142,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Card_Sharp.png"
+    },
+    {
+      "id": "red_card",
+      "group": "joker",
+      "file": "jokers/red_card.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 284,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Red_Card.png"
+    },
+    {
+      "id": "madness",
+      "group": "joker",
+      "file": "jokers/madness.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 426,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Madness.png"
+    },
+    {
+      "id": "square_joker",
+      "group": "joker",
+      "file": "jokers/square_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 568,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Square_Joker.png"
+    },
+    {
+      "id": "s_ance",
+      "group": "joker",
+      "file": "jokers/s_ance.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 710,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/S%C3%A9ance.png"
+    },
+    {
+      "id": "riff_raff",
+      "group": "joker",
+      "file": "jokers/riff_raff.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 852,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Riff-Raff.png"
+    },
+    {
+      "id": "vampire",
+      "group": "joker",
+      "file": "jokers/vampire.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 994,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Vampire.png"
+    },
+    {
+      "id": "shortcut",
+      "group": "joker",
+      "file": "jokers/shortcut.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1136,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Shortcut.png"
+    },
+    {
+      "id": "hologram",
+      "group": "joker",
+      "file": "jokers/hologram.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1278,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Hologram.gif"
+    },
+    {
+      "id": "vagabond",
+      "group": "joker",
+      "file": "jokers/vagabond.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1420,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Vagabond.png"
+    },
+    {
+      "id": "baron",
+      "group": "joker",
+      "file": "jokers/baron.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1562,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Baron.png"
+    },
+    {
+      "id": "cloud_9",
+      "group": "joker",
+      "file": "jokers/cloud_9.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1704,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Cloud_9.png"
+    },
+    {
+      "id": "rocket",
+      "group": "joker",
+      "file": "jokers/rocket.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1846,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Rocket.png"
+    },
+    {
+      "id": "obelisk",
+      "group": "joker",
+      "file": "jokers/obelisk.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1988,
+        "y": 760,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Obelisk.png"
+    },
+    {
+      "id": "midas_mask",
+      "group": "joker",
+      "file": "jokers/midas_mask.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 0,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Midas_Mask.png"
+    },
+    {
+      "id": "luchador",
+      "group": "joker",
+      "file": "jokers/luchador.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 142,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Luchador.png"
+    },
+    {
+      "id": "photograph",
+      "group": "joker",
+      "file": "jokers/photograph.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 284,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Photograph.png"
+    },
+    {
+      "id": "gift_card",
+      "group": "joker",
+      "file": "jokers/gift_card.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 426,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Gift_Card.png"
+    },
+    {
+      "id": "turtle_bean",
+      "group": "joker",
+      "file": "jokers/turtle_bean.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 568,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Turtle_Bean.png"
+    },
+    {
+      "id": "erosion",
+      "group": "joker",
+      "file": "jokers/erosion.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 710,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Erosion.png"
+    },
+    {
+      "id": "reserved_parking",
+      "group": "joker",
+      "file": "jokers/reserved_parking.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 852,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Reserved_Parking.png"
+    },
+    {
+      "id": "mail_in_rebate",
+      "group": "joker",
+      "file": "jokers/mail_in_rebate.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 994,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Mail-In_Rebate.png"
+    },
+    {
+      "id": "to_the_moon",
+      "group": "joker",
+      "file": "jokers/to_the_moon.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1136,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/To_the_Moon.png"
+    },
+    {
+      "id": "hallucination",
+      "group": "joker",
+      "file": "jokers/hallucination.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1278,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Hallucination.png"
+    },
+    {
+      "id": "fortune_teller",
+      "group": "joker",
+      "file": "jokers/fortune_teller.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1420,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Fortune_Teller.png"
+    },
+    {
+      "id": "juggler",
+      "group": "joker",
+      "file": "jokers/juggler.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1562,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Juggler.png"
+    },
+    {
+      "id": "drunkard",
+      "group": "joker",
+      "file": "jokers/drunkard.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1704,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Drunkard.png"
+    },
+    {
+      "id": "stone_joker",
+      "group": "joker",
+      "file": "jokers/stone_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1846,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Stone_Joker.png"
+    },
+    {
+      "id": "golden_joker",
+      "group": "joker",
+      "file": "jokers/golden_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1988,
+        "y": 950,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Golden_Joker.png"
+    },
+    {
+      "id": "lucky_cat",
+      "group": "joker",
+      "file": "jokers/lucky_cat.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 0,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Lucky_Cat.png"
+    },
+    {
+      "id": "baseball_card",
+      "group": "joker",
+      "file": "jokers/baseball_card.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 142,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Baseball_Card.png"
+    },
+    {
+      "id": "bull",
+      "group": "joker",
+      "file": "jokers/bull.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 284,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Bull.png"
+    },
+    {
+      "id": "diet_cola",
+      "group": "joker",
+      "file": "jokers/diet_cola.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 426,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Diet_Cola.png"
+    },
+    {
+      "id": "trading_card",
+      "group": "joker",
+      "file": "jokers/trading_card.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 568,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Trading_Card.png"
+    },
+    {
+      "id": "flash_card",
+      "group": "joker",
+      "file": "jokers/flash_card.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 710,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Flash_Card.png"
+    },
+    {
+      "id": "popcorn",
+      "group": "joker",
+      "file": "jokers/popcorn.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 852,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Popcorn.png"
+    },
+    {
+      "id": "spare_trousers",
+      "group": "joker",
+      "file": "jokers/spare_trousers.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 994,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Spare_Trousers.png"
+    },
+    {
+      "id": "ancient_joker",
+      "group": "joker",
+      "file": "jokers/ancient_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1136,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Ancient_Joker.png"
+    },
+    {
+      "id": "ramen",
+      "group": "joker",
+      "file": "jokers/ramen.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1278,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Ramen.png"
+    },
+    {
+      "id": "walkie_talkie",
+      "group": "joker",
+      "file": "jokers/walkie_talkie.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1420,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Walkie_Talkie.png"
+    },
+    {
+      "id": "seltzer",
+      "group": "joker",
+      "file": "jokers/seltzer.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1562,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Seltzer.png"
+    },
+    {
+      "id": "castle",
+      "group": "joker",
+      "file": "jokers/castle.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1704,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Castle.png"
+    },
+    {
+      "id": "smiley_face",
+      "group": "joker",
+      "file": "jokers/smiley_face.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1846,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Smiley_Face.png"
+    },
+    {
+      "id": "campfire",
+      "group": "joker",
+      "file": "jokers/campfire.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1988,
+        "y": 1140,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Campfire.png"
+    },
+    {
+      "id": "golden_ticket",
+      "group": "joker",
+      "file": "jokers/golden_ticket.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 0,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Golden_Ticket.png"
+    },
+    {
+      "id": "mr_bones",
+      "group": "joker",
+      "file": "jokers/mr_bones.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 142,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Mr._Bones.png"
+    },
+    {
+      "id": "acrobat",
+      "group": "joker",
+      "file": "jokers/acrobat.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 284,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Acrobat.png"
+    },
+    {
+      "id": "sock_and_buskin",
+      "group": "joker",
+      "file": "jokers/sock_and_buskin.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 426,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Sock_and_Buskin.png"
+    },
+    {
+      "id": "swashbuckler",
+      "group": "joker",
+      "file": "jokers/swashbuckler.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 568,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Swashbuckler.png"
+    },
+    {
+      "id": "troubadour",
+      "group": "joker",
+      "file": "jokers/troubadour.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 710,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Troubadour.png"
+    },
+    {
+      "id": "certificate",
+      "group": "joker",
+      "file": "jokers/certificate.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 852,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Certificate.png"
+    },
+    {
+      "id": "smeared_joker",
+      "group": "joker",
+      "file": "jokers/smeared_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 994,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Smeared_Joker.png"
+    },
+    {
+      "id": "throwback",
+      "group": "joker",
+      "file": "jokers/throwback.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1136,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Throwback.png"
+    },
+    {
+      "id": "hanging_chad",
+      "group": "joker",
+      "file": "jokers/hanging_chad.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1278,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Hanging_Chad.png"
+    },
+    {
+      "id": "rough_gem",
+      "group": "joker",
+      "file": "jokers/rough_gem.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1420,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Rough_Gem.png"
+    },
+    {
+      "id": "bloodstone",
+      "group": "joker",
+      "file": "jokers/bloodstone.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1562,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Bloodstone.png"
+    },
+    {
+      "id": "arrowhead",
+      "group": "joker",
+      "file": "jokers/arrowhead.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1704,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Arrowhead.png"
+    },
+    {
+      "id": "onyx_agate",
+      "group": "joker",
+      "file": "jokers/onyx_agate.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1846,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Onyx_Agate.png"
+    },
+    {
+      "id": "glass_joker",
+      "group": "joker",
+      "file": "jokers/glass_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1988,
+        "y": 1330,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Glass_Joker.png"
+    },
+    {
+      "id": "showman",
+      "group": "joker",
+      "file": "jokers/showman.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 0,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Showman.png"
+    },
+    {
+      "id": "flower_pot",
+      "group": "joker",
+      "file": "jokers/flower_pot.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 142,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Flower_Pot.png"
+    },
+    {
+      "id": "blueprint",
+      "group": "joker",
+      "file": "jokers/blueprint.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 284,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Blueprint.png"
+    },
+    {
+      "id": "wee_joker",
+      "group": "joker",
+      "file": "jokers/wee_joker.png",
+      "width": 710,
+      "height": 950,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 426,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Wee_Joker.png"
+    },
+    {
+      "id": "merry_andy",
+      "group": "joker",
+      "file": "jokers/merry_andy.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 568,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Merry_Andy.png"
+    },
+    {
+      "id": "oops_all_6s",
+      "group": "joker",
+      "file": "jokers/oops_all_6s.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 710,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Oops%21_All_6s.png"
+    },
+    {
+      "id": "the_idol",
+      "group": "joker",
+      "file": "jokers/the_idol.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 852,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/The_Idol.png"
+    },
+    {
+      "id": "seeing_double",
+      "group": "joker",
+      "file": "jokers/seeing_double.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 994,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Seeing_Double.png"
+    },
+    {
+      "id": "matador",
+      "group": "joker",
+      "file": "jokers/matador.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1136,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Matador.png"
+    },
+    {
+      "id": "hit_the_road",
+      "group": "joker",
+      "file": "jokers/hit_the_road.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1278,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Hit_the_Road.png"
+    },
+    {
+      "id": "the_duo",
+      "group": "joker",
+      "file": "jokers/the_duo.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1420,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/The_Duo.png"
+    },
+    {
+      "id": "the_trio",
+      "group": "joker",
+      "file": "jokers/the_trio.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1562,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/The_Trio.png"
+    },
+    {
+      "id": "the_family",
+      "group": "joker",
+      "file": "jokers/the_family.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1704,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/The_Family.png"
+    },
+    {
+      "id": "the_order",
+      "group": "joker",
+      "file": "jokers/the_order.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1846,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/The_Order.png"
+    },
+    {
+      "id": "the_tribe",
+      "group": "joker",
+      "file": "jokers/the_tribe.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1988,
+        "y": 1520,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/The_Tribe.png"
+    },
+    {
+      "id": "stuntman",
+      "group": "joker",
+      "file": "jokers/stuntman.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 0,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Stuntman.png"
+    },
+    {
+      "id": "invisible_joker",
+      "group": "joker",
+      "file": "jokers/invisible_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 142,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Invisible_Joker.png"
+    },
+    {
+      "id": "brainstorm",
+      "group": "joker",
+      "file": "jokers/brainstorm.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 284,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Brainstorm.png"
+    },
+    {
+      "id": "satellite",
+      "group": "joker",
+      "file": "jokers/satellite.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 426,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Satellite.png"
+    },
+    {
+      "id": "shoot_the_moon",
+      "group": "joker",
+      "file": "jokers/shoot_the_moon.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 568,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Shoot_the_Moon.png"
+    },
+    {
+      "id": "driver_s_license",
+      "group": "joker",
+      "file": "jokers/driver_s_license.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 710,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Driver%27s_License.png"
+    },
+    {
+      "id": "cartomancer",
+      "group": "joker",
+      "file": "jokers/cartomancer.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 852,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Cartomancer.png"
+    },
+    {
+      "id": "astronomer",
+      "group": "joker",
+      "file": "jokers/astronomer.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 994,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Astronomer.png"
+    },
+    {
+      "id": "burnt_joker",
+      "group": "joker",
+      "file": "jokers/burnt_joker.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1136,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Burnt_Joker.png"
+    },
+    {
+      "id": "bootstraps",
+      "group": "joker",
+      "file": "jokers/bootstraps.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1278,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Bootstraps.png"
+    },
+    {
+      "id": "canio",
+      "group": "joker",
+      "file": "jokers/canio.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1420,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Canio.png"
+    },
+    {
+      "id": "triboulet",
+      "group": "joker",
+      "file": "jokers/triboulet.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1562,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Triboulet.png"
+    },
+    {
+      "id": "yorick",
+      "group": "joker",
+      "file": "jokers/yorick.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1704,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Yorick.png"
+    },
+    {
+      "id": "chicot",
+      "group": "joker",
+      "file": "jokers/chicot.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1846,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Chicot.png"
+    },
+    {
+      "id": "perkeo",
+      "group": "joker",
+      "file": "jokers/perkeo.png",
+      "width": 142,
+      "height": 190,
+      "atlas": "joker-atlas.png",
+      "frame": {
+        "x": 1988,
+        "y": 1710,
+        "w": 142,
+        "h": 190
+      },
+      "provenance": "Balatro reference art: LocalThunk / Playstack",
+      "source_url": "https://balatrowiki.org/images/Perkeo.png"
+    }
+  ]
+}

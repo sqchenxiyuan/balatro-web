@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "jokers": 150,
+    "tarot_cards": 22,
+    "planet_cards": 12,
+    "spectral_cards": 18,
+    "decks": 15,
+    "stakes": 8,
+    "tags": 24,
+    "blinds": 30,
+    "challenges": 20,
+    "vouchers": 32,
+    "booster_rules": 15,
+    "enhancements": 8,
+    "seals": 4,
+    "editions": 5,
+    "stickers": 3,
+    "poker_hands": 12,
+    "ante_base_scores": 8,
+    "eternal_incompatible_jokers": 11,
+    "perishable_incompatible_jokers": 18,
+    "copy_fully_incompatible_jokers": 29,
+    "booster_weights": 5
+  },
+  "joker_rarities": {
+    "Common": 61,
+    "Uncommon": 64,
+    "Rare": 20,
+    "Legendary": 5
+  },
+  "successful_source_records": 45,
+  "source_errors": []
+}

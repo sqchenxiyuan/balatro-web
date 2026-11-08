@@ -1,0 +1,17 @@
+node_modules/
+dist/
+dist-sdk/
+artifacts/
+test-results/
+playwright-report/
+.vite/
+*.log
+*.tgz
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

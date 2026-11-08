@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Balatro SDK · 任意宿主网页示例</title>
+<link rel="icon" href="data:,"/>
+<style>
+ :root{font:15px/1.6 system-ui,sans-serif;color:#26334b;background:#f1f3f8}body{margin:0}header,main{max-width:1450px;padding:24px;margin:auto}header{display:flex;align-items:center;justify-content:space-between;gap:20px}h1{margin:0;font-size:26px}p{color:#617089;margin:6px 0}a{color:#425bb6}button{cursor:pointer;padding:8px 14px;background:white;color:#26334b;border:1px solid #c7cddd;border-radius:5px;font:inherit}.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.panel{min-width:0;background:white;border-radius:12px;padding:16px;box-shadow:0 8px 30px #172c4f0a}.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}.toolbar strong{margin-right:auto}.status{font:12px/1.7 Consolas,monospace;min-height:22px;white-space:pre-wrap;overflow-wrap:anywhere}details{margin-top:20px}pre{white-space:pre-wrap;font-size:13px}/* Deliberately hostile host styles: the game must stay untouched. */section{background:hotpink}canvas{display:none}input{font-size:40px}.g-hud{display:none!important}@media(max-width:950px){.grid{grid-template-columns:1fr}header{display:block}}
+ .strategy-panel{padding:18px;background:white;border:1px solid #d6dce8;border-radius:10px}.strategy-panel summary{cursor:pointer;font-weight:600}.strategy-panel p{font-size:13px;margin:10px 0}.strategy-panel textarea{display:block;width:100%;box-sizing:border-box;height:280px;resize:vertical;border:1px solid #c7cddd;border-radius:5px;padding:12px;background:#f7f9fc;color:#26334b;font:12px/1.65 Consolas,monospace}.strategy-controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:12px}.strategy-file{cursor:pointer;color:#425bb6}.strategy-file input{display:none}#strategy-status{font:12px/1.7 Consolas,monospace;overflow-wrap:anywhere}
+</style>
+<header><div><h1>你的平台，嵌入完整游戏。</h1><p>两个独立实例 · CSS 隔离 · 策略注入 · 无服务器 · 不写宿主存储</p></div><a href="./#play">正常游玩 ↗</a></header>
+<main><div class="grid">
+ <div class="panel"><div class="toolbar"><strong>实例 A · 策略控制</strong><button id="auto">自动游玩</button><button id="step">单步</button><button id="stop">停止</button></div><div id="game-a"></div><p class="status" id="status-a"></p></div>
+ <div class="panel"><div class="toolbar"><strong>实例 B · 手动控制</strong><button id="new-b">新一局</button><button id="destroy-b">销毁</button><button id="mount-b">重新挂载</button></div><div id="game-b"></div><p class="status" id="status-b"></p></div>
+</div><details class="strategy-panel" id="strategy-panel"><summary>策略控制台 · 粘贴代码或导入模块</summary><p>导出 default 函数：(state, { signal, step }) → action 或 null。代码控制实例 A，请只加载可信策略。</p><textarea id="strategy-source" spellcheck="false" aria-label="策略源码"></textarea><div class="strategy-controls"><button id="strategy-load">应用代码</button><label class="strategy-file">导入 .mjs<input type="file" id="strategy-file" accept=".js,.mjs,text/javascript"/></label><span id="strategy-status">示例策略已加载</span></div></details><details><summary>接入代码</summary><pre>import { mountBalatro, createStrategyRunner } from './sdk.js';
+const game = mountBalatro(document.querySelector('#game'), { seed: 'HELLO', startInMenu: false });
+const runner = createStrategyRunner(game, async (state, {signal}) =&gt; {
+  if (state.phase === 'blind_select') return {type:'select_blind'};
+  return null; // 返回操作，或暂停
+});
+await runner.start();
+runner.stop();
+game.destroy();</pre></details></main>
+<script type="module">
+ const sdkModuleURL=new URL('./src/sdk.ts',location.href).href;
+ const strategyModuleURL=new URL('./examples/basic-strategy.mjs',location.href).href;
+ const {mountBalatro,createStrategyRunner}=await import(/* @vite-ignore */ sdkModuleURL);
+ const {default:strategy}=await import(/* @vite-ignore */ strategyModuleURL);
+ const assetBaseUrl=new URL('./assets/',location.href).href;
+ const a=mountBalatro(document.querySelector('#game-a'),{seed:'EMBED-A',startInMenu:false,assetBaseUrl,speed:4});
+ let b=mountBalatro(document.querySelector('#game-b'),{seed:'EMBED-B',assetBaseUrl});
+ let runner=createStrategyRunner(a,strategy,{intervalMs:220,animate:true,maxSteps:1000});
+ // Globals below are this demo's test handles, not SDK behavior.
+ window.embedDemo={a,get b(){return b},get runner(){return runner}};
+ const $=s=>document.querySelector(s);
+ const source=$('#strategy-source');
+ source.value=await (await fetch(strategyModuleURL)).text();
+ let applied=source.value,applying,commandVersion=0;
+ const report=error=>$('#strategy-status').textContent=error instanceof Error?error.message:String(error);
+ function apply(){
+  if(applying)return applying;
+  if(runner&&applied===source.value)return Promise.resolve();
+  const code=source.value;runner?.destroy();runner=undefined;
+  applying=(async()=>{
+   const url=URL.createObjectURL(new Blob([code],{type:'text/javascript'}));
+   try{
+    const module=await import(/* @vite-ignore */ url);
+    if(typeof module.default!=='function')throw new Error('需要 export default 一个策略函数');
+    runner=createStrategyRunner(a,module.default,{intervalMs:220,animate:true,maxSteps:1000,decisionTimeoutMs:10000});
+    applied=code;$('#strategy-status').textContent='策略已加载';
+   }finally{URL.revokeObjectURL(url);}
+  })().finally(()=>applying=undefined);
+  return applying;
+ }
+ async function run(mode){const command=++commandVersion;try{await apply();if(command!==commandVersion)return;await runner[mode]();updateStatus();}catch(error){report(error);}}
+ $('#auto').onclick=()=>void run('start');$('#step').onclick=()=>void run('step');$('#stop').onclick=()=>{commandVersion++;runner?.stop();updateStatus();};
+ $('#strategy-load').onclick=()=>void apply().catch(report);
+ $('#strategy-file').onchange=async event=>{const file=event.target.files?.[0];if(file)source.value=await file.text();};
+ $('#new-b').onclick=()=>b?.showMenu();$('#destroy-b').onclick=()=>{b?.destroy();b=null;};
+ $('#mount-b').onclick=()=>{if(!b)b=mountBalatro($('#game-b'),{seed:'REMOUNT',assetBaseUrl});};
+ function updateStatus(){
+  const state=runner?.getStatus();
+  if(state){
+   $('#status-a').textContent=`${{idle:'等待运行',running:'策略运行中',stopped:'已停止',completed:'本次运行结束',error:'策略错误'}[state.status]} · ${state.steps} 步${state.lastAction?' · '+state.lastAction.type:''}${state.error?' · '+state.error:''}`;
+   $('#strategy-status').textContent=`${state.status} · ${state.steps} 步${state.error?' · '+state.error:state.reason?' · '+state.reason:''}`;
+  }
+  $('#status-b').textContent=b?`SEED ${b.getState().seed} · ${b.getState().phase}`:'实例已销毁，容器可重新使用';
+ }
+ const timer=setInterval(updateStatus,250);
+ addEventListener('pagehide',event=>{commandVersion++;runner?.stop();if(!event.persisted){clearInterval(timer);runner?.destroy();a.destroy();b?.destroy();}});
+</script>
+</html>

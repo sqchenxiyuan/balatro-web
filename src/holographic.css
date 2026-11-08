@@ -1,0 +1,100 @@
+/* Every effect is below or above the paper in 3D. Grouping the parent would flatten it. */
+.card-surface.holographic{
+  --holo-lift:22px;--hx:.32;--hy:-.22;
+  --shine-angle:calc(118deg + var(--hx)*52deg + var(--hy)*24deg);
+  transform-style:preserve-3d;isolation:auto;filter:none;
+  transform:perspective(620px) rotateX(calc(var(--hy)*-18deg)) rotateY(calc(var(--hx)*26deg));
+  transition:transform .2s ease-out;
+}
+.holographic::before,.holographic::after{content:'';position:absolute;inset:0;border-radius:5px;pointer-events:none;mask:var(--art) center/100% 100% no-repeat}
+.holographic::before{background:#30474c;transform:translateZ(-5px);box-shadow:2px 6px 5px #071b2877}
+.holographic::after{background:linear-gradient(var(--shine-angle),#91b2b4,#566c79 48%,#a48eae);transform:translateZ(-2px)}
+.holographic>.pixel-art{transform:translateZ(0);filter:saturate(.88) brightness(.88);backface-visibility:hidden}
+.holo-shadow,.holo-field,.holo-projector,.holo-volume,.holo-echo,.holo-aura,.holo-subject,.holo-subject-light,.holo-scan,.holo-interference,.holo-particles{position:absolute;inset:0;pointer-events:none;border-radius:5px}
+/* The shadow stays on the paper while the opaque, full-color subject moves above it. */
+.holo-shadow{
+  transform:translate3d(calc(5px - var(--hx)*8px),calc(10px + var(--hy)*7px),1px) scale(.98);
+  filter:brightness(0) blur(3px);opacity:.43;
+}
+.holo-shadow>.pixel-art{position:absolute;inset:0}
+.holo-field{
+  transform:translateZ(3px);opacity:.26;
+  background:repeating-linear-gradient(0deg,transparent 0 11px,#53e8f128 12px,transparent 13px 24px),repeating-linear-gradient(90deg,transparent 0 11px,#53e8f128 12px,transparent 13px 24px),radial-gradient(ellipse at 50% 76%,#2adad16b,transparent 65%);
+  mask-image:var(--art),radial-gradient(ellipse at 50% 55%,#000 16%,#000b 48%,transparent 76%);mask-size:100% 100%;mask-composite:intersect;
+}
+.holographic>.edition-overlay{
+  transform:translateZ(2px);opacity:.18;
+  background:linear-gradient(var(--shine-angle),#7dacf8,transparent 35%,#65eedc55 60%,#d18ef3);
+  mix-blend-mode:soft-light;animation:none;
+}
+/* A narrow emitter and a faint striped fan connect the raised image to the card. */
+.holo-projector{
+  transform:translateZ(4px);mask:var(--art) center/100% 100% no-repeat;
+  background:radial-gradient(ellipse 29% 3% at 50% 84%,#d2ffffd9 0,#4be7ed9e 35%,transparent 80%),radial-gradient(ellipse 33% 12% at 50% 83%,#21e1e642,transparent 75%);
+}
+.holo-volume{
+  transform:translateZ(calc(var(--holo-lift)*.35));opacity:.12;
+  background:repeating-linear-gradient(90deg,transparent 0 9px,#53dfe85c 10px,transparent 11px 18px),linear-gradient(0deg,#3beef078,transparent 76%);
+  clip-path:polygon(17% 24%,83% 24%,61% 85%,39% 85%);
+  mask:var(--art) center/100% 100% no-repeat;
+}
+/* A thin colored edge gives the silhouette thickness without tinting the front artwork. */
+.holo-echo{transform:translate3d(0,1.5px,calc(var(--holo-lift) - 3px));filter:brightness(.48) saturate(1.1);opacity:.85}
+.holo-aura{
+  transform:translateZ(calc(var(--holo-lift) - 1px));mask:var(--subject) center/100% 100% no-repeat;
+  background:#4af3ed;opacity:.12;
+}
+.holo-subject{
+  transform:translateZ(var(--holo-lift));backface-visibility:hidden;
+  filter:drop-shadow(-.7px 0 0 #56eff38c) drop-shadow(.7px 0 0 #cb7aff80) drop-shadow(0 0 2px #3de5ed38);
+}
+.holo-subject>.pixel-art,.holo-echo>.pixel-art{position:absolute;inset:0}
+.holo-subject>.pixel-art{
+  filter:saturate(1.08) brightness(1.04) contrast(1.04);
+  opacity:1;
+}
+.holo-subject-light{
+  transform:translateZ(calc(var(--holo-lift) + .5px));mask:var(--subject) center/100% 100% no-repeat;opacity:.13;
+  background:repeating-linear-gradient(0deg,transparent 0 2px,#76f8ff54 2px 3px),linear-gradient(var(--shine-angle),#86abff44,transparent 33%,#79ffe669 66%,#d68aff5c);
+  mix-blend-mode:screen;animation:projection-signal 8.2s steps(1,end) infinite;
+}
+/* Scan only the cut-out subject, so no rectangular bar passes over the printed frame. */
+.holo-scan{
+  transform:translateZ(calc(var(--holo-lift) + 1px));mask:var(--subject) center/100% 100% no-repeat;
+  background:linear-gradient(0deg,transparent 40%,#2fd9ed14 46%,#83faff7a 49%,#e0ffffd9 50%,#60f2ff57 51%,transparent 56%);
+  background-size:100% 250%;background-position:50% 140%;opacity:.55;mix-blend-mode:screen;
+  animation:projection-scan 3.8s linear infinite;
+}
+.holo-interference{
+  transform:translate3d(2px,0,calc(var(--holo-lift) + 1.5px));mask:var(--subject) center/100% 100% no-repeat;
+  background:linear-gradient(90deg,#57f4ff 0 42%,#d27bff 65%);opacity:0;
+  clip-path:polygon(0 35%,100% 35%,100% 39%,0 39%,0 65%,100% 65%,100% 68%,0 68%);
+  animation:projection-interference 7.4s steps(1,end) infinite;
+}
+.holo-particles{transform:translateZ(calc(var(--holo-lift)*.8));mask:var(--art) center/100% 100% no-repeat}
+.holo-particles i{
+  position:absolute;left:var(--px);top:var(--py);width:2px;height:2px;background:#81f6f5;box-shadow:0 0 2px #39d9e5;
+  opacity:.4;animation:projection-dust 4.6s ease-in-out infinite;animation-delay:var(--delay);
+}
+.holo-particles i:nth-child(3n){background:#b88dec;box-shadow:none}
+.holographic>.edition-glint{
+  transform:translateZ(calc(var(--holo-lift) + 2px));opacity:.08;
+  background:radial-gradient(ellipse at var(--mx,38%) var(--my,25%),#99fbf77d,transparent 58%),linear-gradient(var(--shine-angle),transparent 28%,#bf9fe745 39%,transparent 46%);
+  mix-blend-mode:screen;animation:none;
+}
+.holographic[data-tracking=true]{transition:transform 90ms ease-out}
+.holographic:not([data-tracking=true]){animation:hologram-view 7s ease-in-out infinite alternate}
+@keyframes hologram-view{from{transform:perspective(620px) rotateX(7deg) rotateY(-17deg)}to{transform:perspective(620px) rotateX(-7deg) rotateY(19deg)}}
+@keyframes projection-scan{from{background-position:50% 140%}to{background-position:50% -40%}}
+@keyframes projection-signal{0%,86%,90%,94%,100%{opacity:.13}87%,93%{opacity:.05}88%{opacity:.24}}
+@keyframes projection-interference{0%,81%,85%,100%{opacity:0}82%{opacity:.48;translate:1px 0}83%{opacity:.18;translate:-1px 0}84%{opacity:.3;translate:0 0}}
+@keyframes projection-dust{0%,100%{opacity:0;translate:0 7px}40%{opacity:.55}75%{opacity:.18;translate:1px -10px}}
+.reduced-motion .holographic{--hx:0!important;--hy:0!important}
+.reduced-motion .holo-scan{background-position:50% 55%;opacity:.25}
+.reduced-motion .holo-interference{opacity:0;translate:0 0}
+.reduced-motion .holo-subject-light{opacity:.13}
+.reduced-motion .holo-particles i{opacity:.22;translate:0 0}
+/* Fewer moving specks and weaker spill keep the small comparison readable. */
+.comparison-card .holo-particles i:nth-child(n+4){display:none}
+.comparison-card .holo-subject{filter:drop-shadow(-.5px 0 0 #56eff370) drop-shadow(.5px 0 0 #cb7aff66)}
+.comparison-card .holo-shadow{filter:brightness(0) blur(1.5px);transform:translate3d(calc(2px - var(--hx)*3px),calc(4px + var(--hy)*3px),1px) scale(.98)}

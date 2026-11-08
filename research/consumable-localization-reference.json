@@ -1,0 +1,317 @@
+{
+  "at": "2026-11-08T04:28:59.317Z",
+  "names": [
+    {
+      "id": "fool",
+      "en": "The Fool",
+      "name": "愚者",
+      "url": "https://balatrowiki.org/w/The_Fool"
+    },
+    {
+      "id": "magician",
+      "en": "The Magician",
+      "name": "魔术师",
+      "url": "https://balatrowiki.org/w/The_Magician"
+    },
+    {
+      "id": "high_priestess",
+      "en": "The High Priestess",
+      "name": "女祭司",
+      "url": "https://balatrowiki.org/w/The_High_Priestess"
+    },
+    {
+      "id": "lovers",
+      "en": "The Lovers",
+      "name": "恋人",
+      "url": "https://balatrowiki.org/w/The_Lovers"
+    },
+    {
+      "id": "hierophant",
+      "en": "The Hierophant",
+      "name": "教皇",
+      "url": "https://balatrowiki.org/w/The_Hierophant"
+    },
+    {
+      "id": "empress",
+      "en": "The Empress",
+      "name": "皇后",
+      "url": "https://balatrowiki.org/w/The_Empress"
+    },
+    {
+      "id": "emperor",
+      "en": "The Emperor",
+      "name": "皇帝",
+      "url": "https://balatrowiki.org/w/The_Emperor"
+    },
+    {
+      "id": "justice",
+      "en": "Justice",
+      "name": "正义",
+      "url": "https://balatrowiki.org/w/Justice"
+    },
+    {
+      "id": "strength",
+      "en": "Strength",
+      "name": "力量",
+      "url": "https://balatrowiki.org/w/Strength"
+    },
+    {
+      "id": "hermit",
+      "en": "The Hermit",
+      "name": "隐者",
+      "url": "https://balatrowiki.org/w/The_Hermit"
+    },
+    {
+      "id": "chariot",
+      "en": "The Chariot",
+      "name": "战车",
+      "url": "https://balatrowiki.org/w/The_Chariot"
+    },
+    {
+      "id": "death",
+      "en": "Death",
+      "name": "死神",
+      "url": "https://balatrowiki.org/w/Death"
+    },
+    {
+      "id": "hanged_man",
+      "en": "The Hanged Man",
+      "name": "倒吊人",
+      "url": "https://balatrowiki.org/w/The_Hanged_Man"
+    },
+    {
+      "id": "wheel_of_fortune",
+      "en": "The Wheel of Fortune",
+      "name": "命运之轮",
+      "url": "https://balatrowiki.org/w/The_Wheel_of_Fortune"
+    },
+    {
+      "id": "temperance",
+      "en": "Temperance",
+      "name": "节制",
+      "url": "https://balatrowiki.org/w/Temperance"
+    },
+    {
+      "id": "star",
+      "en": "The Star",
+      "name": "星星",
+      "url": "https://balatrowiki.org/w/The_Star"
+    },
+    {
+      "id": "devil",
+      "en": "The Devil",
+      "name": "恶魔",
+      "url": "https://balatrowiki.org/w/The_Devil"
+    },
+    {
+      "id": "tower",
+      "en": "The Tower",
+      "name": "塔",
+      "url": "https://balatrowiki.org/w/The_Tower"
+    },
+    {
+      "id": "pluto",
+      "en": "Pluto",
+      "name": "冥王星",
+      "url": "https://balatrowiki.org/w/Pluto"
+    },
+    {
+      "id": "judgement",
+      "en": "Judgement",
+      "name": "审判",
+      "url": "https://balatrowiki.org/w/Judgement"
+    },
+    {
+      "id": "sun",
+      "en": "The Sun",
+      "name": "太阳",
+      "url": "https://balatrowiki.org/w/The_Sun"
+    },
+    {
+      "id": "moon",
+      "en": "The Moon",
+      "name": "月亮",
+      "url": "https://balatrowiki.org/w/The_Moon"
+    },
+    {
+      "id": "saturn",
+      "en": "Saturn",
+      "name": "土星",
+      "url": "https://balatrowiki.org/w/Saturn"
+    },
+    {
+      "id": "venus",
+      "en": "Venus",
+      "name": "金星",
+      "url": "https://balatrowiki.org/w/Venus"
+    },
+    {
+      "id": "world",
+      "en": "The World",
+      "name": "世界",
+      "url": "https://balatrowiki.org/w/The_World"
+    },
+    {
+      "id": "mercury",
+      "en": "Mercury",
+      "name": "水星",
+      "url": "https://balatrowiki.org/w/Mercury"
+    },
+    {
+      "id": "earth",
+      "en": "Earth",
+      "name": "地球",
+      "url": "https://balatrowiki.org/w/Earth"
+    },
+    {
+      "id": "jupiter",
+      "en": "Jupiter",
+      "name": "木星",
+      "url": "https://balatrowiki.org/w/Jupiter"
+    },
+    {
+      "id": "mars",
+      "en": "Mars",
+      "name": "火星",
+      "url": "https://balatrowiki.org/w/Mars"
+    },
+    {
+      "id": "neptune",
+      "en": "Neptune",
+      "name": "海王星",
+      "url": "https://balatrowiki.org/w/Neptune"
+    },
+    {
+      "id": "uranus",
+      "en": "Uranus",
+      "name": "天王星",
+      "url": "https://balatrowiki.org/w/Uranus"
+    },
+    {
+      "id": "planet_x",
+      "en": "Planet X",
+      "name": "X行星",
+      "url": "https://balatrowiki.org/w/Planet_X"
+    },
+    {
+      "id": "ceres",
+      "en": "Ceres",
+      "name": "谷神星",
+      "url": "https://balatrowiki.org/w/Ceres"
+    },
+    {
+      "id": "grim",
+      "en": "Grim",
+      "name": "严峻",
+      "url": "https://balatrowiki.org/w/Grim"
+    },
+    {
+      "id": "incantation",
+      "en": "Incantation",
+      "name": "咒语",
+      "url": "https://balatrowiki.org/w/Incantation"
+    },
+    {
+      "id": "familiar",
+      "en": "Familiar",
+      "name": "使魔",
+      "url": "https://balatrowiki.org/w/Familiar"
+    },
+    {
+      "id": "eris",
+      "en": "Eris",
+      "name": "阋神星",
+      "url": "https://balatrowiki.org/w/Eris"
+    },
+    {
+      "id": "aura",
+      "en": "Aura",
+      "name": "光环",
+      "url": "https://balatrowiki.org/w/Aura"
+    },
+    {
+      "id": "talisman",
+      "en": "Talisman",
+      "name": "护身符",
+      "url": "https://balatrowiki.org/w/Talisman"
+    },
+    {
+      "id": "ectoplasm",
+      "en": "Ectoplasm",
+      "name": "灵质",
+      "url": "https://balatrowiki.org/w/Ectoplasm"
+    },
+    {
+      "id": "wraith",
+      "en": "Wraith",
+      "name": "幽灵",
+      "url": "https://balatrowiki.org/w/Wraith"
+    },
+    {
+      "id": "sigil",
+      "en": "Sigil",
+      "name": "符印",
+      "url": "https://balatrowiki.org/w/Sigil"
+    },
+    {
+      "id": "immolate",
+      "en": "Immolate",
+      "name": "火祭",
+      "url": "https://balatrowiki.org/w/Immolate"
+    },
+    {
+      "id": "ouija",
+      "en": "Ouija",
+      "name": "占卜",
+      "url": "https://balatrowiki.org/w/Ouija"
+    },
+    {
+      "id": "ankh",
+      "en": "Ankh",
+      "name": "生命十字章",
+      "url": "https://balatrowiki.org/w/Ankh"
+    },
+    {
+      "id": "hex",
+      "en": "Hex",
+      "name": "妖法",
+      "url": "https://balatrowiki.org/w/Hex"
+    },
+    {
+      "id": "deja_vu",
+      "en": "Deja Vu",
+      "name": "既视感",
+      "url": "https://balatrowiki.org/w/Deja_Vu"
+    },
+    {
+      "id": "trance",
+      "en": "Trance",
+      "name": "入迷",
+      "url": "https://balatrowiki.org/w/Trance"
+    },
+    {
+      "id": "cryptid",
+      "en": "Cryptid",
+      "name": "神秘生物",
+      "url": "https://balatrowiki.org/w/Cryptid"
+    },
+    {
+      "id": "soul",
+      "en": "The Soul",
+      "name": "灵魂",
+      "url": "https://balatrowiki.org/w/The_Soul"
+    },
+    {
+      "id": "black_hole",
+      "en": "Black Hole",
+      "name": "黑洞",
+      "url": "https://balatrowiki.org/w/Black_Hole"
+    },
+    {
+      "id": "medium",
+      "en": "Medium",
+      "name": "灵媒",
+      "url": "https://balatrowiki.org/w/Medium"
+    }
+  ]
+}

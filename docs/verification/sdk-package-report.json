@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "npm tarball contains independent modules, declarations, artwork and example without the platform shell",
+    "installed package compiles in a separate TypeScript NodeNext browser project",
+    "headless type graph compiles with no DOM lib or ambient framework types",
+    "installed npm package runs the engine and strategy in an independent Node process"
+  ],
+  "ok": true,
+  "sha256": "e21fda77c0f6d3261c8d85891669a1a6004291218def1a3b991c92db73b4b199",
+  "tarball": "game-rebuild-balatro-0.2.0.tgz",
+  "size": 3028526
+}

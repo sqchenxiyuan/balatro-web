@@ -1,0 +1,51 @@
+/* Pixel card treatments are visual studies; rule effects are listed separately. */
+.modifier-print{position:relative;width:100%;height:100%;transform-style:preserve-3d}
+.modifier-enhancement{position:absolute;inset:0;border-radius:5px;pointer-events:none;transform:translateZ(.5px);mask:var(--art) center/100% 100% no-repeat;mix-blend-mode:multiply}
+.enhancement-bonus .modifier-enhancement{background:repeating-linear-gradient(45deg,#598fc53d 0 2px,transparent 2px 8px),linear-gradient(135deg,#77b8ed,#d2e9f6 45%,#7ea4dc);box-shadow:inset 0 0 0 3px #75aad0}
+.enhancement-mult .modifier-enhancement{background:repeating-linear-gradient(-45deg,#df61603d 0 2px,transparent 2px 8px),linear-gradient(135deg,#e4938a,#f6d6c3 45%,#d2838f);box-shadow:inset 0 0 0 3px #dc8989}
+.enhancement-wild .modifier-enhancement{background:repeating-conic-gradient(from 45deg,#ef8a7950 0 25%,#75b5db75 0 50%,#e4bf5e70 0 75%,#7cae7775 0) 0 0/20px 20px;box-shadow:inset 0 0 0 3px #c4a871}
+.enhancement-steel .modifier-enhancement{background:repeating-linear-gradient(0deg,#85939b38 0 1px,transparent 1px 3px),linear-gradient(125deg,#6d879d,#b1c5ce 21%,#eff4f0 33%,#899eae 48%,#d5dee0 73%,#788f9b);box-shadow:inset 2px 2px #f4f5e1,inset -3px -3px #546978}
+.enhancement-gold .modifier-enhancement{background:repeating-linear-gradient(45deg,#c28c4b2e 0 1px,transparent 1px 4px),linear-gradient(125deg,#c9953d,#f3ce6e 22%,#fff0ad 35%,#cb963c 50%,#f3d680 74%,#ad7630);box-shadow:inset 2px 2px #ffedb6,inset -3px -3px #9d672e}
+.enhancement-lucky .modifier-enhancement{background:radial-gradient(circle at 5px 5px,#3a987e50 0 2px,transparent 2.5px) 0 0/13px 13px,linear-gradient(135deg,#95c5a2,#d5e8ac 45%,#82ba9f);box-shadow:inset 0 0 0 3px #7daa89}
+.enhancement-stone .pixel-art,.enhancement-stone :is(.holo-shadow,.holo-echo,.holo-aura,.holo-subject,.holo-subject-light,.holo-scan,.holo-interference){visibility:hidden}
+.enhancement-stone .modifier-enhancement{background:linear-gradient(38deg,transparent 47%,#a5aaa6 48% 50%,transparent 51%),linear-gradient(150deg,transparent 40%,#5b6b704d 41% 44%,transparent 45%),repeating-conic-gradient(#8f9996 0 25%,#9ba4a0 0 50%,#929d9b 0 75%,#87928f 0) 0 0/13px 11px;mix-blend-mode:normal;box-shadow:inset 3px 3px #c0c6bc,inset -4px -4px #626f70;transform:translateZ(0)}
+.modifier-seal{position:absolute;inset:0;pointer-events:none;transform:translateZ(3px)}
+.modifier-seal img{position:absolute;left:18%;top:22%;width:100%;height:100%;image-rendering:pixelated;filter:drop-shadow(1px 2px 0 #1d292774)}
+.enhancement-glass>:is(.foil,.holographic,.polychrome)>.pixel-art{visibility:hidden}
+.glass-base-ink{position:absolute;inset:0;width:100%;height:100%;image-rendering:pixelated;opacity:.8;pointer-events:none;transform:translateZ(0)}
+.modifier-inspector .material-preview{top:119px;height:201px}
+.modifier-inspector .preview-card{left:41px;width:142px;height:190px}
+.modifier-inspector .preview-shadow{top:193px;left:35px;width:154px;height:10px}
+.modifier-identity{position:absolute;left:22px;right:22px;top:321px;text-align:center}
+.modifier-identity>small{font:12px VT323,monospace;letter-spacing:1px;color:#8eb3ac}
+.modifier-identity h3{font-size:19px;font-weight:400;margin:5px 0;color:#eee4be}
+.modifier-identity p{font-size:10px;line-height:1.65;color:#b1c2a7;margin:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.modifier-controls{position:absolute;left:22px;right:22px;top:421px;display:grid;gap:7px}
+.modifier-controls label{display:flex;align-items:center;justify-content:space-between;font-size:11px;color:#a3b59f}
+.modifier-controls select{width:197px;height:27px;padding:0 7px;border:1px solid #7f977452;background:#203d30;border-radius:4px;font:11px 'Microsoft YaHei',sans-serif;color:#dfdfbd}
+.modifier-controls select:disabled{opacity:.4}
+.modifier-footnote{position:absolute;left:22px;right:22px;top:559px;border-top:1px solid #8fa17b33;padding-top:6px}
+.modifier-footnote p{font-size:9px;line-height:1.6;color:#8eaa96;margin:4px 0 7px;min-height:28px}
+.modifier-footnote button{font-size:10px;color:#d7c88e;background:#314c37;border:1px solid #8f9c6659;border-radius:3px;padding:5px 8px}
+.modifier-footnote>span{font-size:8px;color:#829f8b;margin-left:8px}
+.modifier-catalog .catalog-tabs{gap:17px}
+.modifier-catalog .catalog-tabs button{font-size:12px}
+.modifier-catalog .catalog-search{width:220px;margin-left:auto}
+.modifier-catalog .catalog-search input{width:170px}
+.modifier-filters{display:flex;gap:6px}
+.modifier-filters button{border:1px solid #819a7052;background:#254230;color:#a4b49b;font-size:10px;padding:6px 11px;border-radius:4px}
+.modifier-filters button.active{background:#d1c391;border-color:#d1c391;color:#304332}
+.modifier-catalog .catalog-art{width:66px;height:88px;margin-top:4px;filter:none;transform-style:preserve-3d}
+.modifier-catalog .catalog-number{font:8px 'Microsoft YaHei',sans-serif;color:#91aa90}
+.modifier-catalog .catalog-card>strong{margin-top:7px}
+.modifier-catalog .catalog-card>small{font:10px VT323,monospace;color:#7f9e87;margin-top:2px}
+.modifier-catalog .catalog-pagination a{font-size:9px;color:#d1c28b}
+.modifier-presets{position:absolute;left:14px;top:35px;bottom:8px;width:443px;display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+.modifier-presets button{display:flex;align-items:center;flex-direction:column;justify-content:center;background:none;border:1px solid transparent;border-radius:5px;color:#c9c7a3}
+.modifier-presets button:hover{border-color:#a5ad6f88;background:#b5b27910}
+.modifier-presets strong{font-size:9px;font-weight:400;margin-top:3px}
+.modifier-summary{position:absolute;left:476px;right:18px;top:40px;bottom:10px;border-left:1px solid #8fa17b33;padding-left:18px;display:grid;gap:4px}
+.modifier-summary>div{display:flex;gap:10px;align-items:flex-start}
+.modifier-summary>div>span{font-size:9px;white-space:nowrap;color:#809e88;line-height:16px}
+.modifier-summary p{margin:0;font-size:9px;color:#a7b99e;line-height:1.6}
+.modifier-summary strong{font-weight:400;color:#d1c28b;margin-right:6px}

@@ -1,0 +1,276 @@
+{
+  "checks": {
+    "joker_id_mapping": 150,
+    "joker_prices_comparable": 145,
+    "joker_price_match": 145,
+    "joker_rarity_match": 150,
+    "poker_hand_display_rows": 13,
+    "poker_hand_numeric_match": 13,
+    "independent_poker_hands": 12,
+    "findings_with_verified_quotes_and_references": 20
+  },
+  "joker_differences": [],
+  "poker_hand_comparisons": [
+    {
+      "name_zh": "高牌",
+      "canonical_id": "high_card",
+      "site_values": [
+        5,
+        1,
+        5,
+        10,
+        1
+      ],
+      "canonical_values": [
+        5,
+        1,
+        5,
+        10,
+        1
+      ],
+      "matches": true,
+      "display_variant": false
+    },
+    {
+      "name_zh": "对子",
+      "canonical_id": "pair",
+      "site_values": [
+        10,
+        2,
+        20,
+        15,
+        1
+      ],
+      "canonical_values": [
+        10,
+        2,
+        20,
+        15,
+        1
+      ],
+      "matches": true,
+      "display_variant": false
+    },
+    {
+      "name_zh": "两对",
+      "canonical_id": "two_pair",
+      "site_values": [
+        20,
+        2,
+        40,
+        20,
+        1
+      ],
+      "canonical_values": [
+        20,
+        2,
+        40,
+        20,
+        1
+      ],
+      "matches": true,
+      "display_variant": false
+    },
+    {
+      "name_zh": "三条",
+      "canonical_id": "three_of_a_kind",
+      "site_values": [
+        30,
+        3,
+        90,
+        20,
+        2
+      ],
+      "canonical_values": [
+        30,
+        3,
+        90,
+        20,
+        2
+      ],
+      "matches": true,
+      "display_variant": false
+    },
+    {
+      "name_zh": "顺子",
+      "canonical_id": "straight",
+      "site_values": [
+        30,
+        4,
+        120,
+        30,
+        3
+      ],
+      "canonical_values": [
+        30,
+        4,
+        120,
+        30,
+        3
+      ],
+      "matches": true,
+      "display_variant": false
+    },
+    {
+      "name_zh": "同花",
+      "canonical_id": "flush",
+      "site_values": [
+        35,
+        4,
+        140,
+        15,
+        2
+      ],
+      "canonical_values": [
+        35,
+        4,
+        140,
+        15,
+        2
+      ],
+      "matches": true,
+      "display_variant": false
+    },
+    {
+      "name_zh": "葫芦",
+      "canonical_id": "full_house",
+      "site_values": [
+        40,
+        4,
+        160,
+        25,
+        2
+      ],
+      "canonical_values": [
+        40,
+        4,
+        160,
+        25,
+        2
+      ],
+      "matches": true,
+      "display_variant": false
+    },
+    {
+      "name_zh": "四条",
+      "canonical_id": "four_of_a_kind",
+      "site_values": [
+        60,
+        7,
+        420,
+        30,
+        3
+      ],
+      "canonical_values": [
+        60,
+        7,
+        420,
+        30,
+        3
+      ],
+      "matches": true,
+      "display_variant": false
+    },
+    {
+      "name_zh": "同花顺",
+      "canonical_id": "straight_flush",
+      "site_values": [
+        100,
+        8,
+        800,
+        40,
+        4
+      ],
+      "canonical_values": [
+        100,
+        8,
+        800,
+        40,
+        4
+      ],
+      "matches": true,
+      "display_variant": false
+    },
+    {
+      "name_zh": "皇家同花顺",
+      "canonical_id": "straight_flush",
+      "site_values": [
+        100,
+        8,
+        800,
+        40,
+        4
+      ],
+      "canonical_values": [
+        100,
+        8,
+        800,
+        40,
+        4
+      ],
+      "matches": true,
+      "display_variant": true
+    },
+    {
+      "name_zh": "五条",
+      "canonical_id": "five_of_a_kind",
+      "site_values": [
+        120,
+        12,
+        1440,
+        35,
+        3
+      ],
+      "canonical_values": [
+        120,
+        12,
+        1440,
+        35,
+        3
+      ],
+      "matches": true,
+      "display_variant": false
+    },
+    {
+      "name_zh": "同花葫芦",
+      "canonical_id": "flush_house",
+      "site_values": [
+        140,
+        14,
+        1960,
+        40,
+        4
+      ],
+      "canonical_values": [
+        140,
+        14,
+        1960,
+        40,
+        4
+      ],
+      "matches": true,
+      "display_variant": false
+    },
+    {
+      "name_zh": "同花五条",
+      "canonical_id": "flush_five",
+      "site_values": [
+        160,
+        16,
+        2560,
+        50,
+        3
+      ],
+      "canonical_values": [
+        160,
+        16,
+        2560,
+        50,
+        3
+      ],
+      "matches": true,
+      "display_variant": false
+    }
+  ],
+  "scope": "IDs, price, rarity, five numeric hand fields and finding reference integrity; not exhaustive effect, translation, unlock or runtime validation"
+}

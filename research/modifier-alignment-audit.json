@@ -1,0 +1,98 @@
+{
+  "checkedAt": "2026-11-08T03:35:28.081Z",
+  "sources": [
+    {
+      "id": "balatrohq-enhancements",
+      "url": "https://balatrohq.com/zh/enhancements/",
+      "status": 200,
+      "sha256": "6c00ad1514bdae93fcace013d30b05b882e2ea78d17f8fe1e8399824b7d96c03",
+      "snapshot": "balatrohq-enhancements.html",
+      "snapshotModifiedAt": "2026-11-08T02:55:00.456Z"
+    },
+    {
+      "id": "wiki-card-modifiers",
+      "url": "https://balatrowiki.org/w/Card_modifiers",
+      "status": 200,
+      "sha256": "ca444c9fb29dc2a9119d576417f7889e43d936485451c67316d5d641bac75709",
+      "snapshot": "wiki-card-modifiers.html",
+      "snapshotModifiedAt": "2026-11-08T03:23:32.404Z"
+    },
+    {
+      "id": "wiki-holographic",
+      "url": "https://balatrowiki.org/w/Holographic",
+      "status": 200,
+      "snapshot": "wiki-holographic.html",
+      "sha256": "3d05547a58866086d4025e85a697dd86720a563a7b5ad78f724280a3e0b0b309",
+      "snapshotModifiedAt": "2026-11-08T03:28:00.066Z"
+    },
+    {
+      "id": "wiki-foil",
+      "url": "https://balatrowiki.org/w/Foil",
+      "status": 200,
+      "snapshot": "wiki-foil.html",
+      "sha256": "88bb228f4c3b7d8c74cbe31b4bab1a2495b8451a0cc76e862387fe15525b5444",
+      "snapshotModifiedAt": "2026-11-08T03:32:21.357Z"
+    },
+    {
+      "id": "wiki-polychrome",
+      "url": "https://balatrowiki.org/w/Polychrome",
+      "status": 200,
+      "snapshot": "wiki-polychrome.html",
+      "sha256": "22eccc782abc945b5ac4cf253c0e7450e13c33e637b7a5716fc076ac60f436ae",
+      "snapshotModifiedAt": "2026-11-08T03:32:21.640Z"
+    },
+    {
+      "id": "wiki-negative",
+      "url": "https://balatrowiki.org/w/Negative",
+      "status": 200,
+      "snapshot": "wiki-negative.html",
+      "sha256": "fba7fa6d33be4db732438564192629e9b983a9a424f80463c47bbf22889f5347",
+      "snapshotModifiedAt": "2026-11-08T03:32:22.197Z"
+    }
+  ],
+  "counts": {
+    "enhancements": 8,
+    "nonBaseEditions": 4,
+    "seals": 4,
+    "total": 16,
+    "baseExcluded": true
+  },
+  "aliases": {
+    "Holographic": [
+      "全息"
+    ],
+    "Foil": [
+      "箔片"
+    ]
+  },
+  "restrictions": [
+    "Playing cards: one enhancement, one non-negative edition and one seal.",
+    "Jokers: edition and applicable stickers; no enhancement or seal.",
+    "Negative: Joker or specially generated consumable; no playing card."
+  ],
+  "before": {
+    "editions": "Four effects present; base is an extra state.",
+    "enhancements": "Only Glass had a dedicated treatment.",
+    "seals": "Four assets existed as standalone materials, not composited modifiers."
+  },
+  "after": {
+    "catalog": "16 entries in enhancement, edition and seal groups; original Simplified Chinese names.",
+    "composition": "Three independent dimensions, valid targets and three presets.",
+    "rules": "Visual only; full 16-modifier scoring and probabilities remain unimplemented.",
+    "gallery": "Five Joker editions including Base; playing cards exclude Negative. Glass appears only as a playing-card enhancement.",
+    "visuals": "Independent shared surface shaders matched to original Wiki references: concentric Foil, triangular Holographic, ink hue-shifting Polychrome, navy Negative. Previous floating projection is no longer loaded."
+  },
+  "originalSimplifiedChineseNames": {
+    "Foil": "闪箔",
+    "Holographic": "镭射",
+    "Polychrome": "多彩",
+    "Negative": "负片"
+  },
+  "aliasPolicy": "Legacy demo wording retained for search only; visible names use original Simplified Chinese localization.",
+  "visualUpdate": {
+    "at": "2026-11-08T04:00:17.707Z",
+    "documentation": "../../../docs/balatro/17-original-edition-finishes.md",
+    "references": "edition-references/manifest.json",
+    "comparison": "edition-visual-comparison.json"
+  }
+}

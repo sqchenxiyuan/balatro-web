@@ -1,0 +1,32 @@
+{
+  "at": "2026-11-08T03:55:56.669Z",
+  "reference": "edition-references/manifest.json",
+  "metric": "Mean absolute RGB error (0-255), opaque reference pixels, one static phase; previous screenshots resized to 142x190. This is a regression aid, not a fidelity percentage.",
+  "metrics": [
+    {
+      "id": "none",
+      "beforeMeanRGBError": 0,
+      "afterMeanRGBError": 0
+    },
+    {
+      "id": "foil",
+      "beforeMeanRGBError": 42.01397790631025,
+      "afterMeanRGBError": 22.499244437496742
+    },
+    {
+      "id": "holographic",
+      "beforeMeanRGBError": 30.30634151425147,
+      "afterMeanRGBError": 19.84500547131468
+    },
+    {
+      "id": "polychrome",
+      "beforeMeanRGBError": 68.21609087593143,
+      "afterMeanRGBError": 15.702777343546455
+    },
+    {
+      "id": "negative",
+      "beforeMeanRGBError": 36.40754780886874,
+      "afterMeanRGBError": 17.076481163045177
+    }
+  ]
+}

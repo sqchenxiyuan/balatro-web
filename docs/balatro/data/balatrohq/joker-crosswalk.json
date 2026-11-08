@@ -1,0 +1,4202 @@
+[
+  {
+    "id": "joker",
+    "name_en": "Joker",
+    "site_id": "joker",
+    "site_name_zh": "小丑",
+    "site_effect_zh": "+4 倍率",
+    "canonical_effect_en": "+4 Mult",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 2,
+    "site_cost": 2,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 1
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "greedy_joker",
+    "name_en": "Greedy Joker",
+    "site_id": "greedy-joker",
+    "site_name_zh": "贪婪小丑",
+    "site_effect_zh": "打出的方块牌计分时给予 +3 倍率",
+    "canonical_effect_en": "Played cards with Diamond suit give +3 Mult when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 2
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "lusty_joker",
+    "name_en": "Lusty Joker",
+    "site_id": "lusty-joker",
+    "site_name_zh": "色欲小丑",
+    "site_effect_zh": "打出的红桃牌计分时给予 +3 倍率",
+    "canonical_effect_en": "Played cards with Heart suit give +3 Mult when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 3
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "wrathful_joker",
+    "name_en": "Wrathful Joker",
+    "site_id": "wrathful-joker",
+    "site_name_zh": "愤怒小丑",
+    "site_effect_zh": "打出的黑桃牌计分时给予 +3 倍率",
+    "canonical_effect_en": "Played cards with Spade suit give +3 Mult when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 4
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "gluttonous_joker",
+    "name_en": "Gluttonous Joker",
+    "site_id": "gluttenous-joker",
+    "site_name_zh": "暴食小丑",
+    "site_effect_zh": "打出的梅花牌计分时给予 +3 倍率",
+    "canonical_effect_en": "Played cards with Club suit give +3 Mult when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 5
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "jolly_joker",
+    "name_en": "Jolly Joker",
+    "site_id": "jolly",
+    "site_name_zh": "开心小丑",
+    "site_effect_zh": "若打出的手牌包含对子，+8 倍率",
+    "canonical_effect_en": "+8 Mult if played hand contains a Pair",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 3,
+    "site_cost": 3,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 6
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "zany_joker",
+    "name_en": "Zany Joker",
+    "site_id": "zany",
+    "site_name_zh": "古怪小丑",
+    "site_effect_zh": "若打出的手牌包含三条，+12 倍率",
+    "canonical_effect_en": "+12 Mult if played hand contains a Three of a Kind",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 7
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "mad_joker",
+    "name_en": "Mad Joker",
+    "site_id": "mad",
+    "site_name_zh": "疯狂小丑",
+    "site_effect_zh": "若打出的手牌包含两对，+10 倍率",
+    "canonical_effect_en": "+10 Mult if played hand contains a Two Pair",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 8
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "crazy_joker",
+    "name_en": "Crazy Joker",
+    "site_id": "crazy",
+    "site_name_zh": "狂野小丑",
+    "site_effect_zh": "若打出的手牌包含顺子，+12 倍率",
+    "canonical_effect_en": "+12 Mult if played hand contains a Straight",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 9
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "droll_joker",
+    "name_en": "Droll Joker",
+    "site_id": "droll",
+    "site_name_zh": "滑稽小丑",
+    "site_effect_zh": "若打出的手牌包含同花，+10 倍率",
+    "canonical_effect_en": "+10 Mult if played hand contains a Flush",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 10
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "sly_joker",
+    "name_en": "Sly Joker",
+    "site_id": "sly",
+    "site_name_zh": "奸诈小丑",
+    "site_effect_zh": "若打出的手牌包含对子，+50 筹码",
+    "canonical_effect_en": "+50 Chips if played hand contains a Pair",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 3,
+    "site_cost": 3,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 11
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "wily_joker",
+    "name_en": "Wily Joker",
+    "site_id": "wily",
+    "site_name_zh": "狡猾小丑",
+    "site_effect_zh": "若打出的手牌包含三条，+100 筹码",
+    "canonical_effect_en": "+100 Chips if played hand contains a Three of a Kind",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 12
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "clever_joker",
+    "name_en": "Clever Joker",
+    "site_id": "clever",
+    "site_name_zh": "聪敏小丑",
+    "site_effect_zh": "若打出的手牌包含两对，+80 筹码",
+    "canonical_effect_en": "+80 Chips if played hand contains a Two Pair",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 13
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "devious_joker",
+    "name_en": "Devious Joker",
+    "site_id": "devious",
+    "site_name_zh": "阴险小丑",
+    "site_effect_zh": "若打出的手牌包含顺子，+100 筹码",
+    "canonical_effect_en": "+100 Chips if played hand contains a Straight",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 14
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "crafty_joker",
+    "name_en": "Crafty Joker",
+    "site_id": "crafty",
+    "site_name_zh": "精明小丑",
+    "site_effect_zh": "若打出的手牌包含同花，+80 筹码",
+    "canonical_effect_en": "+80 Chips if played hand contains a Flush",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 15
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "half_joker",
+    "name_en": "Half Joker",
+    "site_id": "half",
+    "site_name_zh": "半张小丑",
+    "site_effect_zh": "若打出的手牌包含 3 张或更少的牌，+20 倍率",
+    "canonical_effect_en": "+20 Mult if played hand contains 3 or fewer cards",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 16
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "joker_stencil",
+    "name_en": "Joker Stencil",
+    "site_id": "stencil",
+    "site_name_zh": "模具小丑",
+    "site_effect_zh": "每个空小丑牌槽位 ×1 倍率（含小丑模板自身）（当前 ×）",
+    "canonical_effect_en": "X1 Mult for each empty Joker slot Joker Stencil included (Currently X1)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 17
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "four_fingers",
+    "name_en": "Four Fingers",
+    "site_id": "four-fingers",
+    "site_name_zh": "四指",
+    "site_effect_zh": "所有同花和顺子可用 4 张牌组成",
+    "canonical_effect_en": "All Flushes and Straights can be made with 4 cards",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 18
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "mime",
+    "name_en": "Mime",
+    "site_id": "mime",
+    "site_name_zh": "哑剧演员",
+    "site_effect_zh": "重触发所有手中牌的能力",
+    "canonical_effect_en": "Retrigger all card held in hand abilities",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 19
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "credit_card",
+    "name_en": "Credit Card",
+    "site_id": "credit-card",
+    "site_name_zh": "信用卡",
+    "site_effect_zh": "可负债至 -$20",
+    "canonical_effect_en": "Go up to -$20 in debt",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 1,
+    "site_cost": 1,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 20
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "ceremonial_dagger",
+    "name_en": "Ceremonial Dagger",
+    "site_id": "ceremonial",
+    "site_name_zh": "仪式匕首",
+    "site_effect_zh": "选择盲注时，摧毁右侧的小丑牌并永久将其售价的两倍加到此倍率上（当前 + 倍率）",
+    "canonical_effect_en": "When Blind is selected, destroy Joker to the right and permanently add double its sell value to this Mult (Currently +0 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 21
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "banner",
+    "name_en": "Banner",
+    "site_id": "banner",
+    "site_name_zh": "旗帜",
+    "site_effect_zh": "每剩余 1 次弃牌 +30 筹码（当前 + 筹码）",
+    "canonical_effect_en": "+30 Chips for each remaining discard",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 22
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "mystic_summit",
+    "name_en": "Mystic Summit",
+    "site_id": "mystic-summit",
+    "site_name_zh": "神秘之峰",
+    "site_effect_zh": "剩余弃牌次数为 0 时 +15 倍率",
+    "canonical_effect_en": "+15 Mult when 0 discards remaining",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 23
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "marble_joker",
+    "name_en": "Marble Joker",
+    "site_id": "marble",
+    "site_name_zh": "大理石小丑",
+    "site_effect_zh": "选择盲注时向牌库添加一张石头牌",
+    "canonical_effect_en": "Adds one Stone card to the deck when Blind is selected",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 24
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "loyalty_card",
+    "name_en": "Loyalty Card",
+    "site_id": "loyalty-card",
+    "site_name_zh": "积分卡",
+    "site_effect_zh": "每打出 6 次手牌 ×4 倍率（剩余 次）",
+    "canonical_effect_en": "X4 Mult every 6 hands played 5 remaining",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 25
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "8_ball",
+    "name_en": "8 Ball",
+    "site_id": "8-ball",
+    "site_name_zh": "八号球",
+    "site_effect_zh": "每张打出的8有 1/4 概率在计分时生成一张消耗牌",
+    "canonical_effect_en": "1 in 4 chance for each played 8 to create a Tarot card when scored (Must have room)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 26
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "misprint",
+    "name_en": "Misprint",
+    "site_id": "misprint",
+    "site_name_zh": "印错小丑",
+    "site_effect_zh": "+0 - +23 倍率",
+    "canonical_effect_en": "+0-23 Mult",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 27
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "dusk",
+    "name_en": "Dusk",
+    "site_id": "dusk",
+    "site_name_zh": "黄昏",
+    "site_effect_zh": "重触发回合最后一手牌中所有打出的牌",
+    "canonical_effect_en": "Retrigger all played cards in final hand of the round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 28
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "raised_fist",
+    "name_en": "Raised Fist",
+    "site_id": "raised-fist",
+    "site_name_zh": "致胜之拳",
+    "site_effect_zh": "将手中最低点数牌的点数加倍后加到倍率上",
+    "canonical_effect_en": "Adds double the rank of lowest ranked card held in hand to Mult",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 29
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "chaos_the_clown",
+    "name_en": "Chaos the Clown",
+    "site_id": "chaos",
+    "site_name_zh": "混沌小丑",
+    "site_effect_zh": "每个商店 1 次免费重随",
+    "canonical_effect_en": "1 free Reroll per shop",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 30
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "fibonacci",
+    "name_en": "Fibonacci",
+    "site_id": "fibonacci",
+    "site_name_zh": "斐波那契",
+    "site_effect_zh": "每张打出的A、2、3、5或8计分时给予 +8 倍率",
+    "canonical_effect_en": "Each played Ace, 2, 3, 5, or 8 gives +8 Mult when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 31
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "steel_joker",
+    "name_en": "Steel Joker",
+    "site_id": "steel-joker",
+    "site_name_zh": "钢铁小丑",
+    "site_effect_zh": "完整牌库中每张钢铁牌此小丑牌 ×0.2 倍率（当前 × 倍率）",
+    "canonical_effect_en": "Gives X0.2 Mult for each Steel Card in your full deck (Currently X1 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 32
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "scary_face",
+    "name_en": "Scary Face",
+    "site_id": "scary-face",
+    "site_name_zh": "恐怖面孔",
+    "site_effect_zh": "打出的人头牌计分时给予 +30 筹码",
+    "canonical_effect_en": "Played face cards give +30 Chips when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 33
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "abstract_joker",
+    "name_en": "Abstract Joker",
+    "site_id": "abstract",
+    "site_name_zh": "抽象小丑",
+    "site_effect_zh": "每张小丑牌 +3 倍率",
+    "canonical_effect_en": "+3 Mult for each Joker card (Currently +0 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 34
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "delayed_gratification",
+    "name_en": "Delayed Gratification",
+    "site_id": "delayed-grat",
+    "site_name_zh": "延迟满足",
+    "site_effect_zh": "若本回合结束时未使用弃牌，每次弃牌获得 $2",
+    "canonical_effect_en": "Earn $2 per discard if no discards are used by end of the round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 35
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "hack",
+    "name_en": "Hack",
+    "site_id": "hack",
+    "site_name_zh": "烂脱口秀演员",
+    "site_effect_zh": "重触发每张打出的2、3、4或5",
+    "canonical_effect_en": "Retrigger each played 2, 3, 4, or 5",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 36
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "pareidolia",
+    "name_en": "Pareidolia",
+    "site_id": "pareidolia",
+    "site_name_zh": "幻视",
+    "site_effect_zh": "所有牌均视为人头牌",
+    "canonical_effect_en": "All cards are considered face cards",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 37
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "gros_michel",
+    "name_en": "Gros Michel",
+    "site_id": "gros-michel",
+    "site_name_zh": "大麦克香蕉",
+    "site_effect_zh": "+15 倍率，此牌有 1/6 概率在回合结束时被摧毁",
+    "canonical_effect_en": "+15 Mult 1 in 6 chance this card is destroyed at end of round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 38
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "even_steven",
+    "name_en": "Even Steven",
+    "site_id": "even-steven",
+    "site_name_zh": "偶数史蒂文",
+    "site_effect_zh": "打出的偶数点数牌计分时给予 +4 倍率（10、8、6、4、2）",
+    "canonical_effect_en": "Played cards with even rank give +4 Mult when scored (10, 8, 6, 4, 2)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 39
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "odd_todd",
+    "name_en": "Odd Todd",
+    "site_id": "odd-todd",
+    "site_name_zh": "奇数托德",
+    "site_effect_zh": "打出的奇数点数牌计分时给予 +31 筹码（A、9、7、5、3）",
+    "canonical_effect_en": "Played cards with odd rank give +31 Chips when scored (A, 9, 7, 5, 3)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 40
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "scholar",
+    "name_en": "Scholar",
+    "site_id": "scholar",
+    "site_name_zh": "学者",
+    "site_effect_zh": "打出的A计分时给予 +20 筹码和 +4 倍率",
+    "canonical_effect_en": "Played Aces give +20 Chips and +4 Mult when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 41
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "business_card",
+    "name_en": "Business Card",
+    "site_id": "business",
+    "site_name_zh": "名片",
+    "site_effect_zh": "打出的人头牌计分时有 1/2 概率给予 $2",
+    "canonical_effect_en": "Played face cards have a 1 in 2 chance to give $2 when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 42
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "supernova",
+    "name_en": "Supernova",
+    "site_id": "supernova",
+    "site_name_zh": "超新星",
+    "site_effect_zh": "将该牌型已打出的次数加到倍率上",
+    "canonical_effect_en": "Adds the number of times poker hand has been played this run to Mult",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 43
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "ride_the_bus",
+    "name_en": "Ride the Bus",
+    "site_id": "ride-the-bus",
+    "site_name_zh": "搭乘巴士",
+    "site_effect_zh": "每连续打出 1 次不含计分人头牌的手牌此小丑牌 +1 倍率（当前 +）",
+    "canonical_effect_en": "This Joker gains +1 Mult per consecutive hand played without a scoring face card (Currently +0 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 44
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "space_joker",
+    "name_en": "Space Joker",
+    "site_id": "space",
+    "site_name_zh": "太空小丑",
+    "site_effect_zh": "有 1/4 概率提升打出牌型的等级",
+    "canonical_effect_en": "1 in 4 chance to upgrade level of played poker hand",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 45
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "egg",
+    "name_en": "Egg",
+    "site_id": "egg",
+    "site_name_zh": "鸡蛋",
+    "site_effect_zh": "回合结束时售价 +$3",
+    "canonical_effect_en": "Gains $3 of sell value at end of round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 46
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "burglar",
+    "name_en": "Burglar",
+    "site_id": "burglar",
+    "site_name_zh": "窃贼",
+    "site_effect_zh": "选择盲注时，获得 +3 次出牌并失去所有弃牌",
+    "canonical_effect_en": "When Blind is selected, gain +3 Hands and lose all discards",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 47
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "blackboard",
+    "name_en": "Blackboard",
+    "site_id": "blackboard",
+    "site_name_zh": "黑板",
+    "site_effect_zh": "若手中所有牌均为黑桃或梅花，×3 倍率",
+    "canonical_effect_en": "X3 Mult if all cards held in hand are Spades or Clubs",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 48
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "runner",
+    "name_en": "Runner",
+    "site_id": "runner",
+    "site_name_zh": "跑步选手",
+    "site_effect_zh": "若打出的手牌包含顺子 +15 筹码（当前 + 筹码）",
+    "canonical_effect_en": "Gains +15 Chips if played hand contains a Straight (Currently +0 Chips)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 49
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "ice_cream",
+    "name_en": "Ice Cream",
+    "site_id": "ice-cream",
+    "site_name_zh": "冰淇淋",
+    "site_effect_zh": "+100 筹码，每打出一手牌 -5 筹码",
+    "canonical_effect_en": "+100 Chips -5 Chips for every hand played",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 50
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "dna",
+    "name_en": "DNA",
+    "site_id": "dna",
+    "site_name_zh": "DNA",
+    "site_effect_zh": "若回合的首次出牌只有 1 张牌，将其永久复制一份加入牌库并抽到手中",
+    "canonical_effect_en": "If first hand of round has only 1 card, add a permanent copy to deck and draw it to hand",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 51
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "splash",
+    "name_en": "Splash",
+    "site_id": "splash",
+    "site_name_zh": "飞溅",
+    "site_effect_zh": "每张打出的牌都参与计分",
+    "canonical_effect_en": "Every played card counts in scoring",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 3,
+    "site_cost": 3,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 52
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "blue_joker",
+    "name_en": "Blue Joker",
+    "site_id": "blue-joker",
+    "site_name_zh": "蓝色小丑",
+    "site_effect_zh": "牌库中每剩余 1 张牌 +2 筹码（当前 + 筹码）",
+    "canonical_effect_en": "+2 Chips for each remaining card in deck (Currently +104 Chips)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 53
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "sixth_sense",
+    "name_en": "Sixth Sense",
+    "site_id": "sixth-sense",
+    "site_name_zh": "第六感",
+    "site_effect_zh": "若回合的首次出牌为单张6，摧毁它并生成一张幻灵牌",
+    "canonical_effect_en": "If first hand of round is a single 6, destroy it and create a Spectral card (Must have room)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 54
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "constellation",
+    "name_en": "Constellation",
+    "site_id": "constellation",
+    "site_name_zh": "星座",
+    "site_effect_zh": "每使用 1 张星球牌此小丑牌 ×0.1 倍率（当前 × 倍率）",
+    "canonical_effect_en": "This Joker gains X0.1 Mult every time a Planet card is used (Currently X1 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 55
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "hiker",
+    "name_en": "Hiker",
+    "site_id": "hiker",
+    "site_name_zh": "徒步者",
+    "site_effect_zh": "每张打出的牌计分时永久 +5 筹码",
+    "canonical_effect_en": "Every played card permanently gains +5 Chips when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 56
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "faceless_joker",
+    "name_en": "Faceless Joker",
+    "site_id": "faceless",
+    "site_name_zh": "无面小丑",
+    "site_effect_zh": "若同时弃掉 3 张或更多人头牌，获得 $5",
+    "canonical_effect_en": "Earn $5 if 3 or more face cards are discarded at the same time",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 57
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "green_joker",
+    "name_en": "Green Joker",
+    "site_id": "green-joker",
+    "site_name_zh": "绿色小丑",
+    "site_effect_zh": "每打出一手牌此小丑牌获得 +1 倍率，每次弃牌 -1 倍率",
+    "canonical_effect_en": "+1 Mult per hand played -1 Mult per discard (Currently +0 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 58
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "superposition",
+    "name_en": "Superposition",
+    "site_id": "superposition",
+    "site_name_zh": "叠加态",
+    "site_effect_zh": "若打出的牌型包含一张A和一个顺子，生成一张塔罗牌",
+    "canonical_effect_en": "Create a Tarot card if poker hand contains an Ace and a Straight (Must have room)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 59
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "to_do_list",
+    "name_en": "To Do List",
+    "site_id": "todo-list",
+    "site_name_zh": "待办清单",
+    "site_effect_zh": "若打出的牌型为指定牌型获得 $4，牌型在回合结束时变化",
+    "canonical_effect_en": "Earn $4 if poker hand is a [Poker Hand], poker hand changes at end of round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 60
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "cavendish",
+    "name_en": "Cavendish",
+    "site_id": "cavendish",
+    "site_name_zh": "卡文迪什",
+    "site_effect_zh": "×3 倍率，此牌有 1/1000 概率在回合结束时被摧毁",
+    "canonical_effect_en": "X3 Mult 1 in 1000 chance this card is destroyed at the end of round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 61
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "card_sharp",
+    "name_en": "Card Sharp",
+    "site_id": "card-sharp",
+    "site_name_zh": "老千小丑",
+    "site_effect_zh": "若打出的牌型本回合已打出过，×3 倍率",
+    "canonical_effect_en": "X3 Mult if played poker hand has already been played this round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 62
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "red_card",
+    "name_en": "Red Card",
+    "site_id": "red-card",
+    "site_name_zh": "红牌",
+    "site_effect_zh": "每跳过 1 个补充包此小丑牌 +3 倍率（当前 + 倍率）",
+    "canonical_effect_en": "This Joker gains +3 Mult when any Booster Pack is skipped (Currently +0 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 63
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "madness",
+    "name_en": "Madness",
+    "site_id": "madness",
+    "site_name_zh": "疯狂",
+    "site_effect_zh": "选择小盲注或大盲注时，×0.5 倍率并摧毁一张随机小丑牌（当前 ×）",
+    "canonical_effect_en": "When Small Blind or Big Blind is selected, gain X0.5 Mult and destroy a random Joker (Currently X1 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 64
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "square_joker",
+    "name_en": "Square Joker",
+    "site_id": "square",
+    "site_name_zh": "方形小丑",
+    "site_effect_zh": "若打出的手牌恰好为 4 张牌此小丑牌 +4 筹码（当前 + 筹码）",
+    "canonical_effect_en": "This Joker gains +4 Chips if played hand has exactly 4 cards (Currently 0 Chips)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 65
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "s_ance",
+    "name_en": "Séance",
+    "site_id": "seance",
+    "site_name_zh": "通灵",
+    "site_effect_zh": "若打出的牌型为同花顺，生成一张随机幻灵牌（须有空位）",
+    "canonical_effect_en": "If poker hand is a Straight Flush, create a random Spectral card (Must have room)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 66
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "riff_raff",
+    "name_en": "Riff-Raff",
+    "site_id": "riff-raff",
+    "site_name_zh": "乌合之众",
+    "site_effect_zh": "选择盲注时，生成 2 张小丑牌",
+    "canonical_effect_en": "When Blind is selected, create 2 Common Jokers (Must have room)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 67
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "vampire",
+    "name_en": "Vampire",
+    "site_id": "vampire",
+    "site_name_zh": "吸血鬼",
+    "site_effect_zh": "每打出 1 张计分的增强牌此小丑牌 ×0.1 倍率，并移除该牌的增强（当前 × 倍率）",
+    "canonical_effect_en": "This Joker gains X0.1 Mult per scoring Enhanced card played, removes card Enhancement (Currently X1 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 68
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "shortcut",
+    "name_en": "Shortcut",
+    "site_id": "shortcut",
+    "site_name_zh": "捷径",
+    "site_effect_zh": "允许顺子之间存在 1 个点数的间隔（例：10 8 6 5 3）",
+    "canonical_effect_en": "Allows Straights to be made with gaps of 1 rank (ex: 10 8 6 5 3)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 69
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "hologram",
+    "name_en": "Hologram",
+    "site_id": "hologram",
+    "site_name_zh": "全息影像",
+    "site_effect_zh": "每向牌库添加 1 张牌此小丑牌 ×0.25 倍率（当前 × 倍率）",
+    "canonical_effect_en": "This Joker gains X0.25 Mult every time a playing card is added to your deck (Currently X1 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 70
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "vagabond",
+    "name_en": "Vagabond",
+    "site_id": "vagabond",
+    "site_name_zh": "流浪者",
+    "site_effect_zh": "若打出手牌时持有 $4 或更少，生成一张塔罗牌",
+    "canonical_effect_en": "Create a Tarot card if hand is played with $4 or less",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 71
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "baron",
+    "name_en": "Baron",
+    "site_id": "baron",
+    "site_name_zh": "男爵",
+    "site_effect_zh": "手中每张K给予 ×1.5 倍率",
+    "canonical_effect_en": "Each King held in hand gives X1.5 Mult",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 72
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "cloud_9",
+    "name_en": "Cloud 9",
+    "site_id": "cloud-9",
+    "site_name_zh": "9霄云外",
+    "site_effect_zh": "回合结束时完整牌库中每张9获得 $1（当前 $）",
+    "canonical_effect_en": "Earn $1 for each 9 in your full deck at end of round (Currently $4)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 73
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "rocket",
+    "name_en": "Rocket",
+    "site_id": "rocket",
+    "site_name_zh": "火箭",
+    "site_effect_zh": "回合结束时获得 $1。击败Boss盲注时 +$2",
+    "canonical_effect_en": "Earn $1 at end of round. Payout increases by $2 when Boss Blind is defeated",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 74
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "obelisk",
+    "name_en": "Obelisk",
+    "site_id": "obelisk",
+    "site_name_zh": "方尖石塔",
+    "site_effect_zh": "每连续打出 1 次不含你最常打出牌型的手牌此小丑牌 ×0.2 倍率（当前 × 倍率）",
+    "canonical_effect_en": "This Joker gains X0.2 Mult per consecutive hand played without playing your most played poker hand (Currently X1 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 75
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "midas_mask",
+    "name_en": "Midas Mask",
+    "site_id": "midas-mask",
+    "site_name_zh": "迈达斯面具",
+    "site_effect_zh": "所有打出的人头牌计分时变为金色牌",
+    "canonical_effect_en": "All played face cards become Gold cards when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 76
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "luchador",
+    "name_en": "Luchador",
+    "site_id": "luchador",
+    "site_name_zh": "摔跤手",
+    "site_effect_zh": "售出此牌以禁用当前Boss盲注",
+    "canonical_effect_en": "Sell this card to disable the current Boss Blind",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 77
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "photograph",
+    "name_en": "Photograph",
+    "site_id": "photograph",
+    "site_name_zh": "照片",
+    "site_effect_zh": "首张打出的人头牌计分时给予 ×2 倍率",
+    "canonical_effect_en": "First played face card gives X2 Mult when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 78
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "gift_card",
+    "name_en": "Gift Card",
+    "site_id": "gift",
+    "site_name_zh": "礼品卡",
+    "site_effect_zh": "回合结束时，每张小丑牌和消耗牌售价 +$1",
+    "canonical_effect_en": "Add $1 of sell value to every Joker and Consumable card at end of round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 79
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "turtle_bean",
+    "name_en": "Turtle Bean",
+    "site_id": "turtle-bean",
+    "site_name_zh": "黑龟豆",
+    "site_effect_zh": "+5 手牌上限，每回合减少 1",
+    "canonical_effect_en": "+5 hand size, reduces by 1 each round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 80
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "erosion",
+    "name_en": "Erosion",
+    "site_id": "erosion",
+    "site_name_zh": "侵蚀",
+    "site_effect_zh": "牌库总数每少于 52 张一张就 +4 倍率",
+    "canonical_effect_en": "+4 Mult for each card below [the deck's starting size] in your full deck (Currently +0 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 81
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "reserved_parking",
+    "name_en": "Reserved Parking",
+    "site_id": "reserved-parking",
+    "site_name_zh": "私人车位",
+    "site_effect_zh": "手中每张人头牌有 1/2 概率给予 $1",
+    "canonical_effect_en": "Each face card held in hand has a 1 in 2 chance to give $1",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 82
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "mail_in_rebate",
+    "name_en": "Mail-In Rebate",
+    "site_id": "mail",
+    "site_name_zh": "邮件回扣",
+    "site_effect_zh": "每弃掉 1 张指定点数的牌获得 $5，点数每回合变化",
+    "canonical_effect_en": "Earn $5 for each discarded [rank], rank changes every round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 83
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "to_the_moon",
+    "name_en": "To the Moon",
+    "site_id": "to-the-moon",
+    "site_name_zh": "冲向月球",
+    "site_effect_zh": "回合结束时，每持有 $5 额外获得 $1 利息",
+    "canonical_effect_en": "Earn an extra $1 of interest for every $5 you have at end of round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 84
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "hallucination",
+    "name_en": "Hallucination",
+    "site_id": "hallucination",
+    "site_name_zh": "幻觉",
+    "site_effect_zh": "开启任意补充包时有 1/2 概率生成一张塔罗牌",
+    "canonical_effect_en": "1 in 2 chance to create a Tarot card when any Booster Pack is opened (Must have room)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 85
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "fortune_teller",
+    "name_en": "Fortune Teller",
+    "site_id": "fortune-teller",
+    "site_name_zh": "占卜师",
+    "site_effect_zh": "本局每使用 1 张塔罗牌 +1 倍率（当前 + 倍率）",
+    "canonical_effect_en": "+1 Mult per Tarot card used this run (Currently +0)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 86
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "juggler",
+    "name_en": "Juggler",
+    "site_id": "juggler",
+    "site_name_zh": "杂耍师",
+    "site_effect_zh": "+1 手牌上限",
+    "canonical_effect_en": "+1 hand size",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 87
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "drunkard",
+    "name_en": "Drunkard",
+    "site_id": "drunkard",
+    "site_name_zh": "醉汉",
+    "site_effect_zh": "+1 弃牌",
+    "canonical_effect_en": "+1 discard each round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 88
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "stone_joker",
+    "name_en": "Stone Joker",
+    "site_id": "stone",
+    "site_name_zh": "石头小丑",
+    "site_effect_zh": "完整牌库中每张石头牌此小丑牌 +25 筹码（当前 + 筹码）",
+    "canonical_effect_en": "Gives +25 Chips for each Stone Card in your full deck (Currently +0 Chips)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 89
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "golden_joker",
+    "name_en": "Golden Joker",
+    "site_id": "golden",
+    "site_name_zh": "黄金小丑",
+    "site_effect_zh": "回合结束时获得 $4",
+    "canonical_effect_en": "Earn $4 at end of round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 90
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "lucky_cat",
+    "name_en": "Lucky Cat",
+    "site_id": "lucky-cat",
+    "site_name_zh": "招财猫",
+    "site_effect_zh": "每成功触发 1 张幸运牌此小丑牌 ×0.25 倍率（当前 × 倍率）",
+    "canonical_effect_en": "This Joker gains X0.25 Mult every time a Lucky card successfully triggers (Currently X1 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 91
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "baseball_card",
+    "name_en": "Baseball Card",
+    "site_id": "baseball",
+    "site_name_zh": "棒球卡",
+    "site_effect_zh": "每张罕见小丑牌给予 ×1.5 倍率",
+    "canonical_effect_en": "Uncommon Jokers each give X1.5 Mult",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 92
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "bull",
+    "name_en": "Bull",
+    "site_id": "bull",
+    "site_name_zh": "斗牛",
+    "site_effect_zh": "每持有 $1 +2 筹码（当前 + 筹码）",
+    "canonical_effect_en": "+2 Chips for each $1 you have (Currently +0 Chips)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 93
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "diet_cola",
+    "name_en": "Diet Cola",
+    "site_id": "diet-cola",
+    "site_name_zh": "零糖可乐",
+    "site_effect_zh": "售出此牌以生成一个免费的双倍标签",
+    "canonical_effect_en": "Sell this card to create a free Double Tag",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 94
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "trading_card",
+    "name_en": "Trading Card",
+    "site_id": "trading",
+    "site_name_zh": "交易卡",
+    "site_effect_zh": "若回合的首次弃牌只有 1 张牌，摧毁它并获得 $3",
+    "canonical_effect_en": "If first discard of round has only 1 card, destroy it and earn $3",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 95
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "flash_card",
+    "name_en": "Flash Card",
+    "site_id": "flash",
+    "site_name_zh": "闪示卡",
+    "site_effect_zh": "每在商店中重随 1 次此小丑牌 +2 倍率（当前 + 倍率）",
+    "canonical_effect_en": "This Joker gains +2 Mult per reroll in the shop (Currently +0 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 96
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "popcorn",
+    "name_en": "Popcorn",
+    "site_id": "popcorn",
+    "site_name_zh": "爆米花",
+    "site_effect_zh": "+20 倍率，每过一回合 -4 倍率",
+    "canonical_effect_en": "+20 Mult -4 Mult per round played",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 97
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "spare_trousers",
+    "name_en": "Spare Trousers",
+    "site_id": "trousers",
+    "site_name_zh": "备用裤子",
+    "site_effect_zh": "若打出的手牌包含两对此小丑牌 +2 倍率（当前 + 倍率）",
+    "canonical_effect_en": "This Joker gains +2 Mult if played hand contains a Two Pair (Currently +0 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 98
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "ancient_joker",
+    "name_en": "Ancient Joker",
+    "site_id": "ancient",
+    "site_name_zh": "古老小丑",
+    "site_effect_zh": "每张打出的指定花色的牌计分时给予 ×1.5 倍率，花色在回合结束时变化",
+    "canonical_effect_en": "Each played card with [suit] gives X1.5 Mult when scored, suit changes at end of round",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 99
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "ramen",
+    "name_en": "Ramen",
+    "site_id": "ramen",
+    "site_name_zh": "拉面",
+    "site_effect_zh": "×2 倍率，每弃掉 1 张牌 -0.01 倍率",
+    "canonical_effect_en": "X2 Mult, loses X0.01 Mult per card discarded",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 100
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "walkie_talkie",
+    "name_en": "Walkie Talkie",
+    "site_id": "walkie-talkie",
+    "site_name_zh": "对讲机",
+    "site_effect_zh": "每张打出的10或4计分时给予 +10 筹码和 +4 倍率",
+    "canonical_effect_en": "Each played 10 or 4 gives +10 Chips and +4 Mult when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 101
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "seltzer",
+    "name_en": "Seltzer",
+    "site_id": "selzer",
+    "site_name_zh": "苏打水",
+    "site_effect_zh": "接下来 10 次出牌中重触发所有打出的牌",
+    "canonical_effect_en": "Retrigger all cards played for the next 10 hands",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 102
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "castle",
+    "name_en": "Castle",
+    "site_id": "castle",
+    "site_name_zh": "城堡",
+    "site_effect_zh": "每弃掉 1 张指定花色的牌此小丑牌 +3 筹码，花色每回合变化（当前 + 筹码）",
+    "canonical_effect_en": "This Joker gains +3 Chips per discarded [suit] card, suit changes every round (Currently +0 Chips)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 103
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "smiley_face",
+    "name_en": "Smiley Face",
+    "site_id": "smiley",
+    "site_name_zh": "微笑表情",
+    "site_effect_zh": "打出的人头牌计分时给予 +5 倍率",
+    "canonical_effect_en": "Played face cards give +5 Mult when scored",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 104
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "campfire",
+    "name_en": "Campfire",
+    "site_id": "campfire",
+    "site_name_zh": "篝火",
+    "site_effect_zh": "每售出 1 张牌此小丑牌 ×0.25 倍率，击败Boss盲注时重置（当前 × 倍率）",
+    "canonical_effect_en": "This Joker gains X0.25 Mult for each card sold, resets when Boss Blind is defeated (Currently X1 Mult)",
+    "canonical_unlock_en": "Available from start.",
+    "canonical_cost": 9,
+    "site_cost": 9,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 105
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "golden_ticket",
+    "name_en": "Golden Ticket",
+    "site_id": "ticket",
+    "site_name_zh": "黄金门票",
+    "site_effect_zh": "打出的金色牌计分时获得 $4",
+    "canonical_effect_en": "Played Gold cards earn $4 when scored",
+    "canonical_unlock_en": "Play a 5 card hand that contains only Gold cards",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 106
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "mr_bones",
+    "name_en": "Mr. Bones",
+    "site_id": "mr-bones",
+    "site_name_zh": "骷髅先生",
+    "site_effect_zh": "若计分筹码至少达到所需筹码的 25% 则阻止死亡，随后自毁",
+    "canonical_effect_en": "Prevents Death if chips scored are at least 25% of required chips self destructs",
+    "canonical_unlock_en": "Lose 5 runs",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 107
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "acrobat",
+    "name_en": "Acrobat",
+    "site_id": "acrobat",
+    "site_name_zh": "杂技演员",
+    "site_effect_zh": "回合最后一手牌时 ×3 倍率",
+    "canonical_effect_en": "X3 Mult on final hand of round",
+    "canonical_unlock_en": "Play 200 hands",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 108
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "sock_and_buskin",
+    "name_en": "Sock and Buskin",
+    "site_id": "sock-and-buskin",
+    "site_name_zh": "喜与悲",
+    "site_effect_zh": "重触发所有打出的人头牌",
+    "canonical_effect_en": "Retrigger all played face cards",
+    "canonical_unlock_en": "Play a total of 300 face cards",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 109
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "swashbuckler",
+    "name_en": "Swashbuckler",
+    "site_id": "swashbuckler",
+    "site_name_zh": "侠盗",
+    "site_effect_zh": "将所持其他所有小丑牌的售价加到倍率上",
+    "canonical_effect_en": "Adds the sell value of all other owned Jokers to Mult (Currently +1 Mult)",
+    "canonical_unlock_en": "Sell a total of 20 Joker cards",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 110
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "troubadour",
+    "name_en": "Troubadour",
+    "site_id": "troubadour",
+    "site_name_zh": "游吟诗人",
+    "site_effect_zh": "+2 手牌上限，每回合 -1 次出牌",
+    "canonical_effect_en": "+2 hand size, -1 hand each round",
+    "canonical_unlock_en": "Win 5 consecutive rounds by playing only 1 hand",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 111
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "certificate",
+    "name_en": "Certificate",
+    "site_id": "certificate",
+    "site_name_zh": "证书",
+    "site_effect_zh": "回合开始时，向手中添加一张带随机蜡封的随机牌",
+    "canonical_effect_en": "When round begins, add a random playing card with a random seal to your hand",
+    "canonical_unlock_en": "Have a Gold playing card with a Gold Seal",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 112
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "smeared_joker",
+    "name_en": "Smeared Joker",
+    "site_id": "smeared",
+    "site_name_zh": "模糊小丑",
+    "site_effect_zh": "红桃和方块视为同一花色，梅花和黑桃视为同一花色",
+    "canonical_effect_en": "Hearts and Diamonds count as the same suit, Spades and Clubs count as the same suit",
+    "canonical_unlock_en": "Have at least 3 Wild Card in your deck",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 113
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "throwback",
+    "name_en": "Throwback",
+    "site_id": "throwback",
+    "site_name_zh": "回溯",
+    "site_effect_zh": "本局每跳过 1 个盲注 ×0.25 倍率（当前 × 倍率）",
+    "canonical_effect_en": "X0.25 Mult for each Blind skipped this run (Currently X1 Mult)",
+    "canonical_unlock_en": "Continue a saved run from the main menu",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 114
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "hanging_chad",
+    "name_en": "Hanging Chad",
+    "site_id": "hanging-chad",
+    "site_name_zh": "未断选票",
+    "site_effect_zh": "首张参与计分的打出的牌额外重触发 2 次",
+    "canonical_effect_en": "Retrigger first played card used in scoring 2 additional times",
+    "canonical_unlock_en": "Beat a Boss Blind with a High Card",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 115
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "rough_gem",
+    "name_en": "Rough Gem",
+    "site_id": "rough-gem",
+    "site_name_zh": "璞玉",
+    "site_effect_zh": "打出的方块牌计分时获得 $1",
+    "canonical_effect_en": "Played cards with Diamond suit earn $1 when scored",
+    "canonical_unlock_en": "Have at least 30 cards with Diamond suit in your deck",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 116
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "bloodstone",
+    "name_en": "Bloodstone",
+    "site_id": "bloodstone",
+    "site_name_zh": "血石",
+    "site_effect_zh": "打出的方块牌计分时有 1/2 概率给予 ×1.5 倍率",
+    "canonical_effect_en": "1 in 2 chance for played cards with Heart suit to give X1.5 Mult when scored",
+    "canonical_unlock_en": "Have at least 30 cards with Heart suit in your deck",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 117
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "arrowhead",
+    "name_en": "Arrowhead",
+    "site_id": "arrowhead",
+    "site_name_zh": "箭头",
+    "site_effect_zh": "打出的黑桃牌计分时给予 +50 筹码",
+    "canonical_effect_en": "Played cards with Spade suit give +50 Chips when scored",
+    "canonical_unlock_en": "Have at least 30 cards with Spade suit in your deck",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 118
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "onyx_agate",
+    "name_en": "Onyx Agate",
+    "site_id": "onyx-agate",
+    "site_name_zh": "缟玛瑙",
+    "site_effect_zh": "打出的梅花牌计分时给予 +7 倍率",
+    "canonical_effect_en": "Played cards with Club suit give +7 Mult when scored",
+    "canonical_unlock_en": "Have at least 30 cards with Club suit in your deck",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 119
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "glass_joker",
+    "name_en": "Glass Joker",
+    "site_id": "glass",
+    "site_name_zh": "玻璃小丑",
+    "site_effect_zh": "每摧毁 1 张玻璃牌此小丑牌 ×0.75 倍率（当前 × 倍率）",
+    "canonical_effect_en": "This Joker gains X0.75 Mult for every Glass Card that is destroyed (Currently X1 Mult)",
+    "canonical_unlock_en": "Have at least 5 Glass Cards in your deck",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 120
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "showman",
+    "name_en": "Showman",
+    "site_id": "ring-master",
+    "site_name_zh": "马戏团长",
+    "site_effect_zh": "小丑牌、塔罗牌、星球牌和幻灵牌可重复出现",
+    "canonical_effect_en": "Joker, Tarot, Planet, and Spectral cards may appear multiple times",
+    "canonical_unlock_en": "Reach Ante level 4",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 121
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "flower_pot",
+    "name_en": "Flower Pot",
+    "site_id": "flower-pot",
+    "site_name_zh": "花盆",
+    "site_effect_zh": "若打出的牌型包含红桃、方块、梅花和黑桃各一张，×3 倍率",
+    "canonical_effect_en": "X3 Mult if poker hand contains a Diamond card, Club card, Heart card, and Spade card",
+    "canonical_unlock_en": "Reach Ante level 8",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 122
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "blueprint",
+    "name_en": "Blueprint",
+    "site_id": "blueprint",
+    "site_name_zh": "蓝图",
+    "site_effect_zh": "复制右侧小丑牌的能力",
+    "canonical_effect_en": "Copies ability of Joker to the right",
+    "canonical_unlock_en": "Win a run",
+    "canonical_cost": 10,
+    "site_cost": 10,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 123
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "wee_joker",
+    "name_en": "Wee Joker",
+    "site_id": "wee",
+    "site_name_zh": "小小丑",
+    "site_effect_zh": "每张打出的2计分时此小丑牌 +8 筹码（当前 + 筹码）",
+    "canonical_effect_en": "This Joker gains +8 Chips when each played 2 is scored (Currently +0 Chips)",
+    "canonical_unlock_en": "Win a run in 18 or fewer rounds",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 124
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "merry_andy",
+    "name_en": "Merry Andy",
+    "site_id": "merry-andy",
+    "site_name_zh": "快乐安迪",
+    "site_effect_zh": "+3 弃牌，-1 手牌上限",
+    "canonical_effect_en": "+3 discards each round, -1 hand size",
+    "canonical_unlock_en": "Win a run in 12 or fewer rounds",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 125
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "oops_all_6s",
+    "name_en": "Oops! All 6s",
+    "site_id": "oops",
+    "site_name_zh": "六六大顺",
+    "site_effect_zh": "所有列出的概率翻倍（例：1/3 -> 2/3）",
+    "canonical_effect_en": "Doubles all listed probabilities (ex: 1 in 3 -> 2 in 3)",
+    "canonical_unlock_en": "In one hand, earn at least 10,000 chips",
+    "canonical_cost": 4,
+    "site_cost": 4,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 126
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "the_idol",
+    "name_en": "The Idol",
+    "site_id": "idol",
+    "site_name_zh": "偶像",
+    "site_effect_zh": "每张打出的指定点数和花色的牌计分时给予 ×2 倍率，牌每回合变化",
+    "canonical_effect_en": "Each played [rank] of [suit] gives X2 Mult when scored Card changes every round",
+    "canonical_unlock_en": "In one hand, earn at least 1,000,000 chips",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 127
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "seeing_double",
+    "name_en": "Seeing Double",
+    "site_id": "seeing-double",
+    "site_name_zh": "重影",
+    "site_effect_zh": "若打出的手牌有一张计分的梅花牌和一张任意其他花色的计分牌，×2 倍率",
+    "canonical_effect_en": "X2 Mult if played hand has a scoring Club card and a scoring card of any other suit",
+    "canonical_unlock_en": "Play a hand that contains four 7 of Clubs",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 128
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "matador",
+    "name_en": "Matador",
+    "site_id": "matador",
+    "site_name_zh": "斗牛士",
+    "site_effect_zh": "若打出的手牌触发Boss盲注能力，获得 $8",
+    "canonical_effect_en": "Earn $8 if played hand triggers the Boss Blind ability",
+    "canonical_unlock_en": "Defeat a Boss Blind in 1 hand without using any discards",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 129
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "hit_the_road",
+    "name_en": "Hit the Road",
+    "site_id": "hit-the-road",
+    "site_name_zh": "上路吧杰克",
+    "site_effect_zh": "本回合每弃掉 1 张J此小丑牌 ×0.5 倍率（当前 ×）",
+    "canonical_effect_en": "This Joker gains X0.5 Mult for every Jack discarded this round (Currently X1 Mult)",
+    "canonical_unlock_en": "Discard 5 Jacks at the same time.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 130
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "the_duo",
+    "name_en": "The Duo",
+    "site_id": "duo",
+    "site_name_zh": "二重奏",
+    "site_effect_zh": "若打出的手牌包含对子，×2 倍率",
+    "canonical_effect_en": "X2 Mult if played hand contains a Pair",
+    "canonical_unlock_en": "Win a run without playing a Pair.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 131
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "the_trio",
+    "name_en": "The Trio",
+    "site_id": "trio",
+    "site_name_zh": "三重奏",
+    "site_effect_zh": "若打出的手牌包含三条，×3 倍率",
+    "canonical_effect_en": "X3 Mult if played hand contains a Three of a Kind",
+    "canonical_unlock_en": "Win a run without playing a Three of a Kind.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 132
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "the_family",
+    "name_en": "The Family",
+    "site_id": "family",
+    "site_name_zh": "一家人",
+    "site_effect_zh": "若打出的手牌包含四条，×4 倍率",
+    "canonical_effect_en": "X4 Mult if played hand contains a Four of a Kind",
+    "canonical_unlock_en": "Win a run without playing a Four of a Kind.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 133
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "the_order",
+    "name_en": "The Order",
+    "site_id": "order",
+    "site_name_zh": "秩序",
+    "site_effect_zh": "若打出的手牌包含顺子，×3 倍率",
+    "canonical_effect_en": "X3 Mult if played hand contains a Straight",
+    "canonical_unlock_en": "Win a run without playing a Straight.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 134
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "the_tribe",
+    "name_en": "The Tribe",
+    "site_id": "tribe",
+    "site_name_zh": "部落",
+    "site_effect_zh": "若打出的手牌包含同花，×2 倍率",
+    "canonical_effect_en": "X2 Mult if played hand contains a Flush",
+    "canonical_unlock_en": "Win a run without playing a Flush.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 135
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "stuntman",
+    "name_en": "Stuntman",
+    "site_id": "stuntman",
+    "site_name_zh": "特技演员",
+    "site_effect_zh": "+250 筹码，-2 手牌上限",
+    "canonical_effect_en": "+250 Chips, -2 hand size",
+    "canonical_unlock_en": "Earn at least 100 million (100,000,000) Chips in a single hand.",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 136
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "invisible_joker",
+    "name_en": "Invisible Joker",
+    "site_id": "invisible",
+    "site_name_zh": "隐形小丑",
+    "site_effect_zh": "2 回合后，售出此牌以复制一张随机小丑牌（当前 /2）",
+    "canonical_effect_en": "After 2 rounds, sell this card to Duplicate a random Joker (Currently 0/2) (Removes Negative from copy)",
+    "canonical_unlock_en": "Win a run without ever having more than 4 Jokers",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 137
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "brainstorm",
+    "name_en": "Brainstorm",
+    "site_id": "brainstorm",
+    "site_name_zh": "头脑风暴",
+    "site_effect_zh": "复制最左侧小丑牌的能力",
+    "canonical_effect_en": "Copies the ability of leftmost Joker",
+    "canonical_unlock_en": "Discard a Royal Flush.",
+    "canonical_cost": 10,
+    "site_cost": 10,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 138
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "satellite",
+    "name_en": "Satellite",
+    "site_id": "satellite",
+    "site_name_zh": "卫星",
+    "site_effect_zh": "回合结束时，本局每使用过 1 种不同的星球牌获得 $1（当前 $）",
+    "canonical_effect_en": "Earn $1 at end of round per unique Planet card used this run",
+    "canonical_unlock_en": "Have at least $400.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 139
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "shoot_the_moon",
+    "name_en": "Shoot the Moon",
+    "site_id": "shoot-the-moon",
+    "site_name_zh": "射月",
+    "site_effect_zh": "手中每张Q +13 倍率",
+    "canonical_effect_en": "Each Queen held in hand gives +13 Mult",
+    "canonical_unlock_en": "Play every Heart card in your deck in one round.",
+    "canonical_cost": 5,
+    "site_cost": 5,
+    "canonical_rarity": "Common",
+    "site_rarity": "common",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 140
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "driver_s_license",
+    "name_en": "Driver's License",
+    "site_id": "drivers-license",
+    "site_name_zh": "驾驶执照",
+    "site_effect_zh": "若牌库中至少有 16 张已增强的牌，则 ×3 倍率",
+    "canonical_effect_en": "X3 Mult if you have at least 16 Enhanced cards in your full deck (Currently 0)",
+    "canonical_unlock_en": "Enhance 16 cards in your deck",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 141
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "cartomancer",
+    "name_en": "Cartomancer",
+    "site_id": "cartomancer",
+    "site_name_zh": "卡牌术士",
+    "site_effect_zh": "选择盲注时生成一张塔罗牌",
+    "canonical_effect_en": "Create a Tarot card when Blind is selected (Must have room)",
+    "canonical_unlock_en": "Discover every Tarot card.",
+    "canonical_cost": 6,
+    "site_cost": 6,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 142
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "astronomer",
+    "name_en": "Astronomer",
+    "site_id": "astronomer",
+    "site_name_zh": "天文学家",
+    "site_effect_zh": "商店中所有星球牌和天体补充包免费",
+    "canonical_effect_en": "All Planet cards and Celestial Packs in the shop are free",
+    "canonical_unlock_en": "Discover every Planet card",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 143
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "burnt_joker",
+    "name_en": "Burnt Joker",
+    "site_id": "burnt",
+    "site_name_zh": "烧焦小丑",
+    "site_effect_zh": "提升每回合首次弃掉的牌型的等级",
+    "canonical_effect_en": "Upgrade the level of the first discarded poker hand each round",
+    "canonical_unlock_en": "Sell 50 cards.",
+    "canonical_cost": 8,
+    "site_cost": 8,
+    "canonical_rarity": "Rare",
+    "site_rarity": "rare",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 144
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "bootstraps",
+    "name_en": "Bootstraps",
+    "site_id": "bootstraps",
+    "site_name_zh": "提靴带",
+    "site_effect_zh": "每持有 $5 +2 倍率（当前 + 倍率）",
+    "canonical_effect_en": "+2 Mult for every $5 you have (Currently +0 Mult)",
+    "canonical_unlock_en": "Have at least 2 Polychrome Jokers at the same time.",
+    "canonical_cost": 7,
+    "site_cost": 7,
+    "canonical_rarity": "Uncommon",
+    "site_rarity": "uncommon",
+    "price_matches": true,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 145
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "canio",
+    "name_en": "Canio",
+    "site_id": "Canio",
+    "site_name_zh": "卡尼奥",
+    "site_effect_zh": "每摧毁 1 张人头牌此小丑牌 ×1 倍率（当前 × 倍率）",
+    "canonical_effect_en": "This Joker gains X1 Mult when a face card is destroyed (Currently X1 Mult)",
+    "canonical_unlock_en": "Find this Joker from the Soul card.",
+    "canonical_cost": null,
+    "site_cost": 20,
+    "canonical_rarity": "Legendary",
+    "site_rarity": "legendary",
+    "price_matches": null,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 146
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "triboulet",
+    "name_en": "Triboulet",
+    "site_id": "triboulet",
+    "site_name_zh": "特里布莱",
+    "site_effect_zh": "打出的K和Q计分时各给予 ×2 倍率",
+    "canonical_effect_en": "Played Kings and Queens each give X2 Mult when scored",
+    "canonical_unlock_en": "Find this Joker from the Soul card.",
+    "canonical_cost": null,
+    "site_cost": 20,
+    "canonical_rarity": "Legendary",
+    "site_rarity": "legendary",
+    "price_matches": null,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 147
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "yorick",
+    "name_en": "Yorick",
+    "site_id": "yorick",
+    "site_name_zh": "约里克",
+    "site_effect_zh": "每弃掉 23 张牌此小丑牌 ×1 倍率（当前 × 倍率）",
+    "canonical_effect_en": "This Joker gains X1 Mult every 23 [23] cards discarded (Currently X1 Mult)",
+    "canonical_unlock_en": "Find this Joker from the Soul card.",
+    "canonical_cost": null,
+    "site_cost": 20,
+    "canonical_rarity": "Legendary",
+    "site_rarity": "legendary",
+    "price_matches": null,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 148
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "chicot",
+    "name_en": "Chicot",
+    "site_id": "chicot",
+    "site_name_zh": "希科",
+    "site_effect_zh": "禁用每个Boss盲注的效果",
+    "canonical_effect_en": "Disables effect of every Boss Blind",
+    "canonical_unlock_en": "Find this Joker from the Soul card.",
+    "canonical_cost": null,
+    "site_cost": 20,
+    "canonical_rarity": "Legendary",
+    "site_rarity": "legendary",
+    "price_matches": null,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 149
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  },
+  {
+    "id": "perkeo",
+    "name_en": "Perkeo",
+    "site_id": "perkeo",
+    "site_name_zh": "帕奇欧",
+    "site_effect_zh": "离开商店时，复制你所持的 1 张随机消耗牌",
+    "canonical_effect_en": "Creates a Negative copy of 1 random consumable card in your possession at the end of the shop",
+    "canonical_unlock_en": "Find this Joker from the Soul card.",
+    "canonical_cost": null,
+    "site_cost": 20,
+    "canonical_rarity": "Legendary",
+    "site_rarity": "legendary",
+    "price_matches": null,
+    "rarity_matches": true,
+    "site_source": {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "html_sha256": "3284283a2e1ed5708ea62c34ceaee620fe9bdd718c88c034315b86c5013ccec0"
+    },
+    "canonical_source": {
+      "page_id": "Jokers",
+      "url": "https://balatrowiki.org/w/Jokers",
+      "wiki_revision_id": 30228,
+      "table_index": 1,
+      "row_index": 150
+    },
+    "translation_status": "community-reference-only; not verified original Simplified Chinese localization",
+    "effect_review": "not-exhaustive; see findings.json for known conflicts"
+  }
+]

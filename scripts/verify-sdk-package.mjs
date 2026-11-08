@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+import {writeFile,readFile,mkdir,mkdtemp} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url),root=new URL('../',import.meta.url),artifacts=new URL('artifacts/',root);
+await mkdir(artifacts,{recursive:true});
+const report={checks:[],ok:false};
+const npm=args=>execFileSync(process.execPath,[process.env.npm_execpath,...args],{cwd:fileURLToPath(root),encoding:'utf8',stdio:['ignore','pipe','pipe']});
+const check=name=>{report.checks.push(name);console.log('PASS',name);};
+try{
+ const [pack]=JSON.parse(npm(['pack','./dist-sdk','--pack-destination','artifacts','--json']));
+ const tarball=new URL(pack.filename,artifacts);report.sha256=createHash('sha256').update(await readFile(tarball)).digest('hex');report.tarball=pack.filename;report.size=pack.size;
+ for(const name of ['package.json','sdk.js','engine.js','strategy.js','types/sdk.d.ts','assets/jokers/joker.png','examples/basic-strategy.mjs','sdk-demo.html'])assert.ok(pack.files.some(f=>f.path===name),name);
+ assert.equal(pack.files.some(f=>/node_modules|src\/game-main|src\/main/.test(f.path)),false);check('npm tarball contains independent modules, declarations, artwork and example without the platform shell');
+ const dir=await mkdtemp(fileURLToPath(new URL('sdk-consumer-',artifacts))),base=new URL('file:///'+dir.replaceAll('\\','/')+'/');
+ await writeFile(new URL('package.json',base),JSON.stringify({name:'independent-sdk-consumer',private:true,type:'module'}));
+ npm(['install',fileURLToPath(tarball),'--prefix',dir,'--ignore-scripts','--no-audit','--no-fund','--package-lock=false']);
+ await writeFile(new URL('browser.ts',base),`import {mountBalatro,createStrategyRunner,type Strategy,type MountedGame} from '@game-rebuild/balatro';
+const strategy:Strategy=(state,{signal})=>signal.aborted?null:{type:'play',cardIds:state.hand.slice(0,5).map(c=>c.id)};
+const view:MountedGame=mountBalatro(document.createElement('div'),{seed:'CONSUMER'});
+const runner=createStrategyRunner(view,strategy);await runner.step();await runner.setStrategy(()=>null);view.destroy();`);
+ const compiler={target:'ES2022',module:'NodeNext',moduleResolution:'NodeNext',strict:true,noEmit:true,skipLibCheck:false,types:[]};
+ await writeFile(new URL('tsconfig.browser.json',base),JSON.stringify({compilerOptions:{...compiler,lib:['ES2022','DOM','DOM.Iterable']},files:['browser.ts']}));
+ execFileSync(process.execPath,[require.resolve('typescript/bin/tsc'),'-p',fileURLToPath(new URL('tsconfig.browser.json',base))],{encoding:'utf8'});check('installed package compiles in a separate TypeScript NodeNext browser project');
+ await writeFile(new URL('headless.ts',base),`import {createGame,type GamePort} from '@game-rebuild/balatro/engine';const game:GamePort=createGame({seed:'NODE'});game.dispatch({type:'select_blind'});const state=game.getState();const n:number=state.hand.length;`);
+ await writeFile(new URL('tsconfig.headless.json',base),JSON.stringify({compilerOptions:{...compiler,lib:['ES2022']},files:['headless.ts']}));
+ execFileSync(process.execPath,[require.resolve('typescript/bin/tsc'),'-p',fileURLToPath(new URL('tsconfig.headless.json',base))],{encoding:'utf8'});check('headless type graph compiles with no DOM lib or ambient framework types');
+ await writeFile(new URL('smoke.mjs',base),`import {createGame} from '@game-rebuild/balatro/engine';import {createStrategyRunner} from '@game-rebuild/balatro/strategy';const game=createGame({seed:'INSTALLED'});const runner=createStrategyRunner(game,()=>({type:'select_blind'}),{intervalMs:0});await runner.step();console.log(JSON.stringify({phase:game.getState().phase,steps:runner.getStatus().steps}));runner.destroy();`);
+ const smoke=JSON.parse(execFileSync(process.execPath,[fileURLToPath(new URL('smoke.mjs',base))],{encoding:'utf8'}));assert.deepEqual(smoke,{phase:'playing',steps:1});check('installed npm package runs the engine and strategy in an independent Node process');
+ report.ok=true;
+}finally{await writeFile(new URL('sdk-package-report.json',artifacts),JSON.stringify(report,null,2));}
+console.log(JSON.stringify(report));

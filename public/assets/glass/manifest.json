@@ -1,0 +1,1296 @@
+{
+  "method": "connected paper palette removal; clear substrate with surface ink",
+  "copyright": "Derived artwork retains the source attribution; see ../THIRD-PARTY.md.",
+  "items": [
+    {
+      "source": "card-S-A.png",
+      "ink": "glass/card-S-A-ink.png",
+      "source_sha256": "976b504b02e69849d519c4e17a6d8be0778b2fe5ce238931690c5bfd5d85e9dd",
+      "clear_fraction": 0.8875
+    },
+    {
+      "source": "card-S-2.png",
+      "ink": "glass/card-S-2-ink.png",
+      "source_sha256": "44e2ea9010cbe53c37e8c236e6fa807e62926369e00a3d09e9d37fb0f54ac7c5",
+      "clear_fraction": 0.9308
+    },
+    {
+      "source": "card-S-3.png",
+      "ink": "glass/card-S-3-ink.png",
+      "source_sha256": "ecaadff858a32d6217cbaf4137f258a8bc74037f2ca405499f2de0419ccf432d",
+      "clear_fraction": 0.9234
+    },
+    {
+      "source": "card-S-4.png",
+      "ink": "glass/card-S-4-ink.png",
+      "source_sha256": "d31ed7d0fad059dee97c419ee718f17d2a7e6f5c7485e4f4ef7bf6adaedcd784",
+      "clear_fraction": 0.9183
+    },
+    {
+      "source": "card-S-5.png",
+      "ink": "glass/card-S-5-ink.png",
+      "source_sha256": "9a57d8fdb51a5d480df07e4351010547ad6ffdd72054f23cc4fda0a486f12054",
+      "clear_fraction": 0.9121
+    },
+    {
+      "source": "card-S-6.png",
+      "ink": "glass/card-S-6-ink.png",
+      "source_sha256": "6ef8e4db5e8ad6a59b9690b50bfa37f03bd61377e25c582d75da7a4f58589e27",
+      "clear_fraction": 0.9062
+    },
+    {
+      "source": "card-S-7.png",
+      "ink": "glass/card-S-7-ink.png",
+      "source_sha256": "d66f2da9b7cb4edc9d4c90d998865efb9b5fb491edfded3fd8702e7b21c0dbea",
+      "clear_fraction": 0.9041
+    },
+    {
+      "source": "card-S-8.png",
+      "ink": "glass/card-S-8-ink.png",
+      "source_sha256": "bb17b3efd1d7000e280db59649c58a98ed4e8dbc834cc72182b513281036190e",
+      "clear_fraction": 0.8943
+    },
+    {
+      "source": "card-S-9.png",
+      "ink": "glass/card-S-9-ink.png",
+      "source_sha256": "84de97fc32236c01d12f388bdaf48378fb84ee0af089821fc00aa02674e94fbb",
+      "clear_fraction": 0.8884
+    },
+    {
+      "source": "card-S-10.png",
+      "ink": "glass/card-S-10-ink.png",
+      "source_sha256": "ff8bf155c13e8ef30428bdb49b8071709178cdc09ef03bd5d6ded132b4b88c26",
+      "clear_fraction": 0.8744
+    },
+    {
+      "source": "card-S-J.png",
+      "ink": "glass/card-S-J-ink.png",
+      "source_sha256": "b1e117528544599fdd1da2de3ee168e5d0ed28143e851e629741c4832177ed10",
+      "clear_fraction": 0.7389
+    },
+    {
+      "source": "card-S-Q.png",
+      "ink": "glass/card-S-Q-ink.png",
+      "source_sha256": "17a2fcd8ae384333914ab78e9d0cace2e6dd37bf657414aef9e9cbadac258e03",
+      "clear_fraction": 0.7357
+    },
+    {
+      "source": "card-S-K.png",
+      "ink": "glass/card-S-K-ink.png",
+      "source_sha256": "0def4b8b6a6e84a3d1b38e18c7c4c2f5b11bcb02bad26a3234f1c9e587893762",
+      "clear_fraction": 0.7357
+    },
+    {
+      "source": "card-H-A.png",
+      "ink": "glass/card-H-A-ink.png",
+      "source_sha256": "b1ea7d8504eba4645dcc0e049c852eb9f8170189b8d2c1f7105b3fe20b2bd44a",
+      "clear_fraction": 0.8869
+    },
+    {
+      "source": "card-H-2.png",
+      "ink": "glass/card-H-2-ink.png",
+      "source_sha256": "d32619c3e85764e09b64d431d1aa04356b500dc3b87e7119c99f3f4b82e145b2",
+      "clear_fraction": 0.9314
+    },
+    {
+      "source": "card-H-3.png",
+      "ink": "glass/card-H-3-ink.png",
+      "source_sha256": "290ec939a6ee1dd0943e98bf84271dcf75e05f2f3f3088c9b32cea8a313897d4",
+      "clear_fraction": 0.9245
+    },
+    {
+      "source": "card-H-4.png",
+      "ink": "glass/card-H-4-ink.png",
+      "source_sha256": "c5c62c6f769148ee663f03a3957c4788fdbd24bfdce2869c6af119b3b1eb570d",
+      "clear_fraction": 0.9183
+    },
+    {
+      "source": "card-H-5.png",
+      "ink": "glass/card-H-5-ink.png",
+      "source_sha256": "0d0f263ce6065228cd7dbe8185569ee2deca201a20b46be0f416357001a906f3",
+      "clear_fraction": 0.9127
+    },
+    {
+      "source": "card-H-6.png",
+      "ink": "glass/card-H-6-ink.png",
+      "source_sha256": "53a3fcd225e46ce1c3164c78dac0efcd8c8791f1a703366ccabefa079f2666e1",
+      "clear_fraction": 0.907
+    },
+    {
+      "source": "card-H-7.png",
+      "ink": "glass/card-H-7-ink.png",
+      "source_sha256": "f4be3df09d465aff067790bc0aed956cc131d73fbb6a7a3023f0aa2d0bef1ff0",
+      "clear_fraction": 0.9041
+    },
+    {
+      "source": "card-H-8.png",
+      "ink": "glass/card-H-8-ink.png",
+      "source_sha256": "ba219eb371e1aeca83de63e13e987e1b855e9746e41eb1afb1061091cdb973d1",
+      "clear_fraction": 0.8943
+    },
+    {
+      "source": "card-H-9.png",
+      "ink": "glass/card-H-9-ink.png",
+      "source_sha256": "3391d77facfeaea1d675d28ae31f1c4f4ef57a77400dc9890b4cf7b147ee0cf8",
+      "clear_fraction": 0.8898
+    },
+    {
+      "source": "card-H-10.png",
+      "ink": "glass/card-H-10-ink.png",
+      "source_sha256": "a7d005df1965119dbcd9740906953e73d77bb88cfee2766ecd8b179384457206",
+      "clear_fraction": 0.8759
+    },
+    {
+      "source": "card-H-J.png",
+      "ink": "glass/card-H-J-ink.png",
+      "source_sha256": "baaf1068b9dd2261d21db30b64a96f4c81061dc346e3bde75c175b17862bd758",
+      "clear_fraction": 0.7386
+    },
+    {
+      "source": "card-H-Q.png",
+      "ink": "glass/card-H-Q-ink.png",
+      "source_sha256": "699e5ee6f647516d7da6584629b534dffa908aa7c004af950d449b37a3460b94",
+      "clear_fraction": 0.7348
+    },
+    {
+      "source": "card-H-K.png",
+      "ink": "glass/card-H-K-ink.png",
+      "source_sha256": "ea15ea68bd67beb47569c67f84aa81fe51388363e74d25c4c3ba4a939191e3fa",
+      "clear_fraction": 0.734
+    },
+    {
+      "source": "card-C-A.png",
+      "ink": "glass/card-C-A-ink.png",
+      "source_sha256": "35a602f793d9a62651ff54fd2ab6530ae810950dd3cf0fdd9c43fff0969538a9",
+      "clear_fraction": 0.89
+    },
+    {
+      "source": "card-C-2.png",
+      "ink": "glass/card-C-2-ink.png",
+      "source_sha256": "48c9a32791ee406e48c36b8c90ec18231913526bdef0e6d85da71868fbb278b5",
+      "clear_fraction": 0.9319
+    },
+    {
+      "source": "card-C-3.png",
+      "ink": "glass/card-C-3-ink.png",
+      "source_sha256": "eceb980fc6c43440aaa94ee8b5ed0c68640febc650d9885d5a73b70bb57b23b6",
+      "clear_fraction": 0.9248
+    },
+    {
+      "source": "card-C-4.png",
+      "ink": "glass/card-C-4-ink.png",
+      "source_sha256": "06e3176e5c0d2f9a4f40af02ac7321b71196ff093786e67b8056b11f1245555f",
+      "clear_fraction": 0.9201
+    },
+    {
+      "source": "card-C-5.png",
+      "ink": "glass/card-C-5-ink.png",
+      "source_sha256": "f905ef7bf9bcfaf9221c4d632a61d44d3fe4f3e5ad94c5fcb2ac3cc6e5879eb5",
+      "clear_fraction": 0.9142
+    },
+    {
+      "source": "card-C-6.png",
+      "ink": "glass/card-C-6-ink.png",
+      "source_sha256": "89e556dde7cb29a0edc229077fa8a0c7062f92a992322e09151def155b053754",
+      "clear_fraction": 0.9085
+    },
+    {
+      "source": "card-C-7.png",
+      "ink": "glass/card-C-7-ink.png",
+      "source_sha256": "7078023feed90bc018ce5c1ef979459c31100f546de9de632c343bcdd9cd696b",
+      "clear_fraction": 0.9067
+    },
+    {
+      "source": "card-C-8.png",
+      "ink": "glass/card-C-8-ink.png",
+      "source_sha256": "d72290d3b46d32cfb31893ab668a6cf52d3b2341009f06a6136f7b44d384c53e",
+      "clear_fraction": 0.8973
+    },
+    {
+      "source": "card-C-9.png",
+      "ink": "glass/card-C-9-ink.png",
+      "source_sha256": "9737fbbe16005d8f7957ab4ccd382fb4ac8ceb400cd87f744923cc5ae3b8989f",
+      "clear_fraction": 0.8916
+    },
+    {
+      "source": "card-C-10.png",
+      "ink": "glass/card-C-10-ink.png",
+      "source_sha256": "7ed3c879e507af08f74a273c50cc6c64422ba4bc033fa2487d09ccc9d126a90c",
+      "clear_fraction": 0.878
+    },
+    {
+      "source": "card-C-J.png",
+      "ink": "glass/card-C-J-ink.png",
+      "source_sha256": "a857254dc8cb0a9aefcd12f32991eb97dc0a3ed8491f1cf7242d6b709db1bb52",
+      "clear_fraction": 0.7401
+    },
+    {
+      "source": "card-C-Q.png",
+      "ink": "glass/card-C-Q-ink.png",
+      "source_sha256": "83647ea150e63d6aa0723907aa1a9b5a34d86ea364a658d93e1cd7e837716623",
+      "clear_fraction": 0.7367
+    },
+    {
+      "source": "card-C-K.png",
+      "ink": "glass/card-C-K-ink.png",
+      "source_sha256": "d2f530e718d18c537e9b63f239c588b23746720ba2574f4b6c03f1d5e4b17f6b",
+      "clear_fraction": 0.7368
+    },
+    {
+      "source": "card-D-A.png",
+      "ink": "glass/card-D-A-ink.png",
+      "source_sha256": "01a0904736bfaa8427b5fbe34fb852151c878d923bc4953a54b7e42f105e7fa7",
+      "clear_fraction": 0.9014
+    },
+    {
+      "source": "card-D-2.png",
+      "ink": "glass/card-D-2-ink.png",
+      "source_sha256": "c4f21839672c860ad2c801ccc015d78b17683464bc74cc5cd8d025bb84ff9640",
+      "clear_fraction": 0.9364
+    },
+    {
+      "source": "card-D-3.png",
+      "ink": "glass/card-D-3-ink.png",
+      "source_sha256": "6ea124f3d0c9b186c833dc67a2f5f7ef10619317c90269486f779edd27bf114c",
+      "clear_fraction": 0.9308
+    },
+    {
+      "source": "card-D-4.png",
+      "ink": "glass/card-D-4-ink.png",
+      "source_sha256": "c7dc84ecfc72abbb004cc311981edfc91285459f96785e0f421be38e7e297059",
+      "clear_fraction": 0.9257
+    },
+    {
+      "source": "card-D-5.png",
+      "ink": "glass/card-D-5-ink.png",
+      "source_sha256": "aa4dd4adb81ce7eadfe4161c316f6f61333bf203140750ff852110efb7fb7375",
+      "clear_fraction": 0.921
+    },
+    {
+      "source": "card-D-6.png",
+      "ink": "glass/card-D-6-ink.png",
+      "source_sha256": "550dbe4188dd06fa2da70319f1ce212b207c2a1db6339fb744c91e47dfa37a91",
+      "clear_fraction": 0.9165
+    },
+    {
+      "source": "card-D-7.png",
+      "ink": "glass/card-D-7-ink.png",
+      "source_sha256": "3a2f609c063c3cf01d0e9499979dee46064b1449a1aafd128157d167d03ea998",
+      "clear_fraction": 0.9148
+    },
+    {
+      "source": "card-D-8.png",
+      "ink": "glass/card-D-8-ink.png",
+      "source_sha256": "8a7fed1d224877ccfc0045732becb9043b8ade394fc4cf4a13aa9578caf2ec54",
+      "clear_fraction": 0.9062
+    },
+    {
+      "source": "card-D-9.png",
+      "ink": "glass/card-D-9-ink.png",
+      "source_sha256": "9e7a655b0cf4146377dc247d735b444ef6b408d15de3aa6d655f65f4bd7888b9",
+      "clear_fraction": 0.9029
+    },
+    {
+      "source": "card-D-10.png",
+      "ink": "glass/card-D-10-ink.png",
+      "source_sha256": "5cf10a3096d34576d1e27e7b57f669bc9f72f3d9d9a3f42b9dc30b5454389ed1",
+      "clear_fraction": 0.8904
+    },
+    {
+      "source": "card-D-J.png",
+      "ink": "glass/card-D-J-ink.png",
+      "source_sha256": "8bebb378255dbbaa5e8b7611c12d022d11572c57935cfd332f1e5b114329bf08",
+      "clear_fraction": 0.7419
+    },
+    {
+      "source": "card-D-Q.png",
+      "ink": "glass/card-D-Q-ink.png",
+      "source_sha256": "de252164f7b7e6bb849d7e3ebebd02958db04fc37791b8fce4c645a89b7fb908",
+      "clear_fraction": 0.7386
+    },
+    {
+      "source": "card-D-K.png",
+      "ink": "glass/card-D-K-ink.png",
+      "source_sha256": "f9037ff7e429fd2cbe96df50b0b20b4f20fdd4de43813d1edb4311c0606876fd",
+      "clear_fraction": 0.7389
+    },
+    {
+      "source": "back-red.png",
+      "ink": "glass/back-red-ink.png",
+      "source_sha256": "6600bc2ea9f44d0f93ba754ec9fc245033f7c14ae676b5beb4d77fe3817c16e6",
+      "clear_fraction": 0.1938
+    },
+    {
+      "source": "back-blue.png",
+      "ink": "glass/back-blue-ink.png",
+      "source_sha256": "1725f52f6f083733069bd3dc28dd89a21f2308254524bd091d11f6f869d04263",
+      "clear_fraction": 0.1938
+    },
+    {
+      "source": "consumable-planet.png",
+      "ink": "glass/consumable-planet-ink.png",
+      "source_sha256": "c9ac1e7c124787ab5756268fce871b2a6b9cc4f2c876197c71adee9737e01781",
+      "clear_fraction": 0.7711
+    },
+    {
+      "source": "consumable-tarot.png",
+      "ink": "glass/consumable-tarot-ink.png",
+      "source_sha256": "f178a86830139d1a61a96e6464629043439b18fea25fc5252bef0bef742f4d00",
+      "clear_fraction": 0.8073
+    },
+    {
+      "source": "pack-arcana.png",
+      "ink": "glass/pack-arcana-ink.png",
+      "source_sha256": "572fb4e17a8fb1e924076eea3522efbc68233ad0bf43872158c0ebc30047fcd8",
+      "clear_fraction": 0.7579
+    },
+    {
+      "source": "pack-celestial.png",
+      "ink": "glass/pack-celestial-ink.png",
+      "source_sha256": "b1ab8b9d2f62ba13d1af6b98e79caa9b9645c45c638cfc0cea479dc7141dcad4",
+      "clear_fraction": 0.7121
+    },
+    {
+      "source": "pack-standard.png",
+      "ink": "glass/pack-standard-ink.png",
+      "source_sha256": "4da3d5de3c400f6dfebe1fd0b65e161c6452331488b9b71970a6898f79addd7a",
+      "clear_fraction": 0.6796
+    },
+    {
+      "source": "pack-buffoon.png",
+      "ink": "glass/pack-buffoon-ink.png",
+      "source_sha256": "a6e4f4a4383788e23b13fd4bbd25ad0b891b44448bfd292c81015dbc06bf7667",
+      "clear_fraction": 0.697
+    },
+    {
+      "source": "pack-spectral.png",
+      "ink": "glass/pack-spectral-ink.png",
+      "source_sha256": "4fe33570856533f51295da5e29ab1d064cb750794766c3ed9d430cec200dfe5f",
+      "clear_fraction": 0.7168
+    },
+    {
+      "source": "seal-red.png",
+      "ink": "glass/seal-red-ink.png",
+      "source_sha256": "1a82a535fd17ce427d59e6a820259f5ff09190a75f88ef81556e9483d03cbb86",
+      "clear_fraction": 0.9503
+    },
+    {
+      "source": "seal-blue.png",
+      "ink": "glass/seal-blue-ink.png",
+      "source_sha256": "5ab0792b90c4b4ba5065abf7a667d53c66d0efa9acc4b6f38c3ad0e3d53e1416",
+      "clear_fraction": 0.9503
+    },
+    {
+      "source": "seal-gold.png",
+      "ink": "glass/seal-gold-ink.png",
+      "source_sha256": "07168b5333fa93442254556ba86283006d8a78d40c521e82e6158ba32aea50e7",
+      "clear_fraction": 0.9503
+    },
+    {
+      "source": "seal-purple.png",
+      "ink": "glass/seal-purple-ink.png",
+      "source_sha256": "06989f94542828a0eec23cb7a15209a8c5ae540ac0f28c137f892ab8d78cf473",
+      "clear_fraction": 0.9503
+    },
+    {
+      "source": "jokers/joker.png",
+      "ink": "glass/jokers__joker-ink.png",
+      "source_sha256": "2030d532011355456971443893a9b90d9cec5507a8f8933bd8a35705b01a9316",
+      "clear_fraction": 0.6642
+    },
+    {
+      "source": "jokers/greedy_joker.png",
+      "ink": "glass/jokers__greedy_joker-ink.png",
+      "source_sha256": "10fd62e856575f08a9e7423be27a19c96d895698ab1b9f3d699b78ba78e7d3c0",
+      "clear_fraction": 0.5741
+    },
+    {
+      "source": "jokers/lusty_joker.png",
+      "ink": "glass/jokers__lusty_joker-ink.png",
+      "source_sha256": "ec7e07b39d1106b14c34b01254d3b4a606453e6de4ab190cf85e2a8610e74840",
+      "clear_fraction": 0.5741
+    },
+    {
+      "source": "jokers/wrathful_joker.png",
+      "ink": "glass/jokers__wrathful_joker-ink.png",
+      "source_sha256": "d088c0a3f7e002edd0bf2d9ab54fab463915bf1bfa6e75291381227edd610f81",
+      "clear_fraction": 0.7333
+    },
+    {
+      "source": "jokers/gluttonous_joker.png",
+      "ink": "glass/jokers__gluttonous_joker-ink.png",
+      "source_sha256": "c6dd7c466be77e5a5563b5e41e66abf482a15bc263f46a11598bbe3729a20353",
+      "clear_fraction": 0.7333
+    },
+    {
+      "source": "jokers/jolly_joker.png",
+      "ink": "glass/jokers__jolly_joker-ink.png",
+      "source_sha256": "5ecce7be34c9b8a84151e21561366ff070f2dad55fe5e7b8a87962396e98e445",
+      "clear_fraction": 0.6332
+    },
+    {
+      "source": "jokers/zany_joker.png",
+      "ink": "glass/jokers__zany_joker-ink.png",
+      "source_sha256": "ab41d6eec741cc7edee2bf95ec4cb575d1d0cde753de1bef74941ba332670fca",
+      "clear_fraction": 0.6271
+    },
+    {
+      "source": "jokers/mad_joker.png",
+      "ink": "glass/jokers__mad_joker-ink.png",
+      "source_sha256": "cfaf07844adb2a6e0aecba0a72d92b1f8182924ef97c90490c7c0a889e07b49e",
+      "clear_fraction": 0.6258
+    },
+    {
+      "source": "jokers/crazy_joker.png",
+      "ink": "glass/jokers__crazy_joker-ink.png",
+      "source_sha256": "e353c82e4abe2eb43e7940c97a382ffd8d0e2ba710232e081f01a5f2aa5e5ced",
+      "clear_fraction": 0.6064
+    },
+    {
+      "source": "jokers/droll_joker.png",
+      "ink": "glass/jokers__droll_joker-ink.png",
+      "source_sha256": "17ab230a70d80c6be4f968d26abced6dec6103045f33e18bf3e1b52598cacc3a",
+      "clear_fraction": 0.593
+    },
+    {
+      "source": "jokers/sly_joker.png",
+      "ink": "glass/jokers__sly_joker-ink.png",
+      "source_sha256": "79ab0ee4cbed740f3fcf034c06a87372f3f50056a38f17c8a6f62165f89dcc05",
+      "clear_fraction": 0.6369
+    },
+    {
+      "source": "jokers/wily_joker.png",
+      "ink": "glass/jokers__wily_joker-ink.png",
+      "source_sha256": "2a568e3a96254886657df32d4b70c46723e25ebba08befc08401b4aec921ad1e",
+      "clear_fraction": 0.6308
+    },
+    {
+      "source": "jokers/clever_joker.png",
+      "ink": "glass/jokers__clever_joker-ink.png",
+      "source_sha256": "f429bc2017869e0610f99033b649d2def6f8af5d5bfb34d40519439a0563b867",
+      "clear_fraction": 0.6295
+    },
+    {
+      "source": "jokers/devious_joker.png",
+      "ink": "glass/jokers__devious_joker-ink.png",
+      "source_sha256": "369ce033593ec834db34095fba759e60cfd7ee132d8bd5f5ed3567f5ffbf7570",
+      "clear_fraction": 0.6237
+    },
+    {
+      "source": "jokers/crafty_joker.png",
+      "ink": "glass/jokers__crafty_joker-ink.png",
+      "source_sha256": "851ed0a22c2ec70483b7b9230be6bb08e9fe1179f14a69856eb189e71e83f62d",
+      "clear_fraction": 0.6104
+    },
+    {
+      "source": "jokers/half_joker.png",
+      "ink": "glass/jokers__half_joker-ink.png",
+      "source_sha256": "c4694d307cceb506b71a0556019e5a08d6e36447fbf1b09a001890b88e3644c9",
+      "clear_fraction": 0.7675
+    },
+    {
+      "source": "jokers/joker_stencil.png",
+      "ink": "glass/jokers__joker_stencil-ink.png",
+      "source_sha256": "edd1c5cf32eb7c88b2cc385e49b3621dbdcaeeb9643c44b985467e5039cb378f",
+      "clear_fraction": 0.9008
+    },
+    {
+      "source": "jokers/four_fingers.png",
+      "ink": "glass/jokers__four_fingers-ink.png",
+      "source_sha256": "d563a7e75a7e4a59551911430d09abb882130367312c91992908fb80ca3306a7",
+      "clear_fraction": 0.1907
+    },
+    {
+      "source": "jokers/mime.png",
+      "ink": "glass/jokers__mime-ink.png",
+      "source_sha256": "254bdab61bf9e16ef2370dbbbf72fd06a22b62908bac9f2b3727f5b20128bacb",
+      "clear_fraction": 0.7901
+    },
+    {
+      "source": "jokers/credit_card.png",
+      "ink": "glass/jokers__credit_card-ink.png",
+      "source_sha256": "eb099a0dfec6b9fc2933034620f654568ce2f10cfe61a332857d117707d9905e",
+      "clear_fraction": 0.6761
+    },
+    {
+      "source": "jokers/ceremonial_dagger.png",
+      "ink": "glass/jokers__ceremonial_dagger-ink.png",
+      "source_sha256": "f8ee15481d6daf779cdc94e5d00e383332de83712e24036bcfa18ce2fc0c0c9d",
+      "clear_fraction": 0.5877
+    },
+    {
+      "source": "jokers/banner.png",
+      "ink": "glass/jokers__banner-ink.png",
+      "source_sha256": "a4b76d1014a35ff6bed13ca2b3c7220360a894f4a057f8f4a2aa12c6b468ed9a",
+      "clear_fraction": 0.7219
+    },
+    {
+      "source": "jokers/mystic_summit.png",
+      "ink": "glass/jokers__mystic_summit-ink.png",
+      "source_sha256": "ec67c59c2303f50afd3e0ca543b4691c3390433742218ccb8d9570e8a00e581e",
+      "clear_fraction": 0.8021
+    },
+    {
+      "source": "jokers/marble_joker.png",
+      "ink": "glass/jokers__marble_joker-ink.png",
+      "source_sha256": "b4f368bff79becab15621c5b9b7d5aacbcde5e7a68faa1ec742a31cd64d9904e",
+      "clear_fraction": 0.6756
+    },
+    {
+      "source": "jokers/loyalty_card.png",
+      "ink": "glass/jokers__loyalty_card-ink.png",
+      "source_sha256": "15cfd9e08aea9abe5fcc01b8521e4b1ce8a12df6637e3e49af0259e6f25307df",
+      "clear_fraction": 0.6085
+    },
+    {
+      "source": "jokers/8_ball.png",
+      "ink": "glass/jokers__8_ball-ink.png",
+      "source_sha256": "59a263d60f2ee5a8c7d783463d11d3be07f2bb330a0f2bb4254f45d1e77df8d2",
+      "clear_fraction": 0.6732
+    },
+    {
+      "source": "jokers/misprint.png",
+      "ink": "glass/jokers__misprint-ink.png",
+      "source_sha256": "1985e5d6dc563b8bae1a0e262308c8f7c8caab124dd5d6904c4176a639b0b624",
+      "clear_fraction": 0.6812
+    },
+    {
+      "source": "jokers/dusk.png",
+      "ink": "glass/jokers__dusk-ink.png",
+      "source_sha256": "cbc12a7674897522816dc8bc3929ecffcb4be53ce42218cd923558a8df2d5eba",
+      "clear_fraction": 0.3979
+    },
+    {
+      "source": "jokers/raised_fist.png",
+      "ink": "glass/jokers__raised_fist-ink.png",
+      "source_sha256": "d7c8544915203ec42bd61713b9cdb199626299054c4bcdb8122dbc657e1e01e2",
+      "clear_fraction": 0.4353
+    },
+    {
+      "source": "jokers/chaos_the_clown.png",
+      "ink": "glass/jokers__chaos_the_clown-ink.png",
+      "source_sha256": "e300854f76eb21ca4f0582dcf5335ddbe53a29c703a0d02ef0eb6fc2ae952071",
+      "clear_fraction": 0.6864
+    },
+    {
+      "source": "jokers/fibonacci.png",
+      "ink": "glass/jokers__fibonacci-ink.png",
+      "source_sha256": "337c37f7f86ce6455f57c2921c1e7bd181e756ace1fff1878eadcb6baf2edf94",
+      "clear_fraction": 0.2458
+    },
+    {
+      "source": "jokers/steel_joker.png",
+      "ink": "glass/jokers__steel_joker-ink.png",
+      "source_sha256": "bde04b0fd1baaec133d217c1e2735cb794ffe8d3a33f9110fc9da688afbca0cc",
+      "clear_fraction": 0.8022
+    },
+    {
+      "source": "jokers/scary_face.png",
+      "ink": "glass/jokers__scary_face-ink.png",
+      "source_sha256": "aef654220af7ca983753bb0472345461664ed0f015428d1e29f52ea435f95659",
+      "clear_fraction": 0.6655
+    },
+    {
+      "source": "jokers/abstract_joker.png",
+      "ink": "glass/jokers__abstract_joker-ink.png",
+      "source_sha256": "116a89661e66600eb49d249a281acaaf44bf33717b6f040570d7c6aceafb82e2",
+      "clear_fraction": 0.6013
+    },
+    {
+      "source": "jokers/delayed_gratification.png",
+      "ink": "glass/jokers__delayed_gratification-ink.png",
+      "source_sha256": "ac555792a7126b5b7e0be7324a2e54a51c2df0c1cf12fb8b56cc5eb31a8ec285",
+      "clear_fraction": 0.5853
+    },
+    {
+      "source": "jokers/hack.png",
+      "ink": "glass/jokers__hack-ink.png",
+      "source_sha256": "74106934137f40ae2389e4604b6cefdad837a88c9d6d833c0e3ce1d7d1b3d8cd",
+      "clear_fraction": 0.3831
+    },
+    {
+      "source": "jokers/pareidolia.png",
+      "ink": "glass/jokers__pareidolia-ink.png",
+      "source_sha256": "eccb553da00a1e5a5dd766eb917c07475cac48ac70b9cd24a643d44d30d3868f",
+      "clear_fraction": 0.2139
+    },
+    {
+      "source": "jokers/gros_michel.png",
+      "ink": "glass/jokers__gros_michel-ink.png",
+      "source_sha256": "d2ddd1334d41251b7d34d90be073567e1883b394242e7fbc6eea85c9973533ac",
+      "clear_fraction": 0.295
+    },
+    {
+      "source": "jokers/even_steven.png",
+      "ink": "glass/jokers__even_steven-ink.png",
+      "source_sha256": "4fb23a3360b238a27d91326c47c2dbb6eff1934181f4be0ed67c2d575d51e548",
+      "clear_fraction": 0.6858
+    },
+    {
+      "source": "jokers/odd_todd.png",
+      "ink": "glass/jokers__odd_todd-ink.png",
+      "source_sha256": "a8466c20f8a7d408ab2ad66594112bcdd247d05cd0bb3242f279cb06145f1663",
+      "clear_fraction": 0.6968
+    },
+    {
+      "source": "jokers/scholar.png",
+      "ink": "glass/jokers__scholar-ink.png",
+      "source_sha256": "d249f7f05b43cb16548182df62a2b875d6062e5bc22d3cb03d8b418be2e71859",
+      "clear_fraction": 0.6406
+    },
+    {
+      "source": "jokers/business_card.png",
+      "ink": "glass/jokers__business_card-ink.png",
+      "source_sha256": "e63696afca8f77bbcde05b128fba179e405c484ec273ec3d2d5b080dbbe9647b",
+      "clear_fraction": 0.9736
+    },
+    {
+      "source": "jokers/supernova.png",
+      "ink": "glass/jokers__supernova-ink.png",
+      "source_sha256": "a5547e8d3a9bbcc39e2e5c83ecbb28c5b5dd637f9299526fd1c4c47efe821dd4",
+      "clear_fraction": 0.65
+    },
+    {
+      "source": "jokers/ride_the_bus.png",
+      "ink": "glass/jokers__ride_the_bus-ink.png",
+      "source_sha256": "25a33cfe975132e6653010a8e36096d61e92ddf224e349a4e7734446ca98bbed",
+      "clear_fraction": 0.5837
+    },
+    {
+      "source": "jokers/space_joker.png",
+      "ink": "glass/jokers__space_joker-ink.png",
+      "source_sha256": "3df433532181a05f6815e4ef6f2fa62846dd3e96c42a1622776768f92235c193",
+      "clear_fraction": 0.6338
+    },
+    {
+      "source": "jokers/egg.png",
+      "ink": "glass/jokers__egg-ink.png",
+      "source_sha256": "56e5519b2248f86e7be135b6e650512d43fc0f8242fd1d0990e8ff9f3bd54ce6",
+      "clear_fraction": 0.7481
+    },
+    {
+      "source": "jokers/burglar.png",
+      "ink": "glass/jokers__burglar-ink.png",
+      "source_sha256": "83093595387feaa54be0305ac587d566f4493baa6c3860e382584aa190dc9162",
+      "clear_fraction": 0.7299
+    },
+    {
+      "source": "jokers/blackboard.png",
+      "ink": "glass/jokers__blackboard-ink.png",
+      "source_sha256": "907cde4d87dba1c705a3da4be9c89e63fa7d28567c8bd444c78aa030f78b1dcd",
+      "clear_fraction": 0.1333
+    },
+    {
+      "source": "jokers/runner.png",
+      "ink": "glass/jokers__runner-ink.png",
+      "source_sha256": "fafd79dff11e51513accaa7c476aac087f886a3010cda407333d8bca637ab123",
+      "clear_fraction": 0.6532
+    },
+    {
+      "source": "jokers/ice_cream.png",
+      "ink": "glass/jokers__ice_cream-ink.png",
+      "source_sha256": "9f52deb4ead937ea5e109c81bdf5a86bd8ab0981fec140d23b1c86e16eabef35",
+      "clear_fraction": 0.1907
+    },
+    {
+      "source": "jokers/dna.png",
+      "ink": "glass/jokers__dna-ink.png",
+      "source_sha256": "1825298e58477192f945aaa651c971a3aba8fd06266f85999d1b48c08c0956f9",
+      "clear_fraction": 0.6632
+    },
+    {
+      "source": "jokers/splash.png",
+      "ink": "glass/jokers__splash-ink.png",
+      "source_sha256": "3658a754af6bac172bc8aafffaf921041c9deeceb67d31b0a7073e6ee53e6f2c",
+      "clear_fraction": 0.513
+    },
+    {
+      "source": "jokers/blue_joker.png",
+      "ink": "glass/jokers__blue_joker-ink.png",
+      "source_sha256": "8a5f14211e741d81a9f9f0c6fa5a198458c203a3b001081f31278a7fb397f2d5",
+      "clear_fraction": 0.4741
+    },
+    {
+      "source": "jokers/sixth_sense.png",
+      "ink": "glass/jokers__sixth_sense-ink.png",
+      "source_sha256": "08467afd0aa9d9803707375da70d2057f9ff01376c3a86d4b815b53263f9168e",
+      "clear_fraction": 0.6191
+    },
+    {
+      "source": "jokers/constellation.png",
+      "ink": "glass/jokers__constellation-ink.png",
+      "source_sha256": "fc274ab147b77497c41715c901095ec859e218af509f8242826c4616fa10bd2c",
+      "clear_fraction": 0.5256
+    },
+    {
+      "source": "jokers/hiker.png",
+      "ink": "glass/jokers__hiker-ink.png",
+      "source_sha256": "06617b92902eee58be0410c82d5225011dd92aa7a4a6ca1b1859f85b0dfb55c5",
+      "clear_fraction": 0.6182
+    },
+    {
+      "source": "jokers/faceless_joker.png",
+      "ink": "glass/jokers__faceless_joker-ink.png",
+      "source_sha256": "49a0ecd3fb55c0e1186d06c7d8f668a7cec9260b5cfcb0737eae10cea85ad0c0",
+      "clear_fraction": 0.6642
+    },
+    {
+      "source": "jokers/green_joker.png",
+      "ink": "glass/jokers__green_joker-ink.png",
+      "source_sha256": "a52050cfb8c73ce4cbe50d5e46914984dc32f8d3866832f7cc1c5203051bc79f",
+      "clear_fraction": 0.6642
+    },
+    {
+      "source": "jokers/superposition.png",
+      "ink": "glass/jokers__superposition-ink.png",
+      "source_sha256": "447d354a926d18028a0a21e206117ead280101c293dbde4862143f32d1d17348",
+      "clear_fraction": 0.4979
+    },
+    {
+      "source": "jokers/to_do_list.png",
+      "ink": "glass/jokers__to_do_list-ink.png",
+      "source_sha256": "24ecf7b934db31c7ae68a6579440044a0ca35892c11be815e327a2793ef4384b",
+      "clear_fraction": 0.6691
+    },
+    {
+      "source": "jokers/cavendish.png",
+      "ink": "glass/jokers__cavendish-ink.png",
+      "source_sha256": "2e440eeb38f45b054fd5a193473c9b89f6d38b17ac6204c9ed8e3edce924702d",
+      "clear_fraction": 0.4762
+    },
+    {
+      "source": "jokers/card_sharp.png",
+      "ink": "glass/jokers__card_sharp-ink.png",
+      "source_sha256": "98e62ceb0164edd4d37be61cffe3c2e8f85a16fafea21ca82c1f163d4d04fbb8",
+      "clear_fraction": 0.6569
+    },
+    {
+      "source": "jokers/red_card.png",
+      "ink": "glass/jokers__red_card-ink.png",
+      "source_sha256": "15d5b966a49b0e8e6c69c5170d6043c131e5f0c3b1f4b27ed0e0b997ebdae82f",
+      "clear_fraction": 0.983
+    },
+    {
+      "source": "jokers/madness.png",
+      "ink": "glass/jokers__madness-ink.png",
+      "source_sha256": "173858a4f3805fbc45c7d7cff6ad351d16a09773c4d941c85ce5bf6de61893ea",
+      "clear_fraction": 0.5913
+    },
+    {
+      "source": "jokers/square_joker.png",
+      "ink": "glass/jokers__square_joker-ink.png",
+      "source_sha256": "ebf8610209063cb2d96bef4c46f109fd32394672f9b9bf012b5c911f3140f7f5",
+      "clear_fraction": 0.6279
+    },
+    {
+      "source": "jokers/s_ance.png",
+      "ink": "glass/jokers__s_ance-ink.png",
+      "source_sha256": "1262606d20e6db62c99ad5ccc5af7ad8205b7dc9865df691447b85fdb38a6b15",
+      "clear_fraction": 0.4271
+    },
+    {
+      "source": "jokers/riff_raff.png",
+      "ink": "glass/jokers__riff_raff-ink.png",
+      "source_sha256": "4343d30716165dd65f8758b72a6ab5915124e7d5a0ebe9a18a9e997fef795baf",
+      "clear_fraction": 0.9374
+    },
+    {
+      "source": "jokers/vampire.png",
+      "ink": "glass/jokers__vampire-ink.png",
+      "source_sha256": "ea2ec2c1c4092359990f7c77679c74aed868050b12db6f029b8507e0c5f24cdf",
+      "clear_fraction": 0.663
+    },
+    {
+      "source": "jokers/shortcut.png",
+      "ink": "glass/jokers__shortcut-ink.png",
+      "source_sha256": "6e75a2d710dba20d9f7b5bb0ec2512dd51442b72ecff2c8c3c4f618479ec079b",
+      "clear_fraction": 0.3238
+    },
+    {
+      "source": "jokers/hologram.png",
+      "ink": "glass/jokers__hologram-ink.png",
+      "source_sha256": "575eb80d16f487d9d4a36929a6dab6e3c741cfec3324a17cd1f6e5d561f8c0ad",
+      "clear_fraction": 0.5124
+    },
+    {
+      "source": "jokers/vagabond.png",
+      "ink": "glass/jokers__vagabond-ink.png",
+      "source_sha256": "4ec5da8edf4274d754f9932ddb293b074d146aeca6c8bae7ce66adcb3dc9b843",
+      "clear_fraction": 0.5543
+    },
+    {
+      "source": "jokers/baron.png",
+      "ink": "glass/jokers__baron-ink.png",
+      "source_sha256": "25edc29a15234a75e4e08a23873175c953bf8dbf01365d2345673ec69d4212ce",
+      "clear_fraction": 0.6151
+    },
+    {
+      "source": "jokers/cloud_9.png",
+      "ink": "glass/jokers__cloud_9-ink.png",
+      "source_sha256": "710e63ed341010c11246e33f22f499c2e08aac1a402e19111496a2e83554e497",
+      "clear_fraction": 0.2517
+    },
+    {
+      "source": "jokers/rocket.png",
+      "ink": "glass/jokers__rocket-ink.png",
+      "source_sha256": "6cbff79aeffeb121854651aa0d33912680d7d1a8d66b61bd339da2d36de95394",
+      "clear_fraction": 0.4526
+    },
+    {
+      "source": "jokers/obelisk.png",
+      "ink": "glass/jokers__obelisk-ink.png",
+      "source_sha256": "e0c6e4be3f0d18d101e07cbb69798ac93b6133ae021cc0db27d3a698b5dd0d19",
+      "clear_fraction": 0.1999
+    },
+    {
+      "source": "jokers/midas_mask.png",
+      "ink": "glass/jokers__midas_mask-ink.png",
+      "source_sha256": "f41c56fcb67394188d9d98dddf14e135c44296e3972ce5f0a7fe636d513cf94f",
+      "clear_fraction": 0.4583
+    },
+    {
+      "source": "jokers/luchador.png",
+      "ink": "glass/jokers__luchador-ink.png",
+      "source_sha256": "e93744b81b2e01d40e2de5430097d0df864c8196348d950c894317ec914ecda7",
+      "clear_fraction": 0.6506
+    },
+    {
+      "source": "jokers/photograph.png",
+      "ink": "glass/jokers__photograph-ink.png",
+      "source_sha256": "e7c6f65f34255dd0dcb673b3b5f1a51766c841e75aa3b1f00272f9a0f07498bc",
+      "clear_fraction": 0.4172
+    },
+    {
+      "source": "jokers/gift_card.png",
+      "ink": "glass/jokers__gift_card-ink.png",
+      "source_sha256": "d8454f2eb21d337b68c035c9019a6a87c6f60e84926f6d91121c8992c7fe8f17",
+      "clear_fraction": 0.6325
+    },
+    {
+      "source": "jokers/turtle_bean.png",
+      "ink": "glass/jokers__turtle_bean-ink.png",
+      "source_sha256": "bd74c89c66f2c06607fed78bdc18661a3fe775055ce941ca48fc2e70afaa222e",
+      "clear_fraction": 0.1907
+    },
+    {
+      "source": "jokers/erosion.png",
+      "ink": "glass/jokers__erosion-ink.png",
+      "source_sha256": "136a0facdbb8a9986a0c160dec54a6c0e201273f73fa6c083c1aa715987fbbbf",
+      "clear_fraction": 0.5652
+    },
+    {
+      "source": "jokers/reserved_parking.png",
+      "ink": "glass/jokers__reserved_parking-ink.png",
+      "source_sha256": "90f7cc54707e00de737a0aa122233281c913b1e4971dd6391a639fb772e0061e",
+      "clear_fraction": 0.5878
+    },
+    {
+      "source": "jokers/mail_in_rebate.png",
+      "ink": "glass/jokers__mail_in_rebate-ink.png",
+      "source_sha256": "1cc4850aead350db3ce2b224c160e1f60841d1acaf8b3f0a3614bc8cef756424",
+      "clear_fraction": 0.8209
+    },
+    {
+      "source": "jokers/to_the_moon.png",
+      "ink": "glass/jokers__to_the_moon-ink.png",
+      "source_sha256": "70f0e90f2704e54c955c85033e54e5c37ec1890bb2e0e32a93f1afa406db76b1",
+      "clear_fraction": 0.9236
+    },
+    {
+      "source": "jokers/hallucination.png",
+      "ink": "glass/jokers__hallucination-ink.png",
+      "source_sha256": "f7705c1154526ca88674f8f2939c8c1e3494ab3b9d8072f90275ba573b88ef8d",
+      "clear_fraction": 0.6117
+    },
+    {
+      "source": "jokers/fortune_teller.png",
+      "ink": "glass/jokers__fortune_teller-ink.png",
+      "source_sha256": "8bcee35ec72481dc6f481dc64fcd53e0377de5898a4ab83c1db8064a3950cd2e",
+      "clear_fraction": 0.6986
+    },
+    {
+      "source": "jokers/juggler.png",
+      "ink": "glass/jokers__juggler-ink.png",
+      "source_sha256": "325b3500925b1486bab567ed9edc1bf16d078d6c281a8f18ecefde4425f25342",
+      "clear_fraction": 0.5165
+    },
+    {
+      "source": "jokers/drunkard.png",
+      "ink": "glass/jokers__drunkard-ink.png",
+      "source_sha256": "740a60d01e8a7b30959d204f6dd711c7ef65142d95e9e9008585c3a62f7094dd",
+      "clear_fraction": 0.5222
+    },
+    {
+      "source": "jokers/stone_joker.png",
+      "ink": "glass/jokers__stone_joker-ink.png",
+      "source_sha256": "901a774a2f63d5efe1f86a93cd5edd205908746bcf3c012d2be1e06e4c30139f",
+      "clear_fraction": 0.6173
+    },
+    {
+      "source": "jokers/golden_joker.png",
+      "ink": "glass/jokers__golden_joker-ink.png",
+      "source_sha256": "3fd8288fa3cec19440dbfd816566add3713e30906fa0bf8f5aaf23aae5d63497",
+      "clear_fraction": 0.6642
+    },
+    {
+      "source": "jokers/lucky_cat.png",
+      "ink": "glass/jokers__lucky_cat-ink.png",
+      "source_sha256": "6216e18a768655caa1101750495b0b37b82ba6bc5e9cdcadd79c2d2a10abccbd",
+      "clear_fraction": 0.6181
+    },
+    {
+      "source": "jokers/baseball_card.png",
+      "ink": "glass/jokers__baseball_card-ink.png",
+      "source_sha256": "85978ae6c4447e1462b28ac151b466ee95329050157c3725cc9df2954c166d4d",
+      "clear_fraction": 0.4242
+    },
+    {
+      "source": "jokers/bull.png",
+      "ink": "glass/jokers__bull-ink.png",
+      "source_sha256": "b7faff708e91585716420719b885e572f32d2247c1656c68a186b34f625e9ef8",
+      "clear_fraction": 0.6897
+    },
+    {
+      "source": "jokers/diet_cola.png",
+      "ink": "glass/jokers__diet_cola-ink.png",
+      "source_sha256": "c094ee5440c01300dc476ca5eed5e2b1f5a51bf420ac0073ba91729d6240fbb4",
+      "clear_fraction": 0.1566
+    },
+    {
+      "source": "jokers/trading_card.png",
+      "ink": "glass/jokers__trading_card-ink.png",
+      "source_sha256": "9c4f1be6c78f6462d97657247c978003316edaaf3321d5d56f3a1f3493c0709f",
+      "clear_fraction": 0.2295
+    },
+    {
+      "source": "jokers/flash_card.png",
+      "ink": "glass/jokers__flash_card-ink.png",
+      "source_sha256": "ad366a0766c9bd8df9e48a996f5ea9eab27060542add528d37406b98913cb8ca",
+      "clear_fraction": 0.6298
+    },
+    {
+      "source": "jokers/popcorn.png",
+      "ink": "glass/jokers__popcorn-ink.png",
+      "source_sha256": "42ba1354950db6e5133cea2491cc4bb5eb5a7038c4f8c311535625e2a4525083",
+      "clear_fraction": 0.5638
+    },
+    {
+      "source": "jokers/spare_trousers.png",
+      "ink": "glass/jokers__spare_trousers-ink.png",
+      "source_sha256": "e4e76eafd6100e7070bde5d8998a9f71c38f10651d238280ad881dd85b83ac93",
+      "clear_fraction": 0.2683
+    },
+    {
+      "source": "jokers/ancient_joker.png",
+      "ink": "glass/jokers__ancient_joker-ink.png",
+      "source_sha256": "43cfd589eb3d45cc43f5e754c6445bfd98214bddbc92e7b86fa08457901c9c52",
+      "clear_fraction": 0.5517
+    },
+    {
+      "source": "jokers/ramen.png",
+      "ink": "glass/jokers__ramen-ink.png",
+      "source_sha256": "07acf2b64f5304814d6212f4a16480887739c89374d446222ddec391363c1d35",
+      "clear_fraction": 0.3064
+    },
+    {
+      "source": "jokers/walkie_talkie.png",
+      "ink": "glass/jokers__walkie_talkie-ink.png",
+      "source_sha256": "f2ce9e9ba8c9ca65ed24d2cd7fd6185fce7dbb35391a2f6204dcf80f773fd481",
+      "clear_fraction": 0.4295
+    },
+    {
+      "source": "jokers/seltzer.png",
+      "ink": "glass/jokers__seltzer-ink.png",
+      "source_sha256": "1cc50723947779dd32d10a10e69437537235a76aaa912de416de2ffe2b72ccff",
+      "clear_fraction": 0.1911
+    },
+    {
+      "source": "jokers/castle.png",
+      "ink": "glass/jokers__castle-ink.png",
+      "source_sha256": "4859945cfd7e2bbd4e6f2cce20213e1c2ea2b5ebd0f2182727634cf868f3fe30",
+      "clear_fraction": 0.4122
+    },
+    {
+      "source": "jokers/smiley_face.png",
+      "ink": "glass/jokers__smiley_face-ink.png",
+      "source_sha256": "fc64ded46c77092a56ba986808d8ba4ebb8eee61866ae7cfd96aaaedc623e215",
+      "clear_fraction": 0.2246
+    },
+    {
+      "source": "jokers/campfire.png",
+      "ink": "glass/jokers__campfire-ink.png",
+      "source_sha256": "a08b9bf0f6f39e526da671bdb8c91427e434b7e62419c2831787c00e42a55576",
+      "clear_fraction": 0.5336
+    },
+    {
+      "source": "jokers/golden_ticket.png",
+      "ink": "glass/jokers__golden_ticket-ink.png",
+      "source_sha256": "4ecec817aae3d1b774de4ee280416040e73b7310d60d000a3ebec515298f7a10",
+      "clear_fraction": 0.6726
+    },
+    {
+      "source": "jokers/mr_bones.png",
+      "ink": "glass/jokers__mr_bones-ink.png",
+      "source_sha256": "e5472167a446a90accac6bc865ff5931ab50ed59b52a9521bcb485d15646231b",
+      "clear_fraction": 0.6707
+    },
+    {
+      "source": "jokers/acrobat.png",
+      "ink": "glass/jokers__acrobat-ink.png",
+      "source_sha256": "ada744e9d1fb875200c8c3facf3d5a4f49d730e14737186f788d44c6460efe5d",
+      "clear_fraction": 0.6789
+    },
+    {
+      "source": "jokers/sock_and_buskin.png",
+      "ink": "glass/jokers__sock_and_buskin-ink.png",
+      "source_sha256": "1187a067fe7a683d6351b5d86c574b4eb334a6719d89f56faed032e8085b54a4",
+      "clear_fraction": 0.9537
+    },
+    {
+      "source": "jokers/swashbuckler.png",
+      "ink": "glass/jokers__swashbuckler-ink.png",
+      "source_sha256": "a6904ac876dc9472b6a61aaf8db05bc4e6ce1088fa1e13bca643825a94c81cd0",
+      "clear_fraction": 0.6722
+    },
+    {
+      "source": "jokers/troubadour.png",
+      "ink": "glass/jokers__troubadour-ink.png",
+      "source_sha256": "67fa5aaa9eb7bda611aab42d7d58ef76c1f25491444ad4c4ad207b3597b4d081",
+      "clear_fraction": 0.5429
+    },
+    {
+      "source": "jokers/certificate.png",
+      "ink": "glass/jokers__certificate-ink.png",
+      "source_sha256": "157023ac58acde23c99277f7a18de1ac7fc66ecf9faebd6aec7599d5255460a3",
+      "clear_fraction": 0.6507
+    },
+    {
+      "source": "jokers/smeared_joker.png",
+      "ink": "glass/jokers__smeared_joker-ink.png",
+      "source_sha256": "eb471733b8fcdea9155c516d225c325358ab78fbb2fcc212e94b1524b695f41f",
+      "clear_fraction": 0.6866
+    },
+    {
+      "source": "jokers/throwback.png",
+      "ink": "glass/jokers__throwback-ink.png",
+      "source_sha256": "80c96607459a828e6d6c2f8845466dfc0a1c70b88e3df06d25b7236f86f63175",
+      "clear_fraction": 0.4915
+    },
+    {
+      "source": "jokers/hanging_chad.png",
+      "ink": "glass/jokers__hanging_chad-ink.png",
+      "source_sha256": "5681deb0d6226f80173a620a6d176a01ff6b57b7254adbd7f21ab9396ed60c9b",
+      "clear_fraction": 0.5738
+    },
+    {
+      "source": "jokers/rough_gem.png",
+      "ink": "glass/jokers__rough_gem-ink.png",
+      "source_sha256": "e73f9b3d7e51cefed6090948bb2a059464e80eb5d70f4676a4c533045c0fb263",
+      "clear_fraction": 0.3416
+    },
+    {
+      "source": "jokers/bloodstone.png",
+      "ink": "glass/jokers__bloodstone-ink.png",
+      "source_sha256": "d416ce4d8f00c7b34a1a39266245e35339d200797bd82e42cf1096a8661affad",
+      "clear_fraction": 0.5468
+    },
+    {
+      "source": "jokers/arrowhead.png",
+      "ink": "glass/jokers__arrowhead-ink.png",
+      "source_sha256": "3051f030c494c8ffd1b051da36d39f510712e36cf23f42b35add56e909c64173",
+      "clear_fraction": 0.5484
+    },
+    {
+      "source": "jokers/onyx_agate.png",
+      "ink": "glass/jokers__onyx_agate-ink.png",
+      "source_sha256": "6c43a2bd0f6650f23910a69e2a12babde88fb323e2f000e1f0e52aa267a06b72",
+      "clear_fraction": 0.3259
+    },
+    {
+      "source": "jokers/glass_joker.png",
+      "ink": "glass/jokers__glass_joker-ink.png",
+      "source_sha256": "883f5f6588a631a8da1f6cb0873d8b52f2c0274d509a8d899dec2a15aabadeeb",
+      "clear_fraction": 0.0516
+    },
+    {
+      "source": "jokers/showman.png",
+      "ink": "glass/jokers__showman-ink.png",
+      "source_sha256": "33b61f8a6d294e369fc22d9a030081c01806ca13721f573997513aee7b725cec",
+      "clear_fraction": 0.6949
+    },
+    {
+      "source": "jokers/flower_pot.png",
+      "ink": "glass/jokers__flower_pot-ink.png",
+      "source_sha256": "2ba7b2d035b0d7b4857e7a10364f53e56617b2647b8c221594220070ca2f96e0",
+      "clear_fraction": 0.2526
+    },
+    {
+      "source": "jokers/blueprint.png",
+      "ink": "glass/jokers__blueprint-ink.png",
+      "source_sha256": "c3cf3a880be576276cb5009b3f83ee5497885ab3001e1ecd32a94e3f03cca289",
+      "clear_fraction": 0.3961
+    },
+    {
+      "source": "jokers/wee_joker.png",
+      "ink": "glass/jokers__wee_joker-ink.png",
+      "source_sha256": "45a50a3de79f8591860e6b4f3d13b9ce237f5af3efcfeefb0eff628a5d331069",
+      "clear_fraction": 0.5385
+    },
+    {
+      "source": "jokers/merry_andy.png",
+      "ink": "glass/jokers__merry_andy-ink.png",
+      "source_sha256": "69bdc5fa14ada66c6a02b45b9e12158a9e4d52d05b77f13313ef8a97ac68645b",
+      "clear_fraction": 0.6188
+    },
+    {
+      "source": "jokers/oops_all_6s.png",
+      "ink": "glass/jokers__oops_all_6s-ink.png",
+      "source_sha256": "dca5289a4cbe02756c51e53db79476abc0a43f917e5d77b6b633be3ecee6c3b6",
+      "clear_fraction": 0.6434
+    },
+    {
+      "source": "jokers/the_idol.png",
+      "ink": "glass/jokers__the_idol-ink.png",
+      "source_sha256": "3ae3b595e1bcc4990f513016c293a42fe966e7243dba9abf9114bc799567011c",
+      "clear_fraction": 0.6338
+    },
+    {
+      "source": "jokers/seeing_double.png",
+      "ink": "glass/jokers__seeing_double-ink.png",
+      "source_sha256": "2dce53ac5f3e90705da7a5cc6f1518b7646481189f152daf27be6b3aeeac8ffd",
+      "clear_fraction": 0.5222
+    },
+    {
+      "source": "jokers/matador.png",
+      "ink": "glass/jokers__matador-ink.png",
+      "source_sha256": "04b84a76ee24ab7eed7a5c735bda8126c9bf685826ef0f66d947f084215fefe1",
+      "clear_fraction": 0.5146
+    },
+    {
+      "source": "jokers/hit_the_road.png",
+      "ink": "glass/jokers__hit_the_road-ink.png",
+      "source_sha256": "c9be55874ad72bf8392058184709ca6274a9bc371c02f3fa8ec788933ed20f58",
+      "clear_fraction": 0.2383
+    },
+    {
+      "source": "jokers/the_duo.png",
+      "ink": "glass/jokers__the_duo-ink.png",
+      "source_sha256": "5345af53060070b9648af589e21200e6141627550612075913b064f3619396e7",
+      "clear_fraction": 0.5198
+    },
+    {
+      "source": "jokers/the_trio.png",
+      "ink": "glass/jokers__the_trio-ink.png",
+      "source_sha256": "5364ec08b5752eadc0c7bc41ddacc51e2f6495cfc964d0bedd9eed952a65c50b",
+      "clear_fraction": 0.5548
+    },
+    {
+      "source": "jokers/the_family.png",
+      "ink": "glass/jokers__the_family-ink.png",
+      "source_sha256": "65c7a0c616f7ad80cd3adce44090a9ec3cc00d19925342b6fb1db47fd51cb583",
+      "clear_fraction": 0.5027
+    },
+    {
+      "source": "jokers/the_order.png",
+      "ink": "glass/jokers__the_order-ink.png",
+      "source_sha256": "9159f78737de473a2d478818f99e06c1b22d57a8ef548736d3c26e2609fc65da",
+      "clear_fraction": 0.5007
+    },
+    {
+      "source": "jokers/the_tribe.png",
+      "ink": "glass/jokers__the_tribe-ink.png",
+      "source_sha256": "fefacd8d291fcb19375a62ecca90497d50589d4804c956034999814684711fb3",
+      "clear_fraction": 0.5007
+    },
+    {
+      "source": "jokers/stuntman.png",
+      "ink": "glass/jokers__stuntman-ink.png",
+      "source_sha256": "d97983146bc6f4a69485370c45099fe3d2508e3a61f3d73528d611b435f17454",
+      "clear_fraction": 0.6729
+    },
+    {
+      "source": "jokers/invisible_joker.png",
+      "ink": "glass/jokers__invisible_joker-ink.png",
+      "source_sha256": "3a0c1a50a7c5d22c6f89164b24168fab4c9ba92ee3b0ebf55e1e17ec7574910c",
+      "clear_fraction": 0.0516
+    },
+    {
+      "source": "jokers/brainstorm.png",
+      "ink": "glass/jokers__brainstorm-ink.png",
+      "source_sha256": "5a3de4b3344392cc2e5c0ec742e84e0032da58dc159752afe1989656c849f6c3",
+      "clear_fraction": 0.541
+    },
+    {
+      "source": "jokers/satellite.png",
+      "ink": "glass/jokers__satellite-ink.png",
+      "source_sha256": "0451672d9efd7d8641c10e8e628b2b8bdcc9414e925741844bad8f64e83c0375",
+      "clear_fraction": 0.6517
+    },
+    {
+      "source": "jokers/shoot_the_moon.png",
+      "ink": "glass/jokers__shoot_the_moon-ink.png",
+      "source_sha256": "c61f165f695c72f7ffe7f3d590fdb4a3aef396848540fefdf1959265b29f0c1b",
+      "clear_fraction": 0.7706
+    },
+    {
+      "source": "jokers/driver_s_license.png",
+      "ink": "glass/jokers__driver_s_license-ink.png",
+      "source_sha256": "acaf10d74dabfa6d69e9e5015c1554eb81e94e8313a6553687679deb3787e949",
+      "clear_fraction": 0.5423
+    },
+    {
+      "source": "jokers/cartomancer.png",
+      "ink": "glass/jokers__cartomancer-ink.png",
+      "source_sha256": "758ab45fc4c10e60ac3f0be23886576b4e0d473ee21d3ca61eebdbbfbf2f9ec5",
+      "clear_fraction": 0.6203
+    },
+    {
+      "source": "jokers/astronomer.png",
+      "ink": "glass/jokers__astronomer-ink.png",
+      "source_sha256": "03380c8b650a5de2014f6a02554f6d961f33cebf8877e94bbac09ca7a0023433",
+      "clear_fraction": 0.412
+    },
+    {
+      "source": "jokers/burnt_joker.png",
+      "ink": "glass/jokers__burnt_joker-ink.png",
+      "source_sha256": "d369a2b6c2630fbb171123da13d896b16d5b1e8a744d0a6007f5e4fccdbde9c1",
+      "clear_fraction": 0.2666
+    },
+    {
+      "source": "jokers/bootstraps.png",
+      "ink": "glass/jokers__bootstraps-ink.png",
+      "source_sha256": "5ff28f63f00e280678af39ea6797e0ce280012abee2f933ff43b241de1473c3f",
+      "clear_fraction": 0.1923
+    },
+    {
+      "source": "jokers/canio.png",
+      "ink": "glass/jokers__canio-ink.png",
+      "source_sha256": "e2f42431b57c8cf99b6386c298ad6448d615b41c1bd0ad18f5faf1b799d90062",
+      "clear_fraction": 0.7129
+    },
+    {
+      "source": "jokers/triboulet.png",
+      "ink": "glass/jokers__triboulet-ink.png",
+      "source_sha256": "39e40b83b4c0eeb8da5e448deb769693ce0edca7cb03156ac3819a014c331e27",
+      "clear_fraction": 0.5443
+    },
+    {
+      "source": "jokers/yorick.png",
+      "ink": "glass/jokers__yorick-ink.png",
+      "source_sha256": "537375ddc0ddfa5098fd624e99b308602114ad7728cebd659a3fdeab6343fdba",
+      "clear_fraction": 0.3315
+    },
+    {
+      "source": "jokers/chicot.png",
+      "ink": "glass/jokers__chicot-ink.png",
+      "source_sha256": "dc368f3a47cc0f0aee2d97a2bf9dc559b05a629a3d4818f1a4ed32c5d6a477bd",
+      "clear_fraction": 0.3296
+    },
+    {
+      "source": "jokers/perkeo.png",
+      "ink": "glass/jokers__perkeo-ink.png",
+      "source_sha256": "0a1a558c8314ec2096d412f6470b7d3bc857d38221ffd68555fcd5fc2bd25103",
+      "clear_fraction": 0.4001
+    }
+  ]
+}

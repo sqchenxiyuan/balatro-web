@@ -1,0 +1,126 @@
+{
+  "style": "native pixel sprites; finite palette; no antialiasing",
+  "provenance": "original code-drawn study art",
+  "items": [
+    {
+      "file": "packaging/arcana-body.png",
+      "size": [
+        64,
+        104
+      ],
+      "colours": 7
+    },
+    {
+      "file": "packaging/arcana-emblem.png",
+      "size": [
+        64,
+        104
+      ],
+      "colours": 8
+    },
+    {
+      "file": "packaging/arcana-seal.png",
+      "size": [
+        64,
+        10
+      ],
+      "colours": 5
+    },
+    {
+      "file": "packaging/celestial-body.png",
+      "size": [
+        64,
+        104
+      ],
+      "colours": 7
+    },
+    {
+      "file": "packaging/celestial-emblem.png",
+      "size": [
+        64,
+        104
+      ],
+      "colours": 7
+    },
+    {
+      "file": "packaging/celestial-seal.png",
+      "size": [
+        64,
+        10
+      ],
+      "colours": 5
+    },
+    {
+      "file": "packaging/standard-body.png",
+      "size": [
+        64,
+        104
+      ],
+      "colours": 7
+    },
+    {
+      "file": "packaging/standard-emblem.png",
+      "size": [
+        64,
+        104
+      ],
+      "colours": 6
+    },
+    {
+      "file": "packaging/standard-seal.png",
+      "size": [
+        64,
+        10
+      ],
+      "colours": 5
+    },
+    {
+      "file": "packaging/buffoon-body.png",
+      "size": [
+        64,
+        104
+      ],
+      "colours": 7
+    },
+    {
+      "file": "packaging/buffoon-emblem.png",
+      "size": [
+        64,
+        104
+      ],
+      "colours": 7
+    },
+    {
+      "file": "packaging/buffoon-seal.png",
+      "size": [
+        64,
+        10
+      ],
+      "colours": 5
+    },
+    {
+      "file": "packaging/spectral-body.png",
+      "size": [
+        64,
+        104
+      ],
+      "colours": 7
+    },
+    {
+      "file": "packaging/spectral-emblem.png",
+      "size": [
+        64,
+        104
+      ],
+      "colours": 5
+    },
+    {
+      "file": "packaging/spectral-seal.png",
+      "size": [
+        64,
+        10
+      ],
+      "colours": 5
+    }
+  ]
+}

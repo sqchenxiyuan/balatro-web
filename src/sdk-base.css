@@ -1,0 +1,22 @@
+/* Minimal primitives shared by all embedded game instances. */
+:host{all:initial;display:block;min-width:0;contain:style;direction:ltr}
+.g-stage-wrap{font:16px 'Microsoft YaHei','PingFang SC',sans-serif;color:#e3e6d8;letter-spacing:normal;line-height:normal;text-align:left;font-synthesis:none;--cream:#eeeada;--muted:#91a19a;--gold:#e8bb62;--blue:#469ce2;--red:#ed615c}
+*,*::before,*::after{box-sizing:border-box}button{font:inherit;cursor:pointer}button:disabled{cursor:default}button,input,select{color:inherit}button,a,input,select{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,[role=button]:focus-visible{outline:3px solid #ebc977;outline-offset:4px}a{color:inherit;text-decoration:none}
+.pixel-art{width:100%;height:100%;image-rendering:pixelated;display:block;pointer-events:none}
+.card-surface{position:relative;width:100%;height:100%;border-radius:5px;isolation:isolate;overflow:hidden;box-shadow:0 4px 0 #071a1259,3px 8px 7px #071a1245}
+.card-surface>.pixel-art{position:absolute;inset:0}
+.card-inner{width:100%;height:100%;transition:transform 170ms cubic-bezier(.2,.8,.2,1);transform:rotate(calc(var(--angle,0deg) + var(--tilt,0deg)))}
+.blue-number{color:#71b6ed}
+.red-number,.score-red{color:#f37065}
+
+.game-button{border:0;position:relative;border-radius:7px;padding:13px 20px;min-height:51px;color:#f4eedf;text-shadow:0 2px #0004;font-size:20px;font-weight:900;letter-spacing:1px;box-shadow:0 5px var(--button-shadow,#1f3840);background:var(--button-color,#4b6370);transition:translate .1s,filter .12s,box-shadow .1s}
+.game-button:hover:not(:disabled){filter:brightness(1.12);translate:0 -2px;box-shadow:0 7px var(--button-shadow)}
+.game-button:active:not(:disabled){translate:0 3px;box-shadow:0 2px var(--button-shadow)}
+.game-button:disabled{--button-color:#53645e!important;--button-shadow:#354b43!important;color:#83928b;filter:saturate(.4);text-shadow:none}
+.blue{--button-color:#3a93c6;--button-shadow:#226386}
+.red{--button-color:#c8514c;--button-shadow:#843c3b}
+.orange{--button-color:#d49c4c;--button-shadow:#9b6f39}
+.green{--button-color:#57a067;--button-shadow:#356744}
+.pack-unseal{position:absolute;left:711px;top:352px;width:142px;height:190px;pointer-events:none;z-index:550}
+.g-stage .card-surface>.edition-canvas{position:absolute;inset:0;width:100%;height:100%;z-index:1;border-radius:5px;pointer-events:none;image-rendering:pixelated;display:none}
+.g-stage .card-surface.edition-ready>.edition-canvas{display:block}

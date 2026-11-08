@@ -1,0 +1,11 @@
+{
+  "url": "http://127.0.0.1:4193/",
+  "checks": [
+    "main page is the regular playable game without SDK or strategy demo controls",
+    "pasting an async ES module in the shell controls the SDK through the step button",
+    "shell stop cancels a pending decision and does not dispatch its late result",
+    "strategy errors are shown by the shell without mutating the game or causing page errors"
+  ],
+  "errors": [],
+  "ok": true
+}

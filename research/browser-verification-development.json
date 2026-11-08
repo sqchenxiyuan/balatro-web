@@ -1,0 +1,396 @@
+{
+  "url": "http://127.0.0.1:5192/",
+  "at": "2026-11-08T03:56:06.916Z",
+  "ok": true,
+  "checks": [
+    "Background visibly flows in actual rendered frames over 1.5 seconds",
+    "Reduced motion freezes the background without jumping to a new pattern",
+    "Only getState / dispatch; returned state is detached",
+    "Mouse selection lifts cards and previews poker hand",
+    "Right-click clears selection",
+    "Invalid selection leaves state and revision unchanged",
+    "Pointer dragging reorders the visible hand",
+    "Rank sorting changes the same API state",
+    "Joker dragging changes trigger order",
+    "Pair tens + Sly + Joker + polychrome Half totals 3,120",
+    "Scoring preset can be replayed",
+    "Moving polychrome before +4 changes result to 2,960",
+    "Pixel wrappers retain subtle emblem depth responding to the pointer",
+    "Buying moves Joker into build and deducts money",
+    "Sold offer cannot charge twice",
+    "Purchased tarot appears in consumable slots",
+    "Opening tears the top seal and removes the empty wrapper before choosing a card",
+    "Celestial selection upgrades a hand and closes the pack",
+    "Planet upgrade is visible in next-round score preview",
+    "Targeted tarot refuses use before hand selection",
+    "Targeted tarot changes selected card suit",
+    "Reroll price grows; insufficient funds leaves state unchanged",
+    "All 16 card modifiers load and preview, with separate 8 enhancement / 4 edition / 4 seal filters",
+    "Original Chinese edition names are used; 全息 remains only a search alias for 镭射 (+10 Mult)",
+    "Glass, edition and red seal compose independently, including Glass + Holographic",
+    "Negative switches to a Joker and clears incompatible modifiers; returning to a playing card removes Negative",
+    "All eight enhancements remain visually distinct in rendered pixels; Stone has no rank or suit ink",
+    "Rendered Stone + Foil, Glass + Polychrome and Steel + Red Seal retain their visible layered effects",
+    "All 150 distinct Joker artworks load across all ten gallery pages",
+    "Rarity filters cover all four tiers and Legendary cards can be previewed",
+    "English and Chinese name searches, selection and empty results work",
+    "All five pouch families use the physical wrapper in thumbnails, preview and comparison",
+    "All 65 other materials are catalogued; material and edition controls update preview",
+    "All five Joker editions remain visibly distinct; Glass is excluded from edition controls",
+    "Glass remains a playing-card enhancement and transmits the backdrop while paper stays opaque",
+    "Playing-card gallery excludes Negative and clears an incompatible Joker edition",
+    "All editions use one printed image plane; projection subjects, emitters and scanning beams are removed",
+    "All four finishes animate and respond to pointer lighting in rendered pixels",
+    "Original-reference pixels retain Foil blue stock, Holographic lattice, pale Polychrome paper and navy Negative stock",
+    "Reduced motion freezes finish time and pointer lighting; comparison cards use the same surface renderer",
+    "Reduced motion also freezes glass tilt and surface reflections",
+    "Shop packaging library opens all five families; reduced motion freezes pouch lighting",
+    "Leaving during pack opening clears the wrapper and transient effects",
+    "Candidate reveal follows the speed setting: finished at 4x while still waiting at 0.5x",
+    "CRT amount can be disabled",
+    "900px viewport scales the stage without horizontal overflow",
+    "390px page has no horizontal overflow (desktop stage scaled)",
+    "Canvas fallback still visibly flows when WebGL is unavailable",
+    "No external runtime requests or browser console/page errors"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "externalRequests": [],
+  "backgroundMotion": {
+    "mean": 17.38613254160961,
+    "changed": 0.7491808252427185
+  },
+  "backgroundRenderer": "webgl",
+  "pouchParallax": {
+    "left": -1.69873046875,
+    "right": 0.421783447265625
+  },
+  "enhancementDifferences": [
+    {
+      "a": "bonus",
+      "b": "mult",
+      "mean": 35.69197454844022,
+      "changed": 0.8374384236453202
+    },
+    {
+      "a": "bonus",
+      "b": "wild",
+      "mean": 24.5517549261081,
+      "changed": 0.7798029556650247
+    },
+    {
+      "a": "bonus",
+      "b": "glass",
+      "mean": 89.67660098522282,
+      "changed": 0.8477216748768472
+    },
+    {
+      "a": "bonus",
+      "b": "steel",
+      "mean": 22.282738095237868,
+      "changed": 0.827493842364532
+    },
+    {
+      "a": "bonus",
+      "b": "stone",
+      "mean": 33.61786740558227,
+      "changed": 0.8354371921182266
+    },
+    {
+      "a": "bonus",
+      "b": "gold",
+      "mean": 48.02200328407269,
+      "changed": 0.8377770935960591
+    },
+    {
+      "a": "bonus",
+      "b": "lucky",
+      "mean": 20.738741789819063,
+      "changed": 0.8326354679802955
+    },
+    {
+      "a": "mult",
+      "b": "wild",
+      "mean": 22.011319786535438,
+      "changed": 0.805326354679803
+    },
+    {
+      "a": "mult",
+      "b": "glass",
+      "mean": 86.39731116584585,
+      "changed": 0.8479987684729065
+    },
+    {
+      "a": "mult",
+      "b": "steel",
+      "mean": 27.941112479474143,
+      "changed": 0.8339901477832512
+    },
+    {
+      "a": "mult",
+      "b": "stone",
+      "mean": 33.59364737274282,
+      "changed": 0.8364224137931034
+    },
+    {
+      "a": "mult",
+      "b": "gold",
+      "mean": 25.287848932676276,
+      "changed": 0.8370689655172414
+    },
+    {
+      "a": "mult",
+      "b": "lucky",
+      "mean": 23.190199096880576,
+      "changed": 0.8030172413793103
+    },
+    {
+      "a": "wild",
+      "b": "glass",
+      "mean": 100.27069991789931,
+      "changed": 0.8477832512315271
+    },
+    {
+      "a": "wild",
+      "b": "steel",
+      "mean": 27.022690886699426,
+      "changed": 0.8338669950738916
+    },
+    {
+      "a": "wild",
+      "b": "stone",
+      "mean": 42.85451559934316,
+      "changed": 0.8361453201970444
+    },
+    {
+      "a": "wild",
+      "b": "gold",
+      "mean": 36.93459564860353,
+      "changed": 0.8370997536945812
+    },
+    {
+      "a": "wild",
+      "b": "lucky",
+      "mean": 24.356198686371112,
+      "changed": 0.8229679802955665
+    },
+    {
+      "a": "glass",
+      "b": "steel",
+      "mean": 80.80490558292354,
+      "changed": 0.8455357142857143
+    },
+    {
+      "a": "glass",
+      "b": "stone",
+      "mean": 60.298142446634344,
+      "changed": 0.8467056650246305
+    },
+    {
+      "a": "glass",
+      "b": "gold",
+      "mean": 77.42904351395683,
+      "changed": 0.8474753694581281
+    },
+    {
+      "a": "glass",
+      "b": "lucky",
+      "mean": 81.2449815270946,
+      "changed": 0.848121921182266
+    },
+    {
+      "a": "steel",
+      "b": "stone",
+      "mean": 24.86409072249596,
+      "changed": 0.7372536945812808
+    },
+    {
+      "a": "steel",
+      "b": "gold",
+      "mean": 33.95063628899882,
+      "changed": 0.8343596059113301
+    },
+    {
+      "a": "steel",
+      "b": "lucky",
+      "mean": 21.824107142857315,
+      "changed": 0.8237992610837438
+    },
+    {
+      "a": "stone",
+      "b": "gold",
+      "mean": 45.29130747126412,
+      "changed": 0.8362068965517241
+    },
+    {
+      "a": "stone",
+      "b": "lucky",
+      "mean": 28.318883415435433,
+      "changed": 0.8345443349753695
+    },
+    {
+      "a": "gold",
+      "b": "lucky",
+      "mean": 31.85300697865367,
+      "changed": 0.83753078817734
+    }
+  ],
+  "modifierComposition": {
+    "stone-foil-none": {
+      "mean": 32.69651067323465,
+      "changed": 0.8374384236453202
+    },
+    "glass-polychrome-none": {
+      "mean": 10.288557060755274,
+      "changed": 0.5723522167487685
+    },
+    "steel-none-red": {
+      "mean": 3.668442118226583,
+      "changed": 0.04698275862068965
+    }
+  },
+  "materialDifferences": [
+    {
+      "a": "none",
+      "b": "foil",
+      "mean": 34.1985301400529,
+      "changed": 0.913620966304154
+    },
+    {
+      "a": "none",
+      "b": "holographic",
+      "mean": 21.790128959410936,
+      "changed": 0.9431568312830569
+    },
+    {
+      "a": "none",
+      "b": "polychrome",
+      "mean": 24.779590340920127,
+      "changed": 0.7931598026980448
+    },
+    {
+      "a": "none",
+      "b": "negative",
+      "mean": 147.66035736217657,
+      "changed": 0.9489510905093005
+    },
+    {
+      "a": "foil",
+      "b": "holographic",
+      "mean": 38.08681484122701,
+      "changed": 0.9489510905093005
+    },
+    {
+      "a": "foil",
+      "b": "polychrome",
+      "mean": 37.925982052653694,
+      "changed": 0.9308848873833719
+    },
+    {
+      "a": "foil",
+      "b": "negative",
+      "mean": 122.26462431409767,
+      "changed": 0.9460093896713615
+    },
+    {
+      "a": "holographic",
+      "b": "polychrome",
+      "mean": 29.899486935678553,
+      "changed": 0.9488916622095442
+    },
+    {
+      "a": "holographic",
+      "b": "negative",
+      "mean": 128.96576929934085,
+      "changed": 0.9489510905093005
+    },
+    {
+      "a": "polychrome",
+      "b": "negative",
+      "mean": 140.5325369941156,
+      "changed": 0.9489510905093005
+    }
+  ],
+  "glassTransmission": {
+    "paper": {
+      "mean": 0.3118132881055969,
+      "changed": 0.0029496349826708943
+    },
+    "glass": {
+      "mean": 81.82881055969888,
+      "changed": 0.9212078755254037
+    }
+  },
+  "editionMotion": {
+    "foil": {
+      "mean": 6.687422782307927,
+      "changed": 0.38002223869532986
+    },
+    "holographic": {
+      "mean": 1.9328638497652064,
+      "changed": 0.00022238695329873981
+    },
+    "polychrome": {
+      "mean": 1.8751297257228159,
+      "changed": 0.09707190511489992
+    },
+    "negative": {
+      "mean": 3.0696441808748154,
+      "changed": 0.14962935507783542
+    }
+  },
+  "editionReferences": {
+    "foil": {
+      "mean": 21.675438596491052,
+      "changed": 0.8422535211267606,
+      "paperMean": [
+        211.1715295190335,
+        203.94175974470025,
+        254.93178709824483
+      ],
+      "paperBlueDeviation": 0.25211089184983737,
+      "alphaMismatch": 0
+    },
+    "holographic": {
+      "mean": 25.086199654064803,
+      "changed": 0.9479614529280949,
+      "paperMean": [
+        232.28054479142924,
+        245.16822429906543,
+        216.1435491224071
+      ],
+      "paperBlueDeviation": 8.630187395105319,
+      "alphaMismatch": 0
+    },
+    "polychrome": {
+      "mean": 19.36661724734374,
+      "changed": 0.748702742772424,
+      "paperMean": [
+        243.54564622749032,
+        243.3358787326191,
+        244.40198313198084
+      ],
+      "paperBlueDeviation": 6.681341505246016,
+      "alphaMismatch": 0
+    },
+    "negative": {
+      "mean": 16.115616506054053,
+      "changed": 0.8085989621942179,
+      "paperMean": [
+        54.517836790517435,
+        67.02313653977662,
+        99.10194894005015
+      ],
+      "paperBlueDeviation": 15.110859643781293,
+      "alphaMismatch": 0
+    }
+  },
+  "packRevealSpeed": {
+    "4": 1,
+    "0.5": 0
+  },
+  "fallbackMotion": {
+    "mean": 16.095878153413437,
+    "changed": 0.7415974356511718
+  }
+}

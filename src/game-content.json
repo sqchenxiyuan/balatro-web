@@ -1,0 +1,2268 @@
+{
+  "jokers": [
+    {
+      "id": "joker",
+      "name": "Joker",
+      "rarity": "Common",
+      "effect": "+4 Mult",
+      "cost": 2,
+      "zh": "小丑",
+      "description": "+4 倍率"
+    },
+    {
+      "id": "greedy_joker",
+      "name": "Greedy Joker",
+      "rarity": "Common",
+      "effect": "Played cards with Diamond suit give +3 Mult when scored",
+      "cost": 5,
+      "zh": "贪婪小丑",
+      "description": "打出的方块牌计分时给予 +3 倍率"
+    },
+    {
+      "id": "lusty_joker",
+      "name": "Lusty Joker",
+      "rarity": "Common",
+      "effect": "Played cards with Heart suit give +3 Mult when scored",
+      "cost": 5,
+      "zh": "色欲小丑",
+      "description": "打出的红桃牌计分时给予 +3 倍率"
+    },
+    {
+      "id": "wrathful_joker",
+      "name": "Wrathful Joker",
+      "rarity": "Common",
+      "effect": "Played cards with Spade suit give +3 Mult when scored",
+      "cost": 5,
+      "zh": "愤怒小丑",
+      "description": "打出的黑桃牌计分时给予 +3 倍率"
+    },
+    {
+      "id": "gluttonous_joker",
+      "name": "Gluttonous Joker",
+      "rarity": "Common",
+      "effect": "Played cards with Club suit give +3 Mult when scored",
+      "cost": 5,
+      "zh": "暴食小丑",
+      "description": "打出的梅花牌计分时给予 +3 倍率"
+    },
+    {
+      "id": "jolly_joker",
+      "name": "Jolly Joker",
+      "rarity": "Common",
+      "effect": "+8 Mult if played hand contains a Pair",
+      "cost": 3,
+      "zh": "开心小丑",
+      "description": "若打出的手牌包含对子，+8 倍率"
+    },
+    {
+      "id": "zany_joker",
+      "name": "Zany Joker",
+      "rarity": "Common",
+      "effect": "+12 Mult if played hand contains a Three of a Kind",
+      "cost": 4,
+      "zh": "古怪小丑",
+      "description": "若打出的手牌包含三条，+12 倍率"
+    },
+    {
+      "id": "mad_joker",
+      "name": "Mad Joker",
+      "rarity": "Common",
+      "effect": "+10 Mult if played hand contains a Two Pair",
+      "cost": 4,
+      "zh": "疯狂小丑",
+      "description": "若打出的手牌包含两对，+10 倍率"
+    },
+    {
+      "id": "crazy_joker",
+      "name": "Crazy Joker",
+      "rarity": "Common",
+      "effect": "+12 Mult if played hand contains a Straight",
+      "cost": 4,
+      "zh": "狂野小丑",
+      "description": "若打出的手牌包含顺子，+12 倍率"
+    },
+    {
+      "id": "droll_joker",
+      "name": "Droll Joker",
+      "rarity": "Common",
+      "effect": "+10 Mult if played hand contains a Flush",
+      "cost": 4,
+      "zh": "滑稽小丑",
+      "description": "若打出的手牌包含同花，+10 倍率"
+    },
+    {
+      "id": "sly_joker",
+      "name": "Sly Joker",
+      "rarity": "Common",
+      "effect": "+50 Chips if played hand contains a Pair",
+      "cost": 3,
+      "zh": "奸诈小丑",
+      "description": "若打出的手牌包含对子，+50 筹码"
+    },
+    {
+      "id": "wily_joker",
+      "name": "Wily Joker",
+      "rarity": "Common",
+      "effect": "+100 Chips if played hand contains a Three of a Kind",
+      "cost": 4,
+      "zh": "狡猾小丑",
+      "description": "若打出的手牌包含三条，+100 筹码"
+    },
+    {
+      "id": "clever_joker",
+      "name": "Clever Joker",
+      "rarity": "Common",
+      "effect": "+80 Chips if played hand contains a Two Pair",
+      "cost": 4,
+      "zh": "聪敏小丑",
+      "description": "若打出的手牌包含两对，+80 筹码"
+    },
+    {
+      "id": "devious_joker",
+      "name": "Devious Joker",
+      "rarity": "Common",
+      "effect": "+100 Chips if played hand contains a Straight",
+      "cost": 4,
+      "zh": "阴险小丑",
+      "description": "若打出的手牌包含顺子，+100 筹码"
+    },
+    {
+      "id": "crafty_joker",
+      "name": "Crafty Joker",
+      "rarity": "Common",
+      "effect": "+80 Chips if played hand contains a Flush",
+      "cost": 4,
+      "zh": "精明小丑",
+      "description": "若打出的手牌包含同花，+80 筹码"
+    },
+    {
+      "id": "half_joker",
+      "name": "Half Joker",
+      "rarity": "Common",
+      "effect": "+20 Mult if played hand contains 3 or fewer cards",
+      "cost": 5,
+      "zh": "半张小丑",
+      "description": "若打出的手牌包含 3 张或更少的牌，+20 倍率"
+    },
+    {
+      "id": "joker_stencil",
+      "name": "Joker Stencil",
+      "rarity": "Uncommon",
+      "effect": "X1 Mult for each empty Joker slot Joker Stencil included (Currently X1)",
+      "cost": 8,
+      "zh": "模具小丑",
+      "description": "每个空小丑牌槽位 ×1 倍率（含小丑模板自身）（当前 ×）"
+    },
+    {
+      "id": "four_fingers",
+      "name": "Four Fingers",
+      "rarity": "Uncommon",
+      "effect": "All Flushes and Straights can be made with 4 cards",
+      "cost": 7,
+      "zh": "四指",
+      "description": "所有同花和顺子可用 4 张牌组成"
+    },
+    {
+      "id": "mime",
+      "name": "Mime",
+      "rarity": "Uncommon",
+      "effect": "Retrigger all card held in hand abilities",
+      "cost": 5,
+      "zh": "哑剧演员",
+      "description": "重触发所有手中牌的能力"
+    },
+    {
+      "id": "credit_card",
+      "name": "Credit Card",
+      "rarity": "Common",
+      "effect": "Go up to -$20 in debt",
+      "cost": 1,
+      "zh": "信用卡",
+      "description": "可负债至 -$20"
+    },
+    {
+      "id": "ceremonial_dagger",
+      "name": "Ceremonial Dagger",
+      "rarity": "Uncommon",
+      "effect": "When Blind is selected, destroy Joker to the right and permanently add double its sell value to this Mult (Currently +0 Mult)",
+      "cost": 6,
+      "zh": "仪式匕首",
+      "description": "选择盲注时，摧毁右侧的小丑牌并永久将其售价的两倍加到此倍率上（当前 + 倍率）"
+    },
+    {
+      "id": "banner",
+      "name": "Banner",
+      "rarity": "Common",
+      "effect": "+30 Chips for each remaining discard",
+      "cost": 5,
+      "zh": "旗帜",
+      "description": "每剩余 1 次弃牌 +30 筹码（当前 + 筹码）"
+    },
+    {
+      "id": "mystic_summit",
+      "name": "Mystic Summit",
+      "rarity": "Common",
+      "effect": "+15 Mult when 0 discards remaining",
+      "cost": 5,
+      "zh": "神秘之峰",
+      "description": "剩余弃牌次数为 0 时 +15 倍率"
+    },
+    {
+      "id": "marble_joker",
+      "name": "Marble Joker",
+      "rarity": "Uncommon",
+      "effect": "Adds one Stone card to the deck when Blind is selected",
+      "cost": 6,
+      "zh": "大理石小丑",
+      "description": "选择盲注时向牌库添加一张石头牌"
+    },
+    {
+      "id": "loyalty_card",
+      "name": "Loyalty Card",
+      "rarity": "Uncommon",
+      "effect": "X4 Mult every 6 hands played 5 remaining",
+      "cost": 5,
+      "zh": "积分卡",
+      "description": "每打出 6 次手牌 ×4 倍率（剩余 次）"
+    },
+    {
+      "id": "8_ball",
+      "name": "8 Ball",
+      "rarity": "Common",
+      "effect": "1 in 4 chance for each played 8 to create a Tarot card when scored (Must have room)",
+      "cost": 5,
+      "zh": "八号球",
+      "description": "每张打出并计分的 8 有 1/4 概率生成一张塔罗牌；须有空位。"
+    },
+    {
+      "id": "misprint",
+      "name": "Misprint",
+      "rarity": "Common",
+      "effect": "+0-23 Mult",
+      "cost": 4,
+      "zh": "印错小丑",
+      "description": "+0 - +23 倍率"
+    },
+    {
+      "id": "dusk",
+      "name": "Dusk",
+      "rarity": "Uncommon",
+      "effect": "Retrigger all played cards in final hand of the round",
+      "cost": 5,
+      "zh": "黄昏",
+      "description": "重触发回合最后一手牌中所有打出的牌"
+    },
+    {
+      "id": "raised_fist",
+      "name": "Raised Fist",
+      "rarity": "Common",
+      "effect": "Adds double the rank of lowest ranked card held in hand to Mult",
+      "cost": 5,
+      "zh": "致胜之拳",
+      "description": "将手中最低点数牌的点数加倍后加到倍率上"
+    },
+    {
+      "id": "chaos_the_clown",
+      "name": "Chaos the Clown",
+      "rarity": "Common",
+      "effect": "1 free Reroll per shop",
+      "cost": 4,
+      "zh": "混沌小丑",
+      "description": "每个商店 1 次免费重随"
+    },
+    {
+      "id": "fibonacci",
+      "name": "Fibonacci",
+      "rarity": "Uncommon",
+      "effect": "Each played Ace, 2, 3, 5, or 8 gives +8 Mult when scored",
+      "cost": 8,
+      "zh": "斐波那契",
+      "description": "每张打出的A、2、3、5或8计分时给予 +8 倍率"
+    },
+    {
+      "id": "steel_joker",
+      "name": "Steel Joker",
+      "rarity": "Uncommon",
+      "effect": "Gives X0.2 Mult for each Steel Card in your full deck (Currently X1 Mult)",
+      "cost": 7,
+      "zh": "钢铁小丑",
+      "description": "完整牌组中每张钢铁牌提供额外 0.2 X 倍率；基础 X1。"
+    },
+    {
+      "id": "scary_face",
+      "name": "Scary Face",
+      "rarity": "Common",
+      "effect": "Played face cards give +30 Chips when scored",
+      "cost": 4,
+      "zh": "恐怖面孔",
+      "description": "打出的人头牌计分时给予 +30 筹码"
+    },
+    {
+      "id": "abstract_joker",
+      "name": "Abstract Joker",
+      "rarity": "Common",
+      "effect": "+3 Mult for each Joker card (Currently +0 Mult)",
+      "cost": 4,
+      "zh": "抽象小丑",
+      "description": "每张小丑牌 +3 倍率"
+    },
+    {
+      "id": "delayed_gratification",
+      "name": "Delayed Gratification",
+      "rarity": "Common",
+      "effect": "Earn $2 per discard if no discards are used by end of the round",
+      "cost": 4,
+      "zh": "延迟满足",
+      "description": "若本回合结束时未使用弃牌，每次弃牌获得 $2"
+    },
+    {
+      "id": "hack",
+      "name": "Hack",
+      "rarity": "Uncommon",
+      "effect": "Retrigger each played 2, 3, 4, or 5",
+      "cost": 6,
+      "zh": "烂脱口秀演员",
+      "description": "重触发每张打出的2、3、4或5"
+    },
+    {
+      "id": "pareidolia",
+      "name": "Pareidolia",
+      "rarity": "Uncommon",
+      "effect": "All cards are considered face cards",
+      "cost": 5,
+      "zh": "幻视",
+      "description": "所有牌均视为人头牌"
+    },
+    {
+      "id": "gros_michel",
+      "name": "Gros Michel",
+      "rarity": "Common",
+      "effect": "+15 Mult 1 in 6 chance this card is destroyed at end of round",
+      "cost": 5,
+      "zh": "大麦克香蕉",
+      "description": "+15 倍率，此牌有 1/6 概率在回合结束时被摧毁"
+    },
+    {
+      "id": "even_steven",
+      "name": "Even Steven",
+      "rarity": "Common",
+      "effect": "Played cards with even rank give +4 Mult when scored (10, 8, 6, 4, 2)",
+      "cost": 4,
+      "zh": "偶数史蒂文",
+      "description": "打出的偶数点数牌计分时给予 +4 倍率（10、8、6、4、2）"
+    },
+    {
+      "id": "odd_todd",
+      "name": "Odd Todd",
+      "rarity": "Common",
+      "effect": "Played cards with odd rank give +31 Chips when scored (A, 9, 7, 5, 3)",
+      "cost": 4,
+      "zh": "奇数托德",
+      "description": "打出的奇数点数牌计分时给予 +31 筹码（A、9、7、5、3）"
+    },
+    {
+      "id": "scholar",
+      "name": "Scholar",
+      "rarity": "Common",
+      "effect": "Played Aces give +20 Chips and +4 Mult when scored",
+      "cost": 4,
+      "zh": "学者",
+      "description": "打出的A计分时给予 +20 筹码和 +4 倍率"
+    },
+    {
+      "id": "business_card",
+      "name": "Business Card",
+      "rarity": "Common",
+      "effect": "Played face cards have a 1 in 2 chance to give $2 when scored",
+      "cost": 4,
+      "zh": "名片",
+      "description": "打出的人头牌计分时有 1/2 概率给予 $2"
+    },
+    {
+      "id": "supernova",
+      "name": "Supernova",
+      "rarity": "Common",
+      "effect": "Adds the number of times poker hand has been played this run to Mult",
+      "cost": 5,
+      "zh": "超新星",
+      "description": "将该牌型已打出的次数加到倍率上"
+    },
+    {
+      "id": "ride_the_bus",
+      "name": "Ride the Bus",
+      "rarity": "Common",
+      "effect": "This Joker gains +1 Mult per consecutive hand played without a scoring face card (Currently +0 Mult)",
+      "cost": 6,
+      "zh": "搭乘巴士",
+      "description": "每连续打出 1 次不含计分人头牌的手牌此小丑牌 +1 倍率（当前 +）"
+    },
+    {
+      "id": "space_joker",
+      "name": "Space Joker",
+      "rarity": "Uncommon",
+      "effect": "1 in 4 chance to upgrade level of played poker hand",
+      "cost": 5,
+      "zh": "太空小丑",
+      "description": "有 1/4 概率提升打出牌型的等级"
+    },
+    {
+      "id": "egg",
+      "name": "Egg",
+      "rarity": "Common",
+      "effect": "Gains $3 of sell value at end of round",
+      "cost": 4,
+      "zh": "鸡蛋",
+      "description": "回合结束时售价 +$3"
+    },
+    {
+      "id": "burglar",
+      "name": "Burglar",
+      "rarity": "Uncommon",
+      "effect": "When Blind is selected, gain +3 Hands and lose all discards",
+      "cost": 6,
+      "zh": "窃贼",
+      "description": "选择盲注时，获得 +3 次出牌并失去所有弃牌"
+    },
+    {
+      "id": "blackboard",
+      "name": "Blackboard",
+      "rarity": "Uncommon",
+      "effect": "X3 Mult if all cards held in hand are Spades or Clubs",
+      "cost": 6,
+      "zh": "黑板",
+      "description": "若手中所有牌均为黑桃或梅花，×3 倍率"
+    },
+    {
+      "id": "runner",
+      "name": "Runner",
+      "rarity": "Common",
+      "effect": "Gains +15 Chips if played hand contains a Straight (Currently +0 Chips)",
+      "cost": 5,
+      "zh": "跑步选手",
+      "description": "若打出的手牌包含顺子 +15 筹码（当前 + 筹码）"
+    },
+    {
+      "id": "ice_cream",
+      "name": "Ice Cream",
+      "rarity": "Common",
+      "effect": "+100 Chips -5 Chips for every hand played",
+      "cost": 5,
+      "zh": "冰淇淋",
+      "description": "+100 筹码，每打出一手牌 -5 筹码"
+    },
+    {
+      "id": "dna",
+      "name": "DNA",
+      "rarity": "Rare",
+      "effect": "If first hand of round has only 1 card, add a permanent copy to deck and draw it to hand",
+      "cost": 8,
+      "zh": "DNA",
+      "description": "若回合的首次出牌只有 1 张牌，将其永久复制一份加入牌库并抽到手中"
+    },
+    {
+      "id": "splash",
+      "name": "Splash",
+      "rarity": "Common",
+      "effect": "Every played card counts in scoring",
+      "cost": 3,
+      "zh": "飞溅",
+      "description": "每张打出的牌都参与计分"
+    },
+    {
+      "id": "blue_joker",
+      "name": "Blue Joker",
+      "rarity": "Common",
+      "effect": "+2 Chips for each remaining card in deck (Currently +104 Chips)",
+      "cost": 5,
+      "zh": "蓝色小丑",
+      "description": "牌库中每剩余 1 张牌 +2 筹码（当前 + 筹码）"
+    },
+    {
+      "id": "sixth_sense",
+      "name": "Sixth Sense",
+      "rarity": "Uncommon",
+      "effect": "If first hand of round is a single 6, destroy it and create a Spectral card (Must have room)",
+      "cost": 6,
+      "zh": "第六感",
+      "description": "若回合的首次出牌为单张6，摧毁它并生成一张幻灵牌"
+    },
+    {
+      "id": "constellation",
+      "name": "Constellation",
+      "rarity": "Uncommon",
+      "effect": "This Joker gains X0.1 Mult every time a Planet card is used (Currently X1 Mult)",
+      "cost": 6,
+      "zh": "星座",
+      "description": "每使用一张星球牌，X 倍率增加 0.1；初始 X1。"
+    },
+    {
+      "id": "hiker",
+      "name": "Hiker",
+      "rarity": "Uncommon",
+      "effect": "Every played card permanently gains +5 Chips when scored",
+      "cost": 5,
+      "zh": "徒步者",
+      "description": "每张打出的牌计分时永久 +5 筹码"
+    },
+    {
+      "id": "faceless_joker",
+      "name": "Faceless Joker",
+      "rarity": "Common",
+      "effect": "Earn $5 if 3 or more face cards are discarded at the same time",
+      "cost": 4,
+      "zh": "无面小丑",
+      "description": "若同时弃掉 3 张或更多人头牌，获得 $5"
+    },
+    {
+      "id": "green_joker",
+      "name": "Green Joker",
+      "rarity": "Common",
+      "effect": "+1 Mult per hand played -1 Mult per discard (Currently +0 Mult)",
+      "cost": 4,
+      "zh": "绿色小丑",
+      "description": "每打出一手牌此小丑牌获得 +1 倍率，每次弃牌 -1 倍率"
+    },
+    {
+      "id": "superposition",
+      "name": "Superposition",
+      "rarity": "Common",
+      "effect": "Create a Tarot card if poker hand contains an Ace and a Straight (Must have room)",
+      "cost": 4,
+      "zh": "叠加态",
+      "description": "若打出的牌型包含一张A和一个顺子，生成一张塔罗牌"
+    },
+    {
+      "id": "to_do_list",
+      "name": "To Do List",
+      "rarity": "Common",
+      "effect": "Earn $4 if poker hand is a [Poker Hand], poker hand changes at end of round",
+      "cost": 4,
+      "zh": "待办清单",
+      "description": "若打出的牌型为指定牌型获得 $4，牌型在回合结束时变化"
+    },
+    {
+      "id": "cavendish",
+      "name": "Cavendish",
+      "rarity": "Common",
+      "effect": "X3 Mult 1 in 1000 chance this card is destroyed at the end of round",
+      "cost": 4,
+      "zh": "卡文迪什",
+      "description": "×3 倍率，此牌有 1/1000 概率在回合结束时被摧毁"
+    },
+    {
+      "id": "card_sharp",
+      "name": "Card Sharp",
+      "rarity": "Uncommon",
+      "effect": "X3 Mult if played poker hand has already been played this round",
+      "cost": 6,
+      "zh": "老千小丑",
+      "description": "若打出的牌型本回合已打出过，×3 倍率"
+    },
+    {
+      "id": "red_card",
+      "name": "Red Card",
+      "rarity": "Common",
+      "effect": "This Joker gains +3 Mult when any Booster Pack is skipped (Currently +0 Mult)",
+      "cost": 5,
+      "zh": "红牌",
+      "description": "每跳过 1 个补充包此小丑牌 +3 倍率（当前 + 倍率）"
+    },
+    {
+      "id": "madness",
+      "name": "Madness",
+      "rarity": "Uncommon",
+      "effect": "When Small Blind or Big Blind is selected, gain X0.5 Mult and destroy a random Joker (Currently X1 Mult)",
+      "cost": 7,
+      "zh": "疯狂",
+      "description": "选择小盲注或大盲注时，X 倍率增加 0.5，并摧毁一张随机小丑；初始 X1。"
+    },
+    {
+      "id": "square_joker",
+      "name": "Square Joker",
+      "rarity": "Common",
+      "effect": "This Joker gains +4 Chips if played hand has exactly 4 cards (Currently 0 Chips)",
+      "cost": 4,
+      "zh": "方形小丑",
+      "description": "若打出的手牌恰好为 4 张牌此小丑牌 +4 筹码（当前 + 筹码）"
+    },
+    {
+      "id": "s_ance",
+      "name": "Séance",
+      "rarity": "Uncommon",
+      "effect": "If poker hand is a Straight Flush, create a random Spectral card (Must have room)",
+      "cost": 6,
+      "zh": "通灵",
+      "description": "若打出的牌型为同花顺，生成一张随机幻灵牌（须有空位）"
+    },
+    {
+      "id": "riff_raff",
+      "name": "Riff-Raff",
+      "rarity": "Common",
+      "effect": "When Blind is selected, create 2 Common Jokers (Must have room)",
+      "cost": 6,
+      "zh": "乌合之众",
+      "description": "选择盲注时，生成 2 张小丑牌"
+    },
+    {
+      "id": "vampire",
+      "name": "Vampire",
+      "rarity": "Uncommon",
+      "effect": "This Joker gains X0.1 Mult per scoring Enhanced card played, removes card Enhancement (Currently X1 Mult)",
+      "cost": 7,
+      "zh": "吸血鬼",
+      "description": "每打出 1 张计分的增强牌此小丑牌 ×0.1 倍率，并移除该牌的增强（当前 × 倍率）"
+    },
+    {
+      "id": "shortcut",
+      "name": "Shortcut",
+      "rarity": "Uncommon",
+      "effect": "Allows Straights to be made with gaps of 1 rank (ex: 10 8 6 5 3)",
+      "cost": 7,
+      "zh": "捷径",
+      "description": "允许顺子之间存在 1 个点数的间隔（例：10 8 6 5 3）"
+    },
+    {
+      "id": "hologram",
+      "name": "Hologram",
+      "rarity": "Uncommon",
+      "effect": "This Joker gains X0.25 Mult every time a playing card is added to your deck (Currently X1 Mult)",
+      "cost": 7,
+      "zh": "全息影像",
+      "description": "每向牌组添加一张扑克牌，X 倍率增加 0.25；初始 X1。"
+    },
+    {
+      "id": "vagabond",
+      "name": "Vagabond",
+      "rarity": "Rare",
+      "effect": "Create a Tarot card if hand is played with $4 or less",
+      "cost": 8,
+      "zh": "流浪者",
+      "description": "若打出手牌时持有 $4 或更少，生成一张塔罗牌"
+    },
+    {
+      "id": "baron",
+      "name": "Baron",
+      "rarity": "Rare",
+      "effect": "Each King held in hand gives X1.5 Mult",
+      "cost": 8,
+      "zh": "男爵",
+      "description": "手中每张K给予 ×1.5 倍率"
+    },
+    {
+      "id": "cloud_9",
+      "name": "Cloud 9",
+      "rarity": "Uncommon",
+      "effect": "Earn $1 for each 9 in your full deck at end of round (Currently $4)",
+      "cost": 7,
+      "zh": "9霄云外",
+      "description": "回合结束时完整牌库中每张9获得 $1（当前 $）"
+    },
+    {
+      "id": "rocket",
+      "name": "Rocket",
+      "rarity": "Uncommon",
+      "effect": "Earn $1 at end of round. Payout increases by $2 when Boss Blind is defeated",
+      "cost": 6,
+      "zh": "火箭",
+      "description": "回合结束时获得 $1。击败Boss盲注时 +$2"
+    },
+    {
+      "id": "obelisk",
+      "name": "Obelisk",
+      "rarity": "Rare",
+      "effect": "This Joker gains X0.2 Mult per consecutive hand played without playing your most played poker hand (Currently X1 Mult)",
+      "cost": 8,
+      "zh": "方尖石塔",
+      "description": "连续打出非本局最常用牌型时，X 倍率增加 0.2；否则重置为 X1。"
+    },
+    {
+      "id": "midas_mask",
+      "name": "Midas Mask",
+      "rarity": "Uncommon",
+      "effect": "All played face cards become Gold cards when scored",
+      "cost": 7,
+      "zh": "迈达斯面具",
+      "description": "所有打出的人头牌计分时变为金色牌"
+    },
+    {
+      "id": "luchador",
+      "name": "Luchador",
+      "rarity": "Uncommon",
+      "effect": "Sell this card to disable the current Boss Blind",
+      "cost": 5,
+      "zh": "摔跤手",
+      "description": "售出此牌以禁用当前Boss盲注"
+    },
+    {
+      "id": "photograph",
+      "name": "Photograph",
+      "rarity": "Common",
+      "effect": "First played face card gives X2 Mult when scored",
+      "cost": 5,
+      "zh": "照片",
+      "description": "首张打出的人头牌计分时给予 ×2 倍率"
+    },
+    {
+      "id": "gift_card",
+      "name": "Gift Card",
+      "rarity": "Uncommon",
+      "effect": "Add $1 of sell value to every Joker and Consumable card at end of round",
+      "cost": 6,
+      "zh": "礼品卡",
+      "description": "回合结束时，每张小丑牌和消耗牌售价 +$1"
+    },
+    {
+      "id": "turtle_bean",
+      "name": "Turtle Bean",
+      "rarity": "Uncommon",
+      "effect": "+5 hand size, reduces by 1 each round",
+      "cost": 6,
+      "zh": "黑龟豆",
+      "description": "+5 手牌上限，每回合减少 1"
+    },
+    {
+      "id": "erosion",
+      "name": "Erosion",
+      "rarity": "Uncommon",
+      "effect": "+4 Mult for each card below [the deck's starting size] in your full deck (Currently +0 Mult)",
+      "cost": 6,
+      "zh": "侵蚀",
+      "description": "牌库总数每少于 52 张一张就 +4 倍率"
+    },
+    {
+      "id": "reserved_parking",
+      "name": "Reserved Parking",
+      "rarity": "Common",
+      "effect": "Each face card held in hand has a 1 in 2 chance to give $1",
+      "cost": 6,
+      "zh": "私人车位",
+      "description": "手中每张人头牌有 1/2 概率给予 $1"
+    },
+    {
+      "id": "mail_in_rebate",
+      "name": "Mail-In Rebate",
+      "rarity": "Common",
+      "effect": "Earn $5 for each discarded [rank], rank changes every round",
+      "cost": 4,
+      "zh": "邮件回扣",
+      "description": "每弃掉 1 张指定点数的牌获得 $5，点数每回合变化"
+    },
+    {
+      "id": "to_the_moon",
+      "name": "To the Moon",
+      "rarity": "Uncommon",
+      "effect": "Earn an extra $1 of interest for every $5 you have at end of round",
+      "cost": 5,
+      "zh": "冲向月球",
+      "description": "回合结束时，每持有 $5 额外获得 $1 利息"
+    },
+    {
+      "id": "hallucination",
+      "name": "Hallucination",
+      "rarity": "Common",
+      "effect": "1 in 2 chance to create a Tarot card when any Booster Pack is opened (Must have room)",
+      "cost": 4,
+      "zh": "幻觉",
+      "description": "开启任意补充包时有 1/2 概率生成一张塔罗牌"
+    },
+    {
+      "id": "fortune_teller",
+      "name": "Fortune Teller",
+      "rarity": "Common",
+      "effect": "+1 Mult per Tarot card used this run (Currently +0)",
+      "cost": 6,
+      "zh": "占卜师",
+      "description": "本局每使用 1 张塔罗牌 +1 倍率（当前 + 倍率）"
+    },
+    {
+      "id": "juggler",
+      "name": "Juggler",
+      "rarity": "Common",
+      "effect": "+1 hand size",
+      "cost": 4,
+      "zh": "杂耍师",
+      "description": "+1 手牌上限"
+    },
+    {
+      "id": "drunkard",
+      "name": "Drunkard",
+      "rarity": "Common",
+      "effect": "+1 discard each round",
+      "cost": 4,
+      "zh": "醉汉",
+      "description": "+1 弃牌"
+    },
+    {
+      "id": "stone_joker",
+      "name": "Stone Joker",
+      "rarity": "Uncommon",
+      "effect": "Gives +25 Chips for each Stone Card in your full deck (Currently +0 Chips)",
+      "cost": 6,
+      "zh": "石头小丑",
+      "description": "完整牌库中每张石头牌此小丑牌 +25 筹码（当前 + 筹码）"
+    },
+    {
+      "id": "golden_joker",
+      "name": "Golden Joker",
+      "rarity": "Common",
+      "effect": "Earn $4 at end of round",
+      "cost": 6,
+      "zh": "黄金小丑",
+      "description": "回合结束时获得 $4"
+    },
+    {
+      "id": "lucky_cat",
+      "name": "Lucky Cat",
+      "rarity": "Uncommon",
+      "effect": "This Joker gains X0.25 Mult every time a Lucky card successfully triggers (Currently X1 Mult)",
+      "cost": 6,
+      "zh": "招财猫",
+      "description": "每次幸运牌成功触发，X 倍率增加 0.25；初始 X1。"
+    },
+    {
+      "id": "baseball_card",
+      "name": "Baseball Card",
+      "rarity": "Rare",
+      "effect": "Uncommon Jokers each give X1.5 Mult",
+      "cost": 8,
+      "zh": "棒球卡",
+      "description": "每张罕见小丑牌给予 ×1.5 倍率"
+    },
+    {
+      "id": "bull",
+      "name": "Bull",
+      "rarity": "Uncommon",
+      "effect": "+2 Chips for each $1 you have (Currently +0 Chips)",
+      "cost": 6,
+      "zh": "斗牛",
+      "description": "每持有 $1 +2 筹码（当前 + 筹码）"
+    },
+    {
+      "id": "diet_cola",
+      "name": "Diet Cola",
+      "rarity": "Uncommon",
+      "effect": "Sell this card to create a free Double Tag",
+      "cost": 6,
+      "zh": "零糖可乐",
+      "description": "售出此牌以生成一个免费的双倍标签"
+    },
+    {
+      "id": "trading_card",
+      "name": "Trading Card",
+      "rarity": "Uncommon",
+      "effect": "If first discard of round has only 1 card, destroy it and earn $3",
+      "cost": 6,
+      "zh": "交易卡",
+      "description": "若回合的首次弃牌只有 1 张牌，摧毁它并获得 $3"
+    },
+    {
+      "id": "flash_card",
+      "name": "Flash Card",
+      "rarity": "Uncommon",
+      "effect": "This Joker gains +2 Mult per reroll in the shop (Currently +0 Mult)",
+      "cost": 5,
+      "zh": "闪示卡",
+      "description": "每在商店中重随 1 次此小丑牌 +2 倍率（当前 + 倍率）"
+    },
+    {
+      "id": "popcorn",
+      "name": "Popcorn",
+      "rarity": "Common",
+      "effect": "+20 Mult -4 Mult per round played",
+      "cost": 5,
+      "zh": "爆米花",
+      "description": "+20 倍率，每过一回合 -4 倍率"
+    },
+    {
+      "id": "spare_trousers",
+      "name": "Spare Trousers",
+      "rarity": "Uncommon",
+      "effect": "This Joker gains +2 Mult if played hand contains a Two Pair (Currently +0 Mult)",
+      "cost": 6,
+      "zh": "备用裤子",
+      "description": "若打出的手牌包含两对此小丑牌 +2 倍率（当前 + 倍率）"
+    },
+    {
+      "id": "ancient_joker",
+      "name": "Ancient Joker",
+      "rarity": "Rare",
+      "effect": "Each played card with [suit] gives X1.5 Mult when scored, suit changes at end of round",
+      "cost": 8,
+      "zh": "古老小丑",
+      "description": "每张打出的指定花色的牌计分时给予 ×1.5 倍率，花色在回合结束时变化"
+    },
+    {
+      "id": "ramen",
+      "name": "Ramen",
+      "rarity": "Uncommon",
+      "effect": "X2 Mult, loses X0.01 Mult per card discarded",
+      "cost": 6,
+      "zh": "拉面",
+      "description": "×2 倍率，每弃掉 1 张牌 -0.01 倍率"
+    },
+    {
+      "id": "walkie_talkie",
+      "name": "Walkie Talkie",
+      "rarity": "Common",
+      "effect": "Each played 10 or 4 gives +10 Chips and +4 Mult when scored",
+      "cost": 4,
+      "zh": "对讲机",
+      "description": "每张打出的10或4计分时给予 +10 筹码和 +4 倍率"
+    },
+    {
+      "id": "seltzer",
+      "name": "Seltzer",
+      "rarity": "Uncommon",
+      "effect": "Retrigger all cards played for the next 10 hands",
+      "cost": 6,
+      "zh": "苏打水",
+      "description": "接下来 10 次出牌中重触发所有打出的牌"
+    },
+    {
+      "id": "castle",
+      "name": "Castle",
+      "rarity": "Uncommon",
+      "effect": "This Joker gains +3 Chips per discarded [suit] card, suit changes every round (Currently +0 Chips)",
+      "cost": 6,
+      "zh": "城堡",
+      "description": "每弃掉 1 张指定花色的牌此小丑牌 +3 筹码，花色每回合变化（当前 + 筹码）"
+    },
+    {
+      "id": "smiley_face",
+      "name": "Smiley Face",
+      "rarity": "Common",
+      "effect": "Played face cards give +5 Mult when scored",
+      "cost": 4,
+      "zh": "微笑表情",
+      "description": "打出的人头牌计分时给予 +5 倍率"
+    },
+    {
+      "id": "campfire",
+      "name": "Campfire",
+      "rarity": "Rare",
+      "effect": "This Joker gains X0.25 Mult for each card sold, resets when Boss Blind is defeated (Currently X1 Mult)",
+      "cost": 9,
+      "zh": "篝火",
+      "description": "每售出一张卡牌，X 倍率增加 0.25；击败 Boss 后重置为 X1。"
+    },
+    {
+      "id": "golden_ticket",
+      "name": "Golden Ticket",
+      "rarity": "Common",
+      "effect": "Played Gold cards earn $4 when scored",
+      "cost": 5,
+      "zh": "黄金门票",
+      "description": "打出的金色牌计分时获得 $4"
+    },
+    {
+      "id": "mr_bones",
+      "name": "Mr. Bones",
+      "rarity": "Uncommon",
+      "effect": "Prevents Death if chips scored are at least 25% of required chips self destructs",
+      "cost": 5,
+      "zh": "骷髅先生",
+      "description": "若计分筹码至少达到所需筹码的 25% 则阻止死亡，随后自毁"
+    },
+    {
+      "id": "acrobat",
+      "name": "Acrobat",
+      "rarity": "Uncommon",
+      "effect": "X3 Mult on final hand of round",
+      "cost": 6,
+      "zh": "杂技演员",
+      "description": "回合最后一手牌时 ×3 倍率"
+    },
+    {
+      "id": "sock_and_buskin",
+      "name": "Sock and Buskin",
+      "rarity": "Uncommon",
+      "effect": "Retrigger all played face cards",
+      "cost": 6,
+      "zh": "喜与悲",
+      "description": "重触发所有打出的人头牌"
+    },
+    {
+      "id": "swashbuckler",
+      "name": "Swashbuckler",
+      "rarity": "Common",
+      "effect": "Adds the sell value of all other owned Jokers to Mult (Currently +1 Mult)",
+      "cost": 4,
+      "zh": "侠盗",
+      "description": "将所持其他所有小丑牌的售价加到倍率上"
+    },
+    {
+      "id": "troubadour",
+      "name": "Troubadour",
+      "rarity": "Uncommon",
+      "effect": "+2 hand size, -1 hand each round",
+      "cost": 6,
+      "zh": "游吟诗人",
+      "description": "+2 手牌上限，每回合 -1 次出牌"
+    },
+    {
+      "id": "certificate",
+      "name": "Certificate",
+      "rarity": "Uncommon",
+      "effect": "When round begins, add a random playing card with a random seal to your hand",
+      "cost": 6,
+      "zh": "证书",
+      "description": "回合开始时，向手中添加一张带随机蜡封的随机牌"
+    },
+    {
+      "id": "smeared_joker",
+      "name": "Smeared Joker",
+      "rarity": "Uncommon",
+      "effect": "Hearts and Diamonds count as the same suit, Spades and Clubs count as the same suit",
+      "cost": 7,
+      "zh": "模糊小丑",
+      "description": "红桃和方块视为同一花色，梅花和黑桃视为同一花色"
+    },
+    {
+      "id": "throwback",
+      "name": "Throwback",
+      "rarity": "Uncommon",
+      "effect": "X0.25 Mult for each Blind skipped this run (Currently X1 Mult)",
+      "cost": 6,
+      "zh": "回溯",
+      "description": "本局每跳过一个盲注，X 倍率增加 0.25；基础 X1。"
+    },
+    {
+      "id": "hanging_chad",
+      "name": "Hanging Chad",
+      "rarity": "Common",
+      "effect": "Retrigger first played card used in scoring 2 additional times",
+      "cost": 4,
+      "zh": "未断选票",
+      "description": "首张参与计分的打出的牌额外重触发 2 次"
+    },
+    {
+      "id": "rough_gem",
+      "name": "Rough Gem",
+      "rarity": "Uncommon",
+      "effect": "Played cards with Diamond suit earn $1 when scored",
+      "cost": 7,
+      "zh": "璞玉",
+      "description": "打出的方块牌计分时获得 $1"
+    },
+    {
+      "id": "bloodstone",
+      "name": "Bloodstone",
+      "rarity": "Uncommon",
+      "effect": "1 in 2 chance for played cards with Heart suit to give X1.5 Mult when scored",
+      "cost": 7,
+      "zh": "血石",
+      "description": "打出并计分的红桃牌有 1/2 概率提供 ×1.5 倍率。"
+    },
+    {
+      "id": "arrowhead",
+      "name": "Arrowhead",
+      "rarity": "Uncommon",
+      "effect": "Played cards with Spade suit give +50 Chips when scored",
+      "cost": 7,
+      "zh": "箭头",
+      "description": "打出的黑桃牌计分时给予 +50 筹码"
+    },
+    {
+      "id": "onyx_agate",
+      "name": "Onyx Agate",
+      "rarity": "Uncommon",
+      "effect": "Played cards with Club suit give +7 Mult when scored",
+      "cost": 7,
+      "zh": "缟玛瑙",
+      "description": "打出的梅花牌计分时给予 +7 倍率"
+    },
+    {
+      "id": "glass_joker",
+      "name": "Glass Joker",
+      "rarity": "Uncommon",
+      "effect": "This Joker gains X0.75 Mult for every Glass Card that is destroyed (Currently X1 Mult)",
+      "cost": 6,
+      "zh": "玻璃小丑",
+      "description": "每摧毁一张玻璃牌，X 倍率增加 0.75；初始 X1。"
+    },
+    {
+      "id": "showman",
+      "name": "Showman",
+      "rarity": "Uncommon",
+      "effect": "Joker, Tarot, Planet, and Spectral cards may appear multiple times",
+      "cost": 5,
+      "zh": "马戏团长",
+      "description": "小丑牌、塔罗牌、星球牌和幻灵牌可重复出现"
+    },
+    {
+      "id": "flower_pot",
+      "name": "Flower Pot",
+      "rarity": "Uncommon",
+      "effect": "X3 Mult if poker hand contains a Diamond card, Club card, Heart card, and Spade card",
+      "cost": 6,
+      "zh": "花盆",
+      "description": "若打出的牌型包含红桃、方块、梅花和黑桃各一张，×3 倍率"
+    },
+    {
+      "id": "blueprint",
+      "name": "Blueprint",
+      "rarity": "Rare",
+      "effect": "Copies ability of Joker to the right",
+      "cost": 10,
+      "zh": "蓝图",
+      "description": "复制右侧小丑牌的能力"
+    },
+    {
+      "id": "wee_joker",
+      "name": "Wee Joker",
+      "rarity": "Rare",
+      "effect": "This Joker gains +8 Chips when each played 2 is scored (Currently +0 Chips)",
+      "cost": 8,
+      "zh": "小小丑",
+      "description": "每张打出的2计分时此小丑牌 +8 筹码（当前 + 筹码）"
+    },
+    {
+      "id": "merry_andy",
+      "name": "Merry Andy",
+      "rarity": "Uncommon",
+      "effect": "+3 discards each round, -1 hand size",
+      "cost": 7,
+      "zh": "快乐安迪",
+      "description": "+3 弃牌，-1 手牌上限"
+    },
+    {
+      "id": "oops_all_6s",
+      "name": "Oops! All 6s",
+      "rarity": "Uncommon",
+      "effect": "Doubles all listed probabilities (ex: 1 in 3 -> 2 in 3)",
+      "cost": 4,
+      "zh": "六六大顺",
+      "description": "所有列出的概率翻倍（例：1/3 -> 2/3）"
+    },
+    {
+      "id": "the_idol",
+      "name": "The Idol",
+      "rarity": "Uncommon",
+      "effect": "Each played [rank] of [suit] gives X2 Mult when scored Card changes every round",
+      "cost": 6,
+      "zh": "偶像",
+      "description": "每张打出的指定点数和花色的牌计分时给予 ×2 倍率，牌每回合变化"
+    },
+    {
+      "id": "seeing_double",
+      "name": "Seeing Double",
+      "rarity": "Uncommon",
+      "effect": "X2 Mult if played hand has a scoring Club card and a scoring card of any other suit",
+      "cost": 6,
+      "zh": "重影",
+      "description": "若打出的手牌有一张计分的梅花牌和一张任意其他花色的计分牌，×2 倍率"
+    },
+    {
+      "id": "matador",
+      "name": "Matador",
+      "rarity": "Uncommon",
+      "effect": "Earn $8 if played hand triggers the Boss Blind ability",
+      "cost": 7,
+      "zh": "斗牛士",
+      "description": "若打出的手牌触发Boss盲注能力，获得 $8"
+    },
+    {
+      "id": "hit_the_road",
+      "name": "Hit the Road",
+      "rarity": "Rare",
+      "effect": "This Joker gains X0.5 Mult for every Jack discarded this round (Currently X1 Mult)",
+      "cost": 8,
+      "zh": "上路吧杰克",
+      "description": "本回合每弃掉一张 J，X 倍率增加 0.5；初始 X1。"
+    },
+    {
+      "id": "the_duo",
+      "name": "The Duo",
+      "rarity": "Rare",
+      "effect": "X2 Mult if played hand contains a Pair",
+      "cost": 8,
+      "zh": "二重奏",
+      "description": "若打出的手牌包含对子，×2 倍率"
+    },
+    {
+      "id": "the_trio",
+      "name": "The Trio",
+      "rarity": "Rare",
+      "effect": "X3 Mult if played hand contains a Three of a Kind",
+      "cost": 8,
+      "zh": "三重奏",
+      "description": "若打出的手牌包含三条，×3 倍率"
+    },
+    {
+      "id": "the_family",
+      "name": "The Family",
+      "rarity": "Rare",
+      "effect": "X4 Mult if played hand contains a Four of a Kind",
+      "cost": 8,
+      "zh": "一家人",
+      "description": "若打出的手牌包含四条，×4 倍率"
+    },
+    {
+      "id": "the_order",
+      "name": "The Order",
+      "rarity": "Rare",
+      "effect": "X3 Mult if played hand contains a Straight",
+      "cost": 8,
+      "zh": "秩序",
+      "description": "若打出的手牌包含顺子，×3 倍率"
+    },
+    {
+      "id": "the_tribe",
+      "name": "The Tribe",
+      "rarity": "Rare",
+      "effect": "X2 Mult if played hand contains a Flush",
+      "cost": 8,
+      "zh": "部落",
+      "description": "若打出的手牌包含同花，×2 倍率"
+    },
+    {
+      "id": "stuntman",
+      "name": "Stuntman",
+      "rarity": "Rare",
+      "effect": "+250 Chips, -2 hand size",
+      "cost": 7,
+      "zh": "特技演员",
+      "description": "+250 筹码，-2 手牌上限"
+    },
+    {
+      "id": "invisible_joker",
+      "name": "Invisible Joker",
+      "rarity": "Rare",
+      "effect": "After 2 rounds, sell this card to Duplicate a random Joker (Currently 0/2) (Removes Negative from copy)",
+      "cost": 8,
+      "zh": "隐形小丑",
+      "description": "2 回合后，售出此牌以复制一张随机小丑牌（当前 /2）"
+    },
+    {
+      "id": "brainstorm",
+      "name": "Brainstorm",
+      "rarity": "Rare",
+      "effect": "Copies the ability of leftmost Joker",
+      "cost": 10,
+      "zh": "头脑风暴",
+      "description": "复制最左侧小丑牌的能力"
+    },
+    {
+      "id": "satellite",
+      "name": "Satellite",
+      "rarity": "Uncommon",
+      "effect": "Earn $1 at end of round per unique Planet card used this run",
+      "cost": 6,
+      "zh": "卫星",
+      "description": "回合结束时，本局每使用过 1 种不同的星球牌获得 $1（当前 $）"
+    },
+    {
+      "id": "shoot_the_moon",
+      "name": "Shoot the Moon",
+      "rarity": "Common",
+      "effect": "Each Queen held in hand gives +13 Mult",
+      "cost": 5,
+      "zh": "射月",
+      "description": "手中每张Q +13 倍率"
+    },
+    {
+      "id": "driver_s_license",
+      "name": "Driver's License",
+      "rarity": "Rare",
+      "effect": "X3 Mult if you have at least 16 Enhanced cards in your full deck (Currently 0)",
+      "cost": 7,
+      "zh": "驾驶执照",
+      "description": "若牌库中至少有 16 张已增强的牌，则 ×3 倍率"
+    },
+    {
+      "id": "cartomancer",
+      "name": "Cartomancer",
+      "rarity": "Uncommon",
+      "effect": "Create a Tarot card when Blind is selected (Must have room)",
+      "cost": 6,
+      "zh": "卡牌术士",
+      "description": "选择盲注时生成一张塔罗牌"
+    },
+    {
+      "id": "astronomer",
+      "name": "Astronomer",
+      "rarity": "Uncommon",
+      "effect": "All Planet cards and Celestial Packs in the shop are free",
+      "cost": 8,
+      "zh": "天文学家",
+      "description": "商店中所有星球牌和天体补充包免费"
+    },
+    {
+      "id": "burnt_joker",
+      "name": "Burnt Joker",
+      "rarity": "Rare",
+      "effect": "Upgrade the level of the first discarded poker hand each round",
+      "cost": 8,
+      "zh": "烧焦小丑",
+      "description": "提升每回合首次弃掉的牌型的等级"
+    },
+    {
+      "id": "bootstraps",
+      "name": "Bootstraps",
+      "rarity": "Uncommon",
+      "effect": "+2 Mult for every $5 you have (Currently +0 Mult)",
+      "cost": 7,
+      "zh": "提靴带",
+      "description": "每持有 $5 +2 倍率（当前 + 倍率）"
+    },
+    {
+      "id": "canio",
+      "name": "Canio",
+      "rarity": "Legendary",
+      "effect": "This Joker gains X1 Mult when a face card is destroyed (Currently X1 Mult)",
+      "cost": 20,
+      "zh": "卡尼奥",
+      "description": "每摧毁一张人头牌，X 倍率增加 1；初始 X1。"
+    },
+    {
+      "id": "triboulet",
+      "name": "Triboulet",
+      "rarity": "Legendary",
+      "effect": "Played Kings and Queens each give X2 Mult when scored",
+      "cost": 20,
+      "zh": "特里布莱",
+      "description": "打出的K和Q计分时各给予 ×2 倍率"
+    },
+    {
+      "id": "yorick",
+      "name": "Yorick",
+      "rarity": "Legendary",
+      "effect": "This Joker gains X1 Mult every 23 [23] cards discarded (Currently X1 Mult)",
+      "cost": 20,
+      "zh": "约里克",
+      "description": "每弃掉 23 张扑克牌，X 倍率增加 1；初始 X1。"
+    },
+    {
+      "id": "chicot",
+      "name": "Chicot",
+      "rarity": "Legendary",
+      "effect": "Disables effect of every Boss Blind",
+      "cost": 20,
+      "zh": "希科",
+      "description": "禁用每个Boss盲注的效果"
+    },
+    {
+      "id": "perkeo",
+      "name": "Perkeo",
+      "rarity": "Legendary",
+      "effect": "Creates a Negative copy of 1 random consumable card in your possession at the end of the shop",
+      "cost": 20,
+      "zh": "帕奇欧",
+      "description": "离开商店时，生成一张随机持有消耗牌的负片副本。"
+    }
+  ],
+  "vouchers": [
+    {
+      "id": "overstock",
+      "name": "Overstock",
+      "effect": "+1 card slot available in shop",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": "Also immediately restocks any empty card slots in the Shop when purchased."
+    },
+    {
+      "id": "overstock_plus",
+      "name": "Overstock Plus",
+      "effect": "+1 card slot available in shop",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "overstock",
+      "notes": "Also immediately restocks any empty card slots in the Shop when purchased."
+    },
+    {
+      "id": "clearance_sale",
+      "name": "Clearance Sale",
+      "effect": "All cards and packs in shop are 25% off",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": "Also reduces the sell value of your present jokers Prices are rounded half down"
+    },
+    {
+      "id": "liquidation",
+      "name": "Liquidation",
+      "effect": "All cards and packs in shop are 50% off",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "clearance_sale",
+      "notes": "Also reduces the sell value of your present jokers Prices are rounded half down"
+    },
+    {
+      "id": "hone",
+      "name": "Hone",
+      "effect": "Foil, Holographic, and Polychrome cards appear 2X more often",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": "Polychrome on Jokers actually appears 3x more often for Hone and 7x more often for Glow Up"
+    },
+    {
+      "id": "glow_up",
+      "name": "Glow Up",
+      "effect": "Foil, Holographic, and Polychrome cards appear 4X more often",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "hone",
+      "notes": "Polychrome on Jokers actually appears 3x more often for Hone and 7x more often for Glow Up"
+    },
+    {
+      "id": "reroll_surplus",
+      "name": "Reroll Surplus",
+      "effect": "Rerolls cost $2 less",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": ""
+    },
+    {
+      "id": "reroll_glut",
+      "name": "Reroll Glut",
+      "effect": "Rerolls cost an additional $2 less",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "reroll_surplus",
+      "notes": ""
+    },
+    {
+      "id": "crystal_ball",
+      "name": "Crystal Ball",
+      "effect": "+1 consumable slot",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": "Omen Globe has a 20% individual chance to replace the Tarot card with a Spectral card for every card in the Arcana Pack"
+    },
+    {
+      "id": "omen_globe",
+      "name": "Omen Globe",
+      "effect": "Spectral cards may appear in any of the Arcana Packs",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "crystal_ball",
+      "notes": "Omen Globe has a 20% individual chance to replace the Tarot card with a Spectral card for every card in the Arcana Pack"
+    },
+    {
+      "id": "telescope",
+      "name": "Telescope",
+      "effect": "Celestial Packs always contain the Planet card for your most played poker hand",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": "Telescope picks the higher tier hand in case of multiple most played hands"
+    },
+    {
+      "id": "observatory",
+      "name": "Observatory",
+      "effect": "Planet cards in your consumable area give X1.5 Mult for their specified poker hand",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "telescope",
+      "notes": "Telescope picks the higher tier hand in case of multiple most played hands"
+    },
+    {
+      "id": "grabber",
+      "name": "Grabber",
+      "effect": "Permanently gain +1 hand per round",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": ""
+    },
+    {
+      "id": "nacho_tong",
+      "name": "Nacho Tong",
+      "effect": "Permanently gain an additional +1 hand per round",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "grabber",
+      "notes": ""
+    },
+    {
+      "id": "wasteful",
+      "name": "Wasteful",
+      "effect": "Permanently gain +1 discard each round",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": ""
+    },
+    {
+      "id": "recyclomancy",
+      "name": "Recyclomancy",
+      "effect": "Permanently gain an additional +1 discard each round",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "wasteful",
+      "notes": ""
+    },
+    {
+      "id": "tarot_merchant",
+      "name": "Tarot Merchant",
+      "effect": "Tarot cards appear 2X more frequently in the shop",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": ""
+    },
+    {
+      "id": "tarot_tycoon",
+      "name": "Tarot Tycoon",
+      "effect": "Tarot cards appear 4X more frequently in the shop",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "tarot_merchant",
+      "notes": ""
+    },
+    {
+      "id": "planet_merchant",
+      "name": "Planet Merchant",
+      "effect": "Planet cards appear 2X more frequently in the shop",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": ""
+    },
+    {
+      "id": "planet_tycoon",
+      "name": "Planet Tycoon",
+      "effect": "Planet cards appear 4X more frequently in the shop",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "planet_merchant",
+      "notes": ""
+    },
+    {
+      "id": "seed_money",
+      "name": "Seed Money",
+      "effect": "Raise the cap on interest earned in each round to $10",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": "Does nothing when playing on Green Deck or the Mad World challenge."
+    },
+    {
+      "id": "money_tree",
+      "name": "Money Tree",
+      "effect": "Raise the cap on interest earned in each round to $20",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "seed_money",
+      "notes": "Does nothing when playing on Green Deck or the Mad World challenge."
+    },
+    {
+      "id": "blank",
+      "name": "Blank",
+      "effect": "Does nothing?",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": "If all vouchers have been purchased in a run, Blank will appear in the shop."
+    },
+    {
+      "id": "antimatter",
+      "name": "Antimatter",
+      "effect": "+1 Joker Slot",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "blank",
+      "notes": "If all vouchers have been purchased in a run, Blank will appear in the shop."
+    },
+    {
+      "id": "magic_trick",
+      "name": "Magic Trick",
+      "effect": "Playing cards can be purchased from the shop",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": "Illusion is currently (v1.0.1o-FULL) bugged, and cards in the shop cannot have seals, only enhancements and/or editions, and is unaffected by Hone/Glow Up."
+    },
+    {
+      "id": "illusion",
+      "name": "Illusion",
+      "effect": "Playing cards in shop may have an Enhancement, Edition, and/or a Seal",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "magic_trick",
+      "notes": "Illusion is currently (v1.0.1o-FULL) bugged, and cards in the shop cannot have seals, only enhancements and/or editions, and is unaffected by Hone/Glow Up."
+    },
+    {
+      "id": "hieroglyph",
+      "name": "Hieroglyph",
+      "effect": "-1 Ante, -1 hand each round",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": ""
+    },
+    {
+      "id": "petroglyph",
+      "name": "Petroglyph",
+      "effect": "-1 Ante, -1 discard each round",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "hieroglyph",
+      "notes": ""
+    },
+    {
+      "id": "director_s_cut",
+      "name": "Director's Cut",
+      "effect": "Reroll Boss Blind 1 time per Ante, $10 per roll",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": ""
+    },
+    {
+      "id": "retcon",
+      "name": "Retcon",
+      "effect": "Reroll Boss Blind unlimited times, $10 per roll",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "director_s_cut",
+      "notes": ""
+    },
+    {
+      "id": "paint_brush",
+      "name": "Paint Brush",
+      "effect": "+1 hand size",
+      "tier": 1,
+      "base_cost_dollars": 10,
+      "upgrade_of": null,
+      "notes": ""
+    },
+    {
+      "id": "palette",
+      "name": "Palette",
+      "effect": "+1 hand size",
+      "tier": 2,
+      "base_cost_dollars": 10,
+      "upgrade_of": "paint_brush",
+      "notes": ""
+    }
+  ],
+  "decks": [
+    {
+      "id": "red_deck",
+      "collection_number": 1,
+      "name": "Red Deck",
+      "effect": "+1 discard every round"
+    },
+    {
+      "id": "blue_deck",
+      "collection_number": 2,
+      "name": "Blue Deck",
+      "effect": "+1 hand every round"
+    },
+    {
+      "id": "yellow_deck",
+      "collection_number": 3,
+      "name": "Yellow Deck",
+      "effect": "Start with extra $10"
+    },
+    {
+      "id": "green_deck",
+      "collection_number": 4,
+      "name": "Green Deck",
+      "effect": "At end of each Round: $2 per remaining Hand $1 per remaining Discard Earn no Interest"
+    },
+    {
+      "id": "black_deck",
+      "collection_number": 5,
+      "name": "Black Deck",
+      "effect": "+1 Joker slot -1 hand every round"
+    },
+    {
+      "id": "magic_deck",
+      "collection_number": 6,
+      "name": "Magic Deck",
+      "effect": "Start run with the Crystal Ball voucher and 2 copies of The Fool"
+    },
+    {
+      "id": "nebula_deck",
+      "collection_number": 7,
+      "name": "Nebula Deck",
+      "effect": "Start run with the Telescope voucher -1 consumable slot"
+    },
+    {
+      "id": "ghost_deck",
+      "collection_number": 8,
+      "name": "Ghost Deck",
+      "effect": "Spectral cards may appear in the shop, start with a Hex card"
+    },
+    {
+      "id": "abandoned_deck",
+      "collection_number": 9,
+      "name": "Abandoned Deck",
+      "effect": "Start run with no Face Cards in your deck"
+    },
+    {
+      "id": "checkered_deck",
+      "collection_number": 10,
+      "name": "Checkered Deck",
+      "effect": "Start run with 26 Spades and 26 Hearts in deck"
+    },
+    {
+      "id": "zodiac_deck",
+      "collection_number": 11,
+      "name": "Zodiac Deck",
+      "effect": "Start run with Tarot Merchant, Planet Merchant, and Overstock"
+    },
+    {
+      "id": "painted_deck",
+      "collection_number": 12,
+      "name": "Painted Deck",
+      "effect": "+2 hand size, -1 Joker slot"
+    },
+    {
+      "id": "anaglyph_deck",
+      "collection_number": 13,
+      "name": "Anaglyph Deck",
+      "effect": "After defeating each Boss Blind, gain a Double Tag"
+    },
+    {
+      "id": "plasma_deck",
+      "collection_number": 14,
+      "name": "Plasma Deck",
+      "effect": "Balance Chips and Mult when calculating score for played hand X2 base Blind size"
+    },
+    {
+      "id": "erratic_deck",
+      "collection_number": 15,
+      "name": "Erratic Deck",
+      "effect": "All Ranks and Suits in deck are randomized"
+    }
+  ],
+  "blinds": [
+    {
+      "id": "small_blind",
+      "name": "Small Blind",
+      "effect": "No special effects - can be skipped to receive a Tag",
+      "minimum_ante_text": "Any",
+      "score_multiplier": 1.0,
+      "reward_dollars": 3,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "big_blind",
+      "name": "Big Blind",
+      "effect": "No special effects - can be skipped to receive a Tag",
+      "minimum_ante_text": "Any",
+      "score_multiplier": 1.5,
+      "reward_dollars": 4,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "the_hook",
+      "name": "The Hook",
+      "effect": "Discards 2 random cards per hand played",
+      "minimum_ante_text": "Any",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "the_ox",
+      "name": "The Ox",
+      "effect": "Playing a (most played hand) sets money to $0",
+      "minimum_ante_text": "6",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_house",
+      "name": "The House",
+      "effect": "First hand is drawn face down",
+      "minimum_ante_text": "2",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "the_wall",
+      "name": "The Wall",
+      "effect": "Extra large blind",
+      "minimum_ante_text": "2",
+      "score_multiplier": 4.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "the_wheel",
+      "name": "The Wheel",
+      "effect": "1 in 7 cards get drawn face down",
+      "minimum_ante_text": "2",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "the_arm",
+      "name": "The Arm",
+      "effect": "Decrease level of played poker hand",
+      "minimum_ante_text": "2",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_club",
+      "name": "The Club",
+      "effect": "All Club cards are debuffed",
+      "minimum_ante_text": "Any",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_fish",
+      "name": "The Fish",
+      "effect": "Cards drawn face down after each hand played",
+      "minimum_ante_text": "2",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "the_psychic",
+      "name": "The Psychic",
+      "effect": "Must play 5 cards",
+      "minimum_ante_text": "Any",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_goad",
+      "name": "The Goad",
+      "effect": "All Spade cards are debuffed",
+      "minimum_ante_text": "Any",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_water",
+      "name": "The Water",
+      "effect": "Start with 0 discards",
+      "minimum_ante_text": "2",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "the_window",
+      "name": "The Window",
+      "effect": "All Diamond cards are debuffed",
+      "minimum_ante_text": "Any",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_manacle",
+      "name": "The Manacle",
+      "effect": "-1 Hand Size",
+      "minimum_ante_text": "Any",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "the_eye",
+      "name": "The Eye",
+      "effect": "No repeat hand types this round",
+      "minimum_ante_text": "3",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_mouth",
+      "name": "The Mouth",
+      "effect": "Play only 1 hand type this round",
+      "minimum_ante_text": "2",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_plant",
+      "name": "The Plant",
+      "effect": "All face cards are debuffed",
+      "minimum_ante_text": "4",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_serpent",
+      "name": "The Serpent",
+      "effect": "After Play or Discard, always draw 3 cards",
+      "minimum_ante_text": "5",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "the_pillar",
+      "name": "The Pillar",
+      "effect": "Cards played previously this Ante are debuffed",
+      "minimum_ante_text": "Any",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_needle",
+      "name": "The Needle",
+      "effect": "Play only 1 hand",
+      "minimum_ante_text": "2",
+      "score_multiplier": 1.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "the_head",
+      "name": "The Head",
+      "effect": "All Heart cards are debuffed",
+      "minimum_ante_text": "Any",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_tooth",
+      "name": "The Tooth",
+      "effect": "Lose $1 per card played",
+      "minimum_ante_text": "3",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "the_flint",
+      "name": "The Flint",
+      "effect": "Base Chips and Mult are halved",
+      "minimum_ante_text": "2",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "the_mark",
+      "name": "The Mark",
+      "effect": "All face cards are drawn face down",
+      "minimum_ante_text": "2",
+      "score_multiplier": 2.0,
+      "reward_dollars": 5,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "amber_acorn",
+      "name": "Amber Acorn",
+      "effect": "Flips and shuffles all Joker cards",
+      "minimum_ante_text": "8",
+      "score_multiplier": 2.0,
+      "reward_dollars": 8,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "verdant_leaf",
+      "name": "Verdant Leaf",
+      "effect": "All cards debuffed until 1 Joker sold",
+      "minimum_ante_text": "8",
+      "score_multiplier": 2.0,
+      "reward_dollars": 8,
+      "matador_compatible_text": "✓ Yes"
+    },
+    {
+      "id": "violet_vessel",
+      "name": "Violet Vessel",
+      "effect": "Very large blind",
+      "minimum_ante_text": "8",
+      "score_multiplier": 6.0,
+      "reward_dollars": 8,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "crimson_heart",
+      "name": "Crimson Heart",
+      "effect": "One random Joker disabled every hand",
+      "minimum_ante_text": "8",
+      "score_multiplier": 2.0,
+      "reward_dollars": 8,
+      "matador_compatible_text": "✗ No"
+    },
+    {
+      "id": "cerulean_bell",
+      "name": "Cerulean Bell",
+      "effect": "Forces 1 card to always be selected",
+      "minimum_ante_text": "8",
+      "score_multiplier": 2.0,
+      "reward_dollars": 8,
+      "matador_compatible_text": "✗ No"
+    }
+  ],
+  "tags": [
+    {
+      "id": "uncommon_tag",
+      "name": "Uncommon Tag",
+      "effect": "Shop has a free Uncommon Joker",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "rare_tag",
+      "name": "Rare Tag",
+      "effect": "Shop has a free Rare Joker",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "negative_tag",
+      "name": "Negative Tag",
+      "effect": "Next base edition shop Joker is free and becomes Negative",
+      "minimum_ante_text": "2+"
+    },
+    {
+      "id": "foil_tag",
+      "name": "Foil Tag",
+      "effect": "Next base edition shop Joker is free and becomes Foil",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "holographic_tag",
+      "name": "Holographic Tag",
+      "effect": "Next base edition shop Joker is free and becomes Holographic",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "polychrome_tag",
+      "name": "Polychrome Tag",
+      "effect": "Next base edition shop Joker is free and becomes Polychrome",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "investment_tag",
+      "name": "Investment Tag",
+      "effect": "After defeating the Boss Blind, gain $25.",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "voucher_tag",
+      "name": "Voucher Tag",
+      "effect": "Adds one Voucher to the next shop",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "boss_tag",
+      "name": "Boss Tag",
+      "effect": "Rerolls the Boss Blind",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "standard_tag",
+      "name": "Standard Tag",
+      "effect": "Gives a free Mega Standard Pack",
+      "minimum_ante_text": "2+"
+    },
+    {
+      "id": "charm_tag",
+      "name": "Charm Tag",
+      "effect": "Gives a free Mega Arcana Pack",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "meteor_tag",
+      "name": "Meteor Tag",
+      "effect": "Gives a free Mega Celestial Pack",
+      "minimum_ante_text": "2+"
+    },
+    {
+      "id": "buffoon_tag",
+      "name": "Buffoon Tag",
+      "effect": "Gives a free Mega Buffoon Pack",
+      "minimum_ante_text": "2+"
+    },
+    {
+      "id": "handy_tag",
+      "name": "Handy Tag",
+      "effect": "Gives $1 per played hand this run (Will give $0)",
+      "minimum_ante_text": "2+"
+    },
+    {
+      "id": "garbage_tag",
+      "name": "Garbage Tag",
+      "effect": "Gives $1 per unused discard this run (Will give $0)",
+      "minimum_ante_text": "2+"
+    },
+    {
+      "id": "ethereal_tag",
+      "name": "Ethereal Tag",
+      "effect": "Gives a free Spectral Pack",
+      "minimum_ante_text": "2+"
+    },
+    {
+      "id": "coupon_tag",
+      "name": "Coupon Tag",
+      "effect": "Initial cards and booster packs in next shop are free",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "double_tag",
+      "name": "Double Tag",
+      "effect": "Gives a copy of the next selected Tag Double Tag excluded",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "juggle_tag",
+      "name": "Juggle Tag",
+      "effect": "+3 hand size next round",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "d6_tag",
+      "name": "D6 Tag",
+      "effect": "Rerolls in next shop start at $0",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "top_up_tag",
+      "name": "Top-up Tag",
+      "effect": "Create up to 2 Common Jokers (Must have room)",
+      "minimum_ante_text": "2+"
+    },
+    {
+      "id": "speed_tag",
+      "name": "Speed Tag",
+      "effect": "Gives $5 per skipped Blind this run (Will give $5)",
+      "minimum_ante_text": "Any"
+    },
+    {
+      "id": "orbital_tag",
+      "name": "Orbital Tag",
+      "effect": "Upgrade [poker hand] by 3 levels",
+      "minimum_ante_text": "2+"
+    },
+    {
+      "id": "economy_tag",
+      "name": "Economy Tag",
+      "effect": "Doubles your money (Max of $40)",
+      "minimum_ante_text": "Any"
+    }
+  ],
+  "ante_base_scores": [
+    {
+      "ante": 1,
+      "white_or_red": 300,
+      "green_through_blue": 300,
+      "purple_through_gold": 300
+    },
+    {
+      "ante": 2,
+      "white_or_red": 800,
+      "green_through_blue": 900,
+      "purple_through_gold": 1000
+    },
+    {
+      "ante": 3,
+      "white_or_red": 2000,
+      "green_through_blue": 2600,
+      "purple_through_gold": 3200
+    },
+    {
+      "ante": 4,
+      "white_or_red": 5000,
+      "green_through_blue": 8000,
+      "purple_through_gold": 9000
+    },
+    {
+      "ante": 5,
+      "white_or_red": 11000,
+      "green_through_blue": 20000,
+      "purple_through_gold": 25000
+    },
+    {
+      "ante": 6,
+      "white_or_red": 20000,
+      "green_through_blue": 36000,
+      "purple_through_gold": 60000
+    },
+    {
+      "ante": 7,
+      "white_or_red": 35000,
+      "green_through_blue": 60000,
+      "purple_through_gold": 110000
+    },
+    {
+      "ante": 8,
+      "white_or_red": 50000,
+      "green_through_blue": 100000,
+      "purple_through_gold": 200000
+    }
+  ],
+  "eternal_incompatible_jokers": [
+    "gros_michel",
+    "ice_cream",
+    "cavendish",
+    "luchador",
+    "turtle_bean",
+    "diet_cola",
+    "popcorn",
+    "ramen",
+    "seltzer",
+    "mr_bones",
+    "invisible_joker"
+  ],
+  "perishable_incompatible_jokers": [
+    "ceremonial_dagger",
+    "ride_the_bus",
+    "runner",
+    "constellation",
+    "green_joker",
+    "red_card",
+    "madness",
+    "square_joker",
+    "vampire",
+    "hologram",
+    "rocket",
+    "obelisk",
+    "lucky_cat",
+    "flash_card",
+    "spare_trousers",
+    "castle",
+    "glass_joker",
+    "wee_joker"
+  ],
+  "copy_fully_incompatible_jokers": [
+    "four_fingers",
+    "credit_card",
+    "chaos_the_clown",
+    "delayed_gratification",
+    "pareidolia",
+    "egg",
+    "splash",
+    "sixth_sense",
+    "shortcut",
+    "cloud_9",
+    "rocket",
+    "midas_mask",
+    "gift_card",
+    "turtle_bean",
+    "to_the_moon",
+    "juggler",
+    "drunkard",
+    "golden_joker",
+    "trading_card",
+    "mr_bones",
+    "troubadour",
+    "smeared_joker",
+    "showman",
+    "merry_andy",
+    "oops_all_6s",
+    "invisible_joker",
+    "satellite",
+    "astronomer",
+    "chicot"
+  ]
+}

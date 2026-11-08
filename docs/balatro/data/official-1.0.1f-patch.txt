@@ -1,0 +1,118 @@
+Title: 1.0.1f - Patch notes
+URL: https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5766372999940479946
+Feed: steam_community_announcements
+Unix timestamp: 1714581453
+
+Hey everyone! I'm super happy to announce that the first meaty balance patch for Balatro is now live for everyone! Thank you so much to everyone in the community that gave feedback during the public experimental beta. If you have been a beta tester, this version is functionally identical to 1.0.1e - but here are all the changes made to the game since 1.0.0n:
+[code]- Updated version of Love2D (the engine) - this fixes an issue on Windows and Steam Deck causing poor/stuttery performance for some players
+- Added VC++ 2022 redistributable as an installation requirement
+- General performance improvements
+- Added toggle for 'Reduced Motion', removing the swirly background, gyrating card motion, much of the 'juice' in the game
+- Changed default fallback tarot from Fool to Strength (when all tarots are on screen)
+- Banned top-up tag and Antimatter on Jokerless Challenge
+- Changed Gold Stake random seeds - now ensures that the first Legendary Joker on that seed is a Joker that you have not won with on Gold Stake (For Completionist++ hunting)
+- Changed ante scaling in white stake: 
+    - Ante 3: 2800 -> 2000
+    - Ante 4: 6000 -> 5000
+- Changed ante scaling in green stake: 
+    - Ante 2: 1000 -> 900
+    - Ante 3: 3200 -> 2600
+    - Ante 4: 9000 -> 8000
+    - Ante 5: 18000 -> 20000
+    - Ante 6: 32000 -> 36000
+    - Ante 7: 56000 -> 60000
+    - Ante 8: 90000 -> 100000
+- Changed ante scaling in purple stake: 
+    - Ante 2: 1200 -> 1000
+    - Ante 3: 3600 -> 3200
+    - Ante 4: 10000 -> 9000
+    - Ante 6: 50000 -> 60000
+    - Ante 7: 90000 -> 110000
+    - Ante 8: 180000 -> 200000
+- Changed Orange Stake
+    - Scrapped increasing pack cost
+    - Added new 'Perishable' mechanic, Jokers have a 30% chance to have a 'Perishable' sticker, disabling them after 5 rounds
+- Changed Gold Stake
+    - Scrapped -1 hand size
+    - Added new 'Rental' mechanic, Jokers have a 30% chance to have a 'Rental' sticker (stacks with eternal/perishable), making them cost $1 up front and $3 every round
+- Changed eternal to apply to Jokers in Buffoon packs
+- Changed Eternal/Rental/Perishable sticker location to be in the top left corner
+- Made some non-retroactive scaling Jokers incompatible with 'Perishable' (Ceremonial Dagger, Glass Joker, Hologram, Ride the Bus, runner, constellation, green joker, red card, madness, square joker, vampire, rocket, obelisk, lucky cat, flash card, spare trousers, castle, wee)
+- Changed the first shop in every run to always include a normal Buffoon pack as one of the pack options
+- Upcoming blinds/tags can now be seen in the shop immediately after defeating a boss blind/cashing out
+- Some Blinds are now be banned on challenge runs
+        - banned Crimson Heart, Verdant Leaf and Amber Acorn on 'Jokerless'
+        - banned Verdant Leaf on 'Typecast'
+        - banned Verdant Leaf on 'Non-Perishable'
+        - banned The Plant on 'Mad World'
+- Buffed Saturn
+    - Now gives +3 mult instead of +2 mult for Straights
+- Buffed Neptune
+    - Now gives +4 mult instead of +3 mult for Straight Flush
+- Buffed Eris
+    - Now gives +50 chips instead of +40 chips for Flush Five
+- Buffed Ceres
+    - Now gives +4 mult instead of +3 mult for Flush House
+
+- Square Joker now has a square sprite
+- Blue Joker sprite was fixed (2 out of place blue pixels)
+- Changed Uncommon tag - Now makes the uncommon joker free
+- Changed Rare tag - Now makes the rare joker free
+- Negative, Polychrome, Holo, Foil tags all make their respective joker free
+- Changed Investment to give $25 instead of $15
+- Changed 8 Ball - scrapped old effect, new effect -> 1 in 4 chance to spawn a tarot when any played 8 is scored
+- Changed Blue Seal - now creates the planet card of the final poker hand played during the round
+- Changed both Mad and Clever Joker - scrapped 'contains 4 of a kind' effect, now applies instead to any hand that contains a 'Two Pair'
+- Changed Yorick - scrapped old effect, new effect -> gains X1 mult every 23 cards discarded (starts at X1)
+- Changed Magician Tarot - now applies lucky to 2 cards instead of 1
+- Changed Midas Mask - now only applies Gold enhancement to scoring face cards, costs $7 was $6
+- Changed Vampire 
+    - now only removes enhancement from scoring cards
+    - gives X0.1 mult per enhancement instead of X0.2 mult
+- Changed Madness - now only applies on small/big blinds, not on boss blind selection
+- Changed To Do list - poker hand no longer changes on payout, always changes at end of round (won't get stuck on Straight Flush)
+- Changed description of Shortcut to include a more apt example (10 8 6 5 3)
+- Changed Ancient Joker - the selected suit is no longer able to repeat between rounds
+- Changed Swashbuckler - Now adds sell value of all other Jokers to Mult, not just the Jokers to the left
+- Changed Hanging Chad - Now retriggers the first played card 2 times instead of once
+- Changed Runner - now starts at +0 chips and gives +15 chips per straight, was +20 and +10 per straight
+- Changed Flower Pot - Now includes the base suit of debuffed cards when determining if it will trigger
+- Changed Bootstraps to include current mult bonus in description
+- Changed all 4 Sinful Jokers (one for each suit) - they now each give +3 mult per suit instead of +4 mult
+- Changed Banner - now gives +30 chips per remaining discard instead of +40 chips
+- Changed Fibonacci - costs $8 instead of $7, because Fibonacci
+- Changed Square Joker - now starts at +0 chips, was +16 chips, now costs $4, was $5
+- Changed Wee Joker - now starts at +0 chips, was +10 chips
+- Changed Steel Joker - Now gives X0.2 mult per Steel card in full deck instead of X0.25 mult
+- Changed Odd Todd - Now gives +31 chips per odd ranked card instead of +30 mult
+- Changed Sixth Sense - Now uncommon and $6, was rare
+- Changed Hiker - Now gives +5 chips to every scoring card played instead of +4 chips
+- Changed Gros Michel - Now has a 1 in 6 chance to go extinct instead of 1 in 4
+- Changed Seance - Now uncommon and $6, was rare and $7
+- Changed Riff-Raff - Now $6, was $4
+- Changed Vagabond
+    - Rare, was uncommon
+    - $8, was $6
+    - Applies when you have $4 or less, was $3 or less
+- Changed Cloud 9 - Now $7, was $6
+- Changed Mail-In Rebate - Now $5 was $3
+- Changed Reserved Parking - Now common, was uncommon
+- Changed Lucky Cat - Now gains X0.25 per lucky proc, was X0.2
+- Changed Trading card - Now costs $6, was $5
+- Changed Campfire - Now gains X0.25 per card sold, was X0.5
+- Changed Smily Face - Now give +5 mult per face card, was +4 mult
+- Changed Golden Ticket - Now payes out $4 per gold card played, was $3
+- Changed Bloodstone - Now has a 1 in 2 chance to proc, was 1 in 3, gives X1.5 mult, was X2 mult
+- Changed Onyx Agate - Now gives +7 mult per club card, was +8 mult
+- Changed Glass Joker - Now gives X0.75 mult per glass card destroyed, was X0.5 mult
+- Changed Stuntman - Now gives +250 Chips, was +300, is now rare, was uncommon, is not $7, was $6
+- Changed Invisible Joker - Now requires 2 rounds and costs $8, was 3 rounds and $10
+- Changed wording on most scaling jokers to refer to 'this joker'
+
+- Fixed bug where opening a booster pack with hand size of 0 was unskippable
+- Fixed bug where the card generated by 'Certificate' was not being debuffed by the boss
+- Fixed bug in the rate at which eternal/perishable Jokers were being generated
+- Fixed bug where Buffoon Pack could show up in Jokerless challenge
+- Fixed bug where debuffed negative Jokers being sold doesn't reduce the number of available joker slots
+- Fixed bug where sticker seeding was shared between shop and booster packs
+[/code]

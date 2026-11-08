@@ -1,0 +1,48 @@
+{
+  "purpose": "Research reference only; not bundled as game/demo assets",
+  "owner": "Balatro / LocalThunk / Playstack",
+  "sources": [
+    {
+      "id": 0,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2379780/96208723dbedef49d71bf1b0a74aee1689018c50/ss_96208723dbedef49d71bf1b0a74aee1689018c50.1920x1080.jpg?t=1790693638",
+      "file": "official-steam-00.jpg",
+      "sha256": "da065969a1295607d29f52db4a868ec2973655384c64d34443f14a92a82e3faa",
+      "at": "2026-11-07T15:32:25.555554+00:00"
+    },
+    {
+      "id": 1,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2379780/ss_4862112e5030f74a5818cd4c31347d699ac5adf3.1920x1080.jpg?t=1790693638",
+      "file": "official-steam-01.jpg",
+      "sha256": "c05b09c45a93c43df70c3f17b49a59d9d28442726661a6534e6d7a22167ec918",
+      "at": "2026-11-07T15:31:50.612400+00:00"
+    },
+    {
+      "id": 2,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2379780/ss_3be65a7dd3be072d567e11883d208861a7e959fa.1920x1080.jpg?t=1790693638",
+      "file": "official-steam-02.jpg",
+      "sha256": "3ac416b402359f9fe760ba15004a0e1245b7df856728de0ab6916cebd11e8256",
+      "at": "2026-11-07T15:32:05.273872+00:00"
+    },
+    {
+      "id": 3,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2379780/ss_e32ac94d7d1d6be7dd015d78f2b52aeb4cc282ed.1920x1080.jpg?t=1790693638",
+      "file": "official-steam-03.jpg",
+      "sha256": "0a2a121271ccb77444949a2cecd3637827af6b97e382ba2e4ba61c5eccf297f7",
+      "at": "2026-11-07T15:32:18.671153+00:00"
+    },
+    {
+      "id": 4,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2379780/ss_b8455573ec1fd2c9412f22bd8df05f2d8027a95b.1920x1080.jpg?t=1790693638",
+      "file": "official-steam-04.jpg",
+      "sha256": "0b8772519507b7e0e9026d3dd0216055cd16aebe3d50179070847f333a549f84",
+      "at": "2026-11-07T15:32:06.393313+00:00"
+    },
+    {
+      "id": 5,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2379780/ss_075cb45cbfa97d8139fb11f21667d6e35f908640.1920x1080.jpg?t=1790693638",
+      "file": "official-steam-05.jpg",
+      "sha256": "882fab389cf2d1a10aafb8dda75ed47017c99c08b28bd0f870a983b05870a2c4",
+      "at": "2026-11-07T15:32:12.627093+00:00"
+    }
+  ]
+}

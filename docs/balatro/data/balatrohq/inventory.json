@@ -1,0 +1,595 @@
+{
+  "count": 143,
+  "category_counts": {
+    "home": 1,
+    "about": 1,
+    "consumables": 1,
+    "contact": 1,
+    "decks": 1,
+    "enhancements": 1,
+    "guides": 24,
+    "jokers": 31,
+    "mods": 4,
+    "news": 7,
+    "poker-hands": 1,
+    "privacy": 1,
+    "seeds": 61,
+    "terms": 1,
+    "tools": 6,
+    "vouchers": 1
+  },
+  "pages": [
+    {
+      "url": "https://balatrohq.com/zh/",
+      "category": "home"
+    },
+    {
+      "url": "https://balatrohq.com/zh/about/",
+      "category": "about"
+    },
+    {
+      "url": "https://balatrohq.com/zh/consumables/",
+      "category": "consumables"
+    },
+    {
+      "url": "https://balatrohq.com/zh/contact/",
+      "category": "contact"
+    },
+    {
+      "url": "https://balatrohq.com/zh/decks/",
+      "category": "decks"
+    },
+    {
+      "url": "https://balatrohq.com/zh/enhancements/",
+      "category": "enhancements"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/advanced-strategies/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/all-challenges/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/all-decks/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/beginner-guide/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/best-common-joker-combos/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/best-jokers-for-beginners/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/blank-voucher/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/blueprint-brainstorm-combo/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/canio-joker/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/card-sharp-joker/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/chicot-joker/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/games-like-balatro/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/gold-stake-guide/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/gros-michel-cavendish/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/hologram-joker/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/invisible-joker/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/legendary-jokers/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/lucky-cat-joker/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/negative-jokers/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/perkeo-joker/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/triboulet-joker/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/what-is-balatro/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/guides/yorick-joker/",
+      "category": "guides"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/Canio/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/astronomer/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/baron/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/blueprint/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/bootstraps/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/brainstorm/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/burnt/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/campfire/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/cartomancer/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/cavendish/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/certificate/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/chicot/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/constellation/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/dna/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/glass/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/hit-the-road/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/hologram/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/idol/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/lucky-cat/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/madness/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/mime/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/obelisk/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/pareidolia/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/perkeo/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/stuntman/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/throwback/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/triboulet/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/vampire/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/wee/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/jokers/yorick/",
+      "category": "jokers"
+    },
+    {
+      "url": "https://balatrohq.com/zh/mods/",
+      "category": "mods"
+    },
+    {
+      "url": "https://balatrohq.com/zh/mods/browser/",
+      "category": "mods"
+    },
+    {
+      "url": "https://balatrohq.com/zh/mods/loaders/",
+      "category": "mods"
+    },
+    {
+      "url": "https://balatrohq.com/zh/mods/popular-mods/",
+      "category": "mods"
+    },
+    {
+      "url": "https://balatrohq.com/zh/news/",
+      "category": "news"
+    },
+    {
+      "url": "https://balatrohq.com/zh/news/ai-seed-advisor/",
+      "category": "news"
+    },
+    {
+      "url": "https://balatrohq.com/zh/news/balatro-publisher-playstack-sold/",
+      "category": "news"
+    },
+    {
+      "url": "https://balatrohq.com/zh/news/community/",
+      "category": "news"
+    },
+    {
+      "url": "https://balatrohq.com/zh/news/latest-updates/",
+      "category": "news"
+    },
+    {
+      "url": "https://balatrohq.com/zh/news/patch-notes/",
+      "category": "news"
+    },
+    {
+      "url": "https://balatrohq.com/zh/news/patches/",
+      "category": "news"
+    },
+    {
+      "url": "https://balatrohq.com/zh/poker-hands/",
+      "category": "poker-hands"
+    },
+    {
+      "url": "https://balatrohq.com/zh/privacy/",
+      "category": "privacy"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/11Y68BMP/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/16MMY9W/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/1EK6XQHS/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/1X17LILD/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/28KLZ2BK/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/28SFSSNU/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/2K9H9HN/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/2K9K9KH/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/2VJZV6KK/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/35WKG7F6/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/3GOLGXZG/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/3WGLUWFA/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/54LA6TS7/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/5I2A9TS8/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/5VLP3HIC/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/6II7IQNL/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/7Z598MZ5/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/8FNSV2QA/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/8MHPNS7K/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/8P7W6QG5/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/8XSNSX8/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/9V282EKG/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/AFNDUY77/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/ALEEB/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/B1WN4VMQ/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/BCYL62W5/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/C387C7P2/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/DL5ILET1/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/DPL8431A/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/DXLD3757/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/EMWEG51E/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/FAMT1MAB/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/FV5MFV6F/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/G5HFK291/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/J8SC974L/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/KJEWR6ZR/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/L3I5ZJCZ/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/LWDBRC45/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/N54TL26K/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/N685DX16/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/OG4YQPSI/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/ORFBLGHH/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/PRVPODCC/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/QD3F4XVW/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/R72WAF5C/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/REY46QH6/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/RUMFQC4H/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/SKRTRFS8/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/SXIY8GIY/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/T3XXK35L/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/THWO8D/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/TY6NJLWT/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/U1X3UPG3/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/U8RJYV6N/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/UKCIG41Y/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/VLD2GYSL/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/YS4C7X6D/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/YVDXQRYJ/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/naneinf/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/seeds/perkeo/",
+      "category": "seeds"
+    },
+    {
+      "url": "https://balatrohq.com/zh/terms/",
+      "category": "terms"
+    },
+    {
+      "url": "https://balatrohq.com/zh/tools/",
+      "category": "tools"
+    },
+    {
+      "url": "https://balatrohq.com/zh/tools/deck-builder/",
+      "category": "tools"
+    },
+    {
+      "url": "https://balatrohq.com/zh/tools/score-calculator/",
+      "category": "tools"
+    },
+    {
+      "url": "https://balatrohq.com/zh/tools/seed-advisor/",
+      "category": "tools"
+    },
+    {
+      "url": "https://balatrohq.com/zh/tools/seed-analyzer/",
+      "category": "tools"
+    },
+    {
+      "url": "https://balatrohq.com/zh/tools/shop-replay/",
+      "category": "tools"
+    },
+    {
+      "url": "https://balatrohq.com/zh/vouchers/",
+      "category": "vouchers"
+    }
+  ]
+}

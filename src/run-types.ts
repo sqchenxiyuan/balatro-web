@@ -1,0 +1,22 @@
+import type {RulesState,Joker,ScoreStep} from './consumable-engine';
+import type {Card,HandKey,Suit} from './scoring';
+import type {PackKind} from './pack-types';
+export type Phase='setup'|'blind_select'|'playing'|'cash_out'|'shop'|'pack'|'won'|'lost';
+export type PackSize='normal'|'jumbo'|'mega';
+export type Offer={id:string;type:'joker'|'consumable'|'card';joker?:Joker;kind?:string;card?:Card;free?:boolean};
+export type PackOffer={id:string;kind:PackKind;size:PackSize;free?:boolean};
+export type PackState={kind:PackKind;size:PackSize;options:Offer[];remaining:number;returnTo:'shop'|'blind_select';temporaryHand:boolean};
+export type RunState=RulesState & {
+ schema:'balatro-run/1';revision:number;seed:string;deck:string;stake:number;allUnlocked:true;phase:Phase;
+ ante:number;blindIndex:number;boss:string;bossHistory:string[];bossDisabled:boolean;bossHand:HandKey|null;bossRank:HandKey;
+ hands:number;discards:number;discardsUsed:number;total:number;target:number;roundHands:Partial<Record<HandKey,number>>;forcedCardId:string|null;
+ handCounts:Record<HandKey,number>;totalHands:number;skipped:number;unusedDiscards:number;tarotsUsed:number;planetsUsed:string[];
+ startingDeckSize:number;handSizePenalty:number;vouchers:string[];voucherOffers:string[];voucherAnte:number;offers:Offer[];packs:PackOffer[];
+ pack:PackState|null;tags:string[];blindTags:string[];juggle:number;rerolls:number;freeRerolls:number;bossRerolled:boolean;
+ cashout:{label:string;amount:number}[];scoreSteps:ScoreStep[];lastScore:number;playedIds:string[];grosMichelDestroyed:boolean;
+ log:string[];lastError:string|null;elapsedRounds:number;bestHand:number;won:boolean;orbitalHand:HandKey;
+};
+export type RunAction={type:string;[key:string]:unknown};
+export type RunResult={ok:boolean;state:RunState;error?:string;message?:string};
+export type JokerAbility={owner:Joker;source:Joker};
+export const suits:Suit[]=['S','H','C','D'];

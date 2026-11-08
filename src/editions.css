@@ -1,0 +1,47 @@
+/* Surface finishes share the original art plane. CSS is also the no-WebGL fallback. */
+.card-surface{overflow:visible;box-shadow:none;filter:drop-shadow(2px 5px 2px #071a1270)}
+.card-surface>.pixel-art{border-radius:5px}
+.edition-overlay,.edition-glint{position:absolute;inset:0;pointer-events:none;border-radius:5px;mask-image:var(--art);mask-size:100% 100%;mask-repeat:no-repeat}
+.edition-overlay{opacity:1}
+.edition-glint{opacity:0}
+.foil>.pixel-art{filter:saturate(1.18)}
+.foil>.edition-overlay{
+  background:repeating-radial-gradient(ellipse at 50% 52%,#f8faffaa 0 .6px,transparent .8px 3px),linear-gradient(90deg,transparent 46%,#fff9 49%,transparent 52%),linear-gradient(0deg,transparent 46%,#fff8 49%,transparent 52%),linear-gradient(115deg,#5555ff70,#b5b2ff55);
+  background-size:100% 100%;mix-blend-mode:hard-light;
+  animation:metal-flow 4s ease-in-out infinite alternate;
+}
+.foil>.edition-glint{opacity:.25;background:radial-gradient(ellipse at var(--mx,42%) var(--my,33%),#e3ddff,transparent 60%);mix-blend-mode:screen}
+.holographic>.edition-overlay{background:repeating-linear-gradient(0deg,transparent 0 19px,#f9c5eb80 20px 21px,transparent 22px 39px),repeating-linear-gradient(60deg,transparent 0 19px,#a9f7ee80 20px 21px,transparent 22px 39px),repeating-linear-gradient(-60deg,transparent 0 19px,#b9c0fa80 20px 21px,transparent 22px 39px),linear-gradient(120deg,#f9d5f0,#d9f4ed,#e4def6);mix-blend-mode:multiply;opacity:.65}
+.holographic>.edition-glint{opacity:.16;background:linear-gradient(120deg,#f5b5e9,transparent 35%,#8be8e0 65%,#c8b0ed);mix-blend-mode:soft-light}
+.polychrome>.pixel-art{filter:hue-rotate(100deg);animation:ink-spectrum 10s ease-in-out infinite alternate}
+.polychrome>.edition-overlay{
+  background:linear-gradient(125deg,#ffdbe4,#fff8da,#e0fff0,#e9e2ff);
+  background-size:140% 140%;mix-blend-mode:multiply;opacity:.14;
+  animation:spectrum-flow 5s ease-in-out infinite alternate;
+}
+.negative>.pixel-art{filter:invert(1) hue-rotate(180deg) brightness(1.15)}
+.negative>.edition-overlay{background:#526793;mix-blend-mode:screen;opacity:.4}
+.negative>.edition-glint{opacity:.1;background:linear-gradient(105deg,transparent,#c1d0ff,transparent);mix-blend-mode:screen}
+.stage .card-surface>.edition-canvas{position:absolute;inset:0;width:100%;height:100%;z-index:1;border-radius:5px;pointer-events:none;image-rendering:pixelated;display:none}
+.card-surface.edition-ready>.edition-canvas{display:block}
+.card-surface.edition-ready>.pixel-art,.card-surface.edition-ready>.modifier-enhancement,.card-surface.edition-ready>.glass-base-ink{opacity:0;filter:none;animation:none}
+.card-surface.edition-ready>:is(.edition-overlay,.edition-glint){display:none}
+.card-surface.edition-ready>.modifier-seal{z-index:2}
+.stage .enhancement-stone .edition-canvas{visibility:visible}
+@keyframes ink-spectrum{from{filter:hue-rotate(65deg)}to{filter:hue-rotate(240deg)}}
+/* Clear substrate, with ink on the outside. There is no opaque paper plane or default crack. */
+.card-surface.glass{--sx:.15;--sy:-.12;isolation:auto;filter:none;transform:perspective(650px) rotateX(calc(var(--sy)*-10deg)) rotateY(calc(var(--sx)*16deg));transition:transform .18s ease-out;background:transparent}
+.glass-body,.glass-bevel,.glass-reflection,.glass-rim{position:absolute;inset:0;pointer-events:none;border-radius:5px;mask:var(--art) center/100% 100% no-repeat}
+.glass-body{background:linear-gradient(135deg,#e8ffff18,#8ad4ea0a 50%,#74b6d91a);backdrop-filter:blur(1px) saturate(1.14) brightness(1.08);box-shadow:inset 0 0 9px #c3f7ff26;filter:drop-shadow(2px 3px 0 #22505e99) drop-shadow(1px 1px 0 #c5efffa0)}
+.glass-bevel{border:2px solid #bfe9edaa;box-shadow:inset 2px 2px 0 #f3ffffb3,inset -3px -3px 0 #368995a1,inset 5px 5px 0 #c8f6fa50,inset -6px -5px 0 #94dae859;transform:translate(calc(var(--sx)*-1px),calc(var(--sy)*-1px))}
+.glass>.glass-ink{opacity:1;filter:saturate(.78) brightness(1.05) drop-shadow(.6px 1px 0 #b6f5ff77);border-radius:5px}
+.glass-reflection{background:linear-gradient(calc(118deg + var(--sx)*18deg),transparent 6%,#edffff05 14%,#f6ffff50 19%,#e7ffff0a 26%,transparent 29% 63%,#e2fbff20 68%,transparent 73%),radial-gradient(ellipse at var(--mx,30%) var(--my,18%),#e4ffff29,transparent 50%);opacity:.8}
+.glass-rim{border:1px solid #eeffffce;box-shadow:inset 0 1px #fff,1px 2px #082c4299;background:linear-gradient(90deg,#efffff7d,transparent 4% 96%,#92d9e7aa);opacity:.8}
+.glass[data-tracking=true]{transition:transform 90ms ease-out}
+.preview-card:has(>.glass){animation:none;transform-style:preserve-3d;--rx:0deg!important;--ry:0deg!important}
+.reduced-motion .glass{--sx:0!important;--sy:0!important;transform:none}
+@keyframes metal-flow{from{background-position:0% 15%}to{background-position:100% 85%}}
+@keyframes foil-glint{from{opacity:.1}to{opacity:.5}}
+@keyframes spectrum-flow{from{background-position:5% 30%}to{background-position:95% 70%}}
+@keyframes prism-pulse{from{opacity:.3}to{opacity:.75}}
+.reduced-motion .edition-overlay,.reduced-motion .edition-glint{background-position:50% 50%}

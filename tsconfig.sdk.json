@@ -1,0 +1,5 @@
+{
+ "extends":"./tsconfig.json",
+ "compilerOptions":{"noEmit":false,"declaration":true,"emitDeclarationOnly":true,"outDir":"dist-sdk/types"},
+ "include":["src/sdk.ts","src/run-api.ts","src/strategy.ts","src/env.d.ts"]
+}

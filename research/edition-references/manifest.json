@@ -1,0 +1,37 @@
+{
+  "capturedAt": "2026-11-08T03:48:31.272Z",
+  "copyright": "LocalThunk / Playstack; community Wiki reference renders. Research only, excluded from public game assets.",
+  "note": "Static shader phase references; do not establish original time-dependent shader behavior.",
+  "sources": [
+    {
+      "id": "none",
+      "url": "https://balatrowiki.org/images/Joker.png",
+      "snapshot": "none.png",
+      "sha256": "4aef26664b38749e1173dc58cfc0825911990f138a38fcc5a1133db825896446"
+    },
+    {
+      "id": "foil",
+      "url": "https://balatrowiki.org/images/Joker_%28Foil%29.png",
+      "snapshot": "foil.png",
+      "sha256": "4c0e444095d699b8015aaf35312e5b7881352da52752ea614ba666a4ba97bdb9"
+    },
+    {
+      "id": "holographic",
+      "url": "https://balatrowiki.org/images/Joker_%28Holographic%29.png",
+      "snapshot": "holographic.png",
+      "sha256": "f07733aa3e3abaf4db03ffe25d2fe9d75d4592da59f532be10c08c2661398de5"
+    },
+    {
+      "id": "polychrome",
+      "url": "https://balatrowiki.org/images/Joker_%28Polychrome%29.png",
+      "snapshot": "polychrome.png",
+      "sha256": "871acceeb7da107f6e3d9a64ef6fd1feecbc25623a898f424bdcb78eed82044b"
+    },
+    {
+      "id": "negative",
+      "url": "https://balatrowiki.org/images/Joker_%28Negative%29.png",
+      "snapshot": "negative.png",
+      "sha256": "05e485aa15cb93656a38d006ca955b9c1812ce2451acc6a2e4f27e39a7e04039"
+    }
+  ]
+}

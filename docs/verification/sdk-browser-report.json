@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "packaged SDK loads cross-origin under a nested base path without globals, storage or navigation changes",
+    "Shadow DOM isolates hostile host CSS; default and custom asset bases load images/fonts",
+    "packaged SDK catalog preserves input/card nodes through native Chinese composition, edits and clearing",
+    "embedded game opens its own full catalog from the HUD without host controls or changes to either run",
+    "two mounted instances own independent rules state and card IDs",
+    "keyboard shortcuts act only in the focused game and leave host input/other instance untouched",
+    "opening the view menu and its internal catalog preserves the engine checkpoint",
+    "pointer selection and dragging work inside the embedded view",
+    "an injected ES module strategy controls the visible game until terminal through dispatch",
+    "destroy releases RAF, observers, GPU contexts, font references and instance DOM",
+    "destroyed handles reject actions; the same container remounts and rejects duplicate live mounts",
+    "destroy during score animation settles the action and prevents later DOM/RAF work",
+    "distributed plain HTML example mounts two games and runs strategy single-step"
+  ],
+  "errors": [],
+  "failures": [],
+  "ok": true
+}

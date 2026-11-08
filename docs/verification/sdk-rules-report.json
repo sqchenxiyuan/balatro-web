@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "packaged engine and strategy import in Node without DOM",
+    "independent instances, deterministic actions and detached snapshots",
+    "save/restore keeps RNG, offers, phase and full continuation",
+    "stale revision and invalid action are rejected atomically",
+    "injected strategy drives 24 blinds, shops and opening/picking pack to terminal (boosted fixture)",
+    "bundled baseline finishes an ordinary legal run without grants",
+    "single step, repeated starts and max step budget do not fork loops",
+    "null and terminal can run again; strategy can be replaced",
+    "stop cancels an awaited strategy; its late action never dispatches",
+    "async decisions are recomputed after a human changes the state",
+    "timeout, thrown errors, malformed and rejected actions report errors",
+    "two runners cannot own one game; stopping releases the lease"
+  ],
+  "ok": true
+}

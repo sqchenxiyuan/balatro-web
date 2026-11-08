@@ -1,0 +1,36 @@
+{
+  "name": "balatro-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5192 --strictPort",
+    "build": "tsc --noEmit && vite build && npm run build:sdk && node scripts/copy-sdk-to-site.mjs",
+    "build:sdk": "vite build --config vite.sdk.config.ts && tsc -p tsconfig.sdk.json && node scripts/package-sdk.mjs",
+    "pack:sdk": "npm run build:sdk && npm pack ./dist-sdk --pack-destination artifacts",
+    "preview": "vite preview --host 127.0.0.1 --port 4192 --strictPort",
+    "test:browser": "node scripts/browser-verify.mjs",
+    "test:rules": "node scripts/verify-consumable-rules.mjs",
+    "test:consumables": "node scripts/verify-consumables-browser.mjs",
+    "test:game": "node scripts/verify-game-rules.mjs",
+    "test:game:browser": "node scripts/verify-game-browser.mjs",
+    "test:sdk": "node scripts/verify-sdk.mjs",
+    "test:sdk:browser": "node scripts/verify-sdk-browser.mjs",
+    "test:sdk:package": "node scripts/verify-sdk-package.mjs",
+    "test:sdk:host": "node scripts/verify-sdk-host.mjs",
+    "check": "tsc --noEmit",
+    "test": "npm run test:game && npm run test:rules",
+    "test:integration": "npm run test:game:browser && npm run test:sdk:browser && npm run test:sdk:host && npm run test:sdk:package"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "pinyin-pro": "3.29.5",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12"
+  },
+  "description": "All-unlocked Balatro-inspired Web gameplay recreation with an embeddable SDK and injected strategies",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "license": "UNLICENSED"
+}

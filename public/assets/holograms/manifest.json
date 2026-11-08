@@ -1,0 +1,2371 @@
+{
+  "method": "background-connected cutout; illustrative 2.5D planes",
+  "copyright": "Derived Joker artwork retains the original LocalThunk / Playstack attribution; see ../THIRD-PARTY.md.",
+  "items": [
+    {
+      "source": "card-S-A.png",
+      "source_sha256": "976b504b02e69849d519c4e17a6d8be0778b2fe5ce238931690c5bfd5d85e9dd",
+      "base": "holograms/card-S-A-base.png",
+      "subject": "holograms/card-S-A-subject.png",
+      "lifted_pixels": 1440,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-2.png",
+      "source_sha256": "44e2ea9010cbe53c37e8c236e6fa807e62926369e00a3d09e9d37fb0f54ac7c5",
+      "base": "holograms/card-S-2-base.png",
+      "subject": "holograms/card-S-2-subject.png",
+      "lifted_pixels": 320,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-3.png",
+      "source_sha256": "ecaadff858a32d6217cbaf4137f258a8bc74037f2ca405499f2de0419ccf432d",
+      "base": "holograms/card-S-3-base.png",
+      "subject": "holograms/card-S-3-subject.png",
+      "lifted_pixels": 480,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-4.png",
+      "source_sha256": "d31ed7d0fad059dee97c419ee718f17d2a7e6f5c7485e4f4ef7bf6adaedcd784",
+      "base": "holograms/card-S-4-base.png",
+      "subject": "holograms/card-S-4-subject.png",
+      "lifted_pixels": 640,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-5.png",
+      "source_sha256": "9a57d8fdb51a5d480df07e4351010547ad6ffdd72054f23cc4fda0a486f12054",
+      "base": "holograms/card-S-5-base.png",
+      "subject": "holograms/card-S-5-subject.png",
+      "lifted_pixels": 800,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-6.png",
+      "source_sha256": "6ef8e4db5e8ad6a59b9690b50bfa37f03bd61377e25c582d75da7a4f58589e27",
+      "base": "holograms/card-S-6-base.png",
+      "subject": "holograms/card-S-6-subject.png",
+      "lifted_pixels": 960,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-7.png",
+      "source_sha256": "d66f2da9b7cb4edc9d4c90d998865efb9b5fb491edfded3fd8702e7b21c0dbea",
+      "base": "holograms/card-S-7-base.png",
+      "subject": "holograms/card-S-7-subject.png",
+      "lifted_pixels": 1120,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-8.png",
+      "source_sha256": "bb17b3efd1d7000e280db59649c58a98ed4e8dbc834cc72182b513281036190e",
+      "base": "holograms/card-S-8-base.png",
+      "subject": "holograms/card-S-8-subject.png",
+      "lifted_pixels": 1280,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-9.png",
+      "source_sha256": "84de97fc32236c01d12f388bdaf48378fb84ee0af089821fc00aa02674e94fbb",
+      "base": "holograms/card-S-9-base.png",
+      "subject": "holograms/card-S-9-subject.png",
+      "lifted_pixels": 1440,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-10.png",
+      "source_sha256": "ff8bf155c13e8ef30428bdb49b8071709178cdc09ef03bd5d6ded132b4b88c26",
+      "base": "holograms/card-S-10-base.png",
+      "subject": "holograms/card-S-10-subject.png",
+      "lifted_pixels": 1600,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-J.png",
+      "source_sha256": "b1e117528544599fdd1da2de3ee168e5d0ed28143e851e629741c4832177ed10",
+      "base": "holograms/card-S-J-base.png",
+      "subject": "holograms/card-S-J-subject.png",
+      "lifted_pixels": 5448,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-Q.png",
+      "source_sha256": "17a2fcd8ae384333914ab78e9d0cace2e6dd37bf657414aef9e9cbadac258e03",
+      "base": "holograms/card-S-Q-base.png",
+      "subject": "holograms/card-S-Q-subject.png",
+      "lifted_pixels": 5456,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-S-K.png",
+      "source_sha256": "0def4b8b6a6e84a3d1b38e18c7c4c2f5b11bcb02bad26a3234f1c9e587893762",
+      "base": "holograms/card-S-K-base.png",
+      "subject": "holograms/card-S-K-subject.png",
+      "lifted_pixels": 5448,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-A.png",
+      "source_sha256": "b1ea7d8504eba4645dcc0e049c852eb9f8170189b8d2c1f7105b3fe20b2bd44a",
+      "base": "holograms/card-H-A-base.png",
+      "subject": "holograms/card-H-A-subject.png",
+      "lifted_pixels": 1440,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-2.png",
+      "source_sha256": "d32619c3e85764e09b64d431d1aa04356b500dc3b87e7119c99f3f4b82e145b2",
+      "base": "holograms/card-H-2-base.png",
+      "subject": "holograms/card-H-2-subject.png",
+      "lifted_pixels": 320,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-3.png",
+      "source_sha256": "290ec939a6ee1dd0943e98bf84271dcf75e05f2f3f3088c9b32cea8a313897d4",
+      "base": "holograms/card-H-3-base.png",
+      "subject": "holograms/card-H-3-subject.png",
+      "lifted_pixels": 480,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-4.png",
+      "source_sha256": "c5c62c6f769148ee663f03a3957c4788fdbd24bfdce2869c6af119b3b1eb570d",
+      "base": "holograms/card-H-4-base.png",
+      "subject": "holograms/card-H-4-subject.png",
+      "lifted_pixels": 640,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-5.png",
+      "source_sha256": "0d0f263ce6065228cd7dbe8185569ee2deca201a20b46be0f416357001a906f3",
+      "base": "holograms/card-H-5-base.png",
+      "subject": "holograms/card-H-5-subject.png",
+      "lifted_pixels": 800,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-6.png",
+      "source_sha256": "53a3fcd225e46ce1c3164c78dac0efcd8c8791f1a703366ccabefa079f2666e1",
+      "base": "holograms/card-H-6-base.png",
+      "subject": "holograms/card-H-6-subject.png",
+      "lifted_pixels": 960,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-7.png",
+      "source_sha256": "f4be3df09d465aff067790bc0aed956cc131d73fbb6a7a3023f0aa2d0bef1ff0",
+      "base": "holograms/card-H-7-base.png",
+      "subject": "holograms/card-H-7-subject.png",
+      "lifted_pixels": 1120,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-8.png",
+      "source_sha256": "ba219eb371e1aeca83de63e13e987e1b855e9746e41eb1afb1061091cdb973d1",
+      "base": "holograms/card-H-8-base.png",
+      "subject": "holograms/card-H-8-subject.png",
+      "lifted_pixels": 1280,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-9.png",
+      "source_sha256": "3391d77facfeaea1d675d28ae31f1c4f4ef57a77400dc9890b4cf7b147ee0cf8",
+      "base": "holograms/card-H-9-base.png",
+      "subject": "holograms/card-H-9-subject.png",
+      "lifted_pixels": 1440,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-10.png",
+      "source_sha256": "a7d005df1965119dbcd9740906953e73d77bb88cfee2766ecd8b179384457206",
+      "base": "holograms/card-H-10-base.png",
+      "subject": "holograms/card-H-10-subject.png",
+      "lifted_pixels": 1600,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-J.png",
+      "source_sha256": "baaf1068b9dd2261d21db30b64a96f4c81061dc346e3bde75c175b17862bd758",
+      "base": "holograms/card-H-J-base.png",
+      "subject": "holograms/card-H-J-subject.png",
+      "lifted_pixels": 5456,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-Q.png",
+      "source_sha256": "699e5ee6f647516d7da6584629b534dffa908aa7c004af950d449b37a3460b94",
+      "base": "holograms/card-H-Q-base.png",
+      "subject": "holograms/card-H-Q-subject.png",
+      "lifted_pixels": 5464,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-H-K.png",
+      "source_sha256": "ea15ea68bd67beb47569c67f84aa81fe51388363e74d25c4c3ba4a939191e3fa",
+      "base": "holograms/card-H-K-base.png",
+      "subject": "holograms/card-H-K-subject.png",
+      "lifted_pixels": 5456,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-A.png",
+      "source_sha256": "35a602f793d9a62651ff54fd2ab6530ae810950dd3cf0fdd9c43fff0969538a9",
+      "base": "holograms/card-C-A-base.png",
+      "subject": "holograms/card-C-A-subject.png",
+      "lifted_pixels": 1368,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-2.png",
+      "source_sha256": "48c9a32791ee406e48c36b8c90ec18231913526bdef0e6d85da71868fbb278b5",
+      "base": "holograms/card-C-2-base.png",
+      "subject": "holograms/card-C-2-subject.png",
+      "lifted_pixels": 304,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-3.png",
+      "source_sha256": "eceb980fc6c43440aaa94ee8b5ed0c68640febc650d9885d5a73b70bb57b23b6",
+      "base": "holograms/card-C-3-base.png",
+      "subject": "holograms/card-C-3-subject.png",
+      "lifted_pixels": 456,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-4.png",
+      "source_sha256": "06e3176e5c0d2f9a4f40af02ac7321b71196ff093786e67b8056b11f1245555f",
+      "base": "holograms/card-C-4-base.png",
+      "subject": "holograms/card-C-4-subject.png",
+      "lifted_pixels": 608,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-5.png",
+      "source_sha256": "f905ef7bf9bcfaf9221c4d632a61d44d3fe4f3e5ad94c5fcb2ac3cc6e5879eb5",
+      "base": "holograms/card-C-5-base.png",
+      "subject": "holograms/card-C-5-subject.png",
+      "lifted_pixels": 760,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-6.png",
+      "source_sha256": "89e556dde7cb29a0edc229077fa8a0c7062f92a992322e09151def155b053754",
+      "base": "holograms/card-C-6-base.png",
+      "subject": "holograms/card-C-6-subject.png",
+      "lifted_pixels": 912,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-7.png",
+      "source_sha256": "7078023feed90bc018ce5c1ef979459c31100f546de9de632c343bcdd9cd696b",
+      "base": "holograms/card-C-7-base.png",
+      "subject": "holograms/card-C-7-subject.png",
+      "lifted_pixels": 1064,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-8.png",
+      "source_sha256": "d72290d3b46d32cfb31893ab668a6cf52d3b2341009f06a6136f7b44d384c53e",
+      "base": "holograms/card-C-8-base.png",
+      "subject": "holograms/card-C-8-subject.png",
+      "lifted_pixels": 1216,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-9.png",
+      "source_sha256": "9737fbbe16005d8f7957ab4ccd382fb4ac8ceb400cd87f744923cc5ae3b8989f",
+      "base": "holograms/card-C-9-base.png",
+      "subject": "holograms/card-C-9-subject.png",
+      "lifted_pixels": 1368,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-10.png",
+      "source_sha256": "7ed3c879e507af08f74a273c50cc6c64422ba4bc033fa2487d09ccc9d126a90c",
+      "base": "holograms/card-C-10-base.png",
+      "subject": "holograms/card-C-10-subject.png",
+      "lifted_pixels": 1520,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-J.png",
+      "source_sha256": "a857254dc8cb0a9aefcd12f32991eb97dc0a3ed8491f1cf7242d6b709db1bb52",
+      "base": "holograms/card-C-J-base.png",
+      "subject": "holograms/card-C-J-subject.png",
+      "lifted_pixels": 5432,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-Q.png",
+      "source_sha256": "83647ea150e63d6aa0723907aa1a9b5a34d86ea364a658d93e1cd7e837716623",
+      "base": "holograms/card-C-Q-base.png",
+      "subject": "holograms/card-C-Q-subject.png",
+      "lifted_pixels": 5440,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-C-K.png",
+      "source_sha256": "d2f530e718d18c537e9b63f239c588b23746720ba2574f4b6c03f1d5e4b17f6b",
+      "base": "holograms/card-C-K-base.png",
+      "subject": "holograms/card-C-K-subject.png",
+      "lifted_pixels": 5432,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-A.png",
+      "source_sha256": "01a0904736bfaa8427b5fbe34fb852151c878d923bc4953a54b7e42f105e7fa7",
+      "base": "holograms/card-D-A-base.png",
+      "subject": "holograms/card-D-A-subject.png",
+      "lifted_pixels": 1152,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-2.png",
+      "source_sha256": "c4f21839672c860ad2c801ccc015d78b17683464bc74cc5cd8d025bb84ff9640",
+      "base": "holograms/card-D-2-base.png",
+      "subject": "holograms/card-D-2-subject.png",
+      "lifted_pixels": 256,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-3.png",
+      "source_sha256": "6ea124f3d0c9b186c833dc67a2f5f7ef10619317c90269486f779edd27bf114c",
+      "base": "holograms/card-D-3-base.png",
+      "subject": "holograms/card-D-3-subject.png",
+      "lifted_pixels": 384,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-4.png",
+      "source_sha256": "c7dc84ecfc72abbb004cc311981edfc91285459f96785e0f421be38e7e297059",
+      "base": "holograms/card-D-4-base.png",
+      "subject": "holograms/card-D-4-subject.png",
+      "lifted_pixels": 512,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-5.png",
+      "source_sha256": "aa4dd4adb81ce7eadfe4161c316f6f61333bf203140750ff852110efb7fb7375",
+      "base": "holograms/card-D-5-base.png",
+      "subject": "holograms/card-D-5-subject.png",
+      "lifted_pixels": 640,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-6.png",
+      "source_sha256": "550dbe4188dd06fa2da70319f1ce212b207c2a1db6339fb744c91e47dfa37a91",
+      "base": "holograms/card-D-6-base.png",
+      "subject": "holograms/card-D-6-subject.png",
+      "lifted_pixels": 768,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-7.png",
+      "source_sha256": "3a2f609c063c3cf01d0e9499979dee46064b1449a1aafd128157d167d03ea998",
+      "base": "holograms/card-D-7-base.png",
+      "subject": "holograms/card-D-7-subject.png",
+      "lifted_pixels": 896,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-8.png",
+      "source_sha256": "8a7fed1d224877ccfc0045732becb9043b8ade394fc4cf4a13aa9578caf2ec54",
+      "base": "holograms/card-D-8-base.png",
+      "subject": "holograms/card-D-8-subject.png",
+      "lifted_pixels": 1024,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-9.png",
+      "source_sha256": "9e7a655b0cf4146377dc247d735b444ef6b408d15de3aa6d655f65f4bd7888b9",
+      "base": "holograms/card-D-9-base.png",
+      "subject": "holograms/card-D-9-subject.png",
+      "lifted_pixels": 1152,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-10.png",
+      "source_sha256": "5cf10a3096d34576d1e27e7b57f669bc9f72f3d9d9a3f42b9dc30b5454389ed1",
+      "base": "holograms/card-D-10-base.png",
+      "subject": "holograms/card-D-10-subject.png",
+      "lifted_pixels": 1280,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-J.png",
+      "source_sha256": "8bebb378255dbbaa5e8b7611c12d022d11572c57935cfd332f1e5b114329bf08",
+      "base": "holograms/card-D-J-base.png",
+      "subject": "holograms/card-D-J-subject.png",
+      "lifted_pixels": 5432,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-Q.png",
+      "source_sha256": "de252164f7b7e6bb849d7e3ebebd02958db04fc37791b8fce4c645a89b7fb908",
+      "base": "holograms/card-D-Q-base.png",
+      "subject": "holograms/card-D-Q-subject.png",
+      "lifted_pixels": 5440,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "card-D-K.png",
+      "source_sha256": "f9037ff7e429fd2cbe96df50b0b20b4f20fdd4de43813d1edb4311c0606876fd",
+      "base": "holograms/card-D-K-base.png",
+      "subject": "holograms/card-D-K-subject.png",
+      "lifted_pixels": 5432,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "back-red.png",
+      "source_sha256": "6600bc2ea9f44d0f93ba754ec9fc245033f7c14ae676b5beb4d77fe3817c16e6",
+      "base": "holograms/back-red-base.png",
+      "subject": "holograms/back-red-subject.png",
+      "lifted_pixels": 12346,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "back-blue.png",
+      "source_sha256": "1725f52f6f083733069bd3dc28dd89a21f2308254524bd091d11f6f869d04263",
+      "base": "holograms/back-blue-base.png",
+      "subject": "holograms/back-blue-subject.png",
+      "lifted_pixels": 12346,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "consumable-planet.png",
+      "source_sha256": "c9ac1e7c124787ab5756268fce871b2a6b9cc4f2c876197c71adee9737e01781",
+      "base": "holograms/consumable-planet-base.png",
+      "subject": "holograms/consumable-planet-subject.png",
+      "lifted_pixels": 3264,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "consumable-tarot.png",
+      "source_sha256": "f178a86830139d1a61a96e6464629043439b18fea25fc5252bef0bef742f4d00",
+      "base": "holograms/consumable-tarot-base.png",
+      "subject": "holograms/consumable-tarot-subject.png",
+      "lifted_pixels": 2272,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "pack-arcana.png",
+      "source_sha256": "572fb4e17a8fb1e924076eea3522efbc68233ad0bf43872158c0ebc30047fcd8",
+      "base": "holograms/pack-arcana-base.png",
+      "subject": "holograms/pack-arcana-subject.png",
+      "lifted_pixels": 2556,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "pack-celestial.png",
+      "source_sha256": "b1ab8b9d2f62ba13d1af6b98e79caa9b9645c45c638cfc0cea479dc7141dcad4",
+      "base": "holograms/pack-celestial-base.png",
+      "subject": "holograms/pack-celestial-subject.png",
+      "lifted_pixels": 3752,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "pack-standard.png",
+      "source_sha256": "4da3d5de3c400f6dfebe1fd0b65e161c6452331488b9b71970a6898f79addd7a",
+      "base": "holograms/pack-standard-base.png",
+      "subject": "holograms/pack-standard-subject.png",
+      "lifted_pixels": 4728,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "pack-buffoon.png",
+      "source_sha256": "a6e4f4a4383788e23b13fd4bbd25ad0b891b44448bfd292c81015dbc06bf7667",
+      "base": "holograms/pack-buffoon-base.png",
+      "subject": "holograms/pack-buffoon-subject.png",
+      "lifted_pixels": 4228,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "pack-spectral.png",
+      "source_sha256": "4fe33570856533f51295da5e29ab1d064cb750794766c3ed9d430cec200dfe5f",
+      "base": "holograms/pack-spectral-base.png",
+      "subject": "holograms/pack-spectral-subject.png",
+      "lifted_pixels": 3688,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "seal-red.png",
+      "source_sha256": "1a82a535fd17ce427d59e6a820259f5ff09190a75f88ef81556e9483d03cbb86",
+      "base": "holograms/seal-red-base.png",
+      "subject": "holograms/seal-red-subject.png",
+      "lifted_pixels": 1340,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "seal-blue.png",
+      "source_sha256": "5ab0792b90c4b4ba5065abf7a667d53c66d0efa9acc4b6f38c3ad0e3d53e1416",
+      "base": "holograms/seal-blue-base.png",
+      "subject": "holograms/seal-blue-subject.png",
+      "lifted_pixels": 1340,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "seal-gold.png",
+      "source_sha256": "07168b5333fa93442254556ba86283006d8a78d40c521e82e6158ba32aea50e7",
+      "base": "holograms/seal-gold-base.png",
+      "subject": "holograms/seal-gold-subject.png",
+      "lifted_pixels": 1340,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "seal-purple.png",
+      "source_sha256": "06989f94542828a0eec23cb7a15209a8c5ae540ac0f28c137f892ab8d78cf473",
+      "base": "holograms/seal-purple-base.png",
+      "subject": "holograms/seal-purple-subject.png",
+      "lifted_pixels": 1340,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/joker.png",
+      "source_sha256": "2030d532011355456971443893a9b90d9cec5507a8f8933bd8a35705b01a9316",
+      "base": "holograms/jokers__joker-base.png",
+      "subject": "holograms/jokers__joker-subject.png",
+      "lifted_pixels": 6384,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/greedy_joker.png",
+      "source_sha256": "10fd62e856575f08a9e7423be27a19c96d895698ab1b9f3d699b78ba78e7d3c0",
+      "base": "holograms/jokers__greedy_joker-base.png",
+      "subject": "holograms/jokers__greedy_joker-subject.png",
+      "lifted_pixels": 6384,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/lusty_joker.png",
+      "source_sha256": "ec7e07b39d1106b14c34b01254d3b4a606453e6de4ab190cf85e2a8610e74840",
+      "base": "holograms/jokers__lusty_joker-base.png",
+      "subject": "holograms/jokers__lusty_joker-subject.png",
+      "lifted_pixels": 9950,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/wrathful_joker.png",
+      "source_sha256": "d088c0a3f7e002edd0bf2d9ab54fab463915bf1bfa6e75291381227edd610f81",
+      "base": "holograms/jokers__wrathful_joker-base.png",
+      "subject": "holograms/jokers__wrathful_joker-subject.png",
+      "lifted_pixels": 6384,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/gluttonous_joker.png",
+      "source_sha256": "c6dd7c466be77e5a5563b5e41e66abf482a15bc263f46a11598bbe3729a20353",
+      "base": "holograms/jokers__gluttonous_joker-base.png",
+      "subject": "holograms/jokers__gluttonous_joker-subject.png",
+      "lifted_pixels": 6384,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/jolly_joker.png",
+      "source_sha256": "5ecce7be34c9b8a84151e21561366ff070f2dad55fe5e7b8a87962396e98e445",
+      "base": "holograms/jokers__jolly_joker-base.png",
+      "subject": "holograms/jokers__jolly_joker-subject.png",
+      "lifted_pixels": 6932,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/zany_joker.png",
+      "source_sha256": "ab41d6eec741cc7edee2bf95ec4cb575d1d0cde753de1bef74941ba332670fca",
+      "base": "holograms/jokers__zany_joker-base.png",
+      "subject": "holograms/jokers__zany_joker-subject.png",
+      "lifted_pixels": 7158,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/mad_joker.png",
+      "source_sha256": "cfaf07844adb2a6e0aecba0a72d92b1f8182924ef97c90490c7c0a889e07b49e",
+      "base": "holograms/jokers__mad_joker-base.png",
+      "subject": "holograms/jokers__mad_joker-subject.png",
+      "lifted_pixels": 7030,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/crazy_joker.png",
+      "source_sha256": "e353c82e4abe2eb43e7940c97a382ffd8d0e2ba710232e081f01a5f2aa5e5ced",
+      "base": "holograms/jokers__crazy_joker-base.png",
+      "subject": "holograms/jokers__crazy_joker-subject.png",
+      "lifted_pixels": 7558,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/droll_joker.png",
+      "source_sha256": "17ab230a70d80c6be4f968d26abced6dec6103045f33e18bf3e1b52598cacc3a",
+      "base": "holograms/jokers__droll_joker-base.png",
+      "subject": "holograms/jokers__droll_joker-subject.png",
+      "lifted_pixels": 8006,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/sly_joker.png",
+      "source_sha256": "79ab0ee4cbed740f3fcf034c06a87372f3f50056a38f17c8a6f62165f89dcc05",
+      "base": "holograms/jokers__sly_joker-base.png",
+      "subject": "holograms/jokers__sly_joker-subject.png",
+      "lifted_pixels": 7116,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/wily_joker.png",
+      "source_sha256": "2a568e3a96254886657df32d4b70c46723e25ebba08befc08401b4aec921ad1e",
+      "base": "holograms/jokers__wily_joker-base.png",
+      "subject": "holograms/jokers__wily_joker-subject.png",
+      "lifted_pixels": 7280,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/clever_joker.png",
+      "source_sha256": "f429bc2017869e0610f99033b649d2def6f8af5d5bfb34d40519439a0563b867",
+      "base": "holograms/jokers__clever_joker-base.png",
+      "subject": "holograms/jokers__clever_joker-subject.png",
+      "lifted_pixels": 7152,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/devious_joker.png",
+      "source_sha256": "369ce033593ec834db34095fba759e60cfd7ee132d8bd5f5ed3567f5ffbf7570",
+      "base": "holograms/jokers__devious_joker-base.png",
+      "subject": "holograms/jokers__devious_joker-subject.png",
+      "lifted_pixels": 7312,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/crafty_joker.png",
+      "source_sha256": "851ed0a22c2ec70483b7b9230be6bb08e9fe1179f14a69856eb189e71e83f62d",
+      "base": "holograms/jokers__crafty_joker-base.png",
+      "subject": "holograms/jokers__crafty_joker-subject.png",
+      "lifted_pixels": 7760,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/half_joker.png",
+      "source_sha256": "c4694d307cceb506b71a0556019e5a08d6e36447fbf1b09a001890b88e3644c9",
+      "base": "holograms/jokers__half_joker-base.png",
+      "subject": "holograms/jokers__half_joker-subject.png",
+      "lifted_pixels": 5060,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/joker_stencil.png",
+      "source_sha256": "edd1c5cf32eb7c88b2cc385e49b3621dbdcaeeb9643c44b985467e5039cb378f",
+      "base": "holograms/jokers__joker_stencil-base.png",
+      "subject": "holograms/jokers__joker_stencil-subject.png",
+      "lifted_pixels": 0,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/four_fingers.png",
+      "source_sha256": "d563a7e75a7e4a59551911430d09abb882130367312c91992908fb80ca3306a7",
+      "base": "holograms/jokers__four_fingers-base.png",
+      "subject": "holograms/jokers__four_fingers-subject.png",
+      "lifted_pixels": 13258,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/mime.png",
+      "source_sha256": "254bdab61bf9e16ef2370dbbbf72fd06a22b62908bac9f2b3727f5b20128bacb",
+      "base": "holograms/jokers__mime-base.png",
+      "subject": "holograms/jokers__mime-subject.png",
+      "lifted_pixels": 2904,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/credit_card.png",
+      "source_sha256": "eb099a0dfec6b9fc2933034620f654568ce2f10cfe61a332857d117707d9905e",
+      "base": "holograms/jokers__credit_card-base.png",
+      "subject": "holograms/jokers__credit_card-subject.png",
+      "lifted_pixels": 7216,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/ceremonial_dagger.png",
+      "source_sha256": "f8ee15481d6daf779cdc94e5d00e383332de83712e24036bcfa18ce2fc0c0c9d",
+      "base": "holograms/jokers__ceremonial_dagger-base.png",
+      "subject": "holograms/jokers__ceremonial_dagger-subject.png",
+      "lifted_pixels": 5848,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/banner.png",
+      "source_sha256": "a4b76d1014a35ff6bed13ca2b3c7220360a894f4a057f8f4a2aa12c6b468ed9a",
+      "base": "holograms/jokers__banner-base.png",
+      "subject": "holograms/jokers__banner-subject.png",
+      "lifted_pixels": 4278,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/mystic_summit.png",
+      "source_sha256": "ec67c59c2303f50afd3e0ca543b4691c3390433742218ccb8d9570e8a00e581e",
+      "base": "holograms/jokers__mystic_summit-base.png",
+      "subject": "holograms/jokers__mystic_summit-subject.png",
+      "lifted_pixels": 9000,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/marble_joker.png",
+      "source_sha256": "b4f368bff79becab15621c5b9b7d5aacbcde5e7a68faa1ec742a31cd64d9904e",
+      "base": "holograms/jokers__marble_joker-base.png",
+      "subject": "holograms/jokers__marble_joker-subject.png",
+      "lifted_pixels": 6076,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/loyalty_card.png",
+      "source_sha256": "15cfd9e08aea9abe5fcc01b8521e4b1ce8a12df6637e3e49af0259e6f25307df",
+      "base": "holograms/jokers__loyalty_card-base.png",
+      "subject": "holograms/jokers__loyalty_card-subject.png",
+      "lifted_pixels": 7028,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/8_ball.png",
+      "source_sha256": "59a263d60f2ee5a8c7d783463d11d3be07f2bb330a0f2bb4254f45d1e77df8d2",
+      "base": "holograms/jokers__8_ball-base.png",
+      "subject": "holograms/jokers__8_ball-subject.png",
+      "lifted_pixels": 4708,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/misprint.png",
+      "source_sha256": "1985e5d6dc563b8bae1a0e262308c8f7c8caab124dd5d6904c4176a639b0b624",
+      "base": "holograms/jokers__misprint-base.png",
+      "subject": "holograms/jokers__misprint-subject.png",
+      "lifted_pixels": 4826,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/dusk.png",
+      "source_sha256": "cbc12a7674897522816dc8bc3929ecffcb4be53ce42218cd923558a8df2d5eba",
+      "base": "holograms/jokers__dusk-base.png",
+      "subject": "holograms/jokers__dusk-subject.png",
+      "lifted_pixels": 7406,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/raised_fist.png",
+      "source_sha256": "d7c8544915203ec42bd61713b9cdb199626299054c4bcdb8122dbc657e1e01e2",
+      "base": "holograms/jokers__raised_fist-base.png",
+      "subject": "holograms/jokers__raised_fist-subject.png",
+      "lifted_pixels": 7324,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/chaos_the_clown.png",
+      "source_sha256": "e300854f76eb21ca4f0582dcf5335ddbe53a29c703a0d02ef0eb6fc2ae952071",
+      "base": "holograms/jokers__chaos_the_clown-base.png",
+      "subject": "holograms/jokers__chaos_the_clown-subject.png",
+      "lifted_pixels": 5784,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/fibonacci.png",
+      "source_sha256": "337c37f7f86ce6455f57c2921c1e7bd181e756ace1fff1878eadcb6baf2edf94",
+      "base": "holograms/jokers__fibonacci-base.png",
+      "subject": "holograms/jokers__fibonacci-subject.png",
+      "lifted_pixels": 7066,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/steel_joker.png",
+      "source_sha256": "bde04b0fd1baaec133d217c1e2735cb794ffe8d3a33f9110fc9da688afbca0cc",
+      "base": "holograms/jokers__steel_joker-base.png",
+      "subject": "holograms/jokers__steel_joker-subject.png",
+      "lifted_pixels": 1944,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/scary_face.png",
+      "source_sha256": "aef654220af7ca983753bb0472345461664ed0f015428d1e29f52ea435f95659",
+      "base": "holograms/jokers__scary_face-base.png",
+      "subject": "holograms/jokers__scary_face-subject.png",
+      "lifted_pixels": 3336,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/abstract_joker.png",
+      "source_sha256": "116a89661e66600eb49d249a281acaaf44bf33717b6f040570d7c6aceafb82e2",
+      "base": "holograms/jokers__abstract_joker-base.png",
+      "subject": "holograms/jokers__abstract_joker-subject.png",
+      "lifted_pixels": 6532,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/delayed_gratification.png",
+      "source_sha256": "ac555792a7126b5b7e0be7324a2e54a51c2df0c1cf12fb8b56cc5eb31a8ec285",
+      "base": "holograms/jokers__delayed_gratification-base.png",
+      "subject": "holograms/jokers__delayed_gratification-subject.png",
+      "lifted_pixels": 7512,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/hack.png",
+      "source_sha256": "74106934137f40ae2389e4604b6cefdad837a88c9d6d833c0e3ce1d7d1b3d8cd",
+      "base": "holograms/jokers__hack-base.png",
+      "subject": "holograms/jokers__hack-subject.png",
+      "lifted_pixels": 9466,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/pareidolia.png",
+      "source_sha256": "eccb553da00a1e5a5dd766eb917c07475cac48ac70b9cd24a643d44d30d3868f",
+      "base": "holograms/jokers__pareidolia-base.png",
+      "subject": "holograms/jokers__pareidolia-subject.png",
+      "lifted_pixels": 12928,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/gros_michel.png",
+      "source_sha256": "d2ddd1334d41251b7d34d90be073567e1883b394242e7fbc6eea85c9973533ac",
+      "base": "holograms/jokers__gros_michel-base.png",
+      "subject": "holograms/jokers__gros_michel-subject.png",
+      "lifted_pixels": 12418,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/even_steven.png",
+      "source_sha256": "4fb23a3360b238a27d91326c47c2dbb6eff1934181f4be0ed67c2d575d51e548",
+      "base": "holograms/jokers__even_steven-base.png",
+      "subject": "holograms/jokers__even_steven-subject.png",
+      "lifted_pixels": 5800,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/odd_todd.png",
+      "source_sha256": "a8466c20f8a7d408ab2ad66594112bcdd247d05cd0bb3242f279cb06145f1663",
+      "base": "holograms/jokers__odd_todd-base.png",
+      "subject": "holograms/jokers__odd_todd-subject.png",
+      "lifted_pixels": 5504,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/scholar.png",
+      "source_sha256": "d249f7f05b43cb16548182df62a2b875d6062e5bc22d3cb03d8b418be2e71859",
+      "base": "holograms/jokers__scholar-base.png",
+      "subject": "holograms/jokers__scholar-subject.png",
+      "lifted_pixels": 6356,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/business_card.png",
+      "source_sha256": "e63696afca8f77bbcde05b128fba179e405c484ec273ec3d2d5b080dbbe9647b",
+      "base": "holograms/jokers__business_card-base.png",
+      "subject": "holograms/jokers__business_card-subject.png",
+      "lifted_pixels": 520,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/supernova.png",
+      "source_sha256": "a5547e8d3a9bbcc39e2e5c83ecbb28c5b5dd637f9299526fd1c4c47efe821dd4",
+      "base": "holograms/jokers__supernova-base.png",
+      "subject": "holograms/jokers__supernova-subject.png",
+      "lifted_pixels": 2494,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/ride_the_bus.png",
+      "source_sha256": "25a33cfe975132e6653010a8e36096d61e92ddf224e349a4e7734446ca98bbed",
+      "base": "holograms/jokers__ride_the_bus-base.png",
+      "subject": "holograms/jokers__ride_the_bus-subject.png",
+      "lifted_pixels": 13258,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/space_joker.png",
+      "source_sha256": "3df433532181a05f6815e4ef6f2fa62846dd3e96c42a1622776768f92235c193",
+      "base": "holograms/jokers__space_joker-base.png",
+      "subject": "holograms/jokers__space_joker-subject.png",
+      "lifted_pixels": 7176,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/egg.png",
+      "source_sha256": "56e5519b2248f86e7be135b6e650512d43fc0f8242fd1d0990e8ff9f3bd54ce6",
+      "base": "holograms/jokers__egg-base.png",
+      "subject": "holograms/jokers__egg-subject.png",
+      "lifted_pixels": 4116,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/burglar.png",
+      "source_sha256": "83093595387feaa54be0305ac587d566f4493baa6c3860e382584aa190dc9162",
+      "base": "holograms/jokers__burglar-base.png",
+      "subject": "holograms/jokers__burglar-subject.png",
+      "lifted_pixels": 4608,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/blackboard.png",
+      "source_sha256": "907cde4d87dba1c705a3da4be9c89e63fa7d28567c8bd444c78aa030f78b1dcd",
+      "base": "holograms/jokers__blackboard-base.png",
+      "subject": "holograms/jokers__blackboard-subject.png",
+      "lifted_pixels": 13382,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/runner.png",
+      "source_sha256": "fafd79dff11e51513accaa7c476aac087f886a3010cda407333d8bca637ab123",
+      "base": "holograms/jokers__runner-base.png",
+      "subject": "holograms/jokers__runner-subject.png",
+      "lifted_pixels": 6676,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/ice_cream.png",
+      "source_sha256": "9f52deb4ead937ea5e109c81bdf5a86bd8ab0981fec140d23b1c86e16eabef35",
+      "base": "holograms/jokers__ice_cream-base.png",
+      "subject": "holograms/jokers__ice_cream-subject.png",
+      "lifted_pixels": 9980,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/dna.png",
+      "source_sha256": "1825298e58477192f945aaa651c971a3aba8fd06266f85999d1b48c08c0956f9",
+      "base": "holograms/jokers__dna-base.png",
+      "subject": "holograms/jokers__dna-subject.png",
+      "lifted_pixels": 6028,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/splash.png",
+      "source_sha256": "3658a754af6bac172bc8aafffaf921041c9deeceb67d31b0a7073e6ee53e6f2c",
+      "base": "holograms/jokers__splash-base.png",
+      "subject": "holograms/jokers__splash-subject.png",
+      "lifted_pixels": 8336,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/blue_joker.png",
+      "source_sha256": "8a5f14211e741d81a9f9f0c6fa5a198458c203a3b001081f31278a7fb397f2d5",
+      "base": "holograms/jokers__blue_joker-base.png",
+      "subject": "holograms/jokers__blue_joker-subject.png",
+      "lifted_pixels": 6524,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/sixth_sense.png",
+      "source_sha256": "08467afd0aa9d9803707375da70d2057f9ff01376c3a86d4b815b53263f9168e",
+      "base": "holograms/jokers__sixth_sense-base.png",
+      "subject": "holograms/jokers__sixth_sense-subject.png",
+      "lifted_pixels": 7582,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/constellation.png",
+      "source_sha256": "fc274ab147b77497c41715c901095ec859e218af509f8242826c4616fa10bd2c",
+      "base": "holograms/jokers__constellation-base.png",
+      "subject": "holograms/jokers__constellation-subject.png",
+      "lifted_pixels": 6808,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/hiker.png",
+      "source_sha256": "06617b92902eee58be0410c82d5225011dd92aa7a4a6ca1b1859f85b0dfb55c5",
+      "base": "holograms/jokers__hiker-base.png",
+      "subject": "holograms/jokers__hiker-subject.png",
+      "lifted_pixels": 7618,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/faceless_joker.png",
+      "source_sha256": "49a0ecd3fb55c0e1186d06c7d8f668a7cec9260b5cfcb0737eae10cea85ad0c0",
+      "base": "holograms/jokers__faceless_joker-base.png",
+      "subject": "holograms/jokers__faceless_joker-subject.png",
+      "lifted_pixels": 6384,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/green_joker.png",
+      "source_sha256": "a52050cfb8c73ce4cbe50d5e46914984dc32f8d3866832f7cc1c5203051bc79f",
+      "base": "holograms/jokers__green_joker-base.png",
+      "subject": "holograms/jokers__green_joker-subject.png",
+      "lifted_pixels": 6384,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/superposition.png",
+      "source_sha256": "447d354a926d18028a0a21e206117ead280101c293dbde4862143f32d1d17348",
+      "base": "holograms/jokers__superposition-base.png",
+      "subject": "holograms/jokers__superposition-subject.png",
+      "lifted_pixels": 13306,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/to_do_list.png",
+      "source_sha256": "24ecf7b934db31c7ae68a6579440044a0ca35892c11be815e327a2793ef4384b",
+      "base": "holograms/jokers__to_do_list-base.png",
+      "subject": "holograms/jokers__to_do_list-subject.png",
+      "lifted_pixels": 6202,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/cavendish.png",
+      "source_sha256": "2e440eeb38f45b054fd5a193473c9b89f6d38b17ac6204c9ed8e3edce924702d",
+      "base": "holograms/jokers__cavendish-base.png",
+      "subject": "holograms/jokers__cavendish-subject.png",
+      "lifted_pixels": 13234,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/card_sharp.png",
+      "source_sha256": "98e62ceb0164edd4d37be61cffe3c2e8f85a16fafea21ca82c1f163d4d04fbb8",
+      "base": "holograms/jokers__card_sharp-base.png",
+      "subject": "holograms/jokers__card_sharp-subject.png",
+      "lifted_pixels": 6580,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/red_card.png",
+      "source_sha256": "15d5b966a49b0e8e6c69c5170d6043c131e5f0c3b1f4b27ed0e0b997ebdae82f",
+      "base": "holograms/jokers__red_card-base.png",
+      "subject": "holograms/jokers__red_card-subject.png",
+      "lifted_pixels": 0,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/madness.png",
+      "source_sha256": "173858a4f3805fbc45c7d7cff6ad351d16a09773c4d941c85ce5bf6de61893ea",
+      "base": "holograms/jokers__madness-base.png",
+      "subject": "holograms/jokers__madness-subject.png",
+      "lifted_pixels": 7532,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/square_joker.png",
+      "source_sha256": "ebf8610209063cb2d96bef4c46f109fd32394672f9b9bf012b5c911f3140f7f5",
+      "base": "holograms/jokers__square_joker-base.png",
+      "subject": "holograms/jokers__square_joker-subject.png",
+      "lifted_pixels": 7344,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/s_ance.png",
+      "source_sha256": "1262606d20e6db62c99ad5ccc5af7ad8205b7dc9865df691447b85fdb38a6b15",
+      "base": "holograms/jokers__s_ance-base.png",
+      "subject": "holograms/jokers__s_ance-subject.png",
+      "lifted_pixels": 6686,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/riff_raff.png",
+      "source_sha256": "4343d30716165dd65f8758b72a6ab5915124e7d5a0ebe9a18a9e997fef795baf",
+      "base": "holograms/jokers__riff_raff-base.png",
+      "subject": "holograms/jokers__riff_raff-subject.png",
+      "lifted_pixels": 396,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/vampire.png",
+      "source_sha256": "ea2ec2c1c4092359990f7c77679c74aed868050b12db6f029b8507e0c5f24cdf",
+      "base": "holograms/jokers__vampire-base.png",
+      "subject": "holograms/jokers__vampire-subject.png",
+      "lifted_pixels": 6416,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/shortcut.png",
+      "source_sha256": "6e75a2d710dba20d9f7b5bb0ec2512dd51442b72ecff2c8c3c4f618479ec079b",
+      "base": "holograms/jokers__shortcut-base.png",
+      "subject": "holograms/jokers__shortcut-subject.png",
+      "lifted_pixels": 10238,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/hologram.png",
+      "source_sha256": "575eb80d16f487d9d4a36929a6dab6e3c741cfec3324a17cd1f6e5d561f8c0ad",
+      "base": "holograms/jokers__hologram-base.png",
+      "subject": "holograms/jokers__hologram-subject.png",
+      "lifted_pixels": 7309,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/vagabond.png",
+      "source_sha256": "4ec5da8edf4274d754f9932ddb293b074d146aeca6c8bae7ce66adcb3dc9b843",
+      "base": "holograms/jokers__vagabond-base.png",
+      "subject": "holograms/jokers__vagabond-subject.png",
+      "lifted_pixels": 13570,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/baron.png",
+      "source_sha256": "25edc29a15234a75e4e08a23873175c953bf8dbf01365d2345673ec69d4212ce",
+      "base": "holograms/jokers__baron-base.png",
+      "subject": "holograms/jokers__baron-subject.png",
+      "lifted_pixels": 7806,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/cloud_9.png",
+      "source_sha256": "710e63ed341010c11246e33f22f499c2e08aac1a402e19111496a2e83554e497",
+      "base": "holograms/jokers__cloud_9-base.png",
+      "subject": "holograms/jokers__cloud_9-subject.png",
+      "lifted_pixels": 12392,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/rocket.png",
+      "source_sha256": "6cbff79aeffeb121854651aa0d33912680d7d1a8d66b61bd339da2d36de95394",
+      "base": "holograms/jokers__rocket-base.png",
+      "subject": "holograms/jokers__rocket-subject.png",
+      "lifted_pixels": 7904,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/obelisk.png",
+      "source_sha256": "e0c6e4be3f0d18d101e07cbb69798ac93b6133ae021cc0db27d3a698b5dd0d19",
+      "base": "holograms/jokers__obelisk-base.png",
+      "subject": "holograms/jokers__obelisk-subject.png",
+      "lifted_pixels": 8002,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/midas_mask.png",
+      "source_sha256": "f41c56fcb67394188d9d98dddf14e135c44296e3972ce5f0a7fe636d513cf94f",
+      "base": "holograms/jokers__midas_mask-base.png",
+      "subject": "holograms/jokers__midas_mask-subject.png",
+      "lifted_pixels": 13126,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/luchador.png",
+      "source_sha256": "e93744b81b2e01d40e2de5430097d0df864c8196348d950c894317ec914ecda7",
+      "base": "holograms/jokers__luchador-base.png",
+      "subject": "holograms/jokers__luchador-subject.png",
+      "lifted_pixels": 6724,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/photograph.png",
+      "source_sha256": "e7c6f65f34255dd0dcb673b3b5f1a51766c841e75aa3b1f00272f9a0f07498bc",
+      "base": "holograms/jokers__photograph-base.png",
+      "subject": "holograms/jokers__photograph-subject.png",
+      "lifted_pixels": 12284,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/gift_card.png",
+      "source_sha256": "d8454f2eb21d337b68c035c9019a6a87c6f60e84926f6d91121c8992c7fe8f17",
+      "base": "holograms/jokers__gift_card-base.png",
+      "subject": "holograms/jokers__gift_card-subject.png",
+      "lifted_pixels": 7134,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/turtle_bean.png",
+      "source_sha256": "bd74c89c66f2c06607fed78bdc18661a3fe775055ce941ca48fc2e70afaa222e",
+      "base": "holograms/jokers__turtle_bean-base.png",
+      "subject": "holograms/jokers__turtle_bean-subject.png",
+      "lifted_pixels": 12506,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/erosion.png",
+      "source_sha256": "136a0facdbb8a9986a0c160dec54a6c0e201273f73fa6c083c1aa715987fbbbf",
+      "base": "holograms/jokers__erosion-base.png",
+      "subject": "holograms/jokers__erosion-subject.png",
+      "lifted_pixels": 4490,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/reserved_parking.png",
+      "source_sha256": "90f7cc54707e00de737a0aa122233281c913b1e4971dd6391a639fb772e0061e",
+      "base": "holograms/jokers__reserved_parking-base.png",
+      "subject": "holograms/jokers__reserved_parking-subject.png",
+      "lifted_pixels": 6060,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/mail_in_rebate.png",
+      "source_sha256": "1cc4850aead350db3ce2b224c160e1f60841d1acaf8b3f0a3614bc8cef756424",
+      "base": "holograms/jokers__mail_in_rebate-base.png",
+      "subject": "holograms/jokers__mail_in_rebate-subject.png",
+      "lifted_pixels": 2100,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/to_the_moon.png",
+      "source_sha256": "70f0e90f2704e54c955c85033e54e5c37ec1890bb2e0e32a93f1afa406db76b1",
+      "base": "holograms/jokers__to_the_moon-base.png",
+      "subject": "holograms/jokers__to_the_moon-subject.png",
+      "lifted_pixels": 52,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/hallucination.png",
+      "source_sha256": "f7705c1154526ca88674f8f2939c8c1e3494ab3b9d8072f90275ba573b88ef8d",
+      "base": "holograms/jokers__hallucination-base.png",
+      "subject": "holograms/jokers__hallucination-subject.png",
+      "lifted_pixels": 9614,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/fortune_teller.png",
+      "source_sha256": "8bcee35ec72481dc6f481dc64fcd53e0377de5898a4ab83c1db8064a3950cd2e",
+      "base": "holograms/jokers__fortune_teller-base.png",
+      "subject": "holograms/jokers__fortune_teller-subject.png",
+      "lifted_pixels": 5456,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/juggler.png",
+      "source_sha256": "325b3500925b1486bab567ed9edc1bf16d078d6c281a8f18ecefde4425f25342",
+      "base": "holograms/jokers__juggler-base.png",
+      "subject": "holograms/jokers__juggler-subject.png",
+      "lifted_pixels": 8440,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/drunkard.png",
+      "source_sha256": "740a60d01e8a7b30959d204f6dd711c7ef65142d95e9e9008585c3a62f7094dd",
+      "base": "holograms/jokers__drunkard-base.png",
+      "subject": "holograms/jokers__drunkard-subject.png",
+      "lifted_pixels": 8966,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/stone_joker.png",
+      "source_sha256": "901a774a2f63d5efe1f86a93cd5edd205908746bcf3c012d2be1e06e4c30139f",
+      "base": "holograms/jokers__stone_joker-base.png",
+      "subject": "holograms/jokers__stone_joker-subject.png",
+      "lifted_pixels": 5948,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/golden_joker.png",
+      "source_sha256": "3fd8288fa3cec19440dbfd816566add3713e30906fa0bf8f5aaf23aae5d63497",
+      "base": "holograms/jokers__golden_joker-base.png",
+      "subject": "holograms/jokers__golden_joker-subject.png",
+      "lifted_pixels": 6384,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/lucky_cat.png",
+      "source_sha256": "6216e18a768655caa1101750495b0b37b82ba6bc5e9cdcadd79c2d2a10abccbd",
+      "base": "holograms/jokers__lucky_cat-base.png",
+      "subject": "holograms/jokers__lucky_cat-subject.png",
+      "lifted_pixels": 7628,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/baseball_card.png",
+      "source_sha256": "85978ae6c4447e1462b28ac151b466ee95329050157c3725cc9df2954c166d4d",
+      "base": "holograms/jokers__baseball_card-base.png",
+      "subject": "holograms/jokers__baseball_card-subject.png",
+      "lifted_pixels": 9158,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/bull.png",
+      "source_sha256": "b7faff708e91585716420719b885e572f32d2247c1656c68a186b34f625e9ef8",
+      "base": "holograms/jokers__bull-base.png",
+      "subject": "holograms/jokers__bull-subject.png",
+      "lifted_pixels": 5692,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/diet_cola.png",
+      "source_sha256": "c094ee5440c01300dc476ca5eed5e2b1f5a51bf420ac0073ba91729d6240fbb4",
+      "base": "holograms/jokers__diet_cola-base.png",
+      "subject": "holograms/jokers__diet_cola-subject.png",
+      "lifted_pixels": 13618,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/trading_card.png",
+      "source_sha256": "9c4f1be6c78f6462d97657247c978003316edaaf3321d5d56f3a1f3493c0709f",
+      "base": "holograms/jokers__trading_card-base.png",
+      "subject": "holograms/jokers__trading_card-subject.png",
+      "lifted_pixels": 11718,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/flash_card.png",
+      "source_sha256": "ad366a0766c9bd8df9e48a996f5ea9eab27060542add528d37406b98913cb8ca",
+      "base": "holograms/jokers__flash_card-base.png",
+      "subject": "holograms/jokers__flash_card-subject.png",
+      "lifted_pixels": 3260,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/popcorn.png",
+      "source_sha256": "42ba1354950db6e5133cea2491cc4bb5eb5a7038c4f8c311535625e2a4525083",
+      "base": "holograms/jokers__popcorn-base.png",
+      "subject": "holograms/jokers__popcorn-subject.png",
+      "lifted_pixels": 9416,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/spare_trousers.png",
+      "source_sha256": "e4e76eafd6100e7070bde5d8998a9f71c38f10651d238280ad881dd85b83ac93",
+      "base": "holograms/jokers__spare_trousers-base.png",
+      "subject": "holograms/jokers__spare_trousers-subject.png",
+      "lifted_pixels": 8688,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/ancient_joker.png",
+      "source_sha256": "43cfd589eb3d45cc43f5e754c6445bfd98214bddbc92e7b86fa08457901c9c52",
+      "base": "holograms/jokers__ancient_joker-base.png",
+      "subject": "holograms/jokers__ancient_joker-subject.png",
+      "lifted_pixels": 6756,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/ramen.png",
+      "source_sha256": "07acf2b64f5304814d6212f4a16480887739c89374d446222ddec391363c1d35",
+      "base": "holograms/jokers__ramen-base.png",
+      "subject": "holograms/jokers__ramen-subject.png",
+      "lifted_pixels": 13172,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/walkie_talkie.png",
+      "source_sha256": "f2ce9e9ba8c9ca65ed24d2cd7fd6185fce7dbb35391a2f6204dcf80f773fd481",
+      "base": "holograms/jokers__walkie_talkie-base.png",
+      "subject": "holograms/jokers__walkie_talkie-subject.png",
+      "lifted_pixels": 9960,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/seltzer.png",
+      "source_sha256": "1cc50723947779dd32d10a10e69437537235a76aaa912de416de2ffe2b72ccff",
+      "base": "holograms/jokers__seltzer-base.png",
+      "subject": "holograms/jokers__seltzer-subject.png",
+      "lifted_pixels": 13246,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/castle.png",
+      "source_sha256": "4859945cfd7e2bbd4e6f2cce20213e1c2ea2b5ebd0f2182727634cf868f3fe30",
+      "base": "holograms/jokers__castle-base.png",
+      "subject": "holograms/jokers__castle-subject.png",
+      "lifted_pixels": 8766,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/smiley_face.png",
+      "source_sha256": "fc64ded46c77092a56ba986808d8ba4ebb8eee61866ae7cfd96aaaedc623e215",
+      "base": "holograms/jokers__smiley_face-base.png",
+      "subject": "holograms/jokers__smiley_face-subject.png",
+      "lifted_pixels": 13144,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/campfire.png",
+      "source_sha256": "a08b9bf0f6f39e526da671bdb8c91427e434b7e62419c2831787c00e42a55576",
+      "base": "holograms/jokers__campfire-base.png",
+      "subject": "holograms/jokers__campfire-subject.png",
+      "lifted_pixels": 5508,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/golden_ticket.png",
+      "source_sha256": "4ecec817aae3d1b774de4ee280416040e73b7310d60d000a3ebec515298f7a10",
+      "base": "holograms/jokers__golden_ticket-base.png",
+      "subject": "holograms/jokers__golden_ticket-subject.png",
+      "lifted_pixels": 1874,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/mr_bones.png",
+      "source_sha256": "e5472167a446a90accac6bc865ff5931ab50ed59b52a9521bcb485d15646231b",
+      "base": "holograms/jokers__mr_bones-base.png",
+      "subject": "holograms/jokers__mr_bones-subject.png",
+      "lifted_pixels": 6208,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/acrobat.png",
+      "source_sha256": "ada744e9d1fb875200c8c3facf3d5a4f49d730e14737186f788d44c6460efe5d",
+      "base": "holograms/jokers__acrobat-base.png",
+      "subject": "holograms/jokers__acrobat-subject.png",
+      "lifted_pixels": 5538,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/sock_and_buskin.png",
+      "source_sha256": "1187a067fe7a683d6351b5d86c574b4eb334a6719d89f56faed032e8085b54a4",
+      "base": "holograms/jokers__sock_and_buskin-base.png",
+      "subject": "holograms/jokers__sock_and_buskin-subject.png",
+      "lifted_pixels": 6522,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/swashbuckler.png",
+      "source_sha256": "a6904ac876dc9472b6a61aaf8db05bc4e6ce1088fa1e13bca643825a94c81cd0",
+      "base": "holograms/jokers__swashbuckler-base.png",
+      "subject": "holograms/jokers__swashbuckler-subject.png",
+      "lifted_pixels": 6168,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/troubadour.png",
+      "source_sha256": "67fa5aaa9eb7bda611aab42d7d58ef76c1f25491444ad4c4ad207b3597b4d081",
+      "base": "holograms/jokers__troubadour-base.png",
+      "subject": "holograms/jokers__troubadour-subject.png",
+      "lifted_pixels": 8930,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/certificate.png",
+      "source_sha256": "157023ac58acde23c99277f7a18de1ac7fc66ecf9faebd6aec7599d5255460a3",
+      "base": "holograms/jokers__certificate-base.png",
+      "subject": "holograms/jokers__certificate-subject.png",
+      "lifted_pixels": 6704,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/smeared_joker.png",
+      "source_sha256": "eb471733b8fcdea9155c516d225c325358ab78fbb2fcc212e94b1524b695f41f",
+      "base": "holograms/jokers__smeared_joker-base.png",
+      "subject": "holograms/jokers__smeared_joker-subject.png",
+      "lifted_pixels": 5606,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/throwback.png",
+      "source_sha256": "80c96607459a828e6d6c2f8845466dfc0a1c70b88e3df06d25b7236f86f63175",
+      "base": "holograms/jokers__throwback-base.png",
+      "subject": "holograms/jokers__throwback-subject.png",
+      "lifted_pixels": 9438,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/hanging_chad.png",
+      "source_sha256": "5681deb0d6226f80173a620a6d176a01ff6b57b7254adbd7f21ab9396ed60c9b",
+      "base": "holograms/jokers__hanging_chad-base.png",
+      "subject": "holograms/jokers__hanging_chad-subject.png",
+      "lifted_pixels": 5944,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/rough_gem.png",
+      "source_sha256": "e73f9b3d7e51cefed6090948bb2a059464e80eb5d70f4676a4c533045c0fb263",
+      "base": "holograms/jokers__rough_gem-base.png",
+      "subject": "holograms/jokers__rough_gem-subject.png",
+      "lifted_pixels": 8488,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/bloodstone.png",
+      "source_sha256": "d416ce4d8f00c7b34a1a39266245e35339d200797bd82e42cf1096a8661affad",
+      "base": "holograms/jokers__bloodstone-base.png",
+      "subject": "holograms/jokers__bloodstone-subject.png",
+      "lifted_pixels": 7116,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/arrowhead.png",
+      "source_sha256": "3051f030c494c8ffd1b051da36d39f510712e36cf23f42b35add56e909c64173",
+      "base": "holograms/jokers__arrowhead-base.png",
+      "subject": "holograms/jokers__arrowhead-subject.png",
+      "lifted_pixels": 5930,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/onyx_agate.png",
+      "source_sha256": "6c43a2bd0f6650f23910a69e2a12babde88fb323e2f000e1f0e52aa267a06b72",
+      "base": "holograms/jokers__onyx_agate-base.png",
+      "subject": "holograms/jokers__onyx_agate-subject.png",
+      "lifted_pixels": 7428,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/glass_joker.png",
+      "source_sha256": "883f5f6588a631a8da1f6cb0873d8b52f2c0274d509a8d899dec2a15aabadeeb",
+      "base": "holograms/jokers__glass_joker-base.png",
+      "subject": "holograms/jokers__glass_joker-subject.png",
+      "lifted_pixels": 6384,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/showman.png",
+      "source_sha256": "33b61f8a6d294e369fc22d9a030081c01806ca13721f573997513aee7b725cec",
+      "base": "holograms/jokers__showman-base.png",
+      "subject": "holograms/jokers__showman-subject.png",
+      "lifted_pixels": 5552,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/flower_pot.png",
+      "source_sha256": "2ba7b2d035b0d7b4857e7a10364f53e56617b2647b8c221594220070ca2f96e0",
+      "base": "holograms/jokers__flower_pot-base.png",
+      "subject": "holograms/jokers__flower_pot-subject.png",
+      "lifted_pixels": 10012,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/blueprint.png",
+      "source_sha256": "c3cf3a880be576276cb5009b3f83ee5497885ab3001e1ecd32a94e3f03cca289",
+      "base": "holograms/jokers__blueprint-base.png",
+      "subject": "holograms/jokers__blueprint-subject.png",
+      "lifted_pixels": 7300,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/wee_joker.png",
+      "source_sha256": "45a50a3de79f8591860e6b4f3d13b9ce237f5af3efcfeefb0eff628a5d331069",
+      "base": "holograms/jokers__wee_joker-base.png",
+      "subject": "holograms/jokers__wee_joker-subject.png",
+      "lifted_pixels": 3206,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/merry_andy.png",
+      "source_sha256": "69bdc5fa14ada66c6a02b45b9e12158a9e4d52d05b77f13313ef8a97ac68645b",
+      "base": "holograms/jokers__merry_andy-base.png",
+      "subject": "holograms/jokers__merry_andy-subject.png",
+      "lifted_pixels": 7604,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/oops_all_6s.png",
+      "source_sha256": "dca5289a4cbe02756c51e53db79476abc0a43f917e5d77b6b633be3ecee6c3b6",
+      "base": "holograms/jokers__oops_all_6s-base.png",
+      "subject": "holograms/jokers__oops_all_6s-subject.png",
+      "lifted_pixels": 5988,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/the_idol.png",
+      "source_sha256": "3ae3b595e1bcc4990f513016c293a42fe966e7243dba9abf9114bc799567011c",
+      "base": "holograms/jokers__the_idol-base.png",
+      "subject": "holograms/jokers__the_idol-subject.png",
+      "lifted_pixels": 7200,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/seeing_double.png",
+      "source_sha256": "2dce53ac5f3e90705da7a5cc6f1518b7646481189f152daf27be6b3aeeac8ffd",
+      "base": "holograms/jokers__seeing_double-base.png",
+      "subject": "holograms/jokers__seeing_double-subject.png",
+      "lifted_pixels": 12518,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/matador.png",
+      "source_sha256": "04b84a76ee24ab7eed7a5c735bda8126c9bf685826ef0f66d947f084215fefe1",
+      "base": "holograms/jokers__matador-base.png",
+      "subject": "holograms/jokers__matador-subject.png",
+      "lifted_pixels": 7272,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/hit_the_road.png",
+      "source_sha256": "c9be55874ad72bf8392058184709ca6274a9bc371c02f3fa8ec788933ed20f58",
+      "base": "holograms/jokers__hit_the_road-base.png",
+      "subject": "holograms/jokers__hit_the_road-subject.png",
+      "lifted_pixels": 10738,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/the_duo.png",
+      "source_sha256": "5345af53060070b9648af589e21200e6141627550612075913b064f3619396e7",
+      "base": "holograms/jokers__the_duo-base.png",
+      "subject": "holograms/jokers__the_duo-subject.png",
+      "lifted_pixels": 5822,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/the_trio.png",
+      "source_sha256": "5364ec08b5752eadc0c7bc41ddacc51e2f6495cfc964d0bedd9eed952a65c50b",
+      "base": "holograms/jokers__the_trio-base.png",
+      "subject": "holograms/jokers__the_trio-subject.png",
+      "lifted_pixels": 5914,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/the_family.png",
+      "source_sha256": "65c7a0c616f7ad80cd3adce44090a9ec3cc00d19925342b6fb1db47fd51cb583",
+      "base": "holograms/jokers__the_family-base.png",
+      "subject": "holograms/jokers__the_family-subject.png",
+      "lifted_pixels": 7078,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/the_order.png",
+      "source_sha256": "9159f78737de473a2d478818f99e06c1b22d57a8ef548736d3c26e2609fc65da",
+      "base": "holograms/jokers__the_order-base.png",
+      "subject": "holograms/jokers__the_order-subject.png",
+      "lifted_pixels": 7134,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/the_tribe.png",
+      "source_sha256": "fefacd8d291fcb19375a62ecca90497d50589d4804c956034999814684711fb3",
+      "base": "holograms/jokers__the_tribe-base.png",
+      "subject": "holograms/jokers__the_tribe-subject.png",
+      "lifted_pixels": 7134,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/stuntman.png",
+      "source_sha256": "d97983146bc6f4a69485370c45099fe3d2508e3a61f3d73528d611b435f17454",
+      "base": "holograms/jokers__stuntman-base.png",
+      "subject": "holograms/jokers__stuntman-subject.png",
+      "lifted_pixels": 6148,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/invisible_joker.png",
+      "source_sha256": "3a0c1a50a7c5d22c6f89164b24168fab4c9ba92ee3b0ebf55e1e17ec7574910c",
+      "base": "holograms/jokers__invisible_joker-base.png",
+      "subject": "holograms/jokers__invisible_joker-subject.png",
+      "lifted_pixels": 5888,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/brainstorm.png",
+      "source_sha256": "5a3de4b3344392cc2e5c0ec742e84e0032da58dc159752afe1989656c849f6c3",
+      "base": "holograms/jokers__brainstorm-base.png",
+      "subject": "holograms/jokers__brainstorm-subject.png",
+      "lifted_pixels": 7420,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/satellite.png",
+      "source_sha256": "0451672d9efd7d8641c10e8e628b2b8bdcc9414e925741844bad8f64e83c0375",
+      "base": "holograms/jokers__satellite-base.png",
+      "subject": "holograms/jokers__satellite-subject.png",
+      "lifted_pixels": 6112,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/shoot_the_moon.png",
+      "source_sha256": "c61f165f695c72f7ffe7f3d590fdb4a3aef396848540fefdf1959265b29f0c1b",
+      "base": "holograms/jokers__shoot_the_moon-base.png",
+      "subject": "holograms/jokers__shoot_the_moon-subject.png",
+      "lifted_pixels": 12638,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/driver_s_license.png",
+      "source_sha256": "acaf10d74dabfa6d69e9e5015c1554eb81e94e8313a6553687679deb3787e949",
+      "base": "holograms/jokers__driver_s_license-base.png",
+      "subject": "holograms/jokers__driver_s_license-subject.png",
+      "lifted_pixels": 2928,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/cartomancer.png",
+      "source_sha256": "758ab45fc4c10e60ac3f0be23886576b4e0d473ee21d3ca61eebdbbfbf2f9ec5",
+      "base": "holograms/jokers__cartomancer-base.png",
+      "subject": "holograms/jokers__cartomancer-subject.png",
+      "lifted_pixels": 10432,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/astronomer.png",
+      "source_sha256": "03380c8b650a5de2014f6a02554f6d961f33cebf8877e94bbac09ca7a0023433",
+      "base": "holograms/jokers__astronomer-base.png",
+      "subject": "holograms/jokers__astronomer-subject.png",
+      "lifted_pixels": 8502,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/burnt_joker.png",
+      "source_sha256": "d369a2b6c2630fbb171123da13d896b16d5b1e8a744d0a6007f5e4fccdbde9c1",
+      "base": "holograms/jokers__burnt_joker-base.png",
+      "subject": "holograms/jokers__burnt_joker-subject.png",
+      "lifted_pixels": 12572,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/bootstraps.png",
+      "source_sha256": "5ff28f63f00e280678af39ea6797e0ce280012abee2f933ff43b241de1473c3f",
+      "base": "holograms/jokers__bootstraps-base.png",
+      "subject": "holograms/jokers__bootstraps-subject.png",
+      "lifted_pixels": 13030,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/canio.png",
+      "source_sha256": "e2f42431b57c8cf99b6386c298ad6448d615b41c1bd0ad18f5faf1b799d90062",
+      "base": "holograms/jokers__canio-base.png",
+      "subject": "holograms/jokers__canio-subject.png",
+      "lifted_pixels": 8422,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/triboulet.png",
+      "source_sha256": "39e40b83b4c0eeb8da5e448deb769693ce0edca7cb03156ac3819a014c331e27",
+      "base": "holograms/jokers__triboulet-base.png",
+      "subject": "holograms/jokers__triboulet-subject.png",
+      "lifted_pixels": 9002,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/yorick.png",
+      "source_sha256": "537375ddc0ddfa5098fd624e99b308602114ad7728cebd659a3fdeab6343fdba",
+      "base": "holograms/jokers__yorick-base.png",
+      "subject": "holograms/jokers__yorick-subject.png",
+      "lifted_pixels": 9116,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/chicot.png",
+      "source_sha256": "dc368f3a47cc0f0aee2d97a2bf9dc559b05a629a3d4818f1a4ed32c5d6a477bd",
+      "base": "holograms/jokers__chicot-base.png",
+      "subject": "holograms/jokers__chicot-subject.png",
+      "lifted_pixels": 8782,
+      "size": [
+        142,
+        190
+      ]
+    },
+    {
+      "source": "jokers/perkeo.png",
+      "source_sha256": "0a1a558c8314ec2096d412f6470b7d3bc857d38221ffd68555fcd5fc2bd25103",
+      "base": "holograms/jokers__perkeo-base.png",
+      "subject": "holograms/jokers__perkeo-subject.png",
+      "lifted_pixels": 9754,
+      "size": [
+        142,
+        190
+      ]
+    }
+  ]
+}

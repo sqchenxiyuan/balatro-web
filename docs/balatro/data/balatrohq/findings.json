@@ -1,0 +1,122 @@
+[
+  {
+    "id": "HQ-01", "kind": "counting", "topic": "牌型显示数与独立规则数",
+    "site_url": "https://balatrohq.com/zh/poker-hands/", "site_excerpt": "全部 13 种牌型",
+    "canonical_refs": [{"collection": "poker_hands", "id": "straight_flush"}],
+    "resolution": "皇家同花顺是同花顺的显示变体：13 行展示、12 个独立升级槽、12 张星球。本站正文也说明两者计分相同。"
+  },
+  {
+    "id": "HQ-02", "kind": "rule-conflict", "topic": "血石触发花色",
+    "site_url": "https://balatrohq.com/zh/jokers/", "site_excerpt": "打出的方块牌计分时有 1/2 概率给予 ×1.5 倍率",
+    "canonical_refs": [{"collection": "jokers", "id": "bloodstone"}],
+    "resolution": "应为红桃；打出并计分后独立判定 1/2 概率，成功时倍率 ×1.5。"
+  },
+  {
+    "id": "HQ-03", "kind": "missing-condition", "topic": "八号球生成内容",
+    "site_url": "https://balatrohq.com/zh/jokers/", "site_excerpt": "每张打出的8有 1/4 概率在计分时生成一张消耗牌",
+    "canonical_refs": [{"collection": "jokers", "id": "8_ball"}],
+    "resolution": "生成的是塔罗牌，且必须有消耗牌槽位；不是任意消耗牌。"
+  },
+  {
+    "id": "HQ-04", "kind": "missing-condition", "topic": "Perkeo 的负片副本",
+    "site_url": "https://balatrohq.com/zh/jokers/", "site_excerpt": "离开商店时，复制你所持的 1 张随机消耗牌",
+    "canonical_refs": [{"collection": "jokers", "id": "perkeo"}],
+    "resolution": "副本为负片，增加对应消耗牌容量；不能省略负片。站内其他攻略写出了此条件。样片已经实现负片。"
+  },
+  {
+    "id": "HQ-05", "kind": "ambiguous-wording", "topic": "成长型 X 倍率的加法",
+    "site_url": "https://balatrohq.com/zh/jokers/", "site_excerpt": "每向牌库添加 1 张牌此小丑牌 ×0.25 倍率",
+    "canonical_refs": [{"collection": "jokers", "id": "hologram"}, {"collection": "jokers", "id": "constellation"}, {"collection": "jokers", "id": "glass_joker"}, {"collection": "jokers", "id": "madness"}],
+    "resolution": "应写成 X←X+0.25 等成长公式；初始 X=1。不是将现有倍率乘 0.25。其余成长型 X 倍率同理。"
+  },
+  {
+    "id": "HQ-06", "kind": "rule-conflict", "topic": "妖法不复制扑克牌",
+    "site_url": "https://balatrohq.com/zh/poker-hands/", "site_excerpt": "妖法（负片复制）",
+    "canonical_refs": [{"collection": "spectral_cards", "id": "hex"}, {"collection": "tarot_cards", "id": "death"}, {"collection": "spectral_cards", "id": "cryptid"}],
+    "resolution": "Hex 妖法给一张基础版本小丑添加多彩并摧毁其他小丑；扑克牌复制使用死神、神秘生物或 DNA。负片也不是复制扑克牌的途径。"
+  },
+  {
+    "id": "HQ-07", "kind": "rule-conflict", "topic": "复制能力不局限于计分时",
+    "site_url": "https://balatrohq.com/zh/guides/blueprint-brainstorm-combo/", "site_excerpt": "两者复制的都是目标的 主动、逐手牌 效果",
+    "wiki_page_id": "Blueprint", "wiki_excerpt": "Perkeo when exiting the shop",
+    "resolution": "按目标兼容性与事件执行；可在离店复制 Perkeo、选盲注复制 Cartomancer、首手复制 DNA。不能只实现逐手牌计分回调。被动上限、版本与成长更新另判。"
+  },
+  {
+    "id": "HQ-08", "kind": "rule-conflict", "topic": "第一个小盲注后有商店",
+    "site_url": "https://balatrohq.com/zh/tools/shop-replay/", "site_excerpt": "底注 1 打完小盲注直接进入大盲注，所以底注 1 只有两次商店",
+    "wiki_page_id": "Shop", "wiki_excerpt": "The Shop is only accessible after defeating a Small Blind, Big Blind, or Boss Blind.",
+    "resolution": "普通对局击败第一个小盲注后即可结算并进商店；首次商店保底一个普通丑角包。不能跳过首店，也不能按此工具说明设计单局时序。"
+  },
+  {
+    "id": "HQ-09", "kind": "rule-conflict", "topic": "黑色牌组扣出牌次数",
+    "site_url": "https://balatrohq.com/zh/guides/gold-stake-guide/", "site_excerpt": "代价是-1手牌上限",
+    "canonical_refs": [{"collection": "decks", "id": "black_deck"}],
+    "resolution": "黑色牌组是 +1 小丑槽、每回合 −1 出牌次数，不是 −1 手牌上限。区分 hands / hand size。站内牌组总览对此写对了。"
+  },
+  {
+    "id": "HQ-10", "kind": "rule-conflict", "topic": "挑战规则与初始物品串项",
+    "site_url": "https://balatrohq.com/zh/guides/all-challenges/", "site_excerpt": "你的筹码分数不能超过当前现金。开局 $100 + 永恒捷径",
+    "canonical_refs": [{"collection": "challenges", "id": "the_omelette"}, {"collection": "challenges", "id": "15_minute_city"}, {"collection": "challenges", "id": "rich_get_richer"}, {"collection": "challenges", "id": "double_or_nothing"}, {"collection": "challenges", "id": "typecast"}, {"collection": "challenges", "id": "bram_poker"}, {"collection": "challenges", "id": "fragile"}, {"collection": "challenges", "id": "golden_needle"}, {"collection": "challenges", "id": "cruelty"}],
+    "resolution": "现金限制属于 Rich get Richer；15 Minute City 开局为永恒巴士/捷径和特殊牌组。Ante4 永恒/0槽属于 Typecast；吸血鬼/增强购买属于 Bram Poker；两张永恒负片六六大顺属于 Fragile；弃牌扣 $1 属于 Golden Needle。完整校正见 19 号文档的 20 项表。"
+  },
+  {
+    "id": "HQ-11", "kind": "rule-conflict", "topic": "Glow Up 收藏解锁",
+    "site_url": "https://balatrohq.com/zh/vouchers/", "site_excerpt": "拥有一张多彩版本的小丑牌",
+    "canonical_refs": [{"collection": "vouchers", "id": "glow_up"}],
+    "resolution": "需要至少 5 张带闪箔、镭射、多彩或负片版本的小丑牌；不是一张多彩。"
+  },
+  {
+    "id": "HQ-12", "kind": "missing-condition", "topic": "Omen Globe 的计数来源",
+    "site_url": "https://balatrohq.com/zh/vouchers/", "site_excerpt": "跨多局累计使用 25 张塔罗牌",
+    "canonical_refs": [{"collection": "vouchers", "id": "omen_globe"}],
+    "resolution": "累计使用 25 张来自补充包的塔罗牌；必须保留来源过滤。"
+  },
+  {
+    "id": "HQ-13", "kind": "missing-condition", "topic": "Observatory 的计数来源",
+    "site_url": "https://balatrohq.com/zh/vouchers/", "site_excerpt": "跨多局累计使用 25 张星球牌",
+    "canonical_refs": [{"collection": "vouchers", "id": "observatory"}],
+    "resolution": "累计使用 25 张来自天体包的星球牌；不能把任意库存使用都计入。"
+  },
+  {
+    "id": "HQ-14", "kind": "rule-conflict", "topic": "塔罗/星球大亨解锁",
+    "site_url": "https://balatrohq.com/zh/vouchers/", "site_excerpt": "跨多局买空塔罗牌商人 50 次",
+    "canonical_refs": [{"collection": "vouchers", "id": "tarot_tycoon"}, {"collection": "vouchers", "id": "planet_tycoon"}],
+    "resolution": "各自累计从商店购买 50 张塔罗牌/星球牌，不是购买或买空商人优惠券 50 次。"
+  },
+  {
+    "id": "HQ-15", "kind": "rule-conflict", "topic": "Money Tree 的连续利息条件",
+    "site_url": "https://balatrohq.com/zh/vouchers/", "site_excerpt": "首次将种子资金的利息上限打满（$50）",
+    "canonical_refs": [{"collection": "vouchers", "id": "money_tree"}],
+    "resolution": "连续 10 回合获得利息上限；不能替换为一次持有 $50。$50 是基础利率下达到 $10 利息上限所需本金。"
+  },
+  {
+    "id": "HQ-16", "kind": "rule-conflict", "topic": "Illusion 收藏解锁",
+    "site_url": "https://balatrohq.com/zh/vouchers/", "site_excerpt": "在一局结束时拥有 75 张以上的牌组",
+    "canonical_refs": [{"collection": "vouchers", "id": "illusion"}],
+    "resolution": "累计从商店购买 20 张扑克牌；不是牌组达到 75 张。说明所写蜡封与 1.0.1o 实际行为的 Wiki 备注另有冲突，保持待实机验证。"
+  },
+  {
+    "id": "HQ-17", "kind": "rule-conflict", "topic": "Retcon 收藏解锁",
+    "site_url": "https://balatrohq.com/zh/vouchers/", "site_excerpt": "跨多局重随Boss盲注 25 次",
+    "canonical_refs": [{"collection": "vouchers", "id": "retcon"}],
+    "resolution": "发现 25 种盲注；不是刷新 Boss 25 次。"
+  },
+  {
+    "id": "HQ-18", "kind": "rule-conflict", "topic": "构筑器内的简化卡牌资料",
+    "site_url": "https://balatrohq.com/zh/tools/deck-builder/", "site_excerpt": "每张 K +15 倍率",
+    "canonical_refs": [{"collection": "jokers", "id": "baron"}, {"collection": "jokers", "id": "brainstorm"}, {"collection": "jokers", "id": "greedy_joker"}, {"collection": "jokers", "id": "lusty_joker"}, {"collection": "jokers", "id": "business_card"}],
+    "resolution": "男爵为每张留手 K ×1.5；头脑风暴没有顺子前提；贪婪/色欲为方块/红桃；名片为打出并计分的人头牌 1/2 概率 $2。工具的联动评分不能当作规则内核。"
+  },
+  {
+    "id": "HQ-19", "kind": "unverified-tool-claim", "topic": "原版种子兼容宣称",
+    "site_url": "https://balatrohq.com/zh/tools/seed-analyzer/", "site_excerpt": "与游戏生成的完全一致，并非估算",
+    "wiki_page_id": "Seeded", "wiki_excerpt": "This article is missing information about technical details, such as the different pools/queues.",
+    "resolution": "本轮只采集说明与静态默认结果，未验证工具 RNG；原版兼容还依赖版本、牌组、注码、解锁、购买/刷新路径、随机流和调用次数。不能将宣称转为我们的测试结论或承诺。"
+  },
+  {
+    "id": "HQ-20", "kind": "counting", "topic": "计算器等级起点",
+    "site_url": "https://balatrohq.com/zh/poker-hands/", "site_excerpt": "计算器将其建模为等级 0",
+    "canonical_refs": [{"collection": "poker_hands", "id": "pair"}],
+    "resolution": "游戏从等级 1 起，计算器 0 是其工具模型的偏移；游戏 API 与 UI 使用等级 1，禁止照搬偏移。对子等级 10 基础值为 145 筹码 ×11 倍率。"
+  }
+]

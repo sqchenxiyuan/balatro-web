@@ -1,0 +1,22 @@
+{
+  "url": "http://127.0.0.1:4193/",
+  "checks": [
+    "seed input preserves native Chinese composition and focus",
+    "catalog typing keeps the input and card nodes; native IME commit/cancel, caret edits and empty results work",
+    "in-game menu opens all 15 decks and 8 stakes; 150/52/32 catalog preserves the pending seed and engine state",
+    "real fresh run enters Small Blind with $4, eight cards and no pre-granted Jokers",
+    "pointer selection toggles; dragging changes the actual hand order",
+    "HUD catalog opens during a run; modal blocks game shortcuts and Escape closes from search without altering the run",
+    "public API rejects invalid moves atomically",
+    "ordinary seed wins Small Blind through legal hands; score animation locks concurrent actions",
+    "cash-out credits actual money; first-shop Buffoon purchase and UI pick adds a real Joker",
+    "menu and page reload resume the exact current run, without unlock progression",
+    "shop exit enters the next real blind with the same permanent deck",
+    "DOM-free instances run deterministically inside a browser Worker",
+    "stage scales to a compact viewport without horizontal overflow",
+    "game and existing materials lab remain reachable from each other"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "ok": true
+}

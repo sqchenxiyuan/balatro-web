@@ -118,6 +118,7 @@ GitHub Actions 会从锁文件安装依赖，完成规则、SDK、生产页面�
 | `research/` | 来源快照、对照图和历史视觉验收记录 |
 
 - [SDK 接入、操作和策略](docs/balatro/21-embeddable-sdk.md)
+- [MUNDI Web 接入待办（本地续玩优先；云存档后置）](docs/MUNDI_INTEGRATION_TODO.md)
 - [玩法实现范围与限制](docs/balatro/20-first-playable.md)
 - [全部研究文档](docs/balatro/README.md)
 - [资源来源与字体许可](public/assets/THIRD-PARTY.md)

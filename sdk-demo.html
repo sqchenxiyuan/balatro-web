@@ -10,8 +10,8 @@
 </style>
 <header><div><h1>你的平台，嵌入完整游戏。</h1><p>两个独立实例 · CSS 隔离 · 策略注入 · 无服务器 · 不写宿主存储</p></div><a href="./#play">正常游玩 ↗</a></header>
 <main><div class="grid">
- <div class="panel"><div class="toolbar"><strong>实例 A · 策略控制</strong><button id="auto">自动游玩</button><button id="step">单步</button><button id="stop">停止</button></div><div id="game-a"></div><p class="status" id="status-a"></p></div>
- <div class="panel"><div class="toolbar"><strong>实例 B · 手动控制</strong><button id="new-b">新一局</button><button id="destroy-b">销毁</button><button id="mount-b">重新挂载</button></div><div id="game-b"></div><p class="status" id="status-b"></p></div>
+ <div class="panel"><div class="toolbar"><strong>实例 A · 策略控制</strong><button id="auto">自动游玩</button><button id="step">单步</button><button id="stop">停止</button><button id="music-a" aria-pressed="false">音乐 关</button></div><div id="game-a"></div><p class="status" id="status-a"></p></div>
+ <div class="panel"><div class="toolbar"><strong>实例 B · 手动控制</strong><button id="new-b">新一局</button><button id="destroy-b">销毁</button><button id="mount-b">重新挂载</button><button id="music-b" aria-pressed="false">音乐 关</button></div><div id="game-b"></div><p class="status" id="status-b"></p></div>
 </div><details class="strategy-panel" id="strategy-panel"><summary>策略控制台 · 粘贴代码或导入模块</summary><p>导出 default 函数：(state, { signal, step }) → action 或 null。代码控制实例 A，请只加载可信策略。</p><textarea id="strategy-source" spellcheck="false" aria-label="策略源码"></textarea><div class="strategy-controls"><button id="strategy-load">应用代码</button><label class="strategy-file">导入 .mjs<input type="file" id="strategy-file" accept=".js,.mjs,text/javascript"/></label><span id="strategy-status">示例策略已加载</span></div></details><details><summary>接入代码</summary><pre>import { mountBalatro, createStrategyRunner } from './sdk.js';
 const game = mountBalatro(document.querySelector('#game'), { seed: 'HELLO', startInMenu: false });
 const runner = createStrategyRunner(game, async (state, {signal}) =&gt; {
@@ -56,8 +56,11 @@ game.destroy();</pre></details></main>
  $('#auto').onclick=()=>void run('start');$('#step').onclick=()=>void run('step');$('#stop').onclick=()=>{commandVersion++;runner?.stop();updateStatus();};
  $('#strategy-load').onclick=()=>void apply().catch(report);
  $('#strategy-file').onchange=async event=>{const file=event.target.files?.[0];if(file)source.value=await file.text();};
- $('#new-b').onclick=()=>b?.showMenu();$('#destroy-b').onclick=()=>{b?.destroy();b=null;};
- $('#mount-b').onclick=()=>{if(!b)b=mountBalatro($('#game-b'),{seed:'REMOUNT',assetBaseUrl});};
+ let musicA=false,musicB=false;
+ $('#music-a').onclick=()=>{musicA=!musicA;a.setOptions({music:musicA});$('#music-a').textContent='音乐 '+(musicA?'开':'关');$('#music-a').setAttribute('aria-pressed',String(musicA));};
+ $('#music-b').onclick=()=>{if(!b)return;musicB=!musicB;b.setOptions({music:musicB});$('#music-b').textContent='音乐 '+(musicB?'开':'关');$('#music-b').setAttribute('aria-pressed',String(musicB));};
+ $('#new-b').onclick=()=>b?.showMenu();$('#destroy-b').onclick=()=>{b?.destroy();b=null;musicB=false;$('#music-b').textContent='音乐 关';$('#music-b').setAttribute('aria-pressed','false');$('#music-b').disabled=true;};
+ $('#mount-b').onclick=()=>{if(!b){b=mountBalatro($('#game-b'),{seed:'REMOUNT',assetBaseUrl});$('#music-b').disabled=false;}};
  function updateStatus(){
   const state=runner?.getStatus();
   if(state){

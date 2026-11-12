@@ -40,6 +40,7 @@ GitHub Pages 由本仓库的 GitHub Actions 发布：推送 `main` 后，规则�
 - 点击选择手牌，拖动手牌和小丑调整顺序；右键清空选择，Enter 出牌，D 弃牌。
 - 开局菜单和局内左侧均可打开图鉴，支持中文、英文、拼音全拼、首字母及效果搜索；中文组词期间保持输入框和牌面稳定。
 - 主页面自动保存当前局；SDK 由宿主决定存档方式。新开一局会重置局内构筑，不保留局外奖励。
+- 原创复古电子爵士 BGM 在首次点击后循环播放；音乐、音效独立开关，音乐音量可调并保存在本地，切后台自动暂停。
 
 ## SDK 与策略
 
@@ -53,6 +54,8 @@ const game = mountBalatro(document.querySelector('#game'), {
   startInMenu: false,    // 直接进入选盲注
   speed: 2,
   sound: false,
+  music: true,
+  musicVolume: 0.35,
 });
 
 const runner = createStrategyRunner(game, (state, {signal}) => {
@@ -68,7 +71,7 @@ console.log(game.getState());
 
 核心操作接口为 `getState()` 和 `dispatch(action)`，没有游戏服务器或 `subscribe`。挂载视图使用 Shadow DOM 隔离宿主样式和键盘，支持多实例、销毁与重新挂载。
 
-`seed`、`deck`、`stake` 是开局参数；`state` 用于恢复已有快照。初始金币、指定小丑、起始底注和自定义牌库目前没有独立配置项。运行时可调用 `game.setOptions({speed, sound, reducedMotion})` 调整显示选项，或通过 `dispatch({type:'new_run', seed, deck, stake})` 重新开局。
+`seed`、`deck`、`stake` 是开局参数；`state` 用于恢复已有快照。初始金币、指定小丑、起始底注和自定义牌库目前没有独立配置项。运行时可调用 `game.setOptions({speed, sound, music, musicVolume, reducedMotion})` 调整显示与声音选项，或通过 `dispatch({type:'new_run', seed, deck, stake})` 重新开局。SDK 的音乐和音效默认关闭；音乐需要用户首次交互后播放，`musicVolume` 范围为 0～1。
 
 ```sh
 npm run build:sdk

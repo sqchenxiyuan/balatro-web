@@ -5,6 +5,7 @@ import packagingCSS from './packaging.css?inline';
 import gameCSS from './game.css?inline';
 import {createGame,type GameOptions,type GamePort,type ActionResult} from './run-api';
 import {acquireFont} from './sdk-font';
+import {createGameAudio,type AudioOptions} from './game-audio';
 import type {PackKind} from './packaging';
 import {catalogSearchIndex,normalizeCatalogQuery} from './catalog-search';
 const escape=(text:unknown)=>String(text).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
@@ -18,13 +19,12 @@ import {evaluateRun,blindId,blindTarget,shopPrice,rerollPrice,sellValue,jokerCap
 import {jokerDefs,voucherDefs,content,deckInfo,stakes,stakeDescriptions,voucherInfo,blindInfo,tagNames} from './run-content';
 import type {Offer,PackOffer} from './run-types';
 const mounted=new WeakSet<HTMLElement>();
-export interface MountOptions extends GameOptions {
+export interface MountOptions extends GameOptions,AudioOptions {
  assetBaseUrl?:string;
  speed?:number;
  reducedMotion?:boolean;
- sound?:boolean;
 }
-export interface ViewOptions {speed?:number;reducedMotion?:boolean;sound?:boolean}
+export interface ViewOptions extends AudioOptions {speed?:number;reducedMotion?:boolean}
 export interface MountedGame extends GamePort {
  dispatch(action:RunAction):Promise<ActionResult>;
  showMenu():void;
@@ -40,11 +40,12 @@ export function mountBalatro(container:HTMLElement,options:MountOptions={}):Moun
  const A=new URL(options.assetBaseUrl??(import.meta.env.DEV?'../assets/':'./assets/'),import.meta.url).href.replace(/\/?$/,'/');
  const game=createGame({...options,startInMenu:options.startInMenu??options.state===undefined});
  let state=game.getState(),busy=false,active:string|null=null,scale=1,speed=options.speed??1,
-  reduced=options.reducedMotion??matchMedia('(prefers-reduced-motion: reduce)').matches,soundOn=options.sound??false;
+  reduced=options.reducedMotion??matchMedia('(prefers-reduced-motion: reduce)').matches;
  let selectedDeck=state.deck,selectedStake=state.stake,modal:'deck'|'info'|null=null,catalogTab='jokers',query='',seedDraft='',
-  scoreCards:Card[]=[],shownStep=-1,audio:AudioContext|undefined,packAnimating=false,disposed=false,menuOpen=options.state!==undefined&&options.startInMenu===true;
+  scoreCards:Card[]=[],shownStep=-1,packAnimating=false,disposed=false,menuOpen=options.state!==undefined&&options.startInMenu===true;
  validateViewOptions(options);
  const lifecycle=new AbortController(),timers=new Map<ReturnType<typeof setTimeout>,()=>void>();
+ const audio=createGameAudio(options);
  const element=document.createElement('div');element.className='balatro-sdk-host';
  element.style.cssText='all:initial;display:block;width:100%;min-width:0;';
  const root=element.attachShadow({mode:'open'});
@@ -123,7 +124,7 @@ function render(){
  stage.classList.toggle('g-reduced',reduced);stage.dataset.phase=busy?'scoring':state.phase;bind();
 }
 function toast(text:string){const el=$('#g-toast');el.textContent=text;el.classList.add('visible');void delay(2600).then(()=>{if(!disposed)el.classList.remove('visible');});}
-function sound(index=0){if(!soundOn)return;audio??=new AudioContext();void audio.resume();const o=audio.createOscillator(),g=audio.createGain();o.type='triangle';o.frequency.value=350+index*48;g.gain.setValueAtTime(.035,audio.currentTime);g.gain.exponentialRampToValueAtTime(.001,audio.currentTime+.1);o.connect(g).connect(audio.destination);o.start();o.stop(audio.currentTime+.11);}
+function sound(index=0){audio.effect(index);}
 async function dispatch(action:RunAction){
  if(disposed)return {ok:false,revision:state.revision,error:'DESTROYED',message:'游戏实例已销毁'};
  if(busy)return {ok:false,revision:state.revision,error:'BUSY',message:'正在播放动画'};
@@ -198,9 +199,11 @@ function setOptions(next:ViewOptions){
  if(disposed)throw new Error('游戏实例已销毁');validateViewOptions(next);
  if(next.speed!==undefined)speed=next.speed;
  if(next.reducedMotion!==undefined){reduced=next.reducedMotion;bg.setReduced(reduced);}
- if(next.sound!==undefined)soundOn=next.sound;
- render();
+ audio.setOptions(next);
+ if(next.speed!==undefined||next.reducedMotion!==undefined)render();
 }
+stage.addEventListener('pointerdown',()=>audio.unlock(),{capture:true,signal:lifecycle.signal});
+stage.addEventListener('keydown',()=>audio.unlock(),{capture:true,signal:lifecycle.signal});
 stage.addEventListener('pointerdown',e=>{if(!(e.target as Element).closest('input,select,textarea,button,[tabindex]'))stage.focus({preventScroll:true});},{signal:lifecycle.signal});
 stage.oncontextmenu=e=>{e.preventDefault();if(!busy&&!modal&&!menuOpen)void dispatch({type:'clear_selection'});};
 stage.addEventListener('keydown',e=>{
@@ -215,7 +218,7 @@ function destroy(){
  if(disposed)return;disposed=true;busy=false;lifecycle.abort();resize.disconnect();
  timers.forEach((resolve,id)=>{clearTimeout(id);resolve();});timers.clear();
  stage.getAnimations({subtree:true}).forEach(animation=>animation.cancel());
- editions.destroy();light.destroy();bg.destroy();font.release();if(audio)void audio.close();
+ editions.destroy();light.destroy();bg.destroy();font.release();audio.destroy();
  layer.replaceChildren();wrapper.replaceChildren();root.replaceChildren();element.remove();mounted.delete(container);
 }
 return {
@@ -227,4 +230,5 @@ return {
 
 function validateViewOptions(options:ViewOptions){
  if(options.speed!==undefined&&(!Number.isFinite(options.speed)||options.speed<0||options.speed>16))throw new Error('speed 应在 0–16 之间');
+ if(options.musicVolume!==undefined&&(!Number.isFinite(options.musicVolume)||options.musicVolume<0||options.musicVolume>1))throw new Error('musicVolume 应在 0–1 之间');
 }

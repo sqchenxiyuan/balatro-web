@@ -18,9 +18,10 @@
     "test:sdk:browser": "node scripts/verify-sdk-browser.mjs",
     "test:sdk:package": "node scripts/verify-sdk-package.mjs",
     "test:sdk:host": "node scripts/verify-sdk-host.mjs",
+    "test:audio": "node scripts/verify-audio.mjs",
     "check": "tsc --noEmit",
     "test": "npm run test:game && npm run test:rules",
-    "test:integration": "npm run test:game:browser && npm run test:sdk:browser && npm run test:sdk:host && npm run test:sdk:package"
+    "test:integration": "npm run test:game:browser && npm run test:sdk:browser && npm run test:sdk:host && npm run test:sdk:package && npm run test:audio"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.1",

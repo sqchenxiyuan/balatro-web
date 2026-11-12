@@ -1,6 +1,6 @@
 # 可嵌入游戏 SDK 与策略函数
 
-更新：2026-11-08。包名 `@game-rebuild/balatro`，版本 `0.2.0`。
+更新：2026-11-12。包名 `@game-rebuild/balatro`，版本 `0.2.0`。
 
 SDK 包含完整游戏窗口：流动背景、HUD、小丑/消耗品栏、手牌、选盲、结算、商店、开包及局内菜单。开局菜单和局内左侧均提供图鉴入口，无需宿主添加按钮；浏览图鉴不改变局面；名称和效果支持中文、英文、拼音全拼与首字母搜索，拼音索引在本地缓存，无需查询服务。顶部工具栏、外部导航、存档、策略编辑器和运行记录由宿主平台实现。现有 `#play` 已改为一个接入 SDK 的平台外壳。
 
@@ -36,6 +36,7 @@ npm run pack:sdk
   const game = mountBalatro(document.querySelector('#game'), {
     seed: 'HELLO', deck: 'red_deck', stake: 0,
     startInMenu: false, speed: 2, sound: false,
+    music: true, musicVolume: 0.35,
     // assetBaseUrl: 'https://cdn.example.com/balatro/assets/'
   });
   await game.dispatch({type:'select_blind'});
@@ -55,7 +56,11 @@ SDK 采用 Shadow DOM，容器宽度决定 1280×800 牌桌的等比缩放。支
 | `getState()` | 返回深拷贝，包括 phase、revision、busy、所有牌堆、RNG、商店、包、计分步骤、limits、legalActions |
 | `await dispatch(action)` | 成功 `{ok:true,revision}`；拒绝 `{ok:false,revision,error,message}`，拒绝不会改变局面 |
 
-视图另有 `setOptions({speed,reducedMotion,sound})`、`showMenu()`、`showCollection()` 和 `destroy()`。这些只控制呈现与生命周期。`showMenu()` 不改变规则状态，继续当前局只是关闭菜单。挂载默认显示开局菜单；传 `state` 时默认直接恢复局面，显式 `startInMenu:true` 可先显示继续菜单。
+视图另有 `setOptions({speed,reducedMotion,sound,music,musicVolume})`、`showMenu()`、`showCollection()` 和 `destroy()`。这些只控制呈现与生命周期。`showMenu()` 不改变规则状态，继续当前局只是关闭菜单。挂载默认显示开局菜单；传 `state` 时默认直接恢复局面，显式 `startInMenu:true` 可先显示继续菜单。
+
+`sound` 控制计分、开包音效；`music` 独立控制原创合成器爵士 BGM，SDK 中两者默认关闭。`musicVolume` 为 0～1，默认 0.35，可实时调整。音乐在浏览器内合成并连续循环，无需音频文件或额外请求，不受游戏速度影响。浏览器要求用户先与页面交互：点击游戏窗口，或在宿主按钮事件中调用 `game.setOptions({music:true})` 即可启动。切后台或页面隐藏时暂停，返回前台继续；实例销毁时关闭音频和调度器。多实例各自拥有混音器，宿主可只为当前游戏开启音乐。
+
+正常游玩页默认开启音乐，第一次点击后播放；顶部有独立音乐、音效按钮及音乐音量滑杆，偏好由外壳保存在本地。SDK 本身不保存声音偏好。SDK 示例中每个实例都有音乐开关。
 
 动画期间 `busy:true`，其他操作返回 `BUSY`。`await dispatch()` 等待动画结束；`play`、`open_pack` 支持 `animate:false`。`expectedRevision` 可随任何操作传入，状态版本不同返回 `STALE_STATE`。销毁后 `dispatch` 返回 `DESTROYED`，旧 handle 仍可读取最后状态；销毁不会回滚此前已提交的操作。
 

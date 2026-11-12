@@ -4,6 +4,9 @@
 
 当前是以 1.0.1 系列公开规则为基线的可玩初版，尚未完成与原版的全量实机差分校验。本仓库独立包含游戏、SDK、资源、视觉样片、研究文档和验证脚本。
 
+- [在线游玩](https://sqchenxiyuan.github.io/balatro-web/)
+- [在线 SDK 与策略演示](https://sqchenxiyuan.github.io/balatro-web/sdk-demo.html)
+
 ![游戏牌桌](docs/verification/game-table.png)
 
 ## 启动
@@ -27,6 +30,8 @@ npm run preview
 ```
 
 生产预览地址为 [127.0.0.1:4192](http://127.0.0.1:4192/)。`dist/` 是完整静态站点，可部署至普通静态托管服务；开发和预览进程关闭后，本机地址会停止服务。
+
+GitHub Pages 由本仓库的 GitHub Actions 发布：推送 `main` 后，规则、SDK 和浏览器验证全部通过才会部署 `dist/`。仓库的 Settings → Pages 使用 **GitHub Actions** 作为来源，也可以在 Actions 中手动运行工作流重新发布。构建使用相对路径，可在 `/balatro-web/` 子路径下加载游戏资源与 SDK。
 
 ## 玩法与交互
 

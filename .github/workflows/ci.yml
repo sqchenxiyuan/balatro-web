@@ -1,4 +1,4 @@
-name: Verify game and SDK
+name: Verify game, SDK and deploy Pages
 
 on:
   push:
@@ -33,9 +33,35 @@ jobs:
           npm run preview > "$RUNNER_TEMP/balatro-preview.log" 2>&1 &
           node --input-type=module -e 'for(let i=0;i<100;i++){try{if((await fetch(process.env.BALATRO_DEMO_URL)).ok)process.exit(0)}catch{}await new Promise(r=>setTimeout(r,200))}process.exit(1)'
       - run: npm run test:integration
+      - name: Upload GitHub Pages site
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: verification-reports
           path: artifacts/*-report.json
           if-no-files-found: ignore
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
